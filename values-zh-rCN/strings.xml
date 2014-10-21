@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">获取 Google Play 服务</string>
+    <string name="common_google_play_services_install_text_phone">您的手机中没有 Google Play 服务，您必须先安装该服务才能运行此应用。</string>
+    <string name="common_google_play_services_install_text_tablet">您的平板电脑中没有 Google Play 服务，您必须先安装该服务才能运行此应用。</string>
+    <string name="common_google_play_services_install_button">获取 Google Play 服务</string>
+    <string name="common_google_play_services_enable_title">启用 Google Play 服务</string>
+    <string name="common_google_play_services_enable_text">您必须先启用 Google Play 服务才能运行此应用。</string>
+    <string name="common_google_play_services_enable_button">启用 Google Play 服务</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服务</string>
+    <string name="common_google_play_services_update_text">您必须先更新 Google Play 服务才能运行此应用。</string>
+    <string name="common_google_play_services_network_error_title">网络错误</string>
+    <string name="common_google_play_services_network_error_text">您必须有数据网络连接才能接入 Google Play 服务。</string>
+    <string name="common_google_play_services_invalid_account_title">无效帐户</string>
+    <string name="common_google_play_services_invalid_account_text">此设备上不存在指定的帐户，请选择其他帐户。</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 服务出现未知问题。</string>
+    <string name="common_google_play_services_unsupported_title">Google Play 服务</string>
+    <string name="common_google_play_services_unsupported_text">您的设备不支持部分应用所依赖的 Google Play 服务。请与设备制造商联系，以寻求帮助。</string>
+    <string name="common_google_play_services_unsupported_date_text">设备上的日期似乎不正确，请在设备上检查日期。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_signin_button_text">登录</string>
+    <string name="common_signin_button_text_long">使用 Google 帐户登录</string>
+    <string name="auth_client_using_bad_version_title">某个应用尝试使用的 Google Play 服务版本有误。</string>
+    <string name="auth_client_needs_enabling_title">某个应用要求启用 Google Play 服务。</string>
+    <string name="auth_client_needs_installation_title">某个应用要求安装 Google Play 服务。</string>
+    <string name="auth_client_needs_update_title">某个应用要求更新 Google Play 服务。</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play 服务出错</string>
+    <string name="auth_client_requested_by_msg">由“%1$s”发出</string>
+    <string name="SMS_WELL_DONE">%s，做得不错！现在您已成为受信任的特工啦！</string>
+    <string name="SMS_ACTION_FAIL">成为受信任的特工即可解锁%s操作。</string>
+    <string name="SMS_VERIFY_NOW_LEVEL_UP">您必须先向%s进行验证才能升级。</string>
+    <string name="SMS_VERIFY_NOW">立即向%s进行验证。</string>
+    <string name="VERIFY">验证</string>
+    <string name="LATER">以后再说</string>
+    <string name="SMS_PHONE_NUMBER_USE">我们只将此电话号码用于验证目的。</string>
+    <string name="SMS_DISCLAIMER">*须支付移动运营商制定的标准费率。</string>
+    <string name="SMS_ENTER_NUMBER">请输入您的电话号码：</string>
+    <string name="SMS_REQUEST_VIA">请通过以下方式申请验证码：</string>
+    <string name="SMS">短信</string>
+    <string name="VOICE">语音</string>
+    <string name="SMS_ERROR_NUMBER_FORMAT">电话号码格式有误。</string>
+    <string name="SMS_ERROR_VERIFIED_ALREADY">您已经过验证。</string>
+    <string name="SMS_ERROR_BAD_PHONE_NUMBER">电话号码有误，因此无法申请验证码。</string>
+    <string name="SMS_ERROR_INVALID_PHONE_NUMBER">此电话号码无法用于申请验证码。</string>
+    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">无法申请验证码，请尝试改用短信方式。</string>
+    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">无法申请验证码，请尝试改用语音方式。</string>
+    <string name="SMS_ERROR_INVALID_VERIFICATION">发生内部错误，导致验证失败。</string>
+    <string name="SMS_ERROR_VERIFICATION_BUSY">系统正在进行验证。</string>
+    <string name="SMS_ERROR_REQUEST_BUSY">系统正在处理验证申请。</string>
+    <string name="SMS_ERROR_SERVICE_ERROR">运营商无法发送验证码。</string>
+    <string name="SMS_ERROR_PIN_MISMATCH">验证码无效，请输入有效的验证码。</string>
+    <string name="SMS_ERROR_PIN_EXPIRED">验证码已过期，请申请新的验证码。</string>
+    <string name="SMS_ERROR_QUOTA_REACHED">此电话号码已达到验证次数上限，因此无法申请验证码。</string>
+    <string name="SMS_ERROR_RETRY_IN_1_MINUTE">验证过于频繁，请1分钟后再试。</string>
+    <string name="SMS_ERROR_RETRY_IN_5_MINUTES">验证过于频繁，请5分钟后再试。</string>
+    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">验证过于频繁，请15分钟后再试。</string>
+    <string name="SMS_ERROR_RETRY_LATER">验证过于频繁，请稍后再试。</string>
+    <string name="SMS_ERROR_SERVER_ERROR">服务器错误。</string>
+    <string name="SMS_REQUESTING">正在申请…</string>
+    <string name="SMS_VERIFYING">正在验证…</string>
+    <string name="SMS_CODE_SENT">已发送验证码。</string>
+    <string name="SMS_TAP_INSTRUCTION">收到验证码后，请点按验证图标。</string>
+    <string name="SMS_ENTER_CODE">请输入验证码</string>
+    <string name="SMS_ENTER_YOUR_N_DIGIT">请输入您的%d位数验证码：</string>
+    <string name="SMS_NEED_A_NEW">需要新的验证码？</string>
+    <string name="REQUEST">申请</string>
+    <string name="again">再一次</string>
+    <string name="SMS_CODE_VALID">"验证码有效。
+您现在已成为受信任的特工。"</string>
+    <string name="DONE">完成</string>
+    <string name="DROP">丢弃</string>
+    <string name="JARVIS">JARVIS</string>
+    <string name="ADA">ADA</string>
+    <string name="TUTORIALS_AGENT_HACKING_PORTALS">作为特工，您必须通过Hack Portal来获取物品。</string>
+    <string name="TUTORIALS_ATTACK_THE_ENEMY">攻击敌方的Portal。</string>
+    <string name="TUTORIALS_DEPLOY_RESONATORS">部署Resonator以便为友方的Portal提供能量。</string>
+    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">检测到空的Resonator槽位，请移动到该槽位的范围内以了解如何部署Resonator。</string>
+    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">检测到敌方的Portal，请移动到该Portal的范围内以了解如何发射武器。</string>
+    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">Exotic Matter（或XM）可为您的Scanner提供能量。</string>
+    <string name="TUTORIALS_EXPLORE_THE_WORLD">探索您周围的世界以找出更多Portal，然后Hack这些Portal以积累自己的资源，并为您的Faction占领这些Portal。</string>
+    <string name="TUTORIALS_FIRE_XMPS">发射XMP来摧毁敌方的Portal。</string>
+    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">通过Hack Portal来获取物品</string>
+    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">要使用Scanner，您需要四处走走。</string>
+    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">Portal是XM渗入我们世界的位置。</string>
+    <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">Portal通常会出现在雕像和历史遗址附近。</string>
+    <string name="TUTORIALS_PORTAL_DETECTED">检测到Portal，请移动到该Portal的范围内。</string>
+    <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">已取得Resonator和XMP。</string>
+    <string name="TUTORIALS_TAP_PORTAL">点按“Portal”即可进行互动</string>
+    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">点按即可自定义您的头像。</string>
+    <string name="TUTORIALS_THE_TRIANGLE_REPRESENTS_YOUR_LOCATION">三角形代表您在现实世界中的位置。</string>
+    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">这是Scanner的地图视图。</string>
+    <string name="TUTORIALS_TO_AUTO_DEPLOY">要自动部署，请点按“%s”。您也可以先选择一个空槽位。</string>
+    <string name="TUTORIALS_TO_FIRE_XMP">要发射武器，请按住地图来开启菜单，然后滑动至菜单以选择“%s”。</string>
+    <string name="TUTORIALS_TRAINING_COMPLETE">已完成培训！</string>
+    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">四处走走，以便收集XM。</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">欢迎来到Ingress的世界…</string>
+    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">您可以与行动圈内的对象进行互动。</string>
+    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">您将为自己的Faction占领Portal，而Portal的颜色则代表其所属的Faction。</string>
+    <string name="TUTORIAL_GO_HACK">移动到Portal的范围内，然后Hack该Portal。</string>
+    <string name="SIGNIN_TITLE">要玩Ingress游戏，请登录帐户。</string>
+    <string name="GAME_INTRO_TEXT">"不久前，CERN研究所在研究希格斯玻色子时意外发现了一种新的物质，他们把这种物质称为Exotic Matter。
+
+尤其令人震惊的是，CERN研究所认为XM是一种条理有序的智能数据。
+
+此外，只要拥有足够多的XM，便能影响甚至控制人类的思想。
+
+可以确定的是，能够掌控XM的任何人都将能够掌控人类的命运。"</string>
+    <string name="SIGNIN_MESSAGE">"世界正处于危险之中。
+
+立即加入战斗吧。请通过安全的Google帐户来确认您的身份。
+
+该采取行动了！"</string>
+    <string name="SIGNIN_BUTTON">使用Google帐户登录</string>
+    <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">发生错误，请重试：</string>
+    <string name="MESSAGE_CHOOSE_FACTION">请选择您的Faction：</string>
+    <string name="MESSAGE_CHOOSE_CAREFULLY">确定选择后即无法更改，因此请谨慎选择。</string>
+    <string name="MESSAGE_CONFIRM_CHOICE">您已选择%s。</string>
+    <string name="THE_RESISTANCE">Resistance</string>
+    <string name="THE_ENLIGHTENED">Enlightened</string>
+    <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s是此Faction的成员]</string>
+    <string name="HUMANIST_DESCRIPTION">Resistance致力于反抗尝试使用Exotic Matter来奴役人类的势力。</string>
+    <string name="ENLIGHTENED_DESCRIPTION">Enlightened致力于利用Exotic Matter的力量让人类进化到更高的境界。</string>
+    <string name="CANCEL">取消</string>
+    <string name="CONFIRM">确认</string>
+    <string name="NICKNAME_PROMPT_RETRY">请尝试使用其他Codename。</string>
+    <string name="NICKNAME_PROMPT_TOP">"Niantic在线软件。
+
+检测到收到新消息。
+正在打开安全通道…"</string>
+    <string name="NICKNAME_PROMPT_BOTTOM">"请创建特工名称，其他特工会使用此名称称呼您。
+
+请输入新的特工名称。"</string>
+    <string name="BUTTON_TRANSMIT">传输</string>
+    <string name="TITLE_NICKNAME_PROMPT_DIALOG">请输入Codename：</string>
+    <string name="NICKNAME_ERROR_WHILE_CREATING">创建Codename时出错。</string>
+    <string name="NICKNAME_ERROR_WHILE_VALIDATING">验证Codename时出错。</string>
+    <string name="NICKNAME_ERROR_ALREADY_SET">已设置Codename。</string>
+    <string name="NICKNAME_ERROR_BAD_WORDS">系统不允许使用此Codename。</string>
+    <string name="NICKNAME_ERROR_INVALID_CHARS">Codename包含无效字符。</string>
+    <string name="NICKNAME_ERROR_TOO_SHORT">Codename太短。</string>
+    <string name="NICKNAME_ERROR_TOO_LONG">Codename太长。</string>
+    <string name="NICKNAME_ERROR_NOT_UNIQUE">已有其他人使用此Codename。</string>
+    <string name="ACTION_SKIP">跳过</string>
+    <string name="ACTION_RETRY">重试</string>
+    <string name="PROGRESS_VALIDATING_CODENAME">正在验证Codename</string>
+    <string name="PROGRESS_CREATING_CODENAME">正在创建Codename</string>
+    <string name="NICKNAME_VALIDATE_MESSAGE">Codename有效，请确认。</string>
+    <string name="NICKNAME_ID_CONFIRMED">"正在创建加密密钥…
+
+已确认ID。"</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"已授予权限。
+已启动程序…"</string>
+    <string name="BUTTON_QUIT">退出</string>
+    <string name="RECOMMENDED_SCANNER_UPDATE">您的Ingress Scanner已过期，建议您进行更新。</string>
+    <string name="BUTTON_PLAY">开始游戏</string>
+    <string name="BUTTON_UPGRADE">升级</string>
+    <string name="TOS_LOCATION">"Ingress是一款基于位置的游戏。
+
+Google会在您玩游戏时收集您的位置信息，而当您在游戏中进行特定操作时，其他用户将会看到您所在的位置。
+"</string>
+    <string name="READ_THE_FULL_TOS">请先通读服务条款，然后再接受这些条款及条件。</string>
+    <string name="TOS_ACCEPT">我接受此应用的服务条款。</string>
+    <string name="TOS_PROMOTION">向我发送有关Ingress的新闻、优惠、促销活动和最新动态。</string>
+    <string name="ADA_CALL">"ADA：不要害怕。
+
+您下载的内容并非一款游戏。
+
+来历不明的Exotic Matter正逐渐渗入我们的世界。
+您必须在这场捍卫星球的战斗中选择要加入的阵营。"</string>
+    <string name="INCOMING_MESSAGE">收到新消息</string>
+    <string name="ADA_CALL_ACCEPT">接受</string>
+    <string name="ADA_CALL_NEXT">下一个</string>
+    <string name="ERROR_ESTABLISHING_SECURE_CONNECTION">无法建立安全连接！请重试。</string>
+    <string name="ERROR_UNAUTHENTICATED_USER">无法使用帐户%s，请选择其他帐户。</string>
+    <string name="NEWS_OF_THE_DAY_TITLE">INGRESS 新闻</string>
+    <string name="NEWS_OF_THE_DAY_VIEW_POST">查看信息</string>
+    <string name="JAILBROKEN_ERROR">操作系统完整性检查失败。</string>
+    <string name="JAILBROKEN_RESULT">Ingress 将无法正常运行。</string>
+</resources>

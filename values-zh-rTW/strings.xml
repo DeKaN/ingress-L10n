@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">取得 Google Play 服務</string>
+    <string name="common_google_play_services_install_text_phone">您的手機並未安裝 Google Play 服務，所以無法執行這個應用程式。</string>
+    <string name="common_google_play_services_install_text_tablet">您的平板電腦並未安裝 Google Play 服務，所以無法執行這個應用程式。</string>
+    <string name="common_google_play_services_install_button">取得 Google Play 服務</string>
+    <string name="common_google_play_services_enable_title">啟用 Google Play 服務</string>
+    <string name="common_google_play_services_enable_text">您必須啟用 Google Play 服務，這個應用程式才能運作。</string>
+    <string name="common_google_play_services_enable_button">啟用 Google Play 服務</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服務</string>
+    <string name="common_google_play_services_update_text">您必須更新 Google Play 服務，才能執行這個應用程式。</string>
+    <string name="common_google_play_services_network_error_title">網路錯誤</string>
+    <string name="common_google_play_services_network_error_text">需要數據連線才能連上 Google Play 服務。</string>
+    <string name="common_google_play_services_invalid_account_title">無效的帳戶</string>
+    <string name="common_google_play_services_invalid_account_text">這個裝置上沒有您所指定的帳戶，請選擇其他帳戶。</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 服務發生不明問題。</string>
+    <string name="common_google_play_services_unsupported_title">Google Play 服務</string>
+    <string name="common_google_play_services_unsupported_text">您的裝置不支援部分應用程式所需的 Google Play 服務。如需協助，請與您的裝置製造商聯絡。</string>
+    <string name="common_google_play_services_unsupported_date_text">裝置上的日期似乎不正確，請檢查裝置上的日期。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_signin_button_text">登入</string>
+    <string name="common_signin_button_text_long">使用 Google 帳戶登入</string>
+    <string name="auth_client_using_bad_version_title">應用程式嘗試使用的 Google Play 服務版本有誤。</string>
+    <string name="auth_client_needs_enabling_title">應用程式需要啟用 Google Play 服務。</string>
+    <string name="auth_client_needs_installation_title">應用程式需要安裝 Google Play 服務。</string>
+    <string name="auth_client_needs_update_title">應用程式需要更新 Google Play 服務。</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play 服務錯誤</string>
+    <string name="auth_client_requested_by_msg">提出要求的應用程式：%1$s</string>
+    <string name="SMS_WELL_DONE">%s，做得好。您現在已經是可信賴的探員了！</string>
+    <string name="SMS_ACTION_FAIL">您必須成為可信賴的探員，才能解開鎖定的「%s」動作。</string>
+    <string name="SMS_VERIFY_NOW_LEVEL_UP">您必須先向 %s 進行驗證，才能升級。</string>
+    <string name="SMS_VERIFY_NOW">立刻向 %s 進行驗證。</string>
+    <string name="VERIFY">驗證</string>
+    <string name="LATER">以後再說</string>
+    <string name="SMS_PHONE_NUMBER_USE">這組電話號碼只會用於進行驗證。</string>
+    <string name="SMS_DISCLAIMER">*必須支付行動通訊業者一般通訊費用。</string>
+    <string name="SMS_ENTER_NUMBER">請輸入您的電話號碼：</string>
+    <string name="SMS_REQUEST_VIA">請透過以下方式索取驗證碼：</string>
+    <string name="SMS">簡訊</string>
+    <string name="VOICE">語音通話</string>
+    <string name="SMS_ERROR_NUMBER_FORMAT">電話號碼格式有誤。</string>
+    <string name="SMS_ERROR_VERIFIED_ALREADY">您已完成驗證程序。</string>
+    <string name="SMS_ERROR_BAD_PHONE_NUMBER">電話號碼有誤，無法索取驗證碼。</string>
+    <string name="SMS_ERROR_INVALID_PHONE_NUMBER">這組電話號碼無法用於索取驗證碼。</string>
+    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">無法索取驗證碼，請改採簡訊。</string>
+    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">無法索取驗證碼，請改採語音通話。</string>
+    <string name="SMS_ERROR_INVALID_VERIFICATION">發生內部錯誤，導致驗證失敗。</string>
+    <string name="SMS_ERROR_VERIFICATION_BUSY">系統正在進行驗證。</string>
+    <string name="SMS_ERROR_REQUEST_BUSY">系統正在處理驗證要求。</string>
+    <string name="SMS_ERROR_SERVICE_ERROR">行動通訊業者無法傳送驗證碼。</string>
+    <string name="SMS_ERROR_PIN_MISMATCH">驗證碼無效，請輸入有效的驗證碼。</string>
+    <string name="SMS_ERROR_PIN_EXPIRED">驗證碼已過期，請索取新的驗證碼。</string>
+    <string name="SMS_ERROR_QUOTA_REACHED">這組電話號碼已達驗證次數上限，無法索取驗證碼。</string>
+    <string name="SMS_ERROR_RETRY_IN_1_MINUTE">驗證系統忙碌中，請 1 分鐘後再試一次</string>
+    <string name="SMS_ERROR_RETRY_IN_5_MINUTES">驗證系統忙碌中，請 5 分鐘後再試一次。</string>
+    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">驗證系統忙碌中，請 15 分鐘後再試一次。</string>
+    <string name="SMS_ERROR_RETRY_LATER">驗證系統忙碌中。請稍後再試一次。</string>
+    <string name="SMS_ERROR_SERVER_ERROR">伺服器錯誤。</string>
+    <string name="SMS_REQUESTING">索取中…</string>
+    <string name="SMS_VERIFYING">驗證中…</string>
+    <string name="SMS_CODE_SENT">驗證碼已送出。</string>
+    <string name="SMS_TAP_INSTRUCTION">收到驗證碼後，請輕觸驗證圖示。</string>
+    <string name="SMS_ENTER_CODE">請輸入驗證碼</string>
+    <string name="SMS_ENTER_YOUR_N_DIGIT">請輸入 %d 位數驗證碼：</string>
+    <string name="SMS_NEED_A_NEW">需要新的驗證碼？</string>
+    <string name="REQUEST">索取</string>
+    <string name="again">再一次</string>
+    <string name="SMS_CODE_VALID">"驗證碼有效。
+現在您是可信賴的探員了。"</string>
+    <string name="DONE">完成</string>
+    <string name="DROP">丟棄</string>
+    <string name="JARVIS">Jarvis</string>
+    <string name="ADA">ADA</string>
+    <string name="TUTORIALS_AGENT_HACKING_PORTALS">身為探員，您必須 Hack Portal 來取得物品。</string>
+    <string name="TUTORIALS_ATTACK_THE_ENEMY">攻擊敵方的 Portal。</string>
+    <string name="TUTORIALS_DEPLOY_RESONATORS">部署 Resonator，為友方的 Portal 提供能量。</string>
+    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">偵測到空的 Resonator 槽位，請移動到該槽位的範圍內，瞭解如何部署 Resonator。</string>
+    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">偵測到敵方的 Portal，請移動到該 Portal 的範圍內，瞭解如何發射武器。</string>
+    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">Exotic Matter (或 XM) 會提供能量給您的 Scanner。</string>
+    <string name="TUTORIALS_EXPLORE_THE_WORLD">探索您周遭的世界來找出更多 Portal，然後 Hack 這些 Portal 以累積資源，並為您的 Faction 佔領 Portal。</string>
+    <string name="TUTORIALS_FIRE_XMPS">發射 XMP 來摧毀敵方的 Portal。</string>
+    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">Hack Portal 來取得物品</string>
+    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">您必須四處走動，才能使用 Scanner。</string>
+    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">Portal 是 XM 滲入我們世界的途徑。</string>
+    <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">您通常可在雕像和歷史遺跡附近找到 Portal。</string>
+    <string name="TUTORIALS_PORTAL_DETECTED">偵測到 Portal，請移動到該 Portal 的範圍內。</string>
+    <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">已取得 Resonator 和 XMP。</string>
+    <string name="TUTORIALS_TAP_PORTAL">輕按 Portal 即可進行互動</string>
+    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">輕按即可自訂您的虛擬人偶。</string>
+    <string name="TUTORIALS_THE_TRIANGLE_REPRESENTS_YOUR_LOCATION">三角形代表您在真實世界中的位置。</string>
+    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">此為 Scanner 的地圖視圖。</string>
+    <string name="TUTORIALS_TO_AUTO_DEPLOY">如要自動部署，請輕按 [%s]。您也可以事先選擇一個空槽。</string>
+    <string name="TUTORIALS_TO_FIRE_XMP">如要發射，請按住地圖以開啟選單，然後滑動至選單並選取 [%s]。</string>
+    <string name="TUTORIALS_TRAINING_COMPLETE">已完成訓練！</string>
+    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">透過四處走動收集 XM。</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">歡迎來到 Ingress 的世界...</string>
+    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">您可與行動圓圈內的物件進行互動。</string>
+    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">您將為自己的 Faction 佔領 Portal，而 Portal 的顏色代表其所屬的 Faction。</string>
+    <string name="TUTORIAL_GO_HACK">移動到 Portal 的範圍內，然後 Hack 該 Portal。</string>
+    <string name="SIGNIN_TITLE">請登入以進行 Ingress。</string>
+    <string name="GAME_INTRO_TEXT">"不久之前，CERN 研究所在探究希格斯玻色子時，意外發現一種新的物質，他們把這種物質稱為 Exotic Matter (XM)。
+
+令人震驚的是，CERN 研究所認為 XM 是有條理、有智慧的資料。
+
+而且只要擁有足夠數量的 XM，就能影響甚至控制人類的思想。
+
+因此，只要能夠掌控 XM，就能一手掌握人類的命運。"</string>
+    <string name="SIGNIN_MESSAGE">"世界已陷入危機。
+
+立即加入戰鬥吧！請透過安全的 Google 帳戶來確認您的身分。
+
+挺身而出的時刻到了。"</string>
+    <string name="SIGNIN_BUTTON">使用 Google 帳戶登入</string>
+    <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">發生錯誤，請再試一次：</string>
+    <string name="MESSAGE_CHOOSE_FACTION">請選擇您的 Faction：</string>
+    <string name="MESSAGE_CHOOSE_CAREFULLY">確定選擇後即無法修改，請謹慎選擇。</string>
+    <string name="MESSAGE_CONFIRM_CHOICE">您選取的 Faction 是：%s。</string>
+    <string name="THE_RESISTANCE">Resistance</string>
+    <string name="THE_ENLIGHTENED">Enlightened</string>
+    <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s 是這個 Faction 的成員]</string>
+    <string name="HUMANIST_DESCRIPTION">Resistance 的使命：致力反抗試圖透過 Exotic Matter 奴役人類的勢力。</string>
+    <string name="ENLIGHTENED_DESCRIPTION">Enlightened 的使命：致力於利用 Exotic Matter 的力量讓人類進化到更高的境界。</string>
+    <string name="CANCEL">取消</string>
+    <string name="CONFIRM">確認</string>
+    <string name="NICKNAME_PROMPT_RETRY">請輸入其他 Codename。</string>
+    <string name="NICKNAME_PROMPT_TOP">"Niantic 線上軟體。
+
+收到新訊息。
+正在開啟安全頻道..."</string>
+    <string name="NICKNAME_PROMPT_BOTTOM">"請輸入探員的名稱，其他探員會使用這個名稱來稱呼您。
+
+請輸入新的探員名稱。"</string>
+    <string name="BUTTON_TRANSMIT">傳送</string>
+    <string name="TITLE_NICKNAME_PROMPT_DIALOG">請輸入 Codename：</string>
+    <string name="NICKNAME_ERROR_WHILE_CREATING">建立 Codename 時發生錯誤。</string>
+    <string name="NICKNAME_ERROR_WHILE_VALIDATING">驗證 Codename 時發生錯誤。</string>
+    <string name="NICKNAME_ERROR_ALREADY_SET">您已設定 Codename。</string>
+    <string name="NICKNAME_ERROR_BAD_WORDS">系統不允許使用這個 Codename。</string>
+    <string name="NICKNAME_ERROR_INVALID_CHARS">Codename 包含無效的字元。</string>
+    <string name="NICKNAME_ERROR_TOO_SHORT">Codename 過短。</string>
+    <string name="NICKNAME_ERROR_TOO_LONG">Codename 過長。</string>
+    <string name="NICKNAME_ERROR_NOT_UNIQUE">已有其他人使用這個 Codename。</string>
+    <string name="ACTION_SKIP">略過</string>
+    <string name="ACTION_RETRY">重試</string>
+    <string name="PROGRESS_VALIDATING_CODENAME">正在驗證 Codename</string>
+    <string name="PROGRESS_CREATING_CODENAME">正在建立 Codename</string>
+    <string name="NICKNAME_VALIDATE_MESSAGE">有效的 Codename，請確認。</string>
+    <string name="NICKNAME_ID_CONFIRMED">"正在建立加密金鑰...
+
+ID 已確認。"</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"授與使用權。
+程式已啟動..."</string>
+    <string name="BUTTON_QUIT">結束</string>
+    <string name="RECOMMENDED_SCANNER_UPDATE">您的 Ingress Scanner 已過期，請更新。</string>
+    <string name="BUTTON_PLAY">開始遊戲</string>
+    <string name="BUTTON_UPGRADE">升級</string>
+    <string name="TOS_LOCATION">"Ingress 是根據使用者的位置資訊來進行的遊戲。
+
+Google 會在您進行遊戲時收集您的位置資訊，而當您在遊戲中進行特定動作時，其他使用者將會看到您的所在位置。
+"</string>
+    <string name="READ_THE_FULL_TOS">請詳閱《服務條款》，再接受這些條款及細則。</string>
+    <string name="TOS_ACCEPT">我接受這個應用程式的《服務條款》。</string>
+    <string name="TOS_PROMOTION">請將 Ingress 的相關新聞、優惠內容、促銷活動或最新資訊傳送給我。</string>
+    <string name="ADA_CALL">"ADA：您毋須害怕。
+
+您下載的應用程式並不是一款遊戲。
+
+來源不明的 Exotic Matter 正逐漸滲入我們的世界。
+
+您必須在這場瓜分地球的鬥爭中，選擇要加入的陣營。"</string>
+    <string name="INCOMING_MESSAGE">收到新訊息</string>
+    <string name="ADA_CALL_ACCEPT">接受</string>
+    <string name="ADA_CALL_NEXT">繼續</string>
+    <string name="ERROR_ESTABLISHING_SECURE_CONNECTION">無法建立安全連線！請再試一次。</string>
+    <string name="ERROR_UNAUTHENTICATED_USER">無法使用「%s」這個帳戶，請選擇其他帳戶。</string>
+</resources>

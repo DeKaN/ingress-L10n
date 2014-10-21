@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Installa Google Play Services</string>
+    <string name="common_google_play_services_install_text_phone">"L'app non funzionerà senza Google Play Services, non presente sul tuo telefono."</string>
+    <string name="common_google_play_services_install_text_tablet">"L'app non funzionerà senza Google Play Services, non presente sul tuo tablet."</string>
+    <string name="common_google_play_services_install_button">Installa Google Play Services</string>
+    <string name="common_google_play_services_enable_title">Attiva Google Play Services</string>
+    <string name="common_google_play_services_enable_text">"L'app non funzionerà se non attivi Google Play Services."</string>
+    <string name="common_google_play_services_enable_button">Attiva Google Play Services</string>
+    <string name="common_google_play_services_update_title">Aggiorna Google Play Services</string>
+    <string name="common_google_play_services_update_text">"L'app non funzionerà se non aggiorni Google Play Services."</string>
+    <string name="common_google_play_services_network_error_title">Errore di rete</string>
+    <string name="common_google_play_services_network_error_text">È necessaria una connessione dati per connettersi a Google Play Services.</string>
+    <string name="common_google_play_services_invalid_account_title">Account non valido</string>
+    <string name="common_google_play_services_invalid_account_text">"L'account specificato non esiste su questo dispositivo. Scegli un altro account."</string>
+    <string name="common_google_play_services_unknown_issue">Problema sconosciuto con Google Play Services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play Services</string>
+    <string name="common_google_play_services_unsupported_text">La piattaforma Google Play Services, su cui sono basate alcune delle tue applicazioni, non è supportata dal dispositivo in uso. Per assistenza, contatta il produttore.</string>
+    <string name="common_google_play_services_unsupported_date_text">La data sul dispositivo sembra sbagliata. Controllala.</string>
+    <string name="common_google_play_services_update_button">Aggiorna</string>
+    <string name="common_signin_button_text">Accedi</string>
+    <string name="common_signin_button_text_long">Accedi con Google</string>
+    <string name="auth_client_using_bad_version_title">"Un'app ha tentato di usare una versione non valida di Play Services."</string>
+    <string name="auth_client_needs_enabling_title">"Un'applicazione richiede l'attivazione di Google Play Services."</string>
+    <string name="auth_client_needs_installation_title">"Un'applicazione richiede l'installazione di Google Play Services."</string>
+    <string name="auth_client_needs_update_title">"Un'applicazione richiede un aggiornamento di Google Play Services."</string>
+    <string name="auth_client_play_services_err_notification_msg">Errore Google Play Services</string>
+    <string name="auth_client_requested_by_msg">Richiesta da %1$s</string>
+    <string name="SMS_WELL_DONE">Bel lavoro, %s. È arrivato il momento di diventare un agente fidato.</string>
+    <string name="SMS_ACTION_FAIL">"L'azione %s può essere sbloccata se diventi un agente fidato."</string>
+    <string name="SMS_VERIFY_NOW_LEVEL_UP">Devi verificare con %s per passare al livello successivo.</string>
+    <string name="SMS_VERIFY_NOW">Verifica %s ora.</string>
+    <string name="VERIFY">VERIFICA</string>
+    <string name="LATER">PIÙ TARDI</string>
+    <string name="SMS_PHONE_NUMBER_USE">Questo numero di telefono verrà utilizzato solo per la verifica.</string>
+    <string name="SMS_DISCLAIMER">"*Vengono applicate le tariffe standard dell'operatore di telefonia mobile."</string>
+    <string name="SMS_ENTER_NUMBER">Inserisci il numero di telefono:</string>
+    <string name="SMS_REQUEST_VIA">Richiedi un codice di verifica mediante:</string>
+    <string name="SMS">SMS</string>
+    <string name="VOICE">VOCE</string>
+    <string name="SMS_ERROR_NUMBER_FORMAT">Numero di telefono formattato in modo errato.</string>
+    <string name="SMS_ERROR_VERIFIED_ALREADY">Sei già stato verificato.</string>
+    <string name="SMS_ERROR_BAD_PHONE_NUMBER">Impossibile richiedere un codice di verifica. Numero di telefono non valido.</string>
+    <string name="SMS_ERROR_INVALID_PHONE_NUMBER">Impossibile utilizzare questo numero di telefono per richiedere un codice di verifica.</string>
+    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">Impossibile richiedere un codice di verifica. Prova con un SMS.</string>
+    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">"Impossibile richiedere un codice di verifica. Prova con l'opzione Voce."</string>
+    <string name="SMS_ERROR_INVALID_VERIFICATION">Verifica non riuscita. Errore interno.</string>
+    <string name="SMS_ERROR_VERIFICATION_BUSY">La verifica è in fase di esecuzione.</string>
+    <string name="SMS_ERROR_REQUEST_BUSY">La richiesta di verifica è in fase di esecuzione.</string>
+    <string name="SMS_ERROR_SERVICE_ERROR">"L'operatore non è riuscito a inviare il codice di verifica."</string>
+    <string name="SMS_ERROR_PIN_MISMATCH">Codice non valido. Inserisci un codice di verifica valido.</string>
+    <string name="SMS_ERROR_PIN_EXPIRED">Codice scaduto. Richiedi un nuovo codice di verifica.</string>
+    <string name="SMS_ERROR_QUOTA_REACHED">Impossibile richiedere un codice di verifica. È stato raggiunto il limite di verifiche per questo numero di telefono.</string>
+    <string name="SMS_ERROR_RETRY_IN_1_MINUTE">Numero eccessivo di verifiche. Riprova tra un minuto.</string>
+    <string name="SMS_ERROR_RETRY_IN_5_MINUTES">Numero eccessivo di verifiche. Riprova tra 5 minuti.</string>
+    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">Numero eccessivo di verifiche. Riprova tra 15 minuti.</string>
+    <string name="SMS_ERROR_RETRY_LATER">Numero eccessivo di verifiche. Riprova più tardi.</string>
+    <string name="SMS_ERROR_SERVER_ERROR">Errore del server.</string>
+    <string name="SMS_REQUESTING">Richiesta in corso…</string>
+    <string name="SMS_VERIFYING">Verifica in corso…</string>
+    <string name="SMS_CODE_SENT">Codice inviato.</string>
+    <string name="SMS_TAP_INSTRUCTION">"Tocca l'icona di verifica quando hai ricevuto il codice."</string>
+    <string name="SMS_ENTER_CODE">INSERISCI CODICE</string>
+    <string name="SMS_ENTER_YOUR_N_DIGIT">Inserisci il codice di verifica composto da %d cifre:</string>
+    <string name="SMS_NEED_A_NEW">Hai bisogno di un nuovo codice?</string>
+    <string name="REQUEST">RICHIEDI</string>
+    <string name="again">RICHIEDI ancora</string>
+    <string name="SMS_CODE_VALID">"Codice valido.
+Ora sei un agente fidato."</string>
+    <string name="DONE">FINE</string>
+    <string name="DROP">RILASCIA</string>
+    <string name="JARVIS">JARVIS</string>
+    <string name="ADA">ADA</string>
+    <string name="TUTORIALS_AGENT_HACKING_PORTALS">Come agente, acquisirai oggetti facendo hack sui portali.</string>
+    <string name="TUTORIALS_ATTACK_THE_ENEMY">Attacca il portale nemico.</string>
+    <string name="TUTORIALS_DEPLOY_RESONATORS">Utilizza i risonatori per dare energia ai portali amici.</string>
+    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">"Rilevata un'area vuota per un risonatore. Muoviti in prossimità per scoprire l'azione DEPLOY."</string>
+    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">"Rilevato portale nemico. Muoviti in prossimità per scoprire l'azione SPARA."</string>
+    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">Exotic Matter (o XM) dà energia al tuo scanner.</string>
+    <string name="TUTORIALS_EXPLORE_THE_WORLD">Esplora il mondo che ti circonda per trovare altri portali. Fai hack per ottenere risorse. Conquistali per la tua fazione.</string>
+    <string name="TUTORIALS_FIRE_XMPS">Spara i tuoi XMP per distruggere i portali nemici.</string>
+    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">Acquisisci oggetti facendo Hack.</string>
+    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">Per utilizzare lo scanner, dovrai CAMMINARE.</string>
+    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">I portali sono luoghi in cui XM fluisce nel nostro mondo.</string>
+    <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">I portali si trovano spesso vicino a sculture e siti storici.</string>
+    <string name="TUTORIALS_PORTAL_DETECTED">Portale rilevato. Muoviti in prossimità.</string>
+    <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">Risonatore e XMP acquisiti.</string>
+    <string name="TUTORIALS_TAP_PORTAL">Tocca il portale per interagire</string>
+    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">Tocca per personalizzare il tuo avatar.</string>
+    <string name="TUTORIALS_THE_TRIANGLE_REPRESENTS_YOUR_LOCATION">Il triangolo rappresenta la tua località nel mondo reale.</string>
+    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">Questa è la visualizzazione della mappa Scanner.</string>
+    <string name="TUTORIALS_TO_AUTO_DEPLOY">"Per eseguire l'Auto-Deploy, tocca %s. Puoi anche iniziare scegliendo un'area vuota."</string>
+    <string name="TUTORIALS_TO_FIRE_XMP">Per sparare, premi sulla mappa per visualizzare il menu, quindi fai scorrere per selezionare %s.</string>
+    <string name="TUTORIALS_TRAINING_COMPLETE">Training completato.</string>
+    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">Cammina per accumulare XM.</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">Benvenuto in Ingress...</string>
+    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">"Puoi interagire con gli elementi all'interno del cerchio d'azione."</string>
+    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">Conquista il portale per la tua fazione. Il colore indica la fazione che ha il controllo.</string>
+    <string name="TUTORIAL_GO_HACK">Muoviti in prossimità di un portale e fai hack.</string>
+    <string name="SIGNIN_TITLE">Accedi per giocare a Ingress.</string>
+    <string name="GAME_INTRO_TEXT">"Non molto tempo fa al laboratorio del CERN, come sottoprodotto della ricerca Higgs-Boson, è stata scoperta una nuova sostanza chiamata Exotic Matter.
+
+La cosa più allarmante dell'XM è che si ritiene sia un insieme di dati ordinati e intelligenti.
+
+Inoltre, in quantità sufficiente, è in grado di influenzare e perfino controllare il pensiero umano.
+
+Non vi è dubbio sul fatto che chiunque controlli l'XM può controllare il destino del genere umano."</string>
+    <string name="SIGNIN_MESSAGE">"Il mondo è in pericolo.
+
+Partecipa al conflitto. Conferma la tua identità tramite un account Google protetto.
+
+È il momento di passare all'azione."</string>
+    <string name="SIGNIN_BUTTON">Accedi con Google</string>
+    <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">Si è verificato un errore. Riprova:</string>
+    <string name="MESSAGE_CHOOSE_FACTION">Scegli la tua fazione:</string>
+    <string name="MESSAGE_CHOOSE_CAREFULLY">Scegli con attenzione. È una scelta definitiva.</string>
+    <string name="MESSAGE_CONFIRM_CHOICE">Hai selezionato %s.</string>
+    <string name="THE_RESISTANCE">Resistance</string>
+    <string name="THE_ENLIGHTENED">Enlightened</string>
+    <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s è un membro di questa fazione]</string>
+    <string name="HUMANIST_DESCRIPTION">"Resistance cerca di combattere le forze che tentano di utilizzare Exotic Matter per ridurre l'umanità in schiavitù."</string>
+    <string name="ENLIGHTENED_DESCRIPTION">Enlightened cerca di controllare il potere di Exotic Matter per far evolvere il genere umano.</string>
+    <string name="CANCEL">ANNULLA</string>
+    <string name="CONFIRM">CONFERMA</string>
+    <string name="NICKNAME_PROMPT_RETRY">Prova un codename differente.</string>
+    <string name="NICKNAME_PROMPT_TOP">"Software Niantic online.
+
+Rilevato messaggio in entrata.
+Apertura canale sicuro in corso..."</string>
+    <string name="NICKNAME_PROMPT_BOTTOM">"Crea un nome agente. Si tratta del nome con cui sarai riconosciuto dagli altri agenti.
+
+Digita il nuovo nome agente."</string>
+    <string name="BUTTON_TRANSMIT">Trasmetti</string>
+    <string name="TITLE_NICKNAME_PROMPT_DIALOG">Inserisci un codename:</string>
+    <string name="NICKNAME_ERROR_WHILE_CREATING">Errore durante la creazione del codename.</string>
+    <string name="NICKNAME_ERROR_WHILE_VALIDATING">Errore durante la convalida del codename.</string>
+    <string name="NICKNAME_ERROR_ALREADY_SET">Codename già impostato.</string>
+    <string name="NICKNAME_ERROR_BAD_WORDS">Codename non consentito.</string>
+    <string name="NICKNAME_ERROR_INVALID_CHARS">Il codename contiene caratteri non validi.</string>
+    <string name="NICKNAME_ERROR_TOO_SHORT">Codename troppo breve.</string>
+    <string name="NICKNAME_ERROR_TOO_LONG">Codename troppo lungo.</string>
+    <string name="NICKNAME_ERROR_NOT_UNIQUE">Codename già utilizzato.</string>
+    <string name="ACTION_SKIP">IGNORA</string>
+    <string name="ACTION_RETRY">RIPROVA</string>
+    <string name="PROGRESS_VALIDATING_CODENAME">Convalida codename</string>
+    <string name="PROGRESS_CREATING_CODENAME">Creazione codename</string>
+    <string name="NICKNAME_VALIDATE_MESSAGE">Codename valido. Conferma.</string>
+    <string name="NICKNAME_ID_CONFIRMED">"Creazione chiave di crittografia in corso...
+
+ID confermato."</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"Accesso consentito.
+Programma avviato..."</string>
+    <string name="BUTTON_QUIT">ESCI</string>
+    <string name="RECOMMENDED_SCANNER_UPDATE">Il tuo scanner Ingress è obsoleto. Ti consigliamo di eseguire un aggiornamento.</string>
+    <string name="BUTTON_PLAY">Gioca</string>
+    <string name="BUTTON_UPGRADE">Upgrade</string>
+    <string name="TOS_LOCATION">"Ingress è un gioco basato sulla posizione.
+
+La tua posizione viene rilevata da Google mentre giochi e sarà visibile agli altri utenti quando esegui determinate azioni durante il gioco.
+"</string>
+    <string name="READ_THE_FULL_TOS">Leggi i Termini di servizio completi prima di accettare questi Termini e condizioni.</string>
+    <string name="TOS_ACCEPT">Accetto i Termini di servizio per questa app.</string>
+    <string name="TOS_PROMOTION">Inviami aggiornamenti, promozioni,offerte e notizie relative a Ingress.</string>
+    <string name="ADA_CALL">"ADA: non avere paura.
+
+Hai scaricato quello che credi essere un gioco ma che, in realtà, non lo è.
+
+Una quantità di exotic matter di origine sconosciuta si sta diffondendo nel nostro mondo.
+
+Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string>
+    <string name="INCOMING_MESSAGE">MESSAGGIO IN ENTRATA</string>
+    <string name="ADA_CALL_ACCEPT">ACCETTA</string>
+    <string name="ADA_CALL_NEXT">AVANTI</string>
+    <string name="ERROR_ESTABLISHING_SECURE_CONNECTION">Impossibile stabilire una connessione protetta. Riprova.</string>
+    <string name="ERROR_UNAUTHENTICATED_USER">"L'account, %s, non può essere utilizzato. Scegline un altro."</string>
+    <string name="NEWS_OF_THE_DAY_TITLE">NOTIZIE SU INGRESS</string>
+    <string name="NEWS_OF_THE_DAY_VIEW_POST">Visualizza Post</string>
+    <string name="JAILBROKEN_ERROR">"Controllo dell'integrità del sistema operativo non riuscito."</string>
+    <string name="JAILBROKEN_RESULT">Ingress non funzionerà correttamente.</string>
+</resources>

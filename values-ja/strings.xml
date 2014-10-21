@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Play開発者サービスの入手</string>
+    <string name="common_google_play_services_install_text_phone">このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いの携帯端末にはインストールされていません。</string>
+    <string name="common_google_play_services_install_text_tablet">このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。</string>
+    <string name="common_google_play_services_install_button">Play開発者サービスの入手</string>
+    <string name="common_google_play_services_enable_title">Play開発者サービスの有効化</string>
+    <string name="common_google_play_services_enable_text">このアプリの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string name="common_google_play_services_enable_button">Play開発者サービスの有効化</string>
+    <string name="common_google_play_services_update_title">Play開発者サービスの更新</string>
+    <string name="common_google_play_services_update_text">このアプリの実行には、Google Play開発者サービスの更新が必要です。</string>
+    <string name="common_google_play_services_network_error_title">ネットワークエラー</string>
+    <string name="common_google_play_services_network_error_text">Google Play開発者サービスに接続するには、データ接続が必要です。</string>
+    <string name="common_google_play_services_invalid_account_title">無効なアカウント</string>
+    <string name="common_google_play_services_invalid_account_text">指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。</string>
+    <string name="common_google_play_services_unknown_issue">Google Play開発者サービスで原因不明の問題が発生しました。</string>
+    <string name="common_google_play_services_unsupported_title">Google Play開発者サービス</string>
+    <string name="common_google_play_services_unsupported_text">一部のアプリが使用しているGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは、端末メーカーまでお問い合わせください。</string>
+    <string name="common_google_play_services_unsupported_date_text">端末上の日付が正しくないようです。端末上の日付をご確認ください。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_signin_button_text">ログイン</string>
+    <string name="common_signin_button_text_long">Googleでログイン</string>
+    <string name="auth_client_using_bad_version_title">アプリはGoogle Play開発者サービスの不適切なバージョンを使用しようとしました。</string>
+    <string name="auth_client_needs_enabling_title">アプリではGoogle Play開発者サービスを有効にする必要があります。</string>
+    <string name="auth_client_needs_installation_title">アプリではGoogle Play開発者サービスをインストールする必要があります。</string>
+    <string name="auth_client_needs_update_title">アプリではGoogle Play開発者サービスをアップデートする必要があります。</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play開発者サービスのエラー</string>
+    <string name="auth_client_requested_by_msg">%1$sによるリクエスト</string>
+    <string name="SMS_WELL_DONE">さすが, %s. 信頼されたエージェントになるときです。</string>
+    <string name="SMS_ACTION_FAIL">%s この行為は信頼されたエージェントにだけ解除されています</string>
+    <string name="SMS_VERIFY_NOW_LEVEL_UP">レベルアップのためには %s と本人確認をする必要があります</string>
+    <string name="SMS_VERIFY_NOW">%s が確認中</string>
+    <string name="VERIFY">確認</string>
+    <string name="LATER">あとでする</string>
+    <string name="SMS_PHONE_NUMBER_USE">我々はこの電話番号を本人確認目的以外には使用しません</string>
+    <string name="SMS_DISCLAIMER">*通常の通話料金がかかります</string>
+    <string name="SMS_ENTER_NUMBER">電話番号を入力してください:</string>
+    <string name="SMS_REQUEST_VIA">確認コードの入手方法は:</string>
+    <string name="SMS">ショートメッセージ</string>
+    <string name="VOICE">音声</string>
+    <string name="SMS_ERROR_NUMBER_FORMAT">電話番号が正しくないようです</string>
+    <string name="SMS_ERROR_VERIFIED_ALREADY">あなたはすでに本人確認されています。</string>
+    <string name="SMS_ERROR_BAD_PHONE_NUMBER">確認コードの申請に失敗しました。不正な電話番号です。</string>
+    <string name="SMS_ERROR_INVALID_PHONE_NUMBER">この電話番号は確認コードの申請には使えません</string>
+    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">確認コードの申請に失敗しました。代わりにショートメッセージを使ってください</string>
+    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">確認コードの申請に失敗しました。代わりに音声を使ってください</string>
+    <string name="SMS_ERROR_INVALID_VERIFICATION">確認に失敗しました。内部エラーです。</string>
+    <string name="SMS_ERROR_VERIFICATION_BUSY">確認中です。</string>
+    <string name="SMS_ERROR_REQUEST_BUSY">確認コードの申請中です。</string>
+    <string name="SMS_ERROR_SERVICE_ERROR">通信会社は確認コードを送れませんでした。</string>
+    <string name="SMS_ERROR_PIN_MISMATCH">不正なコードです。正しいコードを入力してください。</string>
+    <string name="SMS_ERROR_PIN_EXPIRED">期限の切れたコードです。正しいコードを再申請してください。</string>
+    <string name="SMS_ERROR_QUOTA_REACHED">確認コードの申請に失敗しました。この電話番号での申請数の限界に達しています。</string>
+    <string name="SMS_ERROR_RETRY_IN_1_MINUTE">確認作業が混雑中です。1分後にもう一度おこなってください。</string>
+    <string name="SMS_ERROR_RETRY_IN_5_MINUTES">確認作業が混雑中です。5分後にもう一度おこなってください。</string>
+    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">確認作業が混雑中です。15分後にもう一度おこなってください。</string>
+    <string name="SMS_ERROR_RETRY_LATER">確認作業が混雑中です。しばらく後でもう一度おこなってください。</string>
+    <string name="SMS_ERROR_SERVER_ERROR">サーバーエラーです。</string>
+    <string name="SMS_REQUESTING">申請中…</string>
+    <string name="SMS_VERIFYING">確認中…</string>
+    <string name="SMS_CODE_SENT">コードが送られました。</string>
+    <string name="SMS_TAP_INSTRUCTION">コードを受け取ったら「確認」アイコンを押してください。</string>
+    <string name="SMS_ENTER_CODE">コードを入力</string>
+    <string name="SMS_ENTER_YOUR_N_DIGIT">" %d 桁の確認コードを入力してください。:"</string>
+    <string name="SMS_NEED_A_NEW">新しいコードが必要ですか？</string>
+    <string name="REQUEST">申請</string>
+    <string name="again">をもう一度</string>
+    <string name="SMS_CODE_VALID">"コードが確認されました。
+あなたは信頼されたエージェントです。"</string>
+    <string name="DONE">完了</string>
+    <string name="DROP">落とす</string>
+    <string name="JARVIS">ジャービス</string>
+    <string name="ADA">ADA（エイダ）</string>
+    <string name="TUTORIALS_AGENT_HACKING_PORTALS">エージェントとして、ハッキングをすることでアイテムを得るでしょう。</string>
+    <string name="TUTORIALS_ATTACK_THE_ENEMY">敵のポータルを攻撃してください。</string>
+    <string name="TUTORIALS_DEPLOY_RESONATORS">自分の陣営のポータルを強化するために、レゾネーターをデプロイ（配備）してください。</string>
+    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">空のレゾネータースロットが検知されました。配備（デプロイ）を学ぶために、射程範囲に移動してください。</string>
+    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">敵のポータルを感知しました。攻撃を学ぶために、射程範囲に移動してください。</string>
+    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">エキゾチック・マター (または XM) はスキャナーのエネルギーです。</string>
+    <string name="TUTORIALS_EXPLORE_THE_WORLD">もっとポータルを見つけるために、周囲の世界を探索してください。ハックしてアイテムをストックし、あなたの陣営のためにポータルを奪還してください。</string>
+    <string name="TUTORIALS_FIRE_XMPS">敵のポータルを破壊するために、XMPを発射してください。</string>
+    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">ポータルをハックすることでアイテムを取得してください。</string>
+    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">スキャナーを使うためには、歩く必要があります。</string>
+    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">ポータルは、XMが世界に漏れている所です。</string>
+    <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">ポータルは、石像や歴史的な名所の近くによく発見されます。</string>
+    <string name="TUTORIALS_PORTAL_DETECTED">ポータルが検知されました。射程範囲に移動してください。</string>
+    <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">レゾネーター（共振装置）とXMP（爆弾）を取得しました。</string>
+    <string name="TUTORIALS_TAP_PORTAL">ポータルをタップしてください。</string>
+    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">タップしてアバターをカスタマイズしてください。</string>
+    <string name="TUTORIALS_THE_TRIANGLE_REPRESENTS_YOUR_LOCATION">この三角形は現実世界でのあなたの位置を示しています。</string>
+    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">これが、スキャナーです。</string>
+    <string name="TUTORIALS_TO_AUTO_DEPLOY">自動配備をするには %s をタップしてください。空のスロットを最初に選ぶこともできます。</string>
+    <string name="TUTORIALS_TO_FIRE_XMP">攻撃するためには、地図をプレスしてメニューを出し、スライドさせて %s を選んでください。</string>
+    <string name="TUTORIALS_TRAINING_COMPLETE">トレーニング完了！</string>
+    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">XMを集めるために歩き回ってください。</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">イングレスへようこそ...</string>
+    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">この円の内側の物体には相互に影響を及ぼすことができます。</string>
+    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">あなたの陣営のためにポータルを奪いましょう。色は、制御している陣営を表しています。</string>
+    <string name="TUTORIAL_GO_HACK">ポータルの射程範囲に移動してハックしてください。</string>
+    <string name="SIGNIN_TITLE">Ingressをプレイするためにはサインインしてください。</string>
+    <string name="GAME_INTRO_TEXT">"つい先ごろ、CERN（セルン）研究所におけるヒッグス粒子の研究の副産物として、エキゾチック・マター（XM)と呼ばれる新しい物質が発見された。
+
+憂慮すべき点は、XMが秩序と知性を持ったデータだとみなされていることである。
+
+さらに、XMがある量を超えると、人間の思考に影響を及ぼし、コントロールすることすら可能となる。
+
+明らかなのは、XMを制する者が人類の運命をも制しうる、ということである。"</string>
+    <string name="SIGNIN_MESSAGE">"世界が危機にさらされています
+
+安全なGoogleアカウントを使ってログインし、戦闘に参加してください。
+
+さあ、動き始めましょう。"</string>
+    <string name="SIGNIN_BUTTON">Googleでログイン</string>
+    <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">エラーです。もう一度入力を：</string>
+    <string name="MESSAGE_CHOOSE_FACTION">陣営を選んでください。:</string>
+    <string name="MESSAGE_CHOOSE_CAREFULLY">慎重に選択を。これは最終選択です。</string>
+    <string name="MESSAGE_CONFIRM_CHOICE">あなたが選んだのは %s.</string>
+    <string name="THE_RESISTANCE">レジスタンス</string>
+    <string name="THE_ENLIGHTENED">エンライテンド</string>
+    <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s がこの陣営のメンバーです。]</string>
+    <string name="HUMANIST_DESCRIPTION">エキゾチック・マタ−で人類を支配しようとしている勢力と戦っているのがレジスタンスです。</string>
+    <string name="ENLIGHTENED_DESCRIPTION">エキゾチック・マターを利用し人類をより高みへと進化させようとしているのがエンライテンドです。</string>
+    <string name="CANCEL">キャンセル</string>
+    <string name="CONFIRM">承認</string>
+    <string name="NICKNAME_PROMPT_RETRY">違うコードネームを試してください。</string>
+    <string name="NICKNAME_PROMPT_TOP">"Niantic software online.
+
+Incoming message"</string>
+    <string name="NICKNAME_PROMPT_BOTTOM">"コードネームを作成してください。 他のエージェントはこの名前であなたを知ります。
+
+新しいコードネームを入力してください。"</string>
+    <string name="BUTTON_TRANSMIT">送信</string>
+    <string name="TITLE_NICKNAME_PROMPT_DIALOG">コードネームを入力:</string>
+    <string name="NICKNAME_ERROR_WHILE_CREATING">コードネーム作成中のエラー。</string>
+    <string name="NICKNAME_ERROR_WHILE_VALIDATING">コードネーム確認中にエラー。</string>
+    <string name="NICKNAME_ERROR_ALREADY_SET">このコードネームは使われています。</string>
+    <string name="NICKNAME_ERROR_BAD_WORDS">このコードネームは使えません。</string>
+    <string name="NICKNAME_ERROR_INVALID_CHARS">不正な文字が利用されています。</string>
+    <string name="NICKNAME_ERROR_TOO_SHORT">コードネームが短すぎます。</string>
+    <string name="NICKNAME_ERROR_TOO_LONG">コードネームが長過ぎます。</string>
+    <string name="NICKNAME_ERROR_NOT_UNIQUE">コードネームはすでに使わられています。</string>
+    <string name="ACTION_SKIP">キャンセル</string>
+    <string name="ACTION_RETRY">もう一度</string>
+    <string name="PROGRESS_VALIDATING_CODENAME">コードネームを確認中…</string>
+    <string name="PROGRESS_CREATING_CODENAME">コードネームを作成中</string>
+    <string name="NICKNAME_VALIDATE_MESSAGE">コードネームは有効です。確認してください。</string>
+    <string name="NICKNAME_ID_CONFIRMED">"暗号化キーを作成しています...
+
+IDを確認しました。"</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"アクセスが許可されました。
+プログラムを開始しました..."</string>
+    <string name="BUTTON_QUIT">中止</string>
+    <string name="RECOMMENDED_SCANNER_UPDATE">イングレススキャナーが最新のものではありません。更新が推奨されます。</string>
+    <string name="BUTTON_PLAY">プレイ</string>
+    <string name="BUTTON_UPGRADE">更新</string>
+    <string name="TOS_LOCATION">"イングレスは位置情報を利用したゲームです。
+
+あなたの位置情報は、ゲームをプレイしている間、Googleによって収集され、あなたが特定の行動をとった場合、他のプレイヤーにも見えるようになります。
+"</string>
+    <string name="READ_THE_FULL_TOS">ここにある利用規約に同意される前によくお読みください。</string>
+    <string name="TOS_ACCEPT">利用規約に同意します。</string>
+    <string name="TOS_PROMOTION">イングレスに関連するニュースやキャンペーン、イベントなどの最新情報をメールで受け取る。</string>
+    <string name="ADA_CALL">"ADA: 恐れることはありません。
+
+あなたは、ゲームをダウンロードしたと思っているはず。でもそれは違います。
+
+正体不明のエキゾチック・マターが我々の世界に侵入しようとしています。
+
+あなたはこの地球のための戦いでどちらの側につくか、選ばなければなりません。"</string>
+    <string name="INCOMING_MESSAGE">メッセージを受信中</string>
+    <string name="ADA_CALL_ACCEPT">応答</string>
+    <string name="ADA_CALL_NEXT">次へ</string>
+    <string name="ERROR_ESTABLISHING_SECURE_CONNECTION">安全な通信が確立できませんでした。もう一度入力してください。</string>
+    <string name="ERROR_UNAUTHENTICATED_USER">このアカウント, %s, は利用できません。違うものを選んでください。</string>
+    <string name="NEWS_OF_THE_DAY_TITLE">INGRESS ニュース</string>
+    <string name="NEWS_OF_THE_DAY_VIEW_POST">投稿を見る</string>
+    <string name="JAILBROKEN_ERROR">OS整合性チェックに失敗しました。</string>
+    <string name="JAILBROKEN_RESULT">Ingress は正常に動作しません。</string>
+</resources>

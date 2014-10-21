@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"This app won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"This app won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"This app won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_update_text">"This app won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_date_text">The date on the device appears to be incorrect. Please check the date on the device.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="auth_client_using_bad_version_title">An application attempted to use a bad version of Google Play Services.</string>
+    <string name="auth_client_needs_enabling_title">An application requires Google Play Services to be enabled.</string>
+    <string name="auth_client_needs_installation_title">An application requires installation of Google Play Services.</string>
+    <string name="auth_client_needs_update_title">An application requires an update for Google Play Services.</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by %1$s</string>
+    <string name="SMS_WELL_DONE">Well done, %s. It is time to become a trusted agent.</string>
+    <string name="SMS_ACTION_FAIL">The %s action can be unlocked by becoming a trusted agent.</string>
+    <string name="SMS_VERIFY_NOW_LEVEL_UP">You must verify with %s to level up.</string>
+    <string name="SMS_VERIFY_NOW">Verify with %s now.</string>
+    <string name="VERIFY">VERIFY</string>
+    <string name="LATER">LATER</string>
+    <string name="SMS_PHONE_NUMBER_USE">"We'll use this phone number for verification only."</string>
+    <string name="SMS_DISCLAIMER">*Standard mobile carrier rates apply.</string>
+    <string name="SMS_ENTER_NUMBER">Enter your phone number:</string>
+    <string name="SMS_REQUEST_VIA">Request a verification code via:</string>
+    <string name="SMS">SMS</string>
+    <string name="VOICE">VOICE</string>
+    <string name="SMS_ERROR_NUMBER_FORMAT">Incorrectly formatted phone number.</string>
+    <string name="SMS_ERROR_VERIFIED_ALREADY">You have been verified already.</string>
+    <string name="SMS_ERROR_BAD_PHONE_NUMBER">Failed to request a verification code. Bad phone number.</string>
+    <string name="SMS_ERROR_INVALID_PHONE_NUMBER">This phone number cannot be used to request a verification code.</string>
+    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">Failed to request a verification code. Please try SMS instead.</string>
+    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">Failed to request a verification code. Please try Voice instead.</string>
+    <string name="SMS_ERROR_INVALID_VERIFICATION">The verification failed. Internal error.</string>
+    <string name="SMS_ERROR_VERIFICATION_BUSY">The verification is being processed.</string>
+    <string name="SMS_ERROR_REQUEST_BUSY">The verification request is being processed.</string>
+    <string name="SMS_ERROR_SERVICE_ERROR">Carrier could not send the verification code.</string>
+    <string name="SMS_ERROR_PIN_MISMATCH">Invalid code. Enter a valid verification code.</string>
+    <string name="SMS_ERROR_PIN_EXPIRED">Expired code. Please request a new verification code.</string>
+    <string name="SMS_ERROR_QUOTA_REACHED">Failed to request a verification code. Verification limit reached for this phone number.</string>
+    <string name="SMS_ERROR_RETRY_IN_1_MINUTE">Verification running hot. Please try again in 1 minute.</string>
+    <string name="SMS_ERROR_RETRY_IN_5_MINUTES">Verification running hot. Please try again in 5 minutes.</string>
+    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">Verification running hot. Please try again in 15 minutes.</string>
+    <string name="SMS_ERROR_RETRY_LATER">Verification running hot. Please try again later.</string>
+    <string name="SMS_ERROR_SERVER_ERROR">Server error.</string>
+    <string name="SMS_REQUESTING">Requesting…</string>
+    <string name="SMS_VERIFYING">Verifying…</string>
+    <string name="SMS_CODE_SENT">Code sent.</string>
+    <string name="SMS_TAP_INSTRUCTION">Tap the verify icon when you have received the code.</string>
+    <string name="SMS_ENTER_CODE">ENTER CODE</string>
+    <string name="SMS_ENTER_YOUR_N_DIGIT">Enter your %d-digit verification code:</string>
+    <string name="SMS_NEED_A_NEW">Need a new code?</string>
+    <string name="REQUEST">REQUEST</string>
+    <string name="again">again</string>
+    <string name="SMS_CODE_VALID">"Code valid.
+You are now a trusted agent."</string>
+    <string name="DONE">DONE</string>
+    <string name="DROP">DROP</string>
+    <string name="JARVIS">JARVIS</string>
+    <string name="ADA">ADA</string>
+    <string name="TUTORIALS_AGENT_HACKING_PORTALS">"As an agent, you'll gain items by Hacking Portals."</string>
+    <string name="TUTORIALS_ATTACK_THE_ENEMY">Attack the enemy Portal.</string>
+    <string name="TUTORIALS_DEPLOY_RESONATORS">Deploy Resonators to power friendly Portals.</string>
+    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">Empty Resonator slot detected, move in range to learn the DEPLOY action.</string>
+    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">Enemy Portal detected, move in range to learn the FIRE action.</string>
+    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">Exotic Matter (or XM) powers your scanner.</string>
+    <string name="TUTORIALS_EXPLORE_THE_WORLD">Explore the world around you to find more Portals. Hack them to build up your resources. Capture them for your faction.</string>
+    <string name="TUTORIALS_FIRE_XMPS">Fire XMPs to destroy enemy portals.</string>
+    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">Gain items by HACKING Portals</string>
+    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">In order to use the Scanner, you will need to WALK.</string>
+    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">Portals are locations where XM is leaking into our world.</string>
+    <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">Portals are often found near sculptures and historical sites.</string>
+    <string name="TUTORIALS_PORTAL_DETECTED">Portal detected, move in range.</string>
+    <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">Resonator and XMP acquired.</string>
+    <string name="TUTORIALS_TAP_PORTAL">Tap Portal to interact</string>
+    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">Tap to customize your avatar.</string>
+    <string name="TUTORIALS_THE_TRIANGLE_REPRESENTS_YOUR_LOCATION">The triangle represents your location in the real world.</string>
+    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">This is the Scanner map view.</string>
+    <string name="TUTORIALS_TO_AUTO_DEPLOY">"To Auto-Deploy, tap %s.  You can also choose an empty slot first."</string>
+    <string name="TUTORIALS_TO_FIRE_XMP">To fire, press on the map for menu then slide to select %s.</string>
+    <string name="TUTORIALS_TRAINING_COMPLETE">Training complete!</string>
+    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">Walk around to collect XM.</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">Welcome to Ingress...</string>
+    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">You can interact with objects within the action circle.</string>
+    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">You will capture Portals for your Faction. The color indicates the controlling faction.</string>
+    <string name="TUTORIAL_GO_HACK">Move within range of a Portal and Hack it.</string>
+    <string name="SIGNIN_TITLE">Please sign in to play Ingress.</string>
+    <string name="GAME_INTRO_TEXT">"Not long ago at the CERN Lab, as a by-product of the Higgs-Boson research, a new substance called Exotic Matter was discovered.
+
+What was particularly disturbing about XM, is that it is believed to be ordered, intelligent data.
+
+Further, in sufficient quantities it is capable of influencing, even controlling human thought.
+
+What is clear, is that whoever controls the XM, controls the destiny of mankind."</string>
+    <string name="SIGNIN_MESSAGE">"The world is in danger.
+
+Join the conflict. Confirm your identity via a secure Google account.
+
+It's time to move."</string>
+    <string name="SIGNIN_BUTTON">Sign in with Google</string>
+    <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">Error occurred. Please try again:</string>
+    <string name="MESSAGE_CHOOSE_FACTION">Choose your faction:</string>
+    <string name="MESSAGE_CHOOSE_CAREFULLY">"Choose carefully.  This choice is final."</string>
+    <string name="MESSAGE_CONFIRM_CHOICE">You have selected %s.</string>
+    <string name="THE_RESISTANCE">The Resistance</string>
+    <string name="THE_ENLIGHTENED">The Enlightened</string>
+    <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s is a member of this faction]</string>
+    <string name="HUMANIST_DESCRIPTION">The Resistance seek to battle the forces that are attempting to use Exotic Matter to enslave humanity.</string>
+    <string name="ENLIGHTENED_DESCRIPTION">The Enlightened seek to harness the power of Exotic Matter to evolve mankind to a higher level.</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="CONFIRM">CONFIRM</string>
+    <string name="NICKNAME_PROMPT_RETRY">Try a different codename.</string>
+    <string name="NICKNAME_PROMPT_TOP">"Niantic software online.
+
+Incoming message detected.
+Opening secure channel..."</string>
+    <string name="NICKNAME_PROMPT_BOTTOM">"Create an agent name. This is the name other agents will know you by.
+
+Type new agent name."</string>
+    <string name="BUTTON_TRANSMIT">Transmit</string>
+    <string name="TITLE_NICKNAME_PROMPT_DIALOG">Enter a codename:</string>
+    <string name="NICKNAME_ERROR_WHILE_CREATING">Error while creating codename.</string>
+    <string name="NICKNAME_ERROR_WHILE_VALIDATING">Error while validating codename.</string>
+    <string name="NICKNAME_ERROR_ALREADY_SET">Codename already set.</string>
+    <string name="NICKNAME_ERROR_BAD_WORDS">Codename is not allowed.</string>
+    <string name="NICKNAME_ERROR_INVALID_CHARS">Codename contains invalid characters.</string>
+    <string name="NICKNAME_ERROR_TOO_SHORT">Codename too short.</string>
+    <string name="NICKNAME_ERROR_TOO_LONG">Codename too long.</string>
+    <string name="NICKNAME_ERROR_NOT_UNIQUE">Codename already taken.</string>
+    <string name="ACTION_SKIP">SKIP</string>
+    <string name="ACTION_RETRY">RETRY</string>
+    <string name="PROGRESS_VALIDATING_CODENAME">Validating codename</string>
+    <string name="PROGRESS_CREATING_CODENAME">Creating codename</string>
+    <string name="NICKNAME_VALIDATE_MESSAGE">Codename valid. Please confirm.</string>
+    <string name="NICKNAME_ID_CONFIRMED">"Creating encryption keys...
+
+ID confirmed."</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"Access granted.
+Program initiated..."</string>
+    <string name="BUTTON_QUIT">QUIT</string>
+    <string name="RECOMMENDED_SCANNER_UPDATE">Your Ingress scanner is out of date. An update is recommended.</string>
+    <string name="BUTTON_PLAY">Play</string>
+    <string name="BUTTON_UPGRADE">Upgrade</string>
+    <string name="TOS_LOCATION">"Ingress is a location based game.
+
+Your location is collected by Google while playing the game and will be visible to other users when you take certain actions in the game.
+"</string>
+    <string name="READ_THE_FULL_TOS">Read the full Terms of Service before accepting these terms and conditions.</string>
+    <string name="TOS_ACCEPT">I accept the Terms of Service for this app.</string>
+    <string name="TOS_PROMOTION">Send me Ingress-related news, offers, promotions and updates.</string>
+    <string name="ADA_CALL">"ADA: Do not be afraid.
+
+You have downloaded what you believe to be a game, but it is not.
+
+Exotic matter of unknown origin is seeping into our world.
+
+You must pick a side in the fight for our planet."</string>
+    <string name="INCOMING_MESSAGE">INCOMING MESSAGE</string>
+    <string name="ADA_CALL_ACCEPT">ACCEPT</string>
+    <string name="ADA_CALL_NEXT">NEXT</string>
+    <string name="ERROR_ESTABLISHING_SECURE_CONNECTION">Secure connection could not be established! Please try again.</string>
+    <string name="ERROR_UNAUTHENTICATED_USER">The account, %s, cannot be used. Please choose a different one.</string>
+    <string name="NEWS_OF_THE_DAY_TITLE">INGRESS NEWS</string>
+    <string name="NEWS_OF_THE_DAY_VIEW_POST">View Post</string>
+    <string name="JAILBROKEN_ERROR">OS integrity check failed.</string>
+    <string name="JAILBROKEN_RESULT">Ingress will not operate correctly.</string>
+    <string name="MISSIONS_FIELD_TRIP_READ_MORE">Read More</string>
+    <string name="ACHIEVEMENT_CONGRATULATIONS">Congratulations, you earned the %s achievement.</string>
+    <string name="APNS_L">Your portal %1$s is under attack by %2$s.</string>
+    <string name="APNS_P">Your portal %s is under attack.</string>
+    <string name="APNS_A">One of your portals is under attack by %s.</string>
+    <string name="APNS_NONE">One of your portals is under attack.</string>
+    <string name="APNS_N_L">Your portal %1$s neutralized by %2$s.</string>
+    <string name="APNS_N_P">Your portal %s neutralized.</string>
+    <string name="APNS_N_A">One of your portals neutralized by %s.</string>
+    <string name="APNS_N_NONE">One of your portals neutralized.</string>
+    <string name="APNS_M">%1$s is attacking your portals %2$s.</string>
+    <string name="APNS_N_M">%1$s neutralized your portals %2$s.</string>
+    <string name="ENTER">ENTER</string>
+    <string name="PROGRESS_CHECKING">Checking...</string>
+    <string name="HINT_ENTER_PASSPHRASE">Enter passphrase</string>
+    <string name="app_name">Ingress</string>
+    <string name="button_label_comm_panel">COMM</string>
+    <string name="title_mock_location_enabled">Warning</string>
+    <string name="message_mock_location_enabled">Mock locations disallowed. Please ensure it is disabled.</string>
+    <string name="message_mock_location_enabled_fallthrough">Mock locations disallowed. Please ensure that Settings > Developer Options > Allow Mock Locations is NOT enabled.</string>
+    <string name="label_mock_locations_positive_button">Disable…</string>
+    <string name="label_mock_locations_negative_button">Not now</string>
+    <string name="comms_filter_all">All</string>
+    <string name="comms_filter_alerts">Alerts</string>
+    <string name="comms_filter_faction">Faction</string>
+    <string name="comms_send_hint">Start broadcasting here</string>
+    <string name="progress_loading">Loading…</string>
+    <string name="portal_info_no_description">Portal information not available.</string>
+    <string name="startup_force_update">Your scanner is out of date. You must update to continue.</string>
+    <string name="label_share_to_super_ops">NIA Super Ops</string>
+    <string name="message_share_to_super_ops_no_location">This photo had no geolocation. Make sure your camera is set up for getting the location.</string>
+    <string name="no_location_enabled_title">Warning</string>
+    <string name="no_location_enabled_message">No location services are enabled. Please ensure one or more is enabled to continue.</string>
+    <string name="no_location_enabled_fallthrough_ics_message">Location services are not enabled. Please ensure that Settings > Location Services has location reporting enabled.</string>
+    <string name="no_location_enabled_fallthrough_gb_message">Location services are not enabled. Please ensure that Settings > Location &amp; Security has location reporting enabled.</string>
+    <string name="no_location_enabled_positive_button">Enable…</string>
+    <string name="no_location_enabled_negative_button">Not now</string>
+    <string name="action_add_account">Add account</string>
+    <string name="message_no_accounts">There are no accounts on the device.</string>
+    <string name="message_select_identity">Select your identity</string>
+    <string name="title_error">Error</string>
+    <string name="message_bazaar_not_installed">Bazaar is not installed. The application cannot update.</string>
+    <string name="subtitle_attribution_page">Sources</string>
+    <string name="message_share_to_super_ops_enter_portal_title">Enter title for portal</string>
+    <string name="hint_portal_title">Enter portal title</string>
+    <string name="message_must_provide_portal_title">Must provide portal title</string>
+    <string name="message_no_connectivity">No Data Connection.</string>
+    <string name="startup_boot_top">Booting Niantic software v%s…</string>
+    <string name="startup_boot_center" formatted="false">"
+ *
+ *
+ *
+ *
+ JMP 0x1F
+ POPL %ESI
+ MOVL %ESI,0x8(%ESI)
+ XORL %EAX,%EAX
+ MOVB %EAX,0x7(%ESI)
+ MOVL %EAX,0xC(%ESI)
+ MOVB $0xB,%AL
+ MOVL %ESI,%EBX
+ LEAL 0x8(%ESI),%ECX
+ *
+ *
+ *
+ *"</string>
+    <string name="version">v%s</string>
+    <string name="startup_nickname_persisted_id_confirmed">&lt;font color=\"#ffffff\">%s&lt;/font></string>
+    <string name="enter_passcode_hint">Enter passcode</string>
+    <string name="submit_passcode">Submit</string>
+    <string name="passcode_validating">Validating passcode…</string>
+    <string name="passcode_done">Done</string>
+    <string name="passcode_retry">Retry</string>
+    <string name="passcode_bad_url">Sorry. %s is a bad URL.</string>
+    <string name="label_comm_service">COMM Service</string>
+    <string name="message_comm_error_send_message">Cosmic rays blocked your last message.</string>
+    <string name="invites_remaining">%d Invites remaining</string>
+    <string name="invites_invite">Invite</string>
+    <string name="invites_invited">Invite sent</string>
+    <string name="invites_joined">Joined</string>
+    <string name="invites_enter_email">Enter an email address</string>
+    <string name="invites_error_retry">Error. Touch to retry</string>
+    <string name="invites_error_generic">Could not invite %s</string>
+    <string name="invites_error_already_activated">Could not invite %s: already joined</string>
+    <string name="invites_error_out_of_invites">Could not invite %s: out of invites</string>
+    <string name="invites_success">%s invited</string>
+    <string name="title_recruit">RECRUIT</string>
+    <string name="comm_empty_message_stream">No messages in range.</string>
+    <string name="range_filter_range_text_template">%skm</string>
+    <string name="range_filter_range_label">Range</string>
+    <string name="range_filter_local">Local</string>
+    <string name="range_filter_region">Region</string>
+    <string name="range_filter_global">Global</string>
+    <string name="range_filter_infinity">∞</string>
+    <string name="invite_redemption_message">Ingress requires an invitation to play.</string>
+    <string name="invite_redemption_message_prompt">Activation code:</string>
+    <string name="invite_redemption_activate_button_text">ACTIVATE</string>
+    <string name="invite_redemption_activate_failed">Activation code validation failed.</string>
+    <string name="credentials_problem_must_quit">This application requires authentication permissions but you have denied them. It must quit.</string>
+    <string name="portal_form_title">NEW PORTAL</string>
+    <string name="portal_form_edit_location">CONFIRM LOCATION:</string>
+    <string name="portal_form_name">NAME:</string>
+    <string name="portal_form_name_hint">Enter Portal Title</string>
+    <string name="portal_form_description">DESCRIPTION:</string>
+    <string name="portal_form_description_hint">Enter portal description.</string>
+    <string name="portal_form_attribution">by %1$s at %2$s</string>
+    <string name="portal_form_no_attribution">Submitted %s</string>
+    <string name="portal_form_attribution_default_nickname">Unknown</string>
+    <string name="ok">OK</string>
+    <string name="submit">SEND</string>
+    <string name="cancel">CANCEL</string>
+    <string name="location_picker_title">NEW PORTAL DISCOVERY</string>
+    <string name="location_picker_subtitle">SET PORTAL LOCATION:</string>
+    <string name="location_picker_title_correct">REPORT PROBLEM</string>
+    <string name="location_picker_subtitle_correct">CORRECT LOCATION:</string>
+    <string name="title_dialog_confirm_sync">Auto Sync Disabled</string>
+    <string name="message_dialog_confirm_sync">Auto-sync is required to upload portal discovery data. Would you like to open sync settings?</string>
+    <string name="location_required">Location required.</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="message_confirm_dialog_portal_discovery">Your %s has been submitted for review.</string>
+    <string name="message_dialog_portal_discovery_fail_too_big">Error: Portal images must be less than %d MB.</string>
+    <string name="title_confirm_submit_photo">NEW PORTAL IMAGE</string>
+    <string name="confirm_submit_photo_date">DATE: %s</string>
+    <string name="confirm_submit_photo_attribution">by %s</string>
+    <string name="new_photo">NEW PHOTO</string>
+    <string name="existing">EXISTING</string>
+    <string name="problem_type_bad_title">EDIT TITLE</string>
+    <string name="problem_type_bad_location">EDIT LOCATION</string>
+    <string name="problem_type_bad_description">ADD/EDIT DESCRIPTION</string>
+    <string name="problem_type_invalid">REPORT INVALID PORTAL</string>
+    <string name="report_a_problem">Report a problem</string>
+    <string name="message_enter_correct_title">ENTER CORRECT TITLE:</string>
+    <string name="message_enter_correct_description">ENTER CORRECT DESCRIPTION:</string>
+    <string name="title_previous_location">Previous location</string>
+    <string name="portal_discovery_submission_message_portal">Portal</string>
+    <string name="portal_discovery_submission_message_title">Portal Title</string>
+    <string name="portal_discovery_submission_message_description">Portal Description</string>
+    <string name="portal_discovery_submission_message_photo">Portal Photo</string>
+    <string name="portal_discovery_submission_message_location">Portal Location</string>
+    <string name="portal_discovery_submission_title_portal">Portal Submission</string>
+    <string name="portal_discovery_submission_title_title">Portal Title Submission</string>
+    <string name="portal_discovery_submission_title_description">Portal Description Submission</string>
+    <string name="portal_discovery_submission_title_photo">Portal Photo Submission</string>
+    <string name="portal_discovery_submission_title_location">Portal Location Submission</string>
+    <string name="message_unrecoverable_youtube_error">Sorry, this video cannot be played by Ingress.</string>
+    <string name="action_open_in_browser">Open in Browser</string>
+    <string name="portal_no_longer_exists">Portal no longer exists.</string>
+    <string name="multi_photo_error_retry">Error. Touch to retry.</string>
+    <string name="action_done">DONE</string>
+    <string name="hidden_count">+%d</string>
+    <string name="notification_silent">Silent</string>
+    <string name="notification_default">Default</string>
+    <string name="title_invite_accepted">Recruit activated</string>
+    <string name="title_achievement_unlocked">Achievement</string>
+    <string name="request_activation_code_touch_here">Touch here to request an activation code</string>
+    <string name="action_request">REQUEST</string>
+    <string name="request_activation_code_progress">Requesting Activation Code…</string>
+    <string name="request_activation_code_confirmed">An activation code will be sent to the following email address as soon as it becomes available:</string>
+    <string name="request_activation_code_failure">Failed to request activation code. Please try again later.</string>
+    <string name="report_invalid_portal_does_not_exist">Does not exist</string>
+    <string name="report_invalid_portal_location_not_safe">Not in a safe location</string>
+    <string name="report_invalid_portal_location_not_accessible">Not accessible to the public</string>
+    <string name="report_invalid_portal_duplicate">Duplicate of another Portal</string>
+    <string name="report_invalid_portal_other">Other:</string>
+    <string name="edit">EDIT</string>
+    <string name="add_description">ADD DESCRIPTION</string>
+    <string name="action_view_profile">View Player Profile</string>
+    <string name="action_send_message">Send Message</string>
+    <string name="action_mute">Block agent in COMM</string>
+    <string name="mute_confirm_message">Block messages from %s?</string>
+    <string name="mute_progress_message">Blocking Agent…</string>
+    <string name="mute_success_message">You will no longer receive COMM messages from %s.</string>
+    <string name="mute_confirm">CONFIRM</string>
+    <string name="mute_cancel">CANCEL</string>
+    <string name="toast_long_press_to_show_profile">Hint: Long press on an agent codename to view their profile.</string>
+    <string name="appwidget_regionscore_label">Ingress Regional Score</string>
+    <string name="status_loading_score">Loading Score…</string>
+    <string name="resistance_short">RES</string>
+    <string name="aliens_short">ENL</string>
+    <string name="score_placeholder">…</string>
+    <string name="next_checkpoint">next checkpoint</string>
+    <string name="time_to_next_cycle">%1$dhr cycle completes on %2$s %3$s</string>
+    <string name="title_share_image">Share</string>
+</resources>
