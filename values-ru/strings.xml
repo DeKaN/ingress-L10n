@@ -177,4 +177,188 @@
     <string name="NEWS_OF_THE_DAY_VIEW_POST">Посмотреть</string>
     <string name="JAILBROKEN_ERROR">Обнаружено нарушение целостности ОС.</string>
     <string name="JAILBROKEN_RESULT">Ingress будет работать нестабильно.</string>
+	<string name="MISSIONS_FIELD_TRIP_READ_MORE">Узнать больше</string>
+    <string name="ACHIEVEMENT_CONGRATULATIONS">Поздравляю, вы получили достижение %s.</string>
+    <string name="APNS_L">Ваш портал %1$s атакован %2$s.</string>
+    <string name="APNS_P">Ваш портал %s атакован.</string>
+    <string name="APNS_A">Один из ваших порталов атакован %s.</string>
+    <string name="APNS_NONE">Один из ваших порталов атакован.</string>
+    <string name="APNS_N_L">Ваш портал %1$s уничтожен %2$s.</string>
+    <string name="APNS_N_P">Ваш портал %s уничтожен.</string>
+    <string name="APNS_N_A">Один из ваших порталов уничтожен %s.</string>
+    <string name="APNS_N_NONE">Один из ваших порталов уничтожен.</string>
+    <string name="APNS_M">%1$s атакует ваши порталы %2$s.</string>
+    <string name="APNS_N_M">%1$s уничтожил ваши порталы %2$s.</string>
+    <string name="ENTER">ВВОД</string>
+    <string name="PROGRESS_CHECKING">Проверка...</string>
+    <string name="HINT_ENTER_PASSPHRASE">Введите ответ</string>
+    <string name="app_name">Ingress</string>
+    <string name="button_label_comm_panel">ЧАТ</string>
+    <string name="title_mock_location_enabled">Внимание</string>
+    <string name="message_mock_location_enabled">Фиктивные местоположения запрещены. Убедитесь, что они выключены.</string>
+    <string name="message_mock_location_enabled_fallthrough">Фиктивные местоположения запрещены. Убедитесь, что снята галочка Настройки -> Функции для разработчиков > Фиктивные местоположения.</string>
+    <string name="label_mock_locations_positive_button">Выключить…</string>
+    <string name="label_mock_locations_negative_button">Не сейчас</string>
+    <string name="comms_filter_all">Все</string>
+    <string name="comms_filter_alerts">Логи</string>
+    <string name="comms_filter_faction">Фракция</string>
+    <string name="comms_send_hint">Начните писать здесь</string>
+    <string name="progress_loading">Загрузка…</string>
+    <string name="portal_info_no_description">Информация о портале недоступна.</string>
+    <string name="startup_force_update">Ваш сканер устарел. Для продолжения необходимо обновиться.</string>
+    <string name="label_share_to_super_ops">NIA Super Ops</string>
+    <string name="message_share_to_super_ops_no_location">Это фото без геометки. Убедитесь, что в вашей камере включена запись геометок.</string>
+    <string name="no_location_enabled_title">Внимание</string>
+    <string name="no_location_enabled_message">Не найдено ни одного включенного источника местоположений. Для продолжения убедитесь, что включен один или более.</string>
+    <string name="no_location_enabled_fallthrough_ics_message">Location services are not enabled. Please ensure that Settings > Location Services has location reporting enabled.</string>
+    <string name="no_location_enabled_fallthrough_gb_message">Location services are not enabled. Please ensure that Settings > Location &amp; Security has location reporting enabled.</string>
+    <string name="no_location_enabled_positive_button">Включить…</string>
+    <string name="no_location_enabled_negative_button">Не сейчас</string>
+    <string name="action_add_account">Добавить</string>
+    <string name="message_no_accounts">На устройстве нет аккаунтов.</string>
+    <string name="message_select_identity">Выберите аккаунт</string>
+    <string name="title_error">Ошибка</string>
+    <string name="message_bazaar_not_installed">Bazaar is not installed. The application cannot update.</string>
+    <string name="subtitle_attribution_page">Sources</string>
+    <string name="message_share_to_super_ops_enter_portal_title">Введите название для портала</string>
+    <string name="hint_portal_title">Введите название портала</string>
+    <string name="message_must_provide_portal_title">Название портала обязательно</string>
+    <string name="message_no_connectivity">Нет соединения.</string>
+    <string name="startup_boot_top">Загрузка ПО Niantic v%s…</string>
+    <string name="startup_boot_center" formatted="false">"
+ *
+ *
+ *
+ *
+ JMP 0x1F
+ POPL %ESI
+ MOVL %ESI,0x8(%ESI)
+ XORL %EAX,%EAX
+ MOVB %EAX,0x7(%ESI)
+ MOVL %EAX,0xC(%ESI)
+ MOVB $0xB,%AL
+ MOVL %ESI,%EBX
+ LEAL 0x8(%ESI),%ECX
+ *
+ *
+ *
+ *"</string>
+    <string name="version">v%s</string>
+    <string name="startup_nickname_persisted_id_confirmed">&lt;font color=\"#ffffff\">%s&lt;/font></string>
+    <string name="enter_passcode_hint">Введите код</string>
+    <string name="submit_passcode">Отправить</string>
+    <string name="passcode_validating">Проверка кода…</string>
+    <string name="passcode_done">Готово</string>
+    <string name="passcode_retry">Повторить</string>
+    <string name="passcode_bad_url">Извините. %s - плохой URL.</string>
+    <string name="label_comm_service">Севис чата</string>
+    <string name="message_comm_error_send_message">Ваше последнее сообщение заблокировано космосом.</string>
+    <string name="invites_remaining">Осталось приглашений: %d</string>
+    <string name="invites_invite">Пригласить</string>
+    <string name="invites_invited">Приглашение отправлено</string>
+    <string name="invites_joined">Присоединился</string>
+    <string name="invites_enter_email">Введите email</string>
+    <string name="invites_error_retry">Ошибка. Нажмите для повтора</string>
+    <string name="invites_error_generic">Невозможно пригласить %s</string>
+    <string name="invites_error_already_activated">Невозможно пригласить %s (уже присоединился)</string>
+    <string name="invites_error_out_of_invites">Невозможно пригласить %s: (закончились приглашения)</string>
+    <string name="invites_success">Приглашено: %s</string>
+    <string name="title_recruit">ВЕРБОВКА</string>
+    <string name="comm_empty_message_stream">Нет сообщений в радиусе.</string>
+    <string name="range_filter_range_text_template">%sкм</string>
+    <string name="range_filter_range_label">Радиус</string>
+    <string name="range_filter_local">Местный</string>
+    <string name="range_filter_region">Регион</string>
+    <string name="range_filter_global">Глобальный</string>
+    <string name="range_filter_infinity">∞</string>
+    <string name="invite_redemption_message">Необходимо приглашение для игры в Ingress.</string>
+    <string name="invite_redemption_message_prompt">Код активации:</string>
+    <string name="invite_redemption_activate_button_text">АКТИВИРОВАТЬ</string>
+    <string name="invite_redemption_activate_failed">Не удалось проверить код активации.</string>
+    <string name="credentials_problem_must_quit">Этому приложению необходимы права на авторизацию, которую вы запретили.</string>
+    <string name="portal_form_title">НОВЫЙ ПОРТАЛ</string>
+    <string name="portal_form_edit_location">РАСПОЛОЖЕНИЕ:</string>
+    <string name="portal_form_name">НАЗВАНИЕ:</string>
+    <string name="portal_form_name_hint">Введите название для портала</string>
+    <string name="portal_form_description">ОПИСАНИЕ:</string>
+    <string name="portal_form_description_hint">Введите описание для портала.</string>
+    <string name="portal_form_attribution">%2$s от %1$s</string>
+    <string name="portal_form_no_attribution">Отправлен %s</string>
+    <string name="portal_form_attribution_default_nickname">Неизвестен</string>
+    <string name="ok">OK</string>
+    <string name="submit">ОТПРАВИТЬ</string>
+    <string name="cancel">ОТМЕНА</string>
+    <string name="location_picker_title">ПОИСК НОВОГО ПОРТАЛА</string>
+    <string name="location_picker_subtitle">УКАЗАТЬ РАСПОЛОЖЕНИЕ:</string>
+    <string name="location_picker_title_correct">СООБЩИТЬ О ПРОБЛЕМЕ</string>
+    <string name="location_picker_subtitle_correct">ПОПРАВИТЬ РАСПОЛОЖЕНИЕ:</string>
+    <string name="title_dialog_confirm_sync">Синхронизация выключена</string>
+    <string name="message_dialog_confirm_sync">Синхронизация необходима для загрузки данных портала. Открыть настройки синхронизации?</string>
+    <string name="location_required">Местоположение обязательно.</string>
+    <string name="action_yes">Да</string>
+    <string name="action_no">Нет</string>
+    <string name="message_confirm_dialog_portal_discovery">Ваше %s отправлено на проверку.</string>
+    <string name="message_dialog_portal_discovery_fail_too_big">Ошибка: фото портала должно быть менее %d Мб.</string>
+    <string name="title_confirm_submit_photo">НОВОЕ ФОТО ПОРТАЛА</string>
+    <string name="confirm_submit_photo_date">ДАТА: %s</string>
+    <string name="confirm_submit_photo_attribution">от %s</string>
+    <string name="new_photo">НОВОЕ ФОТО</string>
+    <string name="existing">ИМЕЮЩЕЕСЯ</string>
+    <string name="problem_type_bad_title">ИЗМЕНИТЬ НАЗВАНИЕ</string>
+    <string name="problem_type_bad_location">ИЗМЕНИТЬ РАСПОЛОЖЕНИЕ</string>
+    <string name="problem_type_bad_description">ИЗМЕНИТЬ ОПИСАНИЕ</string>
+    <string name="problem_type_invalid">ПОЖАЛОВАТЬСЯ НА ПОРТАЛ</string>
+    <string name="report_a_problem">Сообщить о проблеме</string>
+    <string name="message_enter_correct_title">ВВЕДИТЕ ПРАВИЛЬНОЕ НАЗВАНИЕ:</string>
+    <string name="message_enter_correct_description">ВВЕДИТЕ ПРАВИЛЬНОЕ ОПИСАНИЕ:</string>
+    <string name="title_previous_location">Предыдущее расположение</string>
+    <string name="portal_discovery_submission_message_portal">Портал</string>
+    <string name="portal_discovery_submission_message_title">Название портала</string>
+    <string name="portal_discovery_submission_message_description">Описание портала</string>
+    <string name="portal_discovery_submission_message_photo">Фото портала</string>
+    <string name="portal_discovery_submission_message_location">Расположение портала</string>
+    <string name="portal_discovery_submission_title_portal">Отправка портала</string>
+    <string name="portal_discovery_submission_title_title">Отправка названия портала</string>
+    <string name="portal_discovery_submission_title_description">Отправка описания портала</string>
+    <string name="portal_discovery_submission_title_photo">Отправка фото портала</string>
+    <string name="portal_discovery_submission_title_location">Отправка расположения портала</string>
+    <string name="message_unrecoverable_youtube_error">Это видео невозможно воспроизвести в Ingress.</string>
+    <string name="action_open_in_browser">Открыть в браузере</string>
+    <string name="portal_no_longer_exists">Портал не существует.</string>
+    <string name="multi_photo_error_retry">Ошибка. Нажмите для повтора.</string>
+    <string name="action_done">ГОТОВО</string>
+    <string name="hidden_count">+%d</string>
+    <string name="notification_silent">Выключено</string>
+    <string name="notification_default">По умолчанию</string>
+    <string name="title_invite_accepted">Вербовка активирована</string>
+    <string name="title_achievement_unlocked">Достижение</string>
+    <string name="request_activation_code_touch_here">Touch here to request an activation code</string>
+    <string name="action_request">ЗАПРОСИТЬ</string>
+    <string name="request_activation_code_progress">Запрос кода активации…</string>
+    <string name="request_activation_code_confirmed">Код активации будет отправлен на email, как только будет доступен:</string>
+    <string name="request_activation_code_failure">Ошибка запроса кода активации. Попробуйте позже.</string>
+    <string name="report_invalid_portal_does_not_exist">Не существует</string>
+    <string name="report_invalid_portal_location_not_safe">Опасное расположение</string>
+    <string name="report_invalid_portal_location_not_accessible">Не доступен</string>
+    <string name="report_invalid_portal_duplicate">Дублирует другой портал</string>
+    <string name="report_invalid_portal_other">Другое:</string>
+    <string name="edit">ПРАВКА</string>
+    <string name="add_description">ДОБАВИТЬ ОПИСАНИЕ</string>
+    <string name="action_view_profile">Посмотреть профиль</string>
+    <string name="action_send_message">Написать</string>
+    <string name="action_mute">Заблокировать в чате</string>
+    <string name="mute_confirm_message">Блокировать сообщения от %s?</string>
+    <string name="mute_progress_message">Блокируем…</string>
+    <string name="mute_success_message">Вы больше не будете видеть сообщения от %s в чате.</string>
+    <string name="mute_confirm">ПОДТВЕРДИТЬ</string>
+    <string name="mute_cancel">ОТМЕНА</string>
+    <string name="toast_long_press_to_show_profile">Подсказка: Зажмите на нике агента для просмотра профиля.</string>
+    <string name="appwidget_regionscore_label">Региональный счет Ingress</string>
+    <string name="status_loading_score">Загрузка счета…</string>
+    <string name="resistance_short">RES</string>
+    <string name="aliens_short">ENL</string>
+    <string name="score_placeholder">…</string>
+    <string name="next_checkpoint">следующая точка</string>
+    <string name="time_to_next_cycle">%1$dч, цикл закончится в %2$s %3$s</string>
+    <string name="title_share_image">Поделиться</string>
 </resources>
