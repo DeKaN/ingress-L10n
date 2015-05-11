@@ -15,10 +15,4 @@
     <string name="common_google_play_services_update_button">Абнавіць</string>
     <string name="common_signin_button_text">Увайсцi</string>
     <string name="common_signin_button_text_long">Увайсці ў Google</string>
-    <string name="auth_client_using_bad_version_title">Прыкладанне паспрабавала скарыстацца сапсаванай версіяй службаў Google Play.</string>
-    <string name="auth_client_needs_enabling_title">Прыкладанне патрабуе ўключэння службаў Google Play.</string>
-    <string name="auth_client_needs_installation_title">Прыкладанне патрабуе ўсталявання службаў Google Play.</string>
-    <string name="auth_client_needs_update_title">Прыкладанне патрабуе абнаўлення службаў Google Play.</string>
-    <string name="auth_client_play_services_err_notification_msg">Памылка службаў Google Play</string>
-    <string name="auth_client_requested_by_msg">Запытана прыкладаннем %1$s</string>
 </resources>

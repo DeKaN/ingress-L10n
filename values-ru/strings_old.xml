@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Установите Сервисы Google Play</string>
+    <string name="common_google_play_services_install_text_phone">Для работы этого приложения требуется установить Сервисы Google Play.</string>
+    <string name="common_google_play_services_install_text_tablet">Для работы этого приложения требуется установить Сервисы Google Play.</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_enable_title">Включите Сервисы Google Play</string>
+    <string name="common_google_play_services_enable_text">Для работы этого приложения требуется включить Сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_update_title">Обновите Сервисы Google Play</string>
+    <string name="common_google_play_services_update_text">Для работы этого приложения требуется обновить Сервисы Google Play.</string>
+    <string name="common_google_play_services_network_error_title">Ошибка сети</string>
+    <string name="common_google_play_services_network_error_text">Для работы с Google Play требуется подключение к сети.</string>
+    <string name="common_google_play_services_invalid_account_title">Недействительный аккаунт</string>
+    <string name="common_google_play_services_invalid_account_text">Этого аккаунта нет на устройстве. Выберите другой.</string>
+    <string name="common_google_play_services_unknown_issue">Неизвестная ошибка с Сервисами Google Play.</string>
+    <string name="common_google_play_services_unsupported_title">Сервисы Google Play</string>
+    <string name="common_google_play_services_unsupported_text">Сервисы Google Play, необходимые для работы некоторых приложений, не поддерживаются на вашем устройстве. Обратитесь к производителю.</string>
+    <string name="common_google_play_services_unsupported_date_text">Проверьте правильность даты, указанной на устройстве.</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти в аккаунт Google</string>
+    <string name="auth_client_using_bad_version_title">Версия сервисов Google Play неисправна</string>
+    <string name="auth_client_needs_enabling_title">Для работы приложения требуется включить сервисы Google Play</string>
+    <string name="auth_client_needs_installation_title">Для работы приложения требуется установить сервисы Google Play</string>
+    <string name="auth_client_needs_update_title">Для работы приложения требуется обновить сервисы Google Play</string>
+    <string name="auth_client_play_services_err_notification_msg">Ошибка сервисов Google Play</string>
+    <string name="auth_client_requested_by_msg">Запрос от приложения \"%1$s\"</string>
+    <string name="SMS_WELL_DONE">Отлично, %s! Пора стать доверенным агентом.</string>
+    <string name="SMS_ACTION_FAIL">Вы можете разблокировать действие \"%s\", став доверенным агентом.</string>
+    <string name="SMS_VERIFY_NOW_LEVEL_UP">Чтобы перейти на уровень выше, свяжитесь с игроком %s.</string>
+    <string name="SMS_VERIFY_NOW">Подтвердите личность, связавшись с игроком %s.</string>
+    <string name="VERIFY">ПОДТВЕРДИТЬ</string>
+    <string name="LATER">ПОЗЖЕ</string>
+    <string name="SMS_PHONE_NUMBER_USE">Этот номер телефона будет использован только для подтверждения данных.</string>
+    <string name="SMS_DISCLAIMER">*Действуют стандартные тарифы оператора связи.</string>
+    <string name="SMS_ENTER_NUMBER">Введите номер телефона:</string>
+    <string name="SMS_REQUEST_VIA">Запросить код подтверждения через:</string>
+    <string name="SMS">SMS</string>
+    <string name="VOICE">ЗВОНОК</string>
+    <string name="SMS_ERROR_NUMBER_FORMAT">Неверный формат телефонного номера.</string>
+    <string name="SMS_ERROR_VERIFIED_ALREADY">Ваша личность уже подтверждена.</string>
+    <string name="SMS_ERROR_BAD_PHONE_NUMBER">Не удалось запросить код подтверждения. Неверный номер телефона.</string>
+    <string name="SMS_ERROR_INVALID_PHONE_NUMBER">Указанный номер телефона нельзя использовать в запросе на код подтверждения.</string>
+    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">Не удалось запросить код подтверждения. Попробуйте подтвердить с помощью SMS.</string>
+    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">Не удалось запросить код подтверждения. Попробуйте подтвердить с помощью звонка.</string>
+    <string name="SMS_ERROR_INVALID_VERIFICATION">Произошла внутренняя ошибка подтверждения.</string>
+    <string name="SMS_ERROR_VERIFICATION_BUSY">Идет проверка.</string>
+    <string name="SMS_ERROR_REQUEST_BUSY">Запрос на подтверждение обрабатывается.</string>
+    <string name="SMS_ERROR_SERVICE_ERROR">Отправка кода подтверждения невозможна.</string>
+    <string name="SMS_ERROR_PIN_MISMATCH">Неверный код. Введите правильный код подтверждения.</string>
+    <string name="SMS_ERROR_PIN_EXPIRED">Время действия кода истекло. Запросите новый код.</string>
+    <string name="SMS_ERROR_QUOTA_REACHED">Не удалось запросить код подтверждения. Достигнут лимит запросов для данного номера телефона.</string>
+    <string name="SMS_ERROR_RETRY_IN_1_MINUTE">Сервер перегружен. Повторите попытку через 1 минуту.</string>
+    <string name="SMS_ERROR_RETRY_IN_5_MINUTES">Сервер перегружен. Повторите попытку через 5 минут.</string>
+    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">Сервер перегружен. Повторите попытку через 15 минут.</string>
+    <string name="SMS_ERROR_RETRY_LATER">Сервер перегружен. Повторите попытку позже.</string>
+    <string name="SMS_ERROR_SERVER_ERROR">Ошибка сервера.</string>
+    <string name="SMS_REQUESTING">Обработка...</string>
+    <string name="SMS_VERIFYING">Проверка...</string>
+    <string name="SMS_CODE_SENT">Код отправлен.</string>
+    <string name="SMS_TAP_INSTRUCTION">Получив код, нажмите на значок подтверждения.</string>
+    <string name="SMS_ENTER_CODE">ВВЕСТИ КОД</string>
+    <string name="SMS_ENTER_YOUR_N_DIGIT">Введите %d-значный код:</string>
+    <string name="SMS_NEED_A_NEW">Запросить новый код?</string>
+    <string name="REQUEST">ЗАПРОСИТЬ</string>
+    <string name="again">ещё раз</string>
+    <string name="SMS_CODE_VALID">"Код действителен.
+Теперь вы доверенный агент."</string>
+    <string name="DONE">ГОТОВО</string>
+    <string name="DROP">БРОСИТЬ</string>
+    <string name="JARVIS">JARVIS</string>
+    <string name="ADA">ADA</string>
+    <string name="TUTORIALS_AGENT_HACKING_PORTALS">В роли агента вы можете собирать предметы, взламывая Порталы.</string>
+    <string name="TUTORIALS_ATTACK_THE_ENEMY">Атакуйте Портал противника.</string>
+    <string name="TUTORIALS_DEPLOY_RESONATORS">Установите Резонаторы, чтобы заряжать энергией дружественные Порталы.</string>
+    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">Обнаружен пустой слот Резонатора. Перейдите в зону действия, чтобы освоить команду УСТАНОВИТЬ.</string>
+    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">Обнаружен вражеский Портал. Перейдите в зону действий, чтобы освоить команду ОГОНЬ.</string>
+    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">Икс-материя (XM) заряжает сканер энергией.</string>
+    <string name="TUTORIALS_EXPLORE_THE_WORLD">Исследуйте окрестности, чтобы находить новые Порталы. Взламывайте их и пополняйте запасы. Захватывайте Порталы для своей фракции.</string>
+    <string name="TUTORIALS_FIRE_XMPS">Используйте XMP для уничтожения вражеских Порталов.</string>
+    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">Собирайте предметы при помощи ВЗЛОМА Порталов.</string>
+    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">Чтобы использовать сканер, вам нужно ХОДИТЬ.</string>
+    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">Порталы – это места, где икс-материя просачивается в наш мир.</string>
+    <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">Порталы часто встречаются около достопримечательностей и исторических мест.</string>
+    <string name="TUTORIALS_PORTAL_DETECTED">Обнаружен Портал. Перейдите в зону действия.</string>
+    <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">Вы получили Резонатор и XMP.</string>
+    <string name="TUTORIALS_TAP_PORTAL">Нажмите на Портал, чтобы взаимодействовать с ним.</string>
+    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">Нажмите, чтобы настроить аватар.</string>
+    <string name="TUTORIALS_THE_TRIANGLE_REPRESENTS_YOUR_LOCATION">Треугольник обозначает ваше местоположение.</string>
+    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">Это карта сканера.</string>
+    <string name="TUTORIALS_TO_AUTO_DEPLOY">Для автоматической установки нажмите \"%s\". Также можно выбрать пустой слот.</string>
+    <string name="TUTORIALS_TO_FIRE_XMP">Чтобы начать обстрел, нажмите на карту и выберите \"%s\".</string>
+    <string name="TUTORIALS_TRAINING_COMPLETE">Обучение завершено!</string>
+    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">Прогуливайтесь по окрестностям, чтобы собирать икс-материю.</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">Добро пожаловать в Ingress.</string>
+    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">Вы можете вступать в контакт с объектами в своей области действия.</string>
+    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">Ваша задача – захватывать Порталы для своей фракции. Цвет Портала показывает, какая фракция его контролирует.</string>
+    <string name="TUTORIAL_GO_HACK">Подойдите к Порталу и взломайте его.</string>
+    <string name="SIGNIN_TITLE">Чтобы начать игру, войдите в систему.</string>
+    <string name="GAME_INTRO_TEXT">"Не так давно в ходе исследования бозона Хиггса сотрудники института ЦЕРН обнаружили новое вещество – икс-материю (XM).
+
+Удивительно, но икс-материя проявляет признаки упорядоченности и даже разума.
+
+Более того, в крупных объемах эта субстанция может влиять на мысли человека и даже управлять ими.
+
+Тот, кто контролирует икс-материю, определяет будущее человечества."</string>
+    <string name="SIGNIN_MESSAGE">"Мир в опасности!
+
+Присоединяйтесь к борьбе. Войдите в игру через защищенный аккаунт Google.
+
+Пора действовать!"</string>
+    <string name="SIGNIN_BUTTON">Войти с помощью Google</string>
+    <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">Произошла ошибка. Повторите попытку:</string>
+    <string name="MESSAGE_CHOOSE_FACTION">Выберите фракцию:</string>
+    <string name="MESSAGE_CHOOSE_CAREFULLY">Хорошо обдумайте свой выбор. Отменить его будет невозможно.</string>
+    <string name="MESSAGE_CONFIRM_CHOICE">Вы выбрали фракцию \"%s\".</string>
+    <string name="THE_RESISTANCE">Сопротивление</string>
+    <string name="THE_ENLIGHTENED">Просвещенные</string>
+    <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s является членом этой фракции]</string>
+    <string name="HUMANIST_DESCRIPTION">Участники Сопротивления противостоят силам, которые намерены поработить человечество с помощью икс-материи.</string>
+    <string name="ENLIGHTENED_DESCRIPTION">Просвещенные хотят использовать икс-материю для того, чтобы вывести человечество на более высокий уровень развития.</string>
+    <string name="CANCEL">ОТМЕНА</string>
+    <string name="CONFIRM">ПОДТВЕРДИТЬ</string>
+    <string name="NICKNAME_PROMPT_RETRY">Введите другое кодовое имя.</string>
+    <string name="NICKNAME_PROMPT_TOP">"Сервер Niantic подключен.
+
+Получено сообщение.
+Открываем защищенный канал..."</string>
+    <string name="NICKNAME_PROMPT_BOTTOM">"Придумайте кодовое имя, под которым вас будут знать другие агенты.
+
+Введите кодовое имя."</string>
+    <string name="BUTTON_TRANSMIT">Передать</string>
+    <string name="TITLE_NICKNAME_PROMPT_DIALOG">Введите кодовое имя:</string>
+    <string name="NICKNAME_ERROR_WHILE_CREATING">Не удалось зарегистрировать кодовое имя.</string>
+    <string name="NICKNAME_ERROR_WHILE_VALIDATING">Не удалось проверить кодовое имя.</string>
+    <string name="NICKNAME_ERROR_ALREADY_SET">Кодовое имя уже выбрано.</string>
+    <string name="NICKNAME_ERROR_BAD_WORDS">Недопустимое кодовое имя.</string>
+    <string name="NICKNAME_ERROR_INVALID_CHARS">Кодовое имя содержит недопустимые символы.</string>
+    <string name="NICKNAME_ERROR_TOO_SHORT">Слишком короткое кодовое имя.</string>
+    <string name="NICKNAME_ERROR_TOO_LONG">Слишком длинное кодовое имя.</string>
+    <string name="NICKNAME_ERROR_NOT_UNIQUE">Кодовое имя занято.</string>
+    <string name="ACTION_SKIP">ПРОПУСТИТЬ</string>
+    <string name="ACTION_RETRY">ПОВТОРИТЬ</string>
+    <string name="PROGRESS_VALIDATING_CODENAME">Проверка кодового имени...</string>
+    <string name="PROGRESS_CREATING_CODENAME">Создание кодового имени...</string>
+    <string name="NICKNAME_VALIDATE_MESSAGE">Кодовое имя можно использовать. Подтвердите его.</string>
+    <string name="NICKNAME_ID_CONFIRMED">"Создание ключей шифрования...
+
+Идентификатор подтвержден."</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"Доступ открыт.
+Программа инициирована..."</string>
+    <string name="BUTTON_QUIT">ВЫЙТИ</string>
+    <string name="RECOMMENDED_SCANNER_UPDATE">Ваш сканер Ingress устарел. Советуем обновить его.</string>
+    <string name="BUTTON_PLAY">Играть</string>
+    <string name="BUTTON_UPGRADE">Обновить</string>
+    <string name="TOS_LOCATION">"Ingress – это игра, в которой используются геоданные участников.
+
+Ваше местоположение определяется Google в процессе игры и становится известным другим игрокам, когда вы предпринимаете определенные действия.
+"</string>
+    <string name="READ_THE_FULL_TOS">Изучите полную версию Условий использования, прежде чем принимать условия участия в игре.</string>
+    <string name="TOS_ACCEPT">Я принимаю Условия использования этого приложения</string>
+    <string name="TOS_PROMOTION">Я хочу получать новости, предложения и бонусы, связанные с Ingress</string>
+    <string name="ADA_CALL">"ADA: Не пугайтесь!
+
+Вы полагали, что загружаете всего лишь игру, но это не так.
+
+Икс-материя – энергия неизвестного происхождения – проникает в наш мир.
+
+Вы должны выбрать, на чьей стороне сражаться за нашу планету."</string>
+    <string name="INCOMING_MESSAGE">ВХОДЯЩЕЕ СООБЩЕНИЕ</string>
+    <string name="ADA_CALL_ACCEPT">ПРИНЯТЬ</string>
+    <string name="ADA_CALL_NEXT">ДАЛЕЕ</string>
+    <string name="ERROR_ESTABLISHING_SECURE_CONNECTION">Невозможно установить защищенное соединение. Повторите попытку.</string>
+    <string name="ERROR_UNAUTHENTICATED_USER">Аккаунт %s недоступен. Выберите другой аккаунт.</string>
+    <string name="NEWS_OF_THE_DAY_TITLE">НОВОСТИ INGЯESS</string>
+    <string name="NEWS_OF_THE_DAY_VIEW_POST">Посмотреть</string>
+    <string name="JAILBROKEN_ERROR">Обнаружено нарушение целостности ОС.</string>
+    <string name="JAILBROKEN_RESULT">Ingress будет работать нестабильно.</string>
+	<string name="MISSIONS_FIELD_TRIP_READ_MORE">Узнать больше</string>
+    <string name="ACHIEVEMENT_CONGRATULATIONS">Поздравляю, вы получили достижение %s.</string>
+    <string name="APNS_L">Ваш портал %1$s атакован %2$s.</string>
+    <string name="APNS_P">Ваш портал %s атакован.</string>
+    <string name="APNS_A">Один из ваших порталов атакован %s.</string>
+    <string name="APNS_NONE">Один из ваших порталов атакован.</string>
+    <string name="APNS_N_L">Ваш портал %1$s уничтожен %2$s.</string>
+    <string name="APNS_N_P">Ваш портал %s уничтожен.</string>
+    <string name="APNS_N_A">Один из ваших порталов уничтожен %s.</string>
+    <string name="APNS_N_NONE">Один из ваших порталов уничтожен.</string>
+    <string name="APNS_M">%1$s атакует ваши порталы %2$s.</string>
+    <string name="APNS_N_M">%1$s уничтожил ваши порталы %2$s.</string>
+    <string name="ENTER">ВВОД</string>
+    <string name="PROGRESS_CHECKING">Проверка...</string>
+    <string name="HINT_ENTER_PASSPHRASE">Введите ответ</string>
+    <string name="app_name">Ingress</string>
+    <string name="button_label_comm_panel">ЧАТ</string>
+    <string name="title_mock_location_enabled">Внимание</string>
+    <string name="message_mock_location_enabled">Фиктивные местоположения запрещены. Убедитесь, что они выключены.</string>
+    <string name="message_mock_location_enabled_fallthrough">Фиктивные местоположения запрещены. Убедитесь, что снята галочка Настройки -> Функции для разработчиков > Фиктивные местоположения.</string>
+    <string name="label_mock_locations_positive_button">Выключить…</string>
+    <string name="label_mock_locations_negative_button">Не сейчас</string>
+    <string name="comms_filter_all">Все</string>
+    <string name="comms_filter_alerts">Логи</string>
+    <string name="comms_filter_faction">Фракция</string>
+    <string name="comms_send_hint">Начните писать здесь</string>
+    <string name="progress_loading">Загрузка…</string>
+    <string name="portal_info_no_description">Информация о портале недоступна.</string>
+    <string name="startup_force_update">Ваш сканер устарел. Для продолжения необходимо обновиться.</string>
+    <string name="label_share_to_super_ops">NIA Super Ops</string>
+    <string name="message_share_to_super_ops_no_location">Это фото без геометки. Убедитесь, что в вашей камере включена запись геометок.</string>
+    <string name="no_location_enabled_title">Внимание</string>
+    <string name="no_location_enabled_message">Не найдено ни одного включенного источника местоположений. Для продолжения убедитесь, что включен один или более.</string>
+    <string name="no_location_enabled_fallthrough_ics_message">Location services are not enabled. Please ensure that Settings > Location Services has location reporting enabled.</string>
+    <string name="no_location_enabled_fallthrough_gb_message">Location services are not enabled. Please ensure that Settings > Location &amp; Security has location reporting enabled.</string>
+    <string name="no_location_enabled_positive_button">Включить…</string>
+    <string name="no_location_enabled_negative_button">Не сейчас</string>
+    <string name="action_add_account">Добавить</string>
+    <string name="message_no_accounts">На устройстве нет аккаунтов.</string>
+    <string name="message_select_identity">Выберите аккаунт</string>
+    <string name="title_error">Ошибка</string>
+    <string name="message_bazaar_not_installed">Bazaar is not installed. The application cannot update.</string>
+    <string name="subtitle_attribution_page">Sources</string>
+    <string name="message_share_to_super_ops_enter_portal_title">Введите название для портала</string>
+    <string name="hint_portal_title">Введите название портала</string>
+    <string name="message_must_provide_portal_title">Название портала обязательно</string>
+    <string name="message_no_connectivity">Нет соединения.</string>
+    <string name="startup_boot_top">Загрузка ПО Niantic v%s…</string>
+    <string name="startup_boot_center" formatted="false">"
+ *
+ *
+ *
+ *
+ JMP 0x1F
+ POPL %ESI
+ MOVL %ESI,0x8(%ESI)
+ XORL %EAX,%EAX
+ MOVB %EAX,0x7(%ESI)
+ MOVL %EAX,0xC(%ESI)
+ MOVB $0xB,%AL
+ MOVL %ESI,%EBX
+ LEAL 0x8(%ESI),%ECX
+ *
+ *
+ *
+ *"</string>
+    <string name="version">v%s</string>
+    <string name="startup_nickname_persisted_id_confirmed">&lt;font color=\"#ffffff\">%s&lt;/font></string>
+    <string name="enter_passcode_hint">Введите код</string>
+    <string name="submit_passcode">Отправить</string>
+    <string name="passcode_validating">Проверка кода…</string>
+    <string name="passcode_done">Готово</string>
+    <string name="passcode_retry">Повторить</string>
+    <string name="passcode_bad_url">Извините. %s - плохой URL.</string>
+    <string name="label_comm_service">Севис чата</string>
+    <string name="message_comm_error_send_message">Ваше последнее сообщение заблокировано космосом.</string>
+    <string name="invites_remaining">Осталось приглашений: %d</string>
+    <string name="invites_invite">Пригласить</string>
+    <string name="invites_invited">Приглашение отправлено</string>
+    <string name="invites_joined">Присоединился</string>
+    <string name="invites_enter_email">Введите email</string>
+    <string name="invites_error_retry">Ошибка. Нажмите для повтора</string>
+    <string name="invites_error_generic">Невозможно пригласить %s</string>
+    <string name="invites_error_already_activated">Невозможно пригласить %s (уже присоединился)</string>
+    <string name="invites_error_out_of_invites">Невозможно пригласить %s: (закончились приглашения)</string>
+    <string name="invites_success">Приглашено: %s</string>
+    <string name="title_recruit">ВЕРБОВКА</string>
+    <string name="comm_empty_message_stream">Нет сообщений в радиусе.</string>
+    <string name="range_filter_range_text_template">%sкм</string>
+    <string name="range_filter_range_label">Радиус</string>
+    <string name="range_filter_local">Местный</string>
+    <string name="range_filter_region">Регион</string>
+    <string name="range_filter_global">Глобальный</string>
+    <string name="range_filter_infinity">∞</string>
+    <string name="invite_redemption_message">Необходимо приглашение для игры в Ingress.</string>
+    <string name="invite_redemption_message_prompt">Код активации:</string>
+    <string name="invite_redemption_activate_button_text">АКТИВИРОВАТЬ</string>
+    <string name="invite_redemption_activate_failed">Не удалось проверить код активации.</string>
+    <string name="credentials_problem_must_quit">Этому приложению необходимы права на авторизацию, которую вы запретили.</string>
+    <string name="portal_form_title">НОВЫЙ ПОРТАЛ</string>
+    <string name="portal_form_edit_location">РАСПОЛОЖЕНИЕ:</string>
+    <string name="portal_form_name">НАЗВАНИЕ:</string>
+    <string name="portal_form_name_hint">Введите название для портала</string>
+    <string name="portal_form_description">ОПИСАНИЕ:</string>
+    <string name="portal_form_description_hint">Введите описание для портала.</string>
+    <string name="portal_form_attribution">%2$s от %1$s</string>
+    <string name="portal_form_no_attribution">Отправлен %s</string>
+    <string name="portal_form_attribution_default_nickname">Неизвестен</string>
+    <string name="ok">OK</string>
+    <string name="submit">ОТПРАВИТЬ</string>
+    <string name="cancel">ОТМЕНА</string>
+    <string name="location_picker_title">ПОИСК НОВОГО ПОРТАЛА</string>
+    <string name="location_picker_subtitle">УКАЗАТЬ РАСПОЛОЖЕНИЕ:</string>
+    <string name="location_picker_title_correct">СООБЩИТЬ О ПРОБЛЕМЕ</string>
+    <string name="location_picker_subtitle_correct">ПОПРАВИТЬ РАСПОЛОЖЕНИЕ:</string>
+    <string name="title_dialog_confirm_sync">Синхронизация выключена</string>
+    <string name="message_dialog_confirm_sync">Синхронизация необходима для загрузки данных портала. Открыть настройки синхронизации?</string>
+    <string name="location_required">Местоположение обязательно.</string>
+    <string name="action_yes">Да</string>
+    <string name="action_no">Нет</string>
+    <string name="message_confirm_dialog_portal_discovery">Ваше %s отправлено на проверку.</string>
+    <string name="message_dialog_portal_discovery_fail_too_big">Ошибка: фото портала должно быть менее %d Мб.</string>
+    <string name="title_confirm_submit_photo">НОВОЕ ФОТО ПОРТАЛА</string>
+    <string name="confirm_submit_photo_date">ДАТА: %s</string>
+    <string name="confirm_submit_photo_attribution">от %s</string>
+    <string name="new_photo">НОВОЕ ФОТО</string>
+    <string name="existing">ИМЕЮЩЕЕСЯ</string>
+    <string name="problem_type_bad_title">ИЗМЕНИТЬ НАЗВАНИЕ</string>
+    <string name="problem_type_bad_location">ИЗМЕНИТЬ РАСПОЛОЖЕНИЕ</string>
+    <string name="problem_type_bad_description">ИЗМЕНИТЬ ОПИСАНИЕ</string>
+    <string name="problem_type_invalid">ПОЖАЛОВАТЬСЯ НА ПОРТАЛ</string>
+    <string name="report_a_problem">Сообщить о проблеме</string>
+    <string name="message_enter_correct_title">ВВЕДИТЕ ПРАВИЛЬНОЕ НАЗВАНИЕ:</string>
+    <string name="message_enter_correct_description">ВВЕДИТЕ ПРАВИЛЬНОЕ ОПИСАНИЕ:</string>
+    <string name="title_previous_location">Предыдущее расположение</string>
+    <string name="portal_discovery_submission_message_portal">Портал</string>
+    <string name="portal_discovery_submission_message_title">Название портала</string>
+    <string name="portal_discovery_submission_message_description">Описание портала</string>
+    <string name="portal_discovery_submission_message_photo">Фото портала</string>
+    <string name="portal_discovery_submission_message_location">Расположение портала</string>
+    <string name="portal_discovery_submission_title_portal">Отправка портала</string>
+    <string name="portal_discovery_submission_title_title">Отправка названия портала</string>
+    <string name="portal_discovery_submission_title_description">Отправка описания портала</string>
+    <string name="portal_discovery_submission_title_photo">Отправка фото портала</string>
+    <string name="portal_discovery_submission_title_location">Отправка расположения портала</string>
+    <string name="message_unrecoverable_youtube_error">Это видео невозможно воспроизвести в Ingress.</string>
+    <string name="action_open_in_browser">Открыть в браузере</string>
+    <string name="portal_no_longer_exists">Портал не существует.</string>
+    <string name="multi_photo_error_retry">Ошибка. Нажмите для повтора.</string>
+    <string name="action_done">ГОТОВО</string>
+    <string name="hidden_count">+%d</string>
+    <string name="notification_silent">Выключено</string>
+    <string name="notification_default">По умолчанию</string>
+    <string name="title_invite_accepted">Вербовка активирована</string>
+    <string name="title_achievement_unlocked">Достижение</string>
+    <string name="request_activation_code_touch_here">Touch here to request an activation code</string>
+    <string name="action_request">ЗАПРОСИТЬ</string>
+    <string name="request_activation_code_progress">Запрос кода активации…</string>
+    <string name="request_activation_code_confirmed">Код активации будет отправлен на email, как только будет доступен:</string>
+    <string name="request_activation_code_failure">Ошибка запроса кода активации. Попробуйте позже.</string>
+    <string name="report_invalid_portal_does_not_exist">Не существует</string>
+    <string name="report_invalid_portal_location_not_safe">Опасное расположение</string>
+    <string name="report_invalid_portal_location_not_accessible">Не доступен</string>
+    <string name="report_invalid_portal_duplicate">Дублирует другой портал</string>
+    <string name="report_invalid_portal_other">Другое:</string>
+    <string name="edit">ПРАВКА</string>
+    <string name="add_description">ДОБАВИТЬ ОПИСАНИЕ</string>
+    <string name="action_view_profile">Посмотреть профиль</string>
+    <string name="action_send_message">Написать</string>
+    <string name="action_mute">Заблокировать в чате</string>
+    <string name="mute_confirm_message">Блокировать сообщения от %s?</string>
+    <string name="mute_progress_message">Блокируем…</string>
+    <string name="mute_success_message">Вы больше не будете видеть сообщения от %s в чате.</string>
+    <string name="mute_confirm">ПОДТВЕРДИТЬ</string>
+    <string name="mute_cancel">ОТМЕНА</string>
+    <string name="toast_long_press_to_show_profile">Подсказка: Зажмите на нике агента для просмотра профиля.</string>
+    <string name="appwidget_regionscore_label">Региональный счет Ingress</string>
+    <string name="status_loading_score">Загрузка счета…</string>
+    <string name="resistance_short">RES</string>
+    <string name="aliens_short">ENL</string>
+    <string name="score_placeholder">…</string>
+    <string name="next_checkpoint">следующая точка</string>
+    <string name="time_to_next_cycle">%1$dч, цикл закончится в %2$s %3$s</string>
+    <string name="title_share_image">Поделиться</string>
+</resources>
