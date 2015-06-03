@@ -454,6 +454,7 @@ You must pick a side in the fight for our planet."</string>
     <string name="ENUM_MAP_STATS_MODIFIER_ATTACK_FREQUENCY">Attack Frequency</string>
     <string name="STATS_MODIFIER_MITIGATION_DISPLAY_NAME">Shielding</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_CAPSULE">Capsule</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_INTEREST_CAPSULE">MUFG Capsule</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMITTER_A">Resonator</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">Xmp Burster</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EXTRA_SHIELD">AXA Shield</string>
@@ -722,6 +723,7 @@ CALCULATING FINAL RESULTS…"</string>
     <string name="MISSIONS_MISSION_BUTTON_START">START</string>
     <string name="MISSIONS_MISSION_BUTTON_ABORT">ABORT</string>
     <string name="MISSIONS_MISSION_BUTTON_RATE">RATE</string>
+    <string name="MISSIONS_MISSION_BUTTON_MAP">MAP</string>
     <string name="MISSIONS_MISSION_CHECKBOX_HIDE_UI">Hide Mission Prompts</string>
     <string name="MISSIONS_AGENTS_PLAYED">%s completed</string>
     <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">Could not obtain waypoint fix.</string>
@@ -908,7 +910,8 @@ The Shapers are attempting to establish Fields as well through which they intend
     <string name="PICK_UP_RESOURCE_ACQUIRE">ACQUIRE</string>
     <string name="PICK_UP_RESOURCE_DISABLE_BUSY">Acquiring…</string>
     <string name="PICK_UP_RESOURCE_DISABLE_LOCATION">Inaccurate Location</string>
-    <string name="ITEM_DESCRIPTION_CAPSULE">A Capsule is a storage container that can hold other objects.</string>
+    <string name="ITEM_DESCRIPTION_CAPSULE">A storage container that can hold other objects.</string>
+    <string name="ITEM_DESCRIPTION_INTEREST_CAPSULE">A storage container that can hold other objects and cause them to multiply over time.</string>
     <string name="ITEM_DESCRIPTION_EMITTER_A">XM object used to power-up a Portal and align it to a Faction.</string>
     <string name="ITEM_DESCRIPTION_EMP_BURSTER">Exotic Matter Pulse weapons which can destroy enemy Resonators and Mods and neutralize enemy Portals.</string>
     <string name="ITEM_DESCRIPTION_EXTRA_SHIELD">Ultra high powered protective shield for Portals.</string>

@@ -334,9 +334,9 @@ Musisz wybrać, po której stronie stanąć, i walczyć o przyszłość naszej p
     <string name="ENUM_MAP_COMBAT_FAIL_NO_WEAPON">Broń nie istnieje.</string>
     <string name="ENUM_MAP_COMBAT_FAIL_UNABLE_TO_FIRE">Nie można użyć.</string>
     <string name="ENUM_MAP_COMBAT_FAIL_TOO_BUSY">Błąd fazy XM. Ładunek XMP nie odpalił.</string>
-    <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_NOT_POWER_CUBE">Nieprawidłowy sześcian mocy.</string>
+    <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_NOT_POWER_CUBE">Nieprawidłowy Power Cube.</string>
     <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_NOT_IN_PLAYER_INVENTORY">Brak w ekwipunku.</string>
-    <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_UNABLE_TO_DISCHARGE">Nie można wykorzystać sześcianu mocy.</string>
+    <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_UNABLE_TO_DISCHARGE">Nie można wykorzystać Power Cube.</string>
     <string name="ENUM_MAP_FLIP_FAIL_NOT_VALID">Nieprawidłowy obiekt XM.</string>
     <string name="ENUM_MAP_FLIP_FAIL_NO_PLAYER_SPECIFIED">Nie określono agenta.</string>
     <string name="ENUM_MAP_FLIP_FAIL_PLAYER_DOES_NOT_EXIST">Błąd podczas identyfikowania agenta.</string>
@@ -451,13 +451,13 @@ Musisz wybrać, po której stronie stanąć, i walczyć o przyszłość naszej p
     <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">Ładunek XMP</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EXTRA_SHIELD">Tarcza AXA</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_FLIP_CARD">Wirus zmiany frakcji</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_FORCE_AMP">Wzmacniacz mocy</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_HEATSINK">Chłodnica</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_LINK_AMPLIFIER">Wzmacniacz linków</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_FORCE_AMP">Force Amp</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_HEATSINK">Heat Sink</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_LINK_AMPLIFIER">Link Amp</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_MEDIA">Materiały</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_MULTIHACK">Multihaker</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_PORTAL_LINK_KEY">Klucz do portalu</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_POWER_CUBE">Sześcian mocy</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_POWER_CUBE">Power Cube</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_RES_SHIELD">Tarcza portalu</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_TURRET">Wieżyczka</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_ULTRA_STRIKE">Ultrauderzenie</string>
@@ -715,6 +715,7 @@ OBLICZAM WYNIKI KOŃCOWE..."</string>
     <string name="MISSIONS_MISSION_BUTTON_START">ROZPOCZNIJ</string>
     <string name="MISSIONS_MISSION_BUTTON_ABORT">PRZERWIJ</string>
     <string name="MISSIONS_MISSION_BUTTON_RATE">OCEŃ</string>
+    <string name="MISSIONS_MISSION_BUTTON_MAP">MAPA</string>
     <string name="MISSIONS_MISSION_CHECKBOX_HIDE_UI">Ukryj komunikaty o misji</string>
     <string name="MISSIONS_AGENTS_PLAYED">%s ukończyło</string>
     <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">Nie można uzyskać informacji o punkcie pośrednim.</string>

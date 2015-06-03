@@ -30,7 +30,7 @@
     <string name="common_open_on_phone">Auf Telefon öffnen</string>
     <string name="SMS_WELL_DONE">Gut gemacht, %s. Zeit, ein vertrauenswürdiger Agent zu werden</string>
     <string name="SMS_ACTION_FAIL">Die Aktion \"%s\" kannst du freischalten, indem du ein vertrauenswürdiger Agent wirst.</string>
-    <string name="SMS_VERIFY_NOW_LEVEL_UP">"Du musst dich mit %s verifizieren, um ein höheres Level zu erreichen. "</string>
+    <string name="SMS_VERIFY_NOW_LEVEL_UP">Du musst dich mit %s verifizieren, um ein höheres Level zu erreichen.</string>
     <string name="SMS_VERIFY_NOW">Jetzt mit %s verifizieren</string>
     <string name="VERIFY">Verifizieren</string>
     <string name="LATER">Später</string>
@@ -55,7 +55,7 @@
     <string name="SMS_ERROR_QUOTA_REACHED">Es konnte kein Verifizierungscode angefordert werden. Für diese Telefonnummer wurde schon die maximale Anzahl erreicht.</string>
     <string name="SMS_ERROR_RETRY_IN_1_MINUTE">Uns erreichen gerade sehr viele Verifizierungsanfragen. Bitte versuche es in einer Minute erneut.</string>
     <string name="SMS_ERROR_RETRY_IN_5_MINUTES">Uns erreichen gerade sehr viele Verifizierungsanfragen. Bitte versuche es in fünf Minuten erneut.</string>
-    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">Uns erreichen gerade sehr viele Verifizierungsanfragen. Bitte versuche es in 15 Minuten erneut.</string>
+    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">Uns erreichen gerade sehr viele Verifizierungsanfragen. Bitte versuche es in 15 Minuten erneut.</string>
     <string name="SMS_ERROR_RETRY_LATER">Uns erreichen gerade sehr viele Verifizierungsanfragen. Bitte versuche es später erneut.</string>
     <string name="SMS_ERROR_SERVER_ERROR">Fehler bei der Scanner-Kommunikation</string>
     <string name="SMS_REQUESTING">Wird angefordert</string>
@@ -125,10 +125,10 @@ Es ist Zeit, zu handeln."</string>
     <string name="CANCEL">Abbrechen</string>
     <string name="CONFIRM">Bestätigen</string>
     <string name="NICKNAME_PROMPT_RETRY">Versuche es mit einem anderen Codenamen.</string>
-    <string name="NICKNAME_PROMPT_TOP">"Niantic software online.
+    <string name="NICKNAME_PROMPT_TOP">"Niantic-Software online
 
-Incoming message detected.
-Opening secure channel…"</string>
+Eingehende Nachricht erkannt.
+Sicherer Kanal wird geöffnet…"</string>
     <string name="NICKNAME_PROMPT_BOTTOM">"Wähle einen Agentennamen. Das ist der Name, unter dem dich andere Agenten kennen.
 
 Gib deinen neuen Agentennamen ein."</string>
@@ -147,11 +147,11 @@ Gib deinen neuen Agentennamen ein."</string>
     <string name="PROGRESS_VALIDATING_CODENAME">Codename wird geprüft.</string>
     <string name="PROGRESS_CREATING_CODENAME">Codename wird erstellt.</string>
     <string name="NICKNAME_VALIDATE_MESSAGE">Dein Codename ist gültig. Bitte bestätige ihn.</string>
-    <string name="NICKNAME_ID_CONFIRMED">"Creating encryption keys…
+    <string name="NICKNAME_ID_CONFIRMED">"Verschlüsselungsschlüssel werden erstellt…
 
-ID confirmed."</string>
-    <string name="NICKNAME_ACCESS_GRANTED">"Access granted.
-Program initiated…"</string>
+ID bestätigt."</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"Zugriff gewährt
+Programm wird initiiert…"</string>
     <string name="BUTTON_QUIT">Beenden</string>
     <string name="RECOMMENDED_SCANNER_UPDATE">Dein Ingress-Scanner ist veraltet. Wir empfehlen dir ein Update.</string>
     <string name="BUTTON_PLAY">Spielen</string>
@@ -181,8 +181,8 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="JAILBROKEN_RESULT">Ingress kann nicht richtig ausgeführt werden.</string>
     <string name="MISSIONS_FIELD_TRIP_READ_MORE">Mehr erfahren</string>
     <string name="MISSIONS_NEARBY_LIST">Missionen in der Nähe zeigen</string>
-    <string name="MISSION_STARTED_COMM">Started %1$s: %2$s</string>
-    <string name="MISSION_TYPE_COMM">mission</string>
+    <string name="MISSION_STARTED_COMM">%1$s gestartet: %2$s</string>
+    <string name="MISSION_TYPE_COMM">Mission</string>
     <string name="ACHIEVEMENT_CONGRATULATIONS">Glückwunsch, du hast den \"%s\" erreicht.</string>
     <string name="APNS_L">Dein Portal %1$s wird von %2$s angegriffen.</string>
     <string name="APNS_P">Dein Portal %s wird angegriffen.</string>
@@ -195,7 +195,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="APNS_M">%1$s greift deine Portale %2$s an.</string>
     <string name="APNS_N_M">%1$s hat deine Portale %2$s neutralisiert.</string>
     <string name="ENTER">Eingeben</string>
-    <string name="PROGRESS_CHECKING">Checking…</string>
+    <string name="PROGRESS_CHECKING">Wird überprüft…</string>
     <string name="HINT_ENTER_PASSPHRASE">Passphrase eingeben</string>
     <string name="OK_TITLE">OK</string>
     <string name="SETTINGS_TITLE">Einstellungen</string>
@@ -215,7 +215,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="ACTIVE_MODE_TITLE">Aktivmodus</string>
     <string name="START_ACTIVE_MODE">Starten</string>
     <string name="STOP_ACTIVE_MODE">Beenden</string>
-    <string name="ACTIVE_MODE_PLAYER_RECOVERABLE_ISSUE">Ein Problem ist aufgetreten. Zum Beheben hier tippen</string>
+    <string name="ACTIVE_MODE_PLAYER_RECOVERABLE_ISSUE">Ein Problem ist aufgetreten. Zum Beheben tippen</string>
     <string name="ACTIVE_MODE_SESSION_EXPIRED">Aktivmodus-Sitzung abgelaufen</string>
     <string name="ACTIVE_MODE_PORTAL_NEARBY">Portal in der Nähe (%s)</string>
     <string name="ACTIVE_MODE_PORTALS_NEARBY">%s Portale in der Nähe</string>
@@ -254,7 +254,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="FIRE_WEAPON_DISABLED_WEAPON_NOT_AVAILABLE">Waffe nicht verfügbar</string>
     <string name="FIRE_WEAPON_DISABLED_ACCESS_INSUFFICIENT">Zugriffslevel unzureichend</string>
     <string name="FIRE_WEAPON_DISABLED_UNKNOWN_REASON">Kosmische Strahlung</string>
-    <string name="PORTAL_INFO_DIALOG_OWNER">"Besitzer : "</string>
+    <string name="PORTAL_INFO_DIALOG_OWNER">Besitzer:</string>
     <string name="PORTAL_INFO_DIALOG_ENERGY">"Energie: "</string>
     <string name="PORTAL_INFO_DIALOG_UNKNOWN_PORTAL">Unbekanntes Portal</string>
     <string name="PORTAL_INFO_DIALOG_UNCAPTURED">nicht eingenommen</string>
@@ -266,14 +266,14 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="RADIAL_MENU_NAVIGATE">NAVIGIEREN</string>
     <string name="RADIAL_MENU_SUBMIT_NEW_PORTAL">NEUES PORTAL</string>
     <string name="RADIAL_MENU_SHARE">TEILEN</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_5_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 5 Sekunden</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_10_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 10 Sekunden</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_20_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 20 Sekunden</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_30_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 30 Sekunden</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_60_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 60 Sekunden</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_120_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 120 Sekunden</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_240_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 240 Sekunden</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_BIG">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 300 Sekunden</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_5_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 5 Sekunden</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_10_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 10 Sekunden</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_20_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 20 Sekunden</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_30_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 30 Sekunden</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_60_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 60 Sekunden</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_120_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 120 Sekunden</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_240_SECS">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 240 Sekunden</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_BIG">Das Portal wird zu heiß! Es ist zu unsicher, Items zu sammeln. Geschätzte Zeit bis zum Abkühlen: 300 Sekunden</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_TOO_OFTEN">Portal ausgebrannt! Es kann lange dauern, bis das Portal zurückgesetzt wurde.</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_ENEMY_PORTAL">Feindliches Portal konnte nicht gehackt werden.</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_ENERGY_FULL">XM-Kapazität voll</string>
@@ -283,12 +283,12 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="ENUM_MAP_FAIL_SERVER_ERROR">Fehler bei der Scanner-Kommunikation</string>
     <string name="ENUM_MAP_FAIL_NOT_AVAILABLE">XM-Objekt nicht verfügbar</string>
     <string name="ENUM_MAP_FAIL_UNABLE_TO_USE">Nicht verwendbar</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_NOT_AT_MAX_RESONATORS">"Vor einem Upgrade müssen alle  Resonator-Slots besetzt sein."</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_NOT_AT_MAX_RESONATORS">Vor einem Upgrade müssen die Resonator-Slots besetzt sein.</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_SERVER_ERROR">Aktion fehlgeschlagen</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_MISSING_LOCATION">Das Portal ist ungültig.</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_CAN_ONLY_UPGRADE_TO_HIGHER_LEVEL">Das ist kein Upgrade.</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_RESONATOR_LINKED_TO_DIFFERENT_PORTAL">Resonator nicht am Portal</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_NOT_PORTAL_OWNER">"Nicht der Portal-Besitzer "</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_NOT_PORTAL_OWNER">Nicht der Portal-Besitzer</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_NOT_ON_SAME_PORTAL">Resonatoren an verschiedenen Portalen</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_MISSING_PORTAL_KEY">Fehlender Portal Key</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_AT_MAX_RESONATORS">Resonator-Slot nicht verfügbar</string>
@@ -328,7 +328,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="ENUM_MAP_REDEEM_FAIL_INVALID_PASSCODE">Ungültiger Passcode</string>
     <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED_BY_PLAYER">Passcode wurde schon eingelöst.</string>
     <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED">Passcode wurde schon vollständig eingelöst.</string>
-    <string name="ENUM_MAP_FAIL_INVENTORY_FULL">XM-Objektkapazität erreicht</string>
+    <string name="ENUM_MAP_FAIL_INVENTORY_FULL">XM-Überlastung. Zu viele Elemente.</string>
     <string name="ENUM_MAP_REDEEM_FAIL">Passcode kann nicht eingelöst werden.</string>
     <string name="ENUM_MAP_COMBAT_FAIL_WEAPON_NOT_AVAILABLE">Waffe nicht verfügbar</string>
     <string name="ENUM_MAP_COMBAT_FAIL_NO_WEAPON">Die Waffe existiert nicht.</string>
@@ -395,7 +395,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="ENUM_MAP_NEMESIS_TABS_AGENT">AGENT</string>
     <string name="ENUM_MAP_NEMESIS_TABS_INTEL">INTEL</string>
     <string name="ENUM_MAP_NEMESIS_TABS_MISSIONS">MISSIONEN</string>
-    <string name="ENUM_MAP_NEMESIS_TABS_TRAINING">"TRAINING "</string>
+    <string name="ENUM_MAP_NEMESIS_TABS_TRAINING">TRAINING</string>
     <string name="ENUM_MAP_NEMESIS_TABS_RECRUIT">REKRUTIERUNG</string>
     <string name="ENUM_MAP_NEMESIS_TABS_COMMUNITY">Community</string>
     <string name="ENUM_MAP_NEMESIS_TABS_PASSCODE">PASSCODE</string>
@@ -448,12 +448,12 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="STATS_MODIFIER_MITIGATION_DISPLAY_NAME">Schild</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_CAPSULE">Capsule</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMITTER_A">Resonator</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">XMP-Burster</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">XMP-Waffe</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EXTRA_SHIELD">AXA Shield</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_FLIP_CARD">Virus</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_FORCE_AMP">Kraftverstärker</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_HEATSINK">Heat Sink</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_LINK_AMPLIFIER">Linkverstärker</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_LINK_AMPLIFIER">Link Amp</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_MEDIA">Medien</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_MULTIHACK">Multi-Hack</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_PORTAL_LINK_KEY">Portal Key</string>
@@ -527,7 +527,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="INVENTORY_UI_ORDERBY_RECENCY">nach Datum</string>
     <string name="INVENTORY_UI_ORDERBY_ACQUISITION_DATE">nach Erhalt</string>
     <string name="ITEM_DETAILS_DROP">Ablegen</string>
-    <string name="ITEM_DETAILS_RECYCLE">"Recyceln "</string>
+    <string name="ITEM_DETAILS_RECYCLE">Recyceln</string>
     <string name="ITEM_DETAILS_FIRE">Feuern</string>
     <string name="ITEM_DETAILS_USE">Verwenden</string>
     <string name="ITEM_DETAILS_OPEN">Ansehen</string>
@@ -548,7 +548,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="CAPSULE_RESET_BUTTON_TEXT">Zurücksetzen</string>
     <string name="CAPSULE_TRANSFER_BUTTON_TEXT">Übertragen</string>
     <string name="CAPSULE_TRANSFER_BUTTON_DISABLED_NEED_ITEMS">Menge angeben</string>
-    <string name="CAPSULE_TRANSFERRING_BUTTON_TEXT">Übertragen… …</string>
+    <string name="CAPSULE_TRANSFERRING_BUTTON_TEXT">Übertragen…</string>
     <string name="CAPSULE_FULL">Capsule voll</string>
     <string name="CAPSULE_INVENTORY_FULL">Inventar voll</string>
     <string name="CAPSULE_EMPTY">Capsule ist leer.</string>
@@ -562,7 +562,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="FLIP_CARD_USE_CONFIRM">Bestätigen</string>
     <string name="FLIP_CARD_USE_BACK">Zurück</string>
     <string name="FLIP_CARD_USE_CANCEL">Abbrechen</string>
-    <string name="SETTINGS_TITLE_DIALOG_CONFIRM_SIGN_OUT">Abmelden...…</string>
+    <string name="SETTINGS_TITLE_DIALOG_CONFIRM_SIGN_OUT">Abmelden…</string>
     <string name="SETTINGS_MESSAGE_DIALOG_CONFIRM_SIGN_OUT">Bist du sicher?</string>
     <string name="SETTINGS_ACTION_YES">Ja</string>
     <string name="SETTINGS_ACTION_NO">Nein</string>
@@ -577,7 +577,7 @@ Wenn du dich abmeldest, gehen diese verloren."</string>
     <string name="SETTINGS_TITLE_USER">Nutzer</string>
     <string name="SETTINGS_USER_SIGN_OUT">Abmelden</string>
     <string name="SETTINGS_TITLE_LINK">G+ Profil verknüpfen</string>
-    <string name="SETTINGS_LINK_LOADING">Laden… …</string>
+    <string name="SETTINGS_LINK_LOADING">Laden…</string>
     <string name="SETTINGS_LINK_LINKED">Google+ Profil verknüpft</string>
     <string name="SETTINGS_LINK_UNLINK">Verknüpfung aufheben</string>
     <string name="SETTINGS_LINK_MESSAGE">Dein Google+ Profil wird mit Ingress verknüpft und ist für andere Spieler sichtbar.</string>
@@ -589,11 +589,11 @@ Wenn du dich abmeldest, gehen diese verloren."</string>
     <string name="SETTINGS_LINK_OK">OK</string>
     <string name="SETTINGS_LINK_WARNING_VIEW_NO_THANKS">Nein danke</string>
     <string name="SETTINGS_LINK_ERROR_TRY_AGAIN">Wiederholen</string>
-    <string name="SETTINGS_LINK_PROFILE_LINK_PROMPT">Google+ Profil verknüpfen?</string>
+    <string name="SETTINGS_LINK_PROFILE_LINK_PROMPT">Google+ Profil verlinken?</string>
     <string name="SETTINGS_LINK_PROFILE_LINK_YES">Ja</string>
     <string name="SETTINGS_LINK_PROFILE_LINK_NO">Nein</string>
-    <string name="SETTINGS_LINK_PROGRESS_LINKING">Profil verlinken… …</string>
-    <string name="SETTINGS_LINK_PROGRESS_UNLINKING">Profil entlinken… …</string>
+    <string name="SETTINGS_LINK_PROGRESS_LINKING">Profil verlinken…</string>
+    <string name="SETTINGS_LINK_PROGRESS_UNLINKING">Profil-Link entfernen…</string>
     <string name="SETTINGS_LINK_UNKNOWN_ERROR">Unbekannter Fehler</string>
     <string name="SETTINGS_TITLE_VERIFY">Verifizierung</string>
     <string name="SETTINGS_VERIFY_MESSAGE">Jetzt verifizieren</string>
@@ -665,13 +665,13 @@ Wenn du dich abmeldest, gehen diese verloren."</string>
     <string name="INTEL_CANCEL_BUTTON">Abbrechen</string>
     <string name="INTEL_PREVIOUS_CYCLE">VORHERIGER CYCLE</string>
     <string name="INTEL_SCORE_LABEL_TEMPLATE_ENL">ERL %s</string>
-    <string name="INTEL_SCORE_LABEL_TEMPLATE_RES">RES %s</string>
+    <string name="INTEL_SCORE_LABEL_TEMPLATE_RES">WID %s</string>
     <string name="INTEL_HISTORY_BUTTON">VERLAUF</string>
     <string name="INTEL_LINE_GRAPH_CYCLE_COUNTDOWN_TITLE">CYCLE</string>
     <string name="INTEL_LINE_GRAPH_CHECKPOINT_COUNTDOWN_TITLE">CHECKPOINT</string>
     <string name="INTEL_TOP_AGENTS_PLURAL_TEMPLATE">TOP %s AGENTEN</string>
-    <string name="INTEL_TOP_AGENTS_SINGULAR">TOP-AGENTEN</string>
-    <string name="INTEL_OTHER_AGENTS_BUTTON">Weitere Agenten zeigen</string>
+    <string name="INTEL_TOP_AGENTS_SINGULAR">TOP-AGENT</string>
+    <string name="INTEL_OTHER_AGENTS_BUTTON">WEITERE AGENTEN ZEIGEN</string>
     <string name="INTEL_SUBSECTION_BUTTON_IN_REGION_SCORE_SCREEN">CELL-AKTIVITÄT</string>
     <string name="INTEL_TITLE_REGION_SCORE_ACTIVITY">CELL-AKTIVITÄT</string>
     <string name="INTEL_TITLE_GLOBAL_SCORE_SCREEN">GLOBALE ANSICHT</string>
@@ -683,10 +683,10 @@ Wenn du dich abmeldest, gehen diese verloren."</string>
     <string name="INTEL_LEADER_BOARD_RANKING_TEMPLATE">Nr. %s</string>
     <string name="INTEL_LEADER_BOARD_HEADING_ENL">DIE ERLEUCHTETEN</string>
     <string name="INTEL_LEADER_BOARD_HEADING_RES">DER WIDERSTAND</string>
-    <string name="INTEL_REQUERY_INDICATOR_CHECKPOINT_DONE">"CHECKPOINT COMPLETE
-CALCULATING RESULTS…"</string>
-    <string name="INTEL_REQUERY_INDICATOR_CYCLE_DONE">"CYCLE COMPLETE
-CALCULATING FINAL RESULTS…"</string>
+    <string name="INTEL_REQUERY_INDICATOR_CHECKPOINT_DONE">"Checkpoint abgeschlossen
+Ergebnisse werden berechnet…"</string>
+    <string name="INTEL_REQUERY_INDICATOR_CYCLE_DONE">"Cycle abgeschlossen
+Endergebnis wird berechnet…"</string>
     <string name="WEBVIEW_RETRY">Wiederholen</string>
     <string name="RECRUIT_DESCRIPTION">Lade andere zu Ingress ein!</string>
     <string name="RECRUIT_BUTTON">Agenten rekrutieren</string>
@@ -704,33 +704,33 @@ CALCULATING FINAL RESULTS…"</string>
     <string name="PASSCODE_DONE">Fertig</string>
     <string name="PASSCODE_VALIDATING">Passcode wird geprüft…</string>
     <string name="SPACE2FACE_SKIP">Überspringen</string>
-    <string name="MISSION_SHARE_MESSAGE">"Sieh dir diese Mission an.
-%s"</string>
+    <string name="MISSION_SHARE_MESSAGE">Sieh dir diese Ingress-Mission an! Desktoplink: %s</string>
     <string name="MISSIONS_TOUCH_TO_LOAD_MORE">Für weitere Missionen tippen</string>
-    <string name="MISSIONS_LOADING">Laden… …</string>
+    <string name="MISSIONS_LOADING">Laden…</string>
     <string name="MISSIONS_RETRY">Wiederholen</string>
     <string name="MISSIONS_MISSION_DETAILS_BACK_NAVIGATION_TITLE">ALLE MISSIONEN</string>
     <string name="MISSIONS_MISSION_COMPLETION_TIME">ca. %s</string>
-    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">Waypoint beziehen… …</string>
+    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">Waypoint-Infos abrufen…</string>
     <string name="MISSIONS_MISSION_BUTTON_REPLAY">Wiederholen</string>
     <string name="MISSIONS_MISSION_BUTTON_START">Starten</string>
     <string name="MISSIONS_MISSION_BUTTON_ABORT">Abbrechen</string>
     <string name="MISSIONS_MISSION_BUTTON_RATE">Bewerten</string>
+    <string name="MISSIONS_MISSION_BUTTON_MAP">KARTE</string>
     <string name="MISSIONS_MISSION_CHECKBOX_HIDE_UI">Aufforderungen zu Missionen ausblenden</string>
     <string name="MISSIONS_AGENTS_PLAYED">%s-mal abgeschlossen</string>
-    <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">"Waypoint Infos  konnten nicht abgerufen werden."</string>
+    <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">Waypoint-Infos konnten nicht abgerufen werden.</string>
     <string name="MISSIONS_CANCEL">Abbrechen</string>
     <string name="MISSIONS_CONFIRM">Bestätigen</string>
-    <string name="MISSIONS_WAYPOINTS_MARKER">"WAYPOINTS "</string>
-    <string name="MISSIONS_PROGRESS_STARTING_MISSION">Mission starten...…</string>
-    <string name="MISSIONS_PROGRESS_ABORTING_MISSION">Mission abbrechen… …</string>
-    <string name="MISSIONS_PROGRESS_RATING_MISSION">Mission bewerten… …</string>
+    <string name="MISSIONS_WAYPOINTS_MARKER">WEGPUNKTE</string>
+    <string name="MISSIONS_PROGRESS_STARTING_MISSION">Mission starten…</string>
+    <string name="MISSIONS_PROGRESS_ABORTING_MISSION">Mission abbrechen…</string>
+    <string name="MISSIONS_PROGRESS_RATING_MISSION">Mission bewerten…</string>
     <string name="MISSIONS_MISSION_COMPLETE">Mission abgeschlossen</string>
     <string name="MISSIONS_MISSION_ABORTED">Mission abgebrochen</string>
     <string name="MISSIONS_RATE_MISSION_PROMPT">Hat dir die Mission gefallen?</string>
     <string name="MISSIONS_RATE_MISSION_LIKED">Ja</string>
     <string name="MISSIONS_RATE_MISSION_DID_NOT_LIKE">Nicht so richtig</string>
-    <string name="MISSIONS_PROMPT_ABORT_MISSION_FOR_TRAINING">"Aktuelle Mission abbrechen und Training  starten?"</string>
+    <string name="MISSIONS_PROMPT_ABORT_MISSION_FOR_TRAINING">Aktuelle Mission abbrechen und Training starten?</string>
     <string name="MISSIONS_ABORT_MISSION_FOR_TRAINING">Abbrechen</string>
     <string name="MISSIONS_OK">OK</string>
     <string name="MISSIONS_PASSPHRASE_ENTER">Eingeben</string>
@@ -738,7 +738,7 @@ CALCULATING FINAL RESULTS…"</string>
     <string name="MISSIONS_MISSION_ABORT_MESSAGE">Aktuelle Mission abbrechen? Dein gesamter Fortschritt geht verloren.</string>
     <string name="MISSIONS_ONLY_ONE_MISSION_IN_PROGRESS">Es ist schon eine Mission aktiv.</string>
     <string name="MISSIONS_MISSION_COMPLETE_MEDAL_EARNED">Du erhältst eine Auszeichnung.</string>
-    <string name="MISSIONS_MISSION_REMOTE_VIEW_TITLE">WAYPOINT ANSICHT</string>
+    <string name="MISSIONS_MISSION_REMOTE_VIEW_TITLE">WAYPOINT-ANSICHT</string>
     <string name="MISSIONS_PASSPHRASE_DEFAULT_QUESTION">PASSPHRASE:</string>
     <string name="MISSIONS_PASSPHRASE_CORRECT">Richtig!</string>
     <string name="MISSIONS_PASSPHRASE_INCORRECT">Falsch</string>
@@ -747,30 +747,30 @@ CALCULATING FINAL RESULTS…"</string>
     <string name="MISSIONS_REMOTE_VIEW_NAVIGATE">NAVIGIEREN</string>
     <string name="MISSIONS_HIDDEN_WAYPOINT_TITLE">\???</string>
     <string name="MISSIONS_PASSPHRASE_EMPTY">Passphrase eingeben</string>
-    <string name="MISSIONS_WAYPOINTS_SECTION_SEQUENTIAL">"Waypoints  der Reihe nach abschließen"</string>
+    <string name="MISSIONS_WAYPOINTS_SECTION_SEQUENTIAL">Waypoints der Reihe nach abschließen</string>
     <string name="MISSIONS_WAYPOINTS_SECTION_NON_SEQUENTIAL">Waypoints in beliebiger Reihenfolge abschließen</string>
-    <string name="MISSIONS_WAYPOINTS_SECTION_HIDDEN_SEQUENTIAL">"Waypoints  der Reihe nach abschließen"</string>
-    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">"Beenden der Field Trip Karte fehlgeschlagen:  %s"</string>
+    <string name="MISSIONS_WAYPOINTS_SECTION_HIDDEN_SEQUENTIAL">Waypoints der Reihe nach abschließen</string>
+    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">Beenden der Field Trip-Karte fehlgeschlagen: %s</string>
     <string name="MISSIONS_EXPAND_FOR_MORE">Mehr</string>
-    <string name="MISSIONS_WAYPOINT_NAME">" WAYPOINT  
- "</string>
+    <string name="MISSIONS_WAYPOINT_NAME">"WAYPOINT 
+"</string>
     <string name="STARTUP_OK">OK</string>
     <string name="STARTUP_NEXT">Weiter</string>
     <string name="TRAINING_ADA">ADA</string>
-    <string name="TRAINING_ADA_LOCATION">"Unbekannt "</string>
-    <string name="TRAINING_VIEW">"Anweisung "</string>
-    <string name="TRAINING_TITLE_FORMAT">Training - %s</string>
-    <string name="TRAINING_MISSION_TYPE_COMM">Training Mission</string>
+    <string name="TRAINING_ADA_LOCATION">unbekannt</string>
+    <string name="TRAINING_VIEW">Anweisung</string>
+    <string name="TRAINING_TITLE_FORMAT">Training – %s</string>
+    <string name="TRAINING_MISSION_TYPE_COMM">Trainings-Mission</string>
     <string name="TRAINING_ABORT">Abbrechen</string>
-    <string name="TRAINING_MISSION_POPOVER_TITLE">Training Mission</string>
+    <string name="TRAINING_MISSION_POPOVER_TITLE">Trainings-Mission</string>
     <string name="TRAINING_INCOMING_MESSAGE">Eingehende Nachricht</string>
     <string name="TRAINING_ACCEPT">Annehmen</string>
     <string name="TRAINING_START">Starten</string>
     <string name="TRAINING_START_FIRST">Training starten</string>
     <string name="TRAINING_SKIP">Überspringen</string>
-    <string name="TRAINING_END">Ende Training</string>
+    <string name="TRAINING_END">Training beenden</string>
     <string name="TRAINING_NEXT">Nächstes Training</string>
-    <string name="TRAINING_OBJECTIVES">"Ziel "</string>
+    <string name="TRAINING_OBJECTIVES">Ziele</string>
     <string name="TRAINING_OBJECTIVES_COMPLETE">Ziele abgeschlossen</string>
     <string name="TRAINING_0_NAME">Der erste Kontakt</string>
     <string name="TRAINING_0_DESCRIPTION">Der erste Kontakt mit ADA</string>
@@ -787,8 +787,8 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
 
 "</string>
     <string name="TRAINING_1_OBJECTIVE_1">Zur XM bewegen</string>
-    <string name="TRAINING_1_OBJECTIVE_2">1.000 XM sammeln</string>
-    <string name="TRAINING_1_STATUS">Aufgabe 1 (Exotic Matter): Sammle 1.000 XM.</string>
+    <string name="TRAINING_1_OBJECTIVE_2">1.000 XM sammeln</string>
+    <string name="TRAINING_1_STATUS">Aufgabe 1 (Exotic Matter): Sammle 1.000 XM.</string>
     <string name="TRAINING_1_OUTRO">"XM befindet sich überall um dich herum. XM ist von entscheidender Bedeutung. Achte darauf, dass du immer genug Reserven hast.
 
 "</string>
@@ -800,7 +800,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="TRAINING_2_OUTRO">Ausgezeichnet. Durch das Hacken von Portalen erhältst du Items. Portale können erneut gehackt werden, nachdem sie abgekühlt sind. Durch häufiges Hacken von Portalen kannst du dein Inventar erweitern. Sei wachsam, Portale können ungewöhnliche Visionen oder Emotionen hervorrufen.</string>
     <string name="TRAINING_2_OBJECTIVE_1">Zum Portal gehen</string>
     <string name="TRAINING_2_OBJECTIVE_2">Auf Portal tippen und \"HACKEN\" auswählen</string>
-    <string name="TRAINING_2_STATUS">Aufgabe 2 (Portal-Hacking): Hacke ein Portal.</string>
+    <string name="TRAINING_2_STATUS">Aufgabe 2 (Portal-Hacking): Hacke ein Portal.</string>
     <string name="TRAINING_3_NAME">XMP abfeuern</string>
     <string name="TRAINING_3_DESCRIPTION">Feindliches Portal mit XMP angreifen</string>
     <string name="TRAINING_3_MESSAGE">"Dieses Portal ist mit Resonatoren ausgestattet. In dieser Simulation handelt es sich um ein feindliches Portal. Bewege dich zum Angriff in Reichweite des Portals, berühre und halte es im Scanner und wähle dann \"XMP FEUERN\" aus.
@@ -809,7 +809,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="TRAINING_3_OUTRO">Portal neutralisiert. Es kann jetzt eingenommen werden.</string>
     <string name="TRAINING_3_OBJECTIVE_1">Im Scanner berühren und halten</string>
     <string name="TRAINING_3_OBJECTIVE_2">\"XMP FEUERN\" auswählen</string>
-    <string name="TRAINING_3_STATUS">Aufgabe 3 (Feindliches Portal neutralisieren): Neutralisiere das feindliche Portal, indem du seine Resonatoren zerstörst.</string>
+    <string name="TRAINING_3_STATUS">Aufgabe 3 (Feindliches Portal neutralisieren): Neutralisiere das feindliche Portal, indem du seine Resonatoren zerstörst.</string>
     <string name="TRAINING_4_NAME">Resonator setzen</string>
     <string name="TRAINING_4_DESCRIPTION">Portal durch Setzen eines Resonators einnehmen</string>
     <string name="TRAINING_4_MESSAGE">"Portale werden mithilfe von Resonatoren kontrolliert. Um einen Resonator zu platzieren, bewege dich in Reichweite, tippe auf das Portal und wähle \"RESONATOR SETZEN\" aus.
@@ -820,7 +820,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
 "</string>
     <string name="TRAINING_4_OBJECTIVE_1">Auf Portal tippen</string>
     <string name="TRAINING_4_OBJECTIVE_2">Resonator setzen</string>
-    <string name="TRAINING_4_STATUS">Aufgabe 4 (Portale einnehmen und stärken): Nimm das Portal ein, indem du einen Resonator setzt.</string>
+    <string name="TRAINING_4_STATUS">Aufgabe 4 (Portale einnehmen und stärken): Nimm das Portal ein, indem du einen Resonator setzt.</string>
     <string name="TRAINING_5_NAME">Resonatoren erweitern</string>
     <string name="TRAINING_5_DESCRIPTION">Portal zum Verlinken vorbereiten</string>
     <string name="TRAINING_5_MESSAGE">"Portale können durch ein kraftvolles Band aus Exotic Matter miteinander verlinkt werden. Damit du Portale verlinken kannst, müssen sie über acht geladene Resonatoren verfügen. Bewege dich in Reichweite eines Portals und hacke es, um Resonatoren zu erhalten. Setze sie und lade alle Resonatoren ausreichend auf.
@@ -830,7 +830,7 @@ Du musst dich im Kampf um unseren Planeten für eine Seite entscheiden."</string
     <string name="TRAINING_5_OBJECTIVE_1">Portal in der Nähe hacken</string>
     <string name="TRAINING_5_OBJECTIVE_2">Alle Resonatoren setzen</string>
     <string name="TRAINING_5_OBJECTIVE_3">Resonatoren aufladen</string>
-    <string name="TRAINING_5_STATUS">Aufgabe 5 (Resonatoren erweitern): Bereite ein Portal zum Verlinken vor.</string>
+    <string name="TRAINING_5_STATUS">Aufgabe 5 (Resonatoren erweitern): Bereite ein Portal zum Verlinken vor.</string>
     <string name="TRAINING_6_NAME">Links</string>
     <string name="TRAINING_6_DESCRIPTION">Zwei Portale verlinken</string>
     <string name="TRAINING_6_MESSAGE">"Du kannst jetzt zwei Portale verlinken.
@@ -854,7 +854,7 @@ Links werden getrennt, wenn Resonatoren aufgebraucht sind oder von der feindlich
     <string name="TRAINING_6_OBJECTIVE_3">Zweites Portal hacken</string>
     <string name="TRAINING_6_OBJECTIVE_4">Alle Resonatoren setzen</string>
     <string name="TRAINING_6_OBJECTIVE_5">Portal auswählen und auf \"VERLINKEN\" tippen</string>
-    <string name="TRAINING_6_STATUS">Aufgabe 6 (Links): Verlinke zwei Portale.</string>
+    <string name="TRAINING_6_STATUS">Aufgabe 6 (Links): Verlinke zwei Portale.</string>
     <string name="TRAINING_7_NAME">Felder</string>
     <string name="TRAINING_7_DESCRIPTION">Feld erzeugen</string>
     <string name="TRAINING_7_MESSAGE">"Unser oberstes Ziel ist es, die Menschheit vor feindlicher Kontrolle zu schützen.
@@ -865,7 +865,7 @@ Sammle Portal Keys und erstelle damit zwei Links, um das Bilden eines Dreiecks z
 
 "</string>
     <string name="TRAINING_7_OUTRO">"Ausgezeichnet!
-Du hast ein XM Feld erzeugt, das die Menschen in diesem Gebiet vor dem Eindringen der Shaper schützt.
+Du hast ein XM-Feld erzeugt, das die Menschen in diesem Gebiet vor dem Eindringen der Shaper schützt.
 
 Deine primäre Aufgabe ist der Schutz der Bevölkerung. Unser oberstes Ziel ist es, die gesamte Menschheit zu schützen.
 
@@ -884,7 +884,7 @@ Die Shaper versuchen ebenfalls, Felder zu erzeugen, durch die sie die Gedanken d
     <string name="TRAINING_7_OBJECTIVE_08">Portal zum Verlinken vorbereiten</string>
     <string name="TRAINING_7_OBJECTIVE_09">Zweiten Link erstellen</string>
     <string name="TRAINING_7_OBJECTIVE_10">Dritten Link erstellen</string>
-    <string name="TRAINING_7_STATUS">Aufgabe 7 (Felder): Erzeuge ein Feld.</string>
+    <string name="TRAINING_7_STATUS">Aufgabe 7 (Felder): Erzeuge ein Feld.</string>
     <string name="MUTE_UI_TITLE">Blockierte Agenten</string>
     <string name="MUTE_UI_NONE">Keine blockierten Agenten</string>
     <string name="MUTE_UI_LOADING">Laden…</string>
@@ -919,8 +919,8 @@ Die Shaper versuchen ebenfalls, Felder zu erzeugen, durch die sie die Gedanken d
     <string name="ITEM_DESCRIPTION_JARVIS">Mit dem JARVIS Virus kann die Ausrichtung eines Resistance-Portals umgekehrt werden.</string>
     <string name="FLIP_CARD_TITLE_ADA">ADA Refactor</string>
     <string name="FLIP_CARD_TITLE_JARVIS">JARVIS Virus</string>
-    <string name="TRAINING_REMINDER_MESSAGE">Du hast einige Schulungsmissionen übersprungen. Damit du als Agent möglichst effektiv bist, solltest du alle Schulungen absolvieren.</string>
-    <string name="TRAINING_REMINDER_RESUME">Schulung fortsetzen</string>
+    <string name="TRAINING_REMINDER_MESSAGE">Du hast einige Trainings-Missionen übersprungen. Damit du als Agent möglichst effektiv bist, solltest du alle Trainings absolvieren.</string>
+    <string name="TRAINING_REMINDER_RESUME">Training fortsetzen</string>
     <string name="TRAINING_REMINDER_ASK_LATER">Später fragen</string>
     <string name="TRAINING_REMINDER_ASK_NEVER">Nicht mehr fragen</string>
     <string name="RECRUIT_INVITES_REMAINING_DIALOG">Du hast noch %s offene Einladungen.</string>
@@ -955,10 +955,10 @@ Die Shaper versuchen ebenfalls, Felder zu erzeugen, durch die sie die Gedanken d
     <string name="COMM_MESSAGE_LEVEL_UP_MSG">Du hast ein höheres Level erreicht und spielst nun auf Level %s.</string>
     <string name="COMM_MESSAGE_DAMAGE_MSG">Du wurdest getroffen und hast %s XM verloren.</string>
     <string name="COMM_AP_MESSAGE_DEPLOYED_RESONATOR">%s AP für das Setzen eines Resonator erhalten</string>
-    <string name="COMM_AP_MESSAGE_CAPTURED_PORTAL">%s AP für das Einnehmen eines Portal erhalten</string>
+    <string name="COMM_AP_MESSAGE_CAPTURED_PORTAL">%s AP für das Einnehmen eines Portals erhalten</string>
     <string name="COMM_AP_MESSAGE_CREATED_PORTAL_LINK">%s AP für das Erstellen eines Links erhalten</string>
     <string name="COMM_AP_MESSAGE_CREATED_A_PORTAL_REGION">%s AP für das Erstellen eines Control Field erhalten</string>
-    <string name="COMM_AP_MESSAGE_DESTROYED_A_RESONATOR">%s AP für das Zerstören eines Resonator erhalten</string>
+    <string name="COMM_AP_MESSAGE_DESTROYED_A_RESONATOR">%s AP für das Zerstören eines Resonators erhalten</string>
     <string name="COMM_AP_MESSAGE_DESTROYED_A_PORTAL_LINK">%s AP für das Zerstören eines Links erhalten</string>
     <string name="COMM_AP_MESSAGE_DESTROYED_PORTAL_REGION">%s AP für das Zerstören eines Control Field erhalten</string>
     <string name="COMM_AP_MESSAGE_DEPLOYED_RESONATOR_MOD">%s AP für das Erstellen eines Resonator-MOD erhalten</string>
@@ -972,7 +972,7 @@ Die Shaper versuchen ebenfalls, Felder zu erzeugen, durch die sie die Gedanken d
     <string name="COMM_AP_MESSAGE_DEFAULT">%s AP für eine tolle Aktion erhalten</string>
     <string name="TUTORIAL_PORTAL_PICKER_TRAINING_TITLE">Portal setzen</string>
     <string name="TUTORIAL_SIMULATION_PORTAL_TITLE">Simulations-Portal</string>
-    <string name="TUTORIAL_BASE_TRAINING_MESSAGE">"In deiner unmittelbaren Umgebung sind keine Portals vorhanden. Für diese Schulung erstellen wir ein Simulations-Portal. Ein optimales Ziel befindet sich im Freien, mehr als 50 Meter von deinem aktuellen Standort entfernt. Berühre und halte diesen Standort im Scanner und tagge den Ort. "</string>
+    <string name="TUTORIAL_BASE_TRAINING_MESSAGE">In deiner unmittelbaren Umgebung sind keine Portals vorhanden. Für dieses Training erstellen wir ein Simulations-Portal. Ein optimales Ziel befindet sich im Freien, mehr als 50 Meter von deinem aktuellen Standort entfernt. Berühre und halte diesen Standort im Scanner und tagge den Ort.</string>
     <string name="TUTORIAL_BASE_TRAINING_OBJECTIVE_1">Potenzielles Portal ausfindig machen</string>
     <string name="TUTORIAL_BASE_TRAINING_OBJECTIVE_2">Potenzielles Portal taggen</string>
     <string name="PORTAL_CHOOSER_TITLE">Portal setzen</string>
@@ -1042,7 +1042,7 @@ Portal-Standort."</string>
     <string name="toast_long_press_to_show_profile">Tipp: Durch langes Drücken auf den Codenamen eines Agenten kannst du sein Profil aufrufen.</string>
     <string name="button_label_comm_panel">COMM</string>
     <string name="comms_filter_all">Alle</string>
-    <string name="comms_filter_alerts">Benachrichtigungen</string>
+    <string name="comms_filter_alerts">Nachrichten</string>
     <string name="comms_filter_faction">Fraktion</string>
     <string name="comms_send_hint">Hier veröffentlichen</string>
     <string name="progress_loading">Wird geladen…</string>
@@ -1185,7 +1185,7 @@ Bitte aktiviere den Standortbericht unter \"Einstellungen\" > \"Standort &amp; S
     <string name="PROFILE_COOLDOWN_NEEDED">Der Scanner überhitzt. Lassen Sie ihn abkühlen, um weitere Agentenprofile anzuzeigen.</string>
     <string name="PROFILE_LOADING_ERROR_RETRY_BUTTON_RECOVERABLE">Wiederholen</string>
     <string name="PROFILE_LOADING_ERROR_RETRY_BUTTON_UNRECOVERABLE">Schließen</string>
-    <string name="PROFILE_STAT_TAB_ALL_TIME">Immer</string>
+    <string name="PROFILE_STAT_TAB_ALL_TIME">Gesamt</string>
     <string name="PROFILE_STAT_TAB_MONTH">Monat</string>
     <string name="PROFILE_STAT_TAB_WEEK">Woche</string>
     <string name="PROFILE_STAT_TAB_NOW">Jetzt</string>

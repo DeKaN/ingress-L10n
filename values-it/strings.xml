@@ -48,7 +48,7 @@
     <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">"Impossibile richiedere un codice di verifica. Prova con l'opzione Chiamata."</string>
     <string name="SMS_ERROR_INVALID_VERIFICATION">Verifica non riuscita. Errore interno.</string>
     <string name="SMS_ERROR_VERIFICATION_BUSY">Verifica in fase di elaborazione.</string>
-    <string name="SMS_ERROR_REQUEST_BUSY">Richiesta di verifica in corso.</string>
+    <string name="SMS_ERROR_REQUEST_BUSY">Evasione della richiesta di verifica in corso.</string>
     <string name="SMS_ERROR_SERVICE_ERROR">"L'operatore non è riuscito a inviare il codice di verifica."</string>
     <string name="SMS_ERROR_PIN_MISMATCH">Codice non valido. Inserisci un codice di verifica valido.</string>
     <string name="SMS_ERROR_PIN_EXPIRED">Codice scaduto. Richiedi un nuovo codice di verifica.</string>
@@ -73,15 +73,15 @@ Ora sei un agente fidato."</string>
     <string name="DROP">DEPOSITA</string>
     <string name="JARVIS">JARVIS</string>
     <string name="ADA">ADA</string>
-    <string name="TUTORIALS_AGENT_HACKING_PORTALS">Come agente, acquisirai item hackerando i Portal.</string>
-    <string name="TUTORIALS_ATTACK_THE_ENEMY">Hacka il Portal nemico.</string>
-    <string name="TUTORIALS_DEPLOY_RESONATORS">Posiziona Resonator per dare energia ai Portal amici.</string>
+    <string name="TUTORIALS_AGENT_HACKING_PORTALS">Come agente, acquisirai oggetti attaccando i Portal.</string>
+    <string name="TUTORIALS_ATTACK_THE_ENEMY">Attacca il Portal nemico.</string>
+    <string name="TUTORIALS_DEPLOY_RESONATORS">Posiziona un resonator per dare energia ai portal alleati.</string>
     <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">"È stato rilevato uno slot di Resonator vuoto. Spostati nell'area di azione per scoprire l'azione POSIZIONA."</string>
     <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">"È stato rilevato un Portal nemico. Spostati nell'area di azione per scoprire l'azione SPARA."</string>
     <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">"L'Exotic Matter (o XM) dà energia al tuo Scanner."</string>
     <string name="TUTORIALS_EXPLORE_THE_WORLD">Esplora il mondo che ti circonda per trovare altri Portal. Hackali per accumulare risorse. Conquistali per la tua fazione.</string>
     <string name="TUTORIALS_FIRE_XMPS">Fai esplodere un XMP per distruggere i Portal nemici.</string>
-    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">Acquisisci item HACKANDO Portal</string>
+    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">Acquisisci oggetti ATTACCANDO Portal</string>
     <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">Per utilizzare lo Scanner devi CAMMINARE.</string>
     <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">"I Portal sono luoghi in cui l'XM si diffonde nel nostro mondo."</string>
     <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">I Portal si trovano spesso vicino a sculture e siti storici.</string>
@@ -95,7 +95,7 @@ Ora sei un agente fidato."</string>
     <string name="TUTORIALS_TO_FIRE_XMP">Per sparare, premi sulla mappa per visualizzare il menu, quindi scorri per selezionare %s.</string>
     <string name="TUTORIALS_TRAINING_COMPLETE">Training completato.</string>
     <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">Vai in giro per raccogliere XM.</string>
-    <string name="TUTORIALS_WELCOME_TO_INGRESS">Benvenuto in Ingress...</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">Benvenuto in Ingress…</string>
     <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">"Puoi interagire con gli oggetti all'interno del cerchio d'azione."</string>
     <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">Conquisterai Portal per la tua fazione. Il colore indica la fazione che ha il controllo dei Portal.</string>
     <string name="TUTORIAL_GO_HACK">"Spostati all'interno del raggio d'azione di un Portal e hackalo."</string>
@@ -121,14 +121,14 @@ Partecipa al conflitto. Conferma la tua identità tramite un account Google prot
     <string name="THE_ENLIGHTENED">Illuminati</string>
     <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s è un membro di questa fazione]</string>
     <string name="HUMANIST_DESCRIPTION">"La Resistenza cerca di combattere le forze che tentano di utilizzare l'Exotic Matter per ridurre in schiavitù l'umanità."</string>
-    <string name="ENLIGHTENED_DESCRIPTION">"Gli Illuminati cercano di controllare l'energia dell'Exotic Matter per aiutare l'umanita' a evolversi verso un livello superiore."</string>
+    <string name="ENLIGHTENED_DESCRIPTION">"Gli Illuminati cercano di controllare l'energia dell'Exotic Matter per aiutare l'umanità a evolversi verso un livello superiore."</string>
     <string name="CANCEL">ANNULLA</string>
     <string name="CONFIRM">CONFERMA</string>
     <string name="NICKNAME_PROMPT_RETRY">Prova un nome in codice diverso.</string>
-    <string name="NICKNAME_PROMPT_TOP">"Niantic software online.
+    <string name="NICKNAME_PROMPT_TOP">"Software Niantic online.
 
-Incoming message detected.
-Opening secure channel…"</string>
+È stato rilevato un messaggio in arrivo.
+Apertura del canale protetto..."</string>
     <string name="NICKNAME_PROMPT_BOTTOM">"Crea un nome agente. Si tratta del nome con cui sarai riconosciuto dagli altri agenti.
 
 Digita il nuovo nome agente."</string>
@@ -147,11 +147,11 @@ Digita il nuovo nome agente."</string>
     <string name="PROGRESS_VALIDATING_CODENAME">Convalida del nome in codice in corso</string>
     <string name="PROGRESS_CREATING_CODENAME">Creazione del nome in codice in corso</string>
     <string name="NICKNAME_VALIDATE_MESSAGE">Nome in codice valido. Conferma.</string>
-    <string name="NICKNAME_ID_CONFIRMED">"Creating encryption keys…
+    <string name="NICKNAME_ID_CONFIRMED">"Creazione dei codici di crittografia...
 
-ID confirmed."</string>
-    <string name="NICKNAME_ACCESS_GRANTED">"Access granted.
-Program initiated…"</string>
+ID confermata."</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"Accesso assicurato.
+Programma avviato..."</string>
     <string name="BUTTON_QUIT">ESCI</string>
     <string name="RECOMMENDED_SCANNER_UPDATE">"Il tuo scanner Ingress è datato. È consigliabile eseguire l'aggiornamento."</string>
     <string name="BUTTON_PLAY">Gioca</string>
@@ -170,7 +170,7 @@ Hai scaricato quello che credi essere un gioco ma che, in realtà, non lo è.
 Una quantità di Exotic matter di origine sconosciuta si sta diffondendo nel nostro mondo.
 
 Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string>
-    <string name="INCOMING_MESSAGE">MESSAGGIO RICEVUTO</string>
+    <string name="INCOMING_MESSAGE">MESSAGGIO IN ARRIVO</string>
     <string name="ADA_CALL_ACCEPT">ACCETTO</string>
     <string name="ADA_CALL_NEXT">AVANTI</string>
     <string name="ERROR_ESTABLISHING_SECURE_CONNECTION">Impossibile stabilire una connessione protetta. Riprova.</string>
@@ -181,8 +181,8 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="JAILBROKEN_RESULT">Ingress non funzionerà correttamente.</string>
     <string name="MISSIONS_FIELD_TRIP_READ_MORE">Ulteriori informazioni</string>
     <string name="MISSIONS_NEARBY_LIST">Visualizza missioni vicine</string>
-    <string name="MISSION_STARTED_COMM">Started %1$s: %2$s</string>
-    <string name="MISSION_TYPE_COMM">mission</string>
+    <string name="MISSION_STARTED_COMM">%1$s iniziata: %2$s</string>
+    <string name="MISSION_TYPE_COMM">missione</string>
     <string name="ACHIEVEMENT_CONGRATULATIONS">"Congratulazioni, hai raggiunto l'obiettivo %s."</string>
     <string name="APNS_L">"Il tuo Portal %1$s è sotto l'attacco di %2$s."</string>
     <string name="APNS_P">Il tuo Portal %s è sotto attacco.</string>
@@ -210,7 +210,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="LOCATION_SERVICES_RESTRICTED">Ingress non riesce ad accedere alla tua posizione.</string>
     <string name="LOCATION_SERVICES_UPGRADE_PERMISSIONS">Ingress vorrebbe accedere alla tua posizione in background per informarti della presenza di Portal nelle vicinanze.</string>
     <string name="REENGAGEMENT_PORTAL_NEARBY">Portal Ingress nelle vicinanze. Hackalo!</string>
-    <string name="IOS_NOTIFICATION_UNLOCK_MESSAGE">avvia Ingress</string>
+    <string name="IOS_NOTIFICATION_UNLOCK_MESSAGE">avviare Ingress</string>
     <string name="ACTIVE_MODE_RUNNING">Modalità attiva online.</string>
     <string name="ACTIVE_MODE_TITLE">Modalità attiva</string>
     <string name="START_ACTIVE_MODE">Avvia</string>
@@ -226,14 +226,14 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="RADIAL_MENU_STOP_ACTIVE_MODE">INTERROMPI</string>
     <string name="ACTIVE_MODE_SETTING_DESCRIPTION">Invia notifica relativa a Portal vicini e attività Ingress.</string>
     <string name="PORTAL_ACTIONS_HACK_TOP_LABEL">HACKA</string>
-    <string name="PORTAL_ACTIONS_HACK_SUB_LABEL">Portal</string>
+    <string name="PORTAL_ACTIONS_HACK_SUB_LABEL">Il portal</string>
     <string name="PORTAL_ACTIONS_DEPLOY_TOP_LABEL">POSIZIONA</string>
     <string name="PORTAL_ACTIONS_DEPLOY_SUB_LABEL">Resonator</string>
-    <string name="PORTAL_ACTIONS_DEPLOY_SUB_LABEL_OFF">Stato</string>
+    <string name="PORTAL_ACTIONS_DEPLOY_SUB_LABEL_OFF">Stato del portal</string>
     <string name="PORTAL_ACTIONS_DEPLOY_ONE_LINE">STATO RIS</string>
     <string name="PORTAL_ACTIONS_RECHARGE_TOP_LABEL">RICARICA</string>
     <string name="PORTAL_ACTIONS_RECHARGE_SUB_LABEL">Resonator</string>
-    <string name="PORTAL_ACTIONS_MOD_TOP_LABEL">MOD</string>
+    <string name="PORTAL_ACTIONS_MOD_TOP_LABEL">MODIFICATORI</string>
     <string name="PORTAL_ACTIONS_MOD_SUB_LABEL">Stato</string>
     <string name="PORTAL_ACTIONS_MOD_ONE_LINE_LABEL">STATO MOD</string>
     <string name="PORTAL_ACTIONS_MISSION_TOP_LABEL">MISSIONI</string>
@@ -283,11 +283,11 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="ENUM_MAP_FAIL_SERVER_ERROR">Errore di comunicazione con lo Scanner.</string>
     <string name="ENUM_MAP_FAIL_NOT_AVAILABLE">Oggetto non disponibile.</string>
     <string name="ENUM_MAP_FAIL_UNABLE_TO_USE">Impossibile utilizzare l’oggetto.</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_NOT_AT_MAX_RESONATORS">Riempi gli slot di Resonator prima di aumentare il livello del resonator.</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_NOT_AT_MAX_RESONATORS">Riempi gli slot di resonator prima di aumentare il livello dei resonator.</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_SERVER_ERROR">Azione non riuscita.</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_MISSING_LOCATION">Portal non valido.</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_CAN_ONLY_UPGRADE_TO_HIGHER_LEVEL">Non è possibile aumentare il livello.</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_RESONATOR_LINKED_TO_DIFFERENT_PORTAL">Il Resonator non è sul ePortal.</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_RESONATOR_LINKED_TO_DIFFERENT_PORTAL">Il Resonator non è sul Portal.</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_NOT_PORTAL_OWNER">Non sei il proprietario del Portal.</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_NOT_ON_SAME_PORTAL">Resonator su diversi Portal.</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_MISSING_PORTAL_KEY">Portal Key mancante.</string>
@@ -365,11 +365,11 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_CLIENT_ONLY_GENERIC_FAILED_TO_UNLINK">Impossibile scollegare questo profilo.</string>
     <string name="ENUM_MAP_GET_MODIFIED_GUIDS_FAIL_TOO_MANY">Inventario sovraccarico.</string>
     <string name="ENUM_MAP_FAIL_NO_PORTAL">Il Portal non esiste più.</string>
-    <string name="ENUM_MAP_FAIL_OUT_OF_RANGE">Fuori raggio d’azione.</string>
+    <string name="ENUM_MAP_FAIL_OUT_OF_RANGE">Fuori azione.</string>
     <string name="ENUM_MAP_FAIL_WRONG_LEVEL">Livello di accesso non sufficiente.</string>
     <string name="ENUM_MAP_FAIL_NEED_MORE_XM">Serve più XM.</string>
     <string name="ENUM_MAP_FAIL_GLYPH_NOT_EXISTING">Hack Glyph neutralizzato.</string>
-    <string name="ENUM_MAP_FAIL_GLYPH_HACK_REQUIRED">Blocco del Portal. È necessario un Hack Glyph.</string>
+    <string name="ENUM_MAP_FAIL_GLYPH_HACK_REQUIRED">Blocco del portal. È necessario un hack glyph.</string>
     <string name="ENUM_MAP_FAIL_GLYPH_ALREADY_REDEEMED">Hack Glyph deviato.</string>
     <string name="ENUM_MAP_FAIL_USER_ABORTED_GAME">Hack Glyph interrotto.</string>
     <string name="ENUM_MAP_MISSION_FAIL_UNKNOWN">Errore. Trasmissione interrotta.</string>
@@ -381,7 +381,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="ENUM_MAP_MISSION_FAIL_MISSION_DOES_NOT_EXIST">La missione non esiste più.</string>
     <string name="ENUM_MAP_MISSION_FAIL_FIELD_TRIP_CARD_NOT_EXIST">La scheda di Field Trip non esiste.</string>
     <string name="ENUM_MAP_MISSION_FAIL_NOT_IN_RANGE">Waypoint troppo lontana.</string>
-    <string name="ENUM_MAP_MISSION_FAIL_MISSION_TOO_MANY_INVALID_WAYPOINTS">Questa missione ha troppi waypoint invalide.</string>
+    <string name="ENUM_MAP_MISSION_FAIL_MISSION_TOO_MANY_INVALID_WAYPOINTS">Questa missione ha troppi Waypoint non validi.</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_CAPTURE_PORTAL">Conquista o aumenta il livello del Portal</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_FIELD">Crea Field da Portal</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_LINK">Crea collegamento da Portal</string>
@@ -395,7 +395,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="ENUM_MAP_NEMESIS_TABS_AGENT">AGENTE</string>
     <string name="ENUM_MAP_NEMESIS_TABS_INTEL">INTEL</string>
     <string name="ENUM_MAP_NEMESIS_TABS_MISSIONS">MISSIONI</string>
-    <string name="ENUM_MAP_NEMESIS_TABS_TRAINING">TRAINING</string>
+    <string name="ENUM_MAP_NEMESIS_TABS_TRAINING">TUTORIAL</string>
     <string name="ENUM_MAP_NEMESIS_TABS_RECRUIT">RECLUTA</string>
     <string name="ENUM_MAP_NEMESIS_TABS_COMMUNITY">COMMUNITY</string>
     <string name="ENUM_MAP_NEMESIS_TABS_PASSCODE">CODICE</string>
@@ -419,7 +419,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="RESONATOR_MODE_RECHARGE_ALL_BUTTON">RICARICA TUTTI</string>
     <string name="RESONATOR_MODE_RECHARGE_DISABLE_REASON_RECHARGING">Ricarica…</string>
     <string name="RESONATOR_MODE_RECHARGE_DISTANCE_LABEL">Distanza</string>
-    <string name="RESONATOR_MODE_RECHARGE_EFFICIENCY_LABEL">Efficienza del raggio d’ azione</string>
+    <string name="RESONATOR_MODE_RECHARGE_EFFICIENCY_LABEL">"Efficienza del raggio d'azione"</string>
     <string name="RESONATOR_MODE_DEPLOY_BUTTON_CONFIRM">CONFERMA</string>
     <string name="RESONATOR_MODE_DEPLOY_BUTTON_UPGRADE">AGGIORNA</string>
     <string name="RESONATOR_MODE_DEPLOY_DISABLE_REASON_NO_RESOS">Nessun Resonator</string>
@@ -440,7 +440,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="ENUM_MAP_STATS_MODIFIER_LINK_RANGE_MULTIPLIER">Moltiplicatore distanza di collegamento</string>
     <string name="ENUM_MAP_STATS_MODIFIER_REMOVAL_STICKINESS">Difficoltà rimozione</string>
     <string name="ENUM_MAP_STATS_MODIFIER_UNKNOWN">Sconosciuto</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_HACK_SPEED">Velocità di hack consecutivi</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_HACK_SPEED">Velocità di hack</string>
     <string name="ENUM_MAP_STATS_MODIFIER_BURNOUT_INSULATION">Hack aggiuntivi</string>
     <string name="ENUM_MAP_STATS_MODIFIER_FORCE_AMPLIFIER">Amplificatore attacco</string>
     <string name="ENUM_MAP_STATS_MODIFIER_HIT_BONUS">Bonus attacco</string>
@@ -558,7 +558,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="FLIP_CARD_INSTRUCTIONS_TEXT_ENLIGHTENED">Scegli un Portal degli Illuminati</string>
     <string name="FLIP_CARD_INSTRUCTIONS_TEXT_RESISTANCE">Scegli un Portal della Resistenza</string>
     <string name="FLIP_CARD_INSTRUCTIONS_OUT_OF_RANGE">"Fuori dall'area di azione"</string>
-    <string name="FLIP_CARD_CONFIRM_DEPLOYMENT">"CONFERMA POSIZIONAMENTO "</string>
+    <string name="FLIP_CARD_CONFIRM_DEPLOYMENT">CONFERMA POSIZIONAMENTO</string>
     <string name="FLIP_CARD_USE_CONFIRM">CONFERMA</string>
     <string name="FLIP_CARD_USE_BACK">INDIETRO</string>
     <string name="FLIP_CARD_USE_CANCEL">ANNULLA</string>
@@ -577,7 +577,7 @@ Se esci, l'operazione non verrà eseguita."</string>
     <string name="SETTINGS_TITLE_USER">Utente</string>
     <string name="SETTINGS_USER_SIGN_OUT">Esci</string>
     <string name="SETTINGS_TITLE_LINK">Collega profilo G+</string>
-    <string name="SETTINGS_LINK_LOADING">Caricamento...</string>
+    <string name="SETTINGS_LINK_LOADING">Caricamento…</string>
     <string name="SETTINGS_LINK_LINKED">Profilo G+ collegato</string>
     <string name="SETTINGS_LINK_UNLINK">Scollega</string>
     <string name="SETTINGS_LINK_MESSAGE">Il tuo profilo G+ verrà collegato a Ingress e sarà visibile agli altri giocatori</string>
@@ -704,27 +704,27 @@ CALCOLO RISULTATI FINALI..."</string>
     <string name="PASSCODE_DONE">Fine</string>
     <string name="PASSCODE_VALIDATING">Convalida del codice…</string>
     <string name="SPACE2FACE_SKIP">IGNORA</string>
-    <string name="MISSION_SHARE_MESSAGE">"Scopri questa missione.
-%s"</string>
+    <string name="MISSION_SHARE_MESSAGE">Scopri questa missione di Ingress. Link per desktop: %s</string>
     <string name="MISSIONS_TOUCH_TO_LOAD_MORE">Tocca per caricarne altre.</string>
-    <string name="MISSIONS_LOADING">Loading…</string>
+    <string name="MISSIONS_LOADING">Caricamento…</string>
     <string name="MISSIONS_RETRY">RIPROVA</string>
     <string name="MISSIONS_MISSION_DETAILS_BACK_NAVIGATION_TITLE">ELENCO DI MISSIONI</string>
     <string name="MISSIONS_MISSION_COMPLETION_TIME">Durata media: %s</string>
-    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">Stabilimento del waypoint…</string>
+    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">Caricamento del waypoint…</string>
     <string name="MISSIONS_MISSION_BUTTON_REPLAY">RIPETI</string>
     <string name="MISSIONS_MISSION_BUTTON_START">AVVIA</string>
     <string name="MISSIONS_MISSION_BUTTON_ABORT">INTERROMPI</string>
     <string name="MISSIONS_MISSION_BUTTON_RATE">VALUTA</string>
+    <string name="MISSIONS_MISSION_BUTTON_MAP">MAPPA</string>
     <string name="MISSIONS_MISSION_CHECKBOX_HIDE_UI">Nascondi richieste missioni</string>
     <string name="MISSIONS_AGENTS_PLAYED">Completata da %s agenti</string>
     <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">Impossibile ottenere le informazioni dei waypoint.</string>
     <string name="MISSIONS_CANCEL">ANNULLA</string>
     <string name="MISSIONS_CONFIRM">CONFERMA</string>
     <string name="MISSIONS_WAYPOINTS_MARKER">WAYPOINT</string>
-    <string name="MISSIONS_PROGRESS_STARTING_MISSION">Inizio mission…</string>
-    <string name="MISSIONS_PROGRESS_ABORTING_MISSION">Conclusione mission…</string>
-    <string name="MISSIONS_PROGRESS_RATING_MISSION">Valutazione mission…</string>
+    <string name="MISSIONS_PROGRESS_STARTING_MISSION">Inizio missione…</string>
+    <string name="MISSIONS_PROGRESS_ABORTING_MISSION">Conclusione missione...</string>
+    <string name="MISSIONS_PROGRESS_RATING_MISSION">Valutazione missione...</string>
     <string name="MISSIONS_MISSION_COMPLETE">Missione completata</string>
     <string name="MISSIONS_MISSION_ABORTED">Missione interrotta</string>
     <string name="MISSIONS_RATE_MISSION_PROMPT">Ti è piaciuta questa missione?</string>
@@ -750,19 +750,19 @@ CALCOLO RISULTATI FINALI..."</string>
     <string name="MISSIONS_WAYPOINTS_SECTION_SEQUENTIAL">COMPLETA I WAYPOINT IN ORDINE</string>
     <string name="MISSIONS_WAYPOINTS_SECTION_NON_SEQUENTIAL">COMPLETA I WAYPOINT IN QUALSIASI ORDINE</string>
     <string name="MISSIONS_WAYPOINTS_SECTION_HIDDEN_SEQUENTIAL">COMPLETA I WAYPOINT IN ORDINE</string>
-    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">Impossibile completare obiettivo carta Field Trip : %s</string>
+    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">"Impossibile completare l'obiettivo della scheda Field Trip: %s"</string>
     <string name="MISSIONS_EXPAND_FOR_MORE">Espandi</string>
     <string name="MISSIONS_WAYPOINT_NAME">" WAYPOINT 
  MISSIONE "</string>
     <string name="STARTUP_OK">OK</string>
     <string name="STARTUP_NEXT">AVANTI</string>
     <string name="TRAINING_ADA">ADA</string>
-    <string name="TRAINING_ADA_LOCATION">unknown</string>
+    <string name="TRAINING_ADA_LOCATION">sconosciuto</string>
     <string name="TRAINING_VIEW">Visualizza briefing</string>
     <string name="TRAINING_TITLE_FORMAT">Training - %s</string>
-    <string name="TRAINING_MISSION_TYPE_COMM">training mission</string>
+    <string name="TRAINING_MISSION_TYPE_COMM">missione di training</string>
     <string name="TRAINING_ABORT">Interrompi</string>
-    <string name="TRAINING_MISSION_POPOVER_TITLE">Training Mission</string>
+    <string name="TRAINING_MISSION_POPOVER_TITLE">Missione di training</string>
     <string name="TRAINING_INCOMING_MESSAGE">Messaggio in arrivo</string>
     <string name="TRAINING_ACCEPT">Accetto</string>
     <string name="TRAINING_START">Avvia</string>
@@ -770,7 +770,7 @@ CALCOLO RISULTATI FINALI..."</string>
     <string name="TRAINING_SKIP">Ignora</string>
     <string name="TRAINING_END">Fine Training</string>
     <string name="TRAINING_NEXT">Prossimo Training</string>
-    <string name="TRAINING_OBJECTIVES">Obbiettivi</string>
+    <string name="TRAINING_OBJECTIVES">Obiettivi</string>
     <string name="TRAINING_OBJECTIVES_COMPLETE">Obiettivi completati</string>
     <string name="TRAINING_0_NAME">Primo contatto</string>
     <string name="TRAINING_0_DESCRIPTION">Primo contatto con ADA.</string>
@@ -794,7 +794,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
 "</string>
     <string name="TRAINING_2_NAME">Hacka un Portal</string>
     <string name="TRAINING_2_DESCRIPTION">Cammina fino a un Portal e hackalo per fare rifornimento</string>
-    <string name="TRAINING_2_MESSAGE">"C'è un Portal nelle vicinanze. Avvicinati al Portal fino ad averlo nel tuo cerchio d'azione. Tocca il Portal sulla mappa dello Scanner. Seleziona Hack. Attenzione: si tratta di un Portal ostile. Spostati fuori dall'area di azione dopo averlo Hackato.
+    <string name="TRAINING_2_MESSAGE">"C'è un Portal nelle vicinanze. Avvicinati al Portal fino ad averlo nel tuo cerchio d'azione. Tocca il Portal sulla mappa dello Scanner. Seleziona Hack. Attenzione: si tratta di un Portal ostile. Spostati fuori dall'area di azione dopo averlo hackato.
 
 "</string>
     <string name="TRAINING_2_OUTRO">"Eccellente. Spesso l’hack dei Portal dà risorse. I Portal possono essere hackati di nuovo dopo un periodo di raffreddamento. Hacka spesso per arricchire l'inventario. Stai attento: quando ti imbatti in un Portal potresti avere idee e provare emozioni insolite."</string>
@@ -812,7 +812,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="TRAINING_3_STATUS">Training: missione 3 (Neutralizzazione di Portal ostili) - Neutralizza il Portal ostile distruggendone i Resonator.</string>
     <string name="TRAINING_4_NAME">Posiziona Resonator</string>
     <string name="TRAINING_4_DESCRIPTION">Assicurati il Portal posizionando Resonator</string>
-    <string name="TRAINING_4_MESSAGE">"I Resonator consentono di controllare i Portal. Per posizionare un Resonator, avvicinati all'area di azione, tocca il Portal e seleziona POSIZIONA RESONATOR.
+    <string name="TRAINING_4_MESSAGE">"I resonator consentono di controllare i portal. Per posizionare un resonator, avvicinati all'area di azione, tocca il portal e seleziona POSIZIONA RESONATOR.
 
 "</string>
     <string name="TRAINING_4_OUTRO">"L'aggiunta di altri Resonator consente di incrementare la produzione di energia e le difese del Portal.
@@ -895,7 +895,7 @@ Anche gli Shaper stanno cercando di stabilire Control Field tramite i quali inte
     <string name="REMOTE_VIEW_NAVIGATION_OFF">NAV OFF</string>
     <string name="REMOTE_VIEW_PORTAL">PORTAL</string>
     <string name="REMOTE_VIEW_WAYPOINT">WAYPOINT</string>
-    <string name="HACK_RESULTS_NO_ITEMS">"Nessun oggetto acquisito con l'attacco."</string>
+    <string name="HACK_RESULTS_NO_ITEMS">"Nessun oggetto acquisito con l'hack."</string>
     <string name="HACK_RESULTS_BONUS_ITEMS">Oggetti bonus:</string>
     <string name="HACK_RESULTS_NORMAL_ITEMS">Oggetti acquisiti:</string>
     <string name="HACK_RESULTS_INVENTORY_FULL">"Troppi oggetti nell'inventario, che non può contenere più di %s oggetti."</string>
@@ -907,9 +907,9 @@ Anche gli Shaper stanno cercando di stabilire Control Field tramite i quali inte
     <string name="ITEM_DESCRIPTION_EMP_BURSTER">Armi XMP (eXotic Matter Pulse) che consentono di distruggere Resonator e modificatori nemici, nonché di neutralizzare Portal nemici.</string>
     <string name="ITEM_DESCRIPTION_EXTRA_SHIELD">Scudo protettivo potentissimo per i Portal.</string>
     <string name="ITEM_DESCRIPTION_FORCE_AMP">Modificatore che aumenta il potere di attacco dei Portal contro gli agenti nemici.</string>
-    <string name="ITEM_DESCRIPTION_HEATSINK">"Modificatore che velocizza il raffreddamento dei Portal tra un attacco e l'altro."</string>
+    <string name="ITEM_DESCRIPTION_HEATSINK">"Modificatore che riduce il tempo di raffreddamento dei portal tra un hack e l'altro."</string>
     <string name="ITEM_DESCRIPTION_LINK_AMPLIFIER">"Modificatore che aumenta il raggio d'azione del collegamento dei Portal."</string>
-    <string name="ITEM_DESCRIPTION_MULTIHACK">Modificatore che aumenta la capacità di attacco di un Portal.</string>
+    <string name="ITEM_DESCRIPTION_MULTIHACK">Modificatore che aumenta la capacità di hack di un Portal.</string>
     <string name="ITEM_DESCRIPTION_PORTAL_LINK_KEY">Utilizza la Portal Key per creare collegamenti e ricaricare da remoto questo Portal.</string>
     <string name="ITEM_DESCRIPTION_POWER_CUBE">Riserva di XM che è possibile utilizzare per ricaricare lo Scanner.</string>
     <string name="ITEM_DESCRIPTION_RES_SHIELD">Modificatore che protegge il Portal dagli attacchi.</string>
@@ -962,7 +962,7 @@ Anche gli Shaper stanno cercando di stabilire Control Field tramite i quali inte
     <string name="COMM_AP_MESSAGE_DESTROYED_A_PORTAL_LINK">Hai ottenuto %s AP per avere distrutto un collegamento</string>
     <string name="COMM_AP_MESSAGE_DESTROYED_PORTAL_REGION">Hai ottenuto %s AP per avere distrutto un Control Field</string>
     <string name="COMM_AP_MESSAGE_DEPLOYED_RESONATOR_MOD">Hai ottenuto %s AP per avere creato un modificatore dei Resonator</string>
-    <string name="COMM_AP_MESSAGE_GLYPH_HACK">"Hai ottenuto %s AP per l'attacco Glyph"</string>
+    <string name="COMM_AP_MESSAGE_GLYPH_HACK">"Hai ottenuto %s AP per l'hack glyph"</string>
     <string name="COMM_AP_MESSAGE_PORTAL_FULLY_POPULATED_WITH_RESONATORS">Hai ottenuto %s AP per avere ricaricato completamente un Portal</string>
     <string name="COMM_AP_MESSAGE_HACKING_ENEMY_PORTAL">Hai ottenuto %s AP per avere attaccato un Portal nemico</string>
     <string name="COMM_AP_MESSAGE_REDEEMED_AP">Hai ottenuto %s AP per avere utilizzato un codice</string>

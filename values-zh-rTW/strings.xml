@@ -28,18 +28,18 @@
     <string name="common_signin_button_text">登入</string>
     <string name="common_signin_button_text_long">使用 Google 帳戶登入</string>
     <string name="common_open_on_phone">在手機上開啟</string>
-    <string name="SMS_WELL_DONE">%s，幹得漂亮！現在是時候成為正式的探員了。</string>
-    <string name="SMS_ACTION_FAIL">成為正式的探員後，就可以解鎖「%s」。</string>
-    <string name="SMS_VERIFY_NOW_LEVEL_UP">你必須先向%s進行驗證才能升級。</string>
+    <string name="SMS_WELL_DONE">%s，幹得漂亮！現在是時候成為正式探員了。</string>
+    <string name="SMS_ACTION_FAIL">成為正式探員後，就可以將「%s」動作解鎖。</string>
+    <string name="SMS_VERIFY_NOW_LEVEL_UP">如要升級，請先向 %s 進行驗證。</string>
     <string name="SMS_VERIFY_NOW">立即向 %s 進行驗證。</string>
     <string name="VERIFY">驗證</string>
-    <string name="LATER">以後再說</string>
-    <string name="SMS_PHONE_NUMBER_USE">此電話號碼只用於身份驗證。</string>
-    <string name="SMS_DISCLAIMER">*您必須支付移動通訊費。</string>
+    <string name="LATER">先不要</string>
+    <string name="SMS_PHONE_NUMBER_USE">這個電話號碼僅做為驗證使用。</string>
+    <string name="SMS_DISCLAIMER">*您必須支付一般行動通訊費率。</string>
     <string name="SMS_ENTER_NUMBER">請輸入您的電話號碼：</string>
-    <string name="SMS_REQUEST_VIA">選擇驗證碼取得方式：</string>
+    <string name="SMS_REQUEST_VIA">驗證碼取得方式：</string>
     <string name="SMS">簡訊</string>
-    <string name="VOICE">語音</string>
+    <string name="VOICE">電話</string>
     <string name="SMS_ERROR_NUMBER_FORMAT">電話號碼格式錯誤。</string>
     <string name="SMS_ERROR_VERIFIED_ALREADY">您已經完成驗證。</string>
     <string name="SMS_ERROR_BAD_PHONE_NUMBER">電話號碼有誤，無法申請驗證碼。</string>
@@ -47,26 +47,26 @@
     <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">無法取得驗證碼，請嘗試改用簡訊。</string>
     <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">無法取得驗證碼，請嘗試改用語音通話。</string>
     <string name="SMS_ERROR_INVALID_VERIFICATION">發生內部錯誤，驗證失敗。</string>
-    <string name="SMS_ERROR_VERIFICATION_BUSY">正在驗證。</string>
-    <string name="SMS_ERROR_REQUEST_BUSY">正在處理您的驗證申請。</string>
+    <string name="SMS_ERROR_VERIFICATION_BUSY">系統正在處理您的驗證。</string>
+    <string name="SMS_ERROR_REQUEST_BUSY">系統正在處理您的驗證申請。</string>
     <string name="SMS_ERROR_SERVICE_ERROR">行動通訊業者無法傳送驗證碼。</string>
     <string name="SMS_ERROR_PIN_MISMATCH">驗證碼無效，請輸入有效的驗證碼。</string>
     <string name="SMS_ERROR_PIN_EXPIRED">驗證碼已過期，請重新申請驗證碼。</string>
-    <string name="SMS_ERROR_QUOTA_REACHED">這電話號碼已達到驗證次數上限，無法申請驗證碼。</string>
+    <string name="SMS_ERROR_QUOTA_REACHED">這個電話號碼已達到驗證次數上限，無法申請驗證碼。</string>
     <string name="SMS_ERROR_RETRY_IN_1_MINUTE">目前驗證踴躍，請於 1 分鐘後再試一次。</string>
     <string name="SMS_ERROR_RETRY_IN_5_MINUTES">目前驗證踴躍，請於 5 分鐘後再試一次。</string>
     <string name="SMS_ERROR_RETRY_IN_15_MINUTES">目前驗證踴躍，請於 15 分鐘後再試一次。</string>
     <string name="SMS_ERROR_RETRY_LATER">目前驗證踴躍，請稍後再試。</string>
-    <string name="SMS_ERROR_SERVER_ERROR">偵測系統進行通訊時發生錯誤。</string>
+    <string name="SMS_ERROR_SERVER_ERROR">掃描器進行通訊時發生錯誤。</string>
     <string name="SMS_REQUESTING">申請中…</string>
     <string name="SMS_VERIFYING">驗證中...</string>
     <string name="SMS_CODE_SENT">驗證碼已送出。</string>
     <string name="SMS_TAP_INSTRUCTION">收到驗證碼後，請輕觸驗證圖示。</string>
     <string name="SMS_ENTER_CODE">輸入驗證碼</string>
     <string name="SMS_ENTER_YOUR_N_DIGIT">輸入 %d 位數驗證碼：</string>
-    <string name="SMS_NEED_A_NEW">需要新的驗證碼？</string>
+    <string name="SMS_NEED_A_NEW">您需要新的驗證碼嗎？</string>
     <string name="REQUEST">申請</string>
-    <string name="again">再次申請</string>
+    <string name="again">新驗證碼</string>
     <string name="SMS_CODE_VALID">"驗證碼有效。
 恭喜您成為正式探員！"</string>
     <string name="DONE">完成</string>
@@ -75,60 +75,60 @@
     <string name="ADA">ADA</string>
     <string name="TUTORIALS_AGENT_HACKING_PORTALS">探員入侵 Portal 後可以獲得物品。</string>
     <string name="TUTORIALS_ATTACK_THE_ENEMY">攻擊敵方 Portal。</string>
-    <string name="TUTORIALS_DEPLOY_RESONATORS">放置 Resonator 可為友方 Portal 提供能量。</string>
-    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">偵測到可用的 Resonator 槽位，請移動到有效範圍內了解部署方式。</string>
-    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">偵測到敵方 Portal，請移動到範圍內了解如何「發射」。</string>
-    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">您可以使用 Exotic Matter (XM) 為偵測系統補給能量。</string>
-    <string name="TUTORIALS_EXPLORE_THE_WORLD">您可以探索周遭環境尋找更多 Portal、展開入侵來獲得更多資源，還可以將 Portal 納入己方陣營！</string>
+    <string name="TUTORIALS_DEPLOY_RESONATORS">部署 Resonator 可為友方 Portal 提供能量。</string>
+    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">偵測到空的 Resonator 槽位，請移動到範圍內學習如何「部署」。</string>
+    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">偵測到敵方 Portal，請移動到範圍內學習如何「發射」。</string>
+    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">您可以使用 Exotic Matter (XM) 為掃描器充電。</string>
+    <string name="TUTORIALS_EXPLORE_THE_WORLD">您可以探索周遭環境尋找更多 Portal、取得其中的物品來充實自己的資源，還可以佔領 Portal 納入己方陣營！</string>
     <string name="TUTORIALS_FIRE_XMPS">您可以發射 XMP 摧毀敵方的 Portal。</string>
     <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">入侵 Portal 即可獲得物品</string>
-    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">您必須親自走動才能使用偵測器。</string>
+    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">您必須親自走動才能使用掃描器。</string>
     <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">Portal 是指世界各處溢出 XM 的地點。</string>
     <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">Portal 通常出現在雕塑或古蹟附近。</string>
-    <string name="TUTORIALS_PORTAL_DETECTED">偵測到 Portal，請移動到相應範圍內。</string>
+    <string name="TUTORIALS_PORTAL_DETECTED">偵測到 Portal，請移動到範圍內。</string>
     <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">獲得 Resonator 和 XMP。</string>
-    <string name="TUTORIALS_TAP_PORTAL">點擊 Portal 來採取行動。</string>
-    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">輕觸即可自訂您的虛擬角色。</string>
+    <string name="TUTORIALS_TAP_PORTAL">如要採取行動，請輕觸 Portal</string>
+    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">輕觸即可自訂您的虛擬人偶。</string>
     <string name="TUTORIALS_THE_TRIANGLE_REPRESENTS_YOUR_LOCATION">三角形圖示代表您在真實世界中所在的位置。</string>
-    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">這是侦测器的地圖檢視模式。</string>
-    <string name="TUTORIALS_TO_AUTO_DEPLOY">如要使用「自動部署」功能，請輕觸 [%s]。此外，您也可以先選擇一個可用位置。</string>
-    <string name="TUTORIALS_TO_FIRE_XMP">如要發射，請按住地圖畫面叫出選單，然後滑動並選擇 [%s]。</string>
+    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">這是掃描器的地圖檢視模式。</string>
+    <string name="TUTORIALS_TO_AUTO_DEPLOY">如要使用「自動部署」功能，請輕觸 [%s]。此外，您也可以先選擇一個空的槽位。</string>
+    <string name="TUTORIALS_TO_FIRE_XMP">如要發射，請按住地圖畫面叫出選單，然後向下滑動並選擇 [%s]。</string>
     <string name="TUTORIALS_TRAINING_COMPLETE">訓練完成！</string>
-    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">四處走動并收集 XM。</string>
-    <string name="TUTORIALS_WELCOME_TO_INGRESS">歡迎加入 Ingress…</string>
-    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">您可以對活動範圍內的物品進行互動。</string>
-    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">您可以佔領 Portal 并納入己方陣營。Portal 的顏色即代表所屬陣營。</string>
+    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">四處走動即可收集 XM。</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">歡迎來到 Ingress 的世界…</string>
+    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">您可以對行動範圍內的物品執行各項操作。</string>
+    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">您可以佔領 Portal 納入己方陣營。Portal 的顏色即代表所屬陣營。</string>
     <string name="TUTORIAL_GO_HACK">請移動到 Portal 的範圍內，然後入侵 Portal。</string>
-    <string name="SIGNIN_TITLE">請登入 Ingress 進行遊戲，。</string>
-    <string name="GAME_INTRO_TEXT">"不久之前，歐洲核子研究組織 (CERN) 實驗室在研究希格斯玻色子的過程中，意外發現了一種名為「Exotic Matter」的新物質，簡稱「XM」。
+    <string name="SIGNIN_TITLE">如要進入 Ingress 開始遊戲，請先登入。</string>
+    <string name="GAME_INTRO_TEXT">"距今不久之前，歐洲核子研究組織 (CERN) 實驗室在研究希格斯玻色子的過程中，意外發現了一種名為「Exotic Matter」的新物質，簡稱「XM」。
 
 令人擔憂的是，研究人員認為 XM 擁有經過排序的智慧型數據。
 
-不僅如此，一旦擁有足夠的 XM，就能透過這種物質影響， 甚至控制人類的思想。
+不僅如此，一旦擁有大量的 XM，就能透過這種物質影響他人的思想，甚至能控制人心。
 
 無庸置疑，只要能控制 XM，就能掌握人類未來的命運。"</string>
     <string name="SIGNIN_MESSAGE">"這個世界已經岌岌可危。
 
-您可以透過安全的 Google 帳戶驗證身分，並立即加入戰鬥。
+您可以透過安全無虞的 Google 帳戶驗證身分，立即加入戰鬥。
 
 事不宜遲，馬上行動！"</string>
     <string name="SIGNIN_BUTTON">使用 Google 帳戶登入</string>
     <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">發生錯誤，請再試一次：</string>
     <string name="MESSAGE_CHOOSE_FACTION">選擇陣營：</string>
     <string name="MESSAGE_CHOOSE_CAREFULLY">請謹慎選擇，因為決定後就無法再更改了。</string>
-    <string name="MESSAGE_CONFIRM_CHOICE">您已選擇「%s」。</string>
+    <string name="MESSAGE_CONFIRM_CHOICE">您已選擇投身「%s」。</string>
     <string name="THE_RESISTANCE">反抗軍</string>
-    <string name="THE_ENLIGHTENED">启蒙军</string>
+    <string name="THE_ENLIGHTENED">啟蒙軍</string>
     <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s 是同陣營的成員]</string>
     <string name="HUMANIST_DESCRIPTION">反抗軍矢志對抗意圖利用 Exotic Matter 奴役人類的勢力。</string>
-    <string name="ENLIGHTENED_DESCRIPTION">启蒙军希望能駕馭 Exotic Matter 的力量，讓人類的發展更上層樓。</string>
+    <string name="ENLIGHTENED_DESCRIPTION">啟蒙軍希望能駕馭 Exotic Matter 的力量，讓人類的發展更上層樓。</string>
     <string name="CANCEL">取消</string>
     <string name="CONFIRM">確認</string>
     <string name="NICKNAME_PROMPT_RETRY">請嘗試其他代號名稱。</string>
-    <string name="NICKNAME_PROMPT_TOP">"Niantic 線上軟件.
+    <string name="NICKNAME_PROMPT_TOP">"已與 Niantic 軟體連線。
 
-接收到新消息.
-正在打開安全連線…"</string>
+偵測到他人傳來的訊息。
+正在開啟安全頻道..."</string>
     <string name="NICKNAME_PROMPT_BOTTOM">"請建立探員名稱，系統將會向其他探員顯示這個名稱。
 
 請輸入新的探員名稱。"</string>
@@ -147,13 +147,13 @@
     <string name="PROGRESS_VALIDATING_CODENAME">正在驗證代號名稱</string>
     <string name="PROGRESS_CREATING_CODENAME">正在建立代號名稱</string>
     <string name="NICKNAME_VALIDATE_MESSAGE">這個代號名稱可以使用，請確認。</string>
-    <string name="NICKNAME_ID_CONFIRMED">"正在建立密碼…
+    <string name="NICKNAME_ID_CONFIRMED">"正在建立加密金鑰...
 
-身份已確定."</string>
-    <string name="NICKNAME_ACCESS_GRANTED">"獲取通行證.
-系統加載中…"</string>
+已確認 ID。"</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"已獲得權限。
+程式已啟動..."</string>
     <string name="BUTTON_QUIT">結束</string>
-    <string name="RECOMMENDED_SCANNER_UPDATE">您的 Ingress 侦测器版本過舊，建議您進行更新。</string>
+    <string name="RECOMMENDED_SCANNER_UPDATE">您的 Ingress 掃描器版本過舊，建議您進行更新。</string>
     <string name="BUTTON_PLAY">開始遊戲</string>
     <string name="BUTTON_UPGRADE">升級</string>
     <string name="TOS_LOCATION">"Ingress 是一款根據地理位置進行的遊戲。
@@ -170,7 +170,7 @@ Ingress 應用程式會收集您的位置資訊，當您在遊戲中執行特定
 Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
 
 你必須選擇要加入的陣營，為捍衛我們的星球而戰。"</string>
-    <string name="INCOMING_MESSAGE">收到新訊息</string>
+    <string name="INCOMING_MESSAGE">收到訊息</string>
     <string name="ADA_CALL_ACCEPT">接受</string>
     <string name="ADA_CALL_NEXT">下一頁</string>
     <string name="ERROR_ESTABLISHING_SECURE_CONNECTION">無法建立安全連線！請再試一次。</string>
@@ -181,7 +181,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="JAILBROKEN_RESULT">Ingress 將無法正常運作。</string>
     <string name="MISSIONS_FIELD_TRIP_READ_MORE">瞭解詳情</string>
     <string name="MISSIONS_NEARBY_LIST">查看附近的任務</string>
-    <string name="MISSION_STARTED_COMM">已開始 %1$s: %2$s</string>
+    <string name="MISSION_STARTED_COMM">已開始執行%1$s：%2$s</string>
     <string name="MISSION_TYPE_COMM">任務</string>
     <string name="ACHIEVEMENT_CONGRATULATIONS">恭喜您達成「%s」成就！</string>
     <string name="APNS_L">%2$s 正在攻擊您的 Portal「%1$s」。</string>
@@ -195,7 +195,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="APNS_M">%1$s 正在攻擊下列 Portal：%2$s。</string>
     <string name="APNS_N_M">%1$s 已將下列 Portal 恢復為中立狀態：%2$s。</string>
     <string name="ENTER">輸入</string>
-    <string name="PROGRESS_CHECKING">檢測中…</string>
+    <string name="PROGRESS_CHECKING">檢查中…</string>
     <string name="HINT_ENTER_PASSPHRASE">請輸入通關密語</string>
     <string name="OK_TITLE">確認</string>
     <string name="SETTINGS_TITLE">設定</string>
@@ -218,7 +218,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="ACTIVE_MODE_PLAYER_RECOVERABLE_ISSUE">發生問題。輕觸通知即可解決。</string>
     <string name="ACTIVE_MODE_SESSION_EXPIRED">「正常模式」工作階段已逾期。</string>
     <string name="ACTIVE_MODE_PORTAL_NEARBY">附近有一個%s Portal。</string>
-    <string name="ACTIVE_MODE_PORTALS_NEARBY">附近有 %s Portal。</string>
+    <string name="ACTIVE_MODE_PORTALS_NEARBY">附近有多個%s Portal。</string>
     <string name="ACTIVE_MODE_PORTAL_FACTION_FRIENDLY">友方</string>
     <string name="ACTIVE_MODE_PORTAL_FACTION_ENEMY">敵方</string>
     <string name="ACTIVE_MODE_PORTAL_FACTION_NEUTRAL">中立</string>
@@ -256,8 +256,8 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="FIRE_WEAPON_DISABLED_UNKNOWN_REASON">宇宙射線</string>
     <string name="PORTAL_INFO_DIALOG_OWNER">"擁有者： "</string>
     <string name="PORTAL_INFO_DIALOG_ENERGY">"能量： "</string>
-    <string name="PORTAL_INFO_DIALOG_UNKNOWN_PORTAL">未知 Portal</string>
-    <string name="PORTAL_INFO_DIALOG_UNCAPTURED">未佔領</string>
+    <string name="PORTAL_INFO_DIALOG_UNKNOWN_PORTAL">未知的 Portal</string>
+    <string name="PORTAL_INFO_DIALOG_UNCAPTURED">無</string>
     <string name="PORTAL_INFO_DIALOG_LOADING">載入中…</string>
     <string name="PORTAL_INFO_DIALOG_LOADING_ERROR">錯誤</string>
     <string name="MODAL_DIALOG_OK">確認</string>
@@ -266,45 +266,45 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="RADIAL_MENU_NAVIGATE">導航</string>
     <string name="RADIAL_MENU_SUBMIT_NEW_PORTAL">新增 PORTAL</string>
     <string name="RADIAL_MENU_SHARE">分享</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_5_SECS">Portal 過熱！進入获取物品可能發生危險。預估冷卻所需時間：5 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_10_SECS">Portal 過熱！進入获取物品可能發生危險。預估冷卻所需時間：10 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_20_SECS">Portal 過熱！進入获取物品可能發生危險。預估冷卻所需時間：20 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_30_SECS">Portal 過熱！進入获取物品可能發生危險。預估冷卻所需時間：30 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_60_SECS">Portal 過熱！進入获取物品可能發生危險。預估冷卻所需時間：60 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_120_SECS">Portal 過熱！進入获取物品可能發生危險。預估冷卻所需時間：120 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_240_SECS">Portal 過熱！進入获取物品可能發生危險。預估冷卻所需時間：240 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_BIG">Portal 過熱！進入获取物品可能發生危險。預估冷卻所需時間：300 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_5_SECS">Portal 過熱！進入取得物品可能發生危險。預估冷卻所需時間：5 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_10_SECS">Portal 過熱！進入取得物品可能發生危險。預估冷卻所需時間：10 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_20_SECS">Portal 過熱！進入取得物品可能發生危險。預估冷卻所需時間：20 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_30_SECS">Portal 過熱！進入取得物品可能發生危險。預估冷卻所需時間：30 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_60_SECS">Portal 過熱！進入取得物品可能發生危險。預估冷卻所需時間：60 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_120_SECS">Portal 過熱！進入取得物品可能發生危險。預估冷卻所需時間：120 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_240_SECS">Portal 過熱！進入取得物品可能發生危險。預估冷卻所需時間：240 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_BIG">Portal 過熱！進入取得物品可能發生危險。預估冷卻所需時間：300 秒。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_TOO_OFTEN">Portal 過熱故障！恐怕需要一段時間才能重新啟動 Portal。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_ENEMY_PORTAL">入侵敵方 Portal 失敗。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_ENERGY_FULL">XM 容量已滿。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_NO_PLAYER_SPECIFIED">未指定探員。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_MUST_PLAY_GAME">Portal 已上鎖，需要執行 Glyph 入侵行動。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_CONTAINER_INVENTORY_FULL_GENERIC">物品過多。</string>
-    <string name="ENUM_MAP_FAIL_SERVER_ERROR">侦测器進行通訊時發生錯誤。</string>
+    <string name="ENUM_MAP_FAIL_SERVER_ERROR">掃描器進行通訊時發生錯誤。</string>
     <string name="ENUM_MAP_FAIL_NOT_AVAILABLE">無法使用 XM 物體。</string>
     <string name="ENUM_MAP_FAIL_UNABLE_TO_USE">無法使用。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_NOT_AT_MAX_RESONATORS">請先將 Resonator 槽位裝滿，才能升級。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_SERVER_ERROR">行動失敗。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_MISSING_LOCATION">Portal 無效。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_CAN_ONLY_UPGRADE_TO_HIGHER_LEVEL">升級無效。</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_RESONATOR_LINKED_TO_DIFFERENT_PORTAL">Resonator 未放置於正確的 Portal。</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_RESONATOR_LINKED_TO_DIFFERENT_PORTAL">Resonator 未置於正確的 Portal。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_NOT_PORTAL_OWNER">不是 Portal 的擁有者。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_NOT_ON_SAME_PORTAL">Resonator 位於不同的 Portal 上。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_MISSING_PORTAL_KEY">缺少 Portal Key。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_AT_MAX_RESONATORS">沒有可用的 Resonator 槽位。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_RECHARGE">電路超載，補充能量失敗。</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_DEPLOY">XM 失控，Resonator 出现故障。</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_DEPLOY">XM 失控，Resonator 故障。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_UPGRADE">功率超載。升級失敗。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_BELONGS_TO_ENEMY">敵方 Portal。</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_FULLY_CHARGED">能量已完全補充。</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_FULLY_CHARGED">能量已完全充飽。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_NO_RESONATORS_TO_RECHARGE">無法補充能量。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_DELETE">系統過於忙碌，無法刪除 Resonator。</string>
     <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL">無法部署。</string>
     <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL_INVALID_RESONATOR">Resonator 無效。</string>
     <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL_NO_PORTAL">Portal 不存在。</string>
-    <string name="ENUM_MAP_CONTAINER_FAIL_DOES_NOT_EXIST">出現錯誤，無法使用 Capsule。</string>
+    <string name="ENUM_MAP_CONTAINER_FAIL_DOES_NOT_EXIST">無法使用 Capsule。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_INVALID_LOAD">將物品載入 Capsule 時發生錯誤。</string>
-    <string name="ENUM_MAP_CONTAINER_FAIL_INVALID_UNLOAD">從 Capsule 取出物品時發生錯誤。</string>
+    <string name="ENUM_MAP_CONTAINER_FAIL_INVALID_UNLOAD">從 Capsule 上傳物品時發生錯誤。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_NOT_A_CONTAINER">錯誤：該物品不是 Capsule。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_SERVER_ERROR">錯誤：Capsule 操作失敗。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_ITEM_NO_LONGER_EXISTS">錯誤：Capsule 操作失敗。</string>
@@ -328,9 +328,9 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="ENUM_MAP_REDEEM_FAIL_INVALID_PASSCODE">密碼無效。</string>
     <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED_BY_PLAYER">已使用過該密碼進行兌換。</string>
     <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED">密碼可兌換物品已全部兌換完畢。</string>
-    <string name="ENUM_MAP_FAIL_INVENTORY_FULL">XM 物件已達容量上限。</string>
+    <string name="ENUM_MAP_FAIL_INVENTORY_FULL">XM 超載，物品過多。</string>
     <string name="ENUM_MAP_REDEEM_FAIL">密碼無法用於兌換。</string>
-    <string name="ENUM_MAP_COMBAT_FAIL_WEAPON_NOT_AVAILABLE">無法使用武器。</string>
+    <string name="ENUM_MAP_COMBAT_FAIL_WEAPON_NOT_AVAILABLE">無法取得武器。</string>
     <string name="ENUM_MAP_COMBAT_FAIL_NO_WEAPON">武器不存在。</string>
     <string name="ENUM_MAP_COMBAT_FAIL_UNABLE_TO_FIRE">無法射擊。</string>
     <string name="ENUM_MAP_COMBAT_FAIL_TOO_BUSY">XM 階段錯誤。XMP 無法射擊。</string>
@@ -340,7 +340,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="ENUM_MAP_FLIP_FAIL_NOT_VALID">XM 物件無效。</string>
     <string name="ENUM_MAP_FLIP_FAIL_NO_PLAYER_SPECIFIED">未指定探員。</string>
     <string name="ENUM_MAP_FLIP_FAIL_PLAYER_DOES_NOT_EXIST">識別探員時發生錯誤。</string>
-    <string name="ENUM_MAP_FLIP_FAIL_CANNOT_FLIP">目標 Portal 無法轉換陣營。</string>
+    <string name="ENUM_MAP_FLIP_FAIL_CANNOT_FLIP">已將目標 Portal 轉換陣營。</string>
     <string name="ENUM_MAP_FLIP_FAIL_INVALID_TARGET">目標 Portal 無效。</string>
     <string name="ENUM_MAP_FLIP_FAIL_SERVER_ERROR">Portal 轉換失敗。</string>
     <string name="ENUM_MAP_FLIP_FAIL_TOO_BUSY_ADA">編譯發生錯誤。ADA Refactor 失敗。</string>
@@ -359,17 +359,17 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_TOO_MANY">無法封鎖探員。您的探員封鎖名單已滿。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_TOO_BUSY">由於伺服器忙碌，無法管理封鎖的探員。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_INVALID_PLAYER">無法對探員的封鎖進行管理，這名探員已不存在。</string>
-    <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_BAD_REQUEST_TIMESTAMP">偵測器進行通訊時發生錯誤。</string>
+    <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_BAD_REQUEST_TIMESTAMP">掃描器進行通訊時發生錯誤。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_PROFILE_SERVER_ERROR">無法連結到這筆個人資料。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_CLIENT_ONLY_GENERIC_FAILED_TO_LINK">無法連結到這筆個人資料。</string>
-    <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_CLIENT_ONLY_GENERIC_FAILED_TO_UNLINK">無法取消這筆個人資料的連結。</string>
+    <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_CLIENT_ONLY_GENERIC_FAILED_TO_UNLINK">無法取消和這筆個人資料的連結。</string>
     <string name="ENUM_MAP_GET_MODIFIED_GUIDS_FAIL_TOO_MANY">物品欄已超載。</string>
     <string name="ENUM_MAP_FAIL_NO_PORTAL">Portal 已不存在。</string>
     <string name="ENUM_MAP_FAIL_OUT_OF_RANGE">超出範圍。</string>
     <string name="ENUM_MAP_FAIL_WRONG_LEVEL">權限等級不夠。</string>
     <string name="ENUM_MAP_FAIL_NEED_MORE_XM">需要更多 XM。</string>
     <string name="ENUM_MAP_FAIL_GLYPH_NOT_EXISTING">Glyph 入侵行動已中立化。</string>
-    <string name="ENUM_MAP_FAIL_GLYPH_HACK_REQUIRED">Portal 已鎖定，需要執行 Glyph 入侵行動。</string>
+    <string name="ENUM_MAP_FAIL_GLYPH_HACK_REQUIRED">Portal 已上鎖，需要執行 Glyph 入侵行動。</string>
     <string name="ENUM_MAP_FAIL_GLYPH_ALREADY_REDEEMED">Glyph 入侵已偏離。</string>
     <string name="ENUM_MAP_FAIL_USER_ABORTED_GAME">Glyph 遊戲已中止。</string>
     <string name="ENUM_MAP_MISSION_FAIL_UNKNOWN">錯誤：轉換遭到中斷。</string>
@@ -380,17 +380,17 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="ENUM_MAP_MISSION_FAIL_MISSION_ALREADY_RATED">任務已獲得評分</string>
     <string name="ENUM_MAP_MISSION_FAIL_MISSION_DOES_NOT_EXIST">任務已不存在。</string>
     <string name="ENUM_MAP_MISSION_FAIL_FIELD_TRIP_CARD_NOT_EXIST">Field Trip 資訊卡已不存在。</string>
-    <string name="ENUM_MAP_MISSION_FAIL_NOT_IN_RANGE">Waypoint 太遠。</string>
-    <string name="ENUM_MAP_MISSION_FAIL_MISSION_TOO_MANY_INVALID_WAYPOINTS">這個任務的無效Waypoint 太多。</string>
+    <string name="ENUM_MAP_MISSION_FAIL_NOT_IN_RANGE">路線點太遠。</string>
+    <string name="ENUM_MAP_MISSION_FAIL_MISSION_TOO_MANY_INVALID_WAYPOINTS">這個任務的無效路線點太多。</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_CAPTURE_PORTAL">攻占或升級 Portal</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_FIELD">從 Portal 建立領域</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_LINK">利用 Portal 建立連結</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_LINK">從 Portal 建立連結</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_HACK_PORTAL">入侵 Portal</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_INSTALL_MOD">在 Portal 安裝模組</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_PASSPHRASE">輸入正確的通關密碼</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_PASSPHRASE">輸入正確的通關密語</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_TAKE_PHOTO">為 Portal 拍張相片</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_UNKNOWN">目標不明</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_VIEW_FIELD_TRIP_CARD">造訪 Waypoint</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_VIEW_FIELD_TRIP_CARD">造訪路線點</string>
     <string name="ENUM_MAP_NEMESIS_TABS_INVENTORY">物品欄</string>
     <string name="ENUM_MAP_NEMESIS_TABS_AGENT">探員</string>
     <string name="ENUM_MAP_NEMESIS_TABS_INTEL">情報</string>
@@ -404,7 +404,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="FIRE_MODE_DISABLE_REASON_FIRING">射擊中…</string>
     <string name="FIRE_MODE_DISABLE_REASON_NO_XMP">沒有 XMP</string>
     <string name="FIRE_MODE_ATTACK_BOOST_FORMAT">攻擊 + %s</string>
-    <string name="FIRE_MODE_GENERIC_FAILURE">射擊偏离！</string>
+    <string name="FIRE_MODE_GENERIC_FAILURE">無法射擊！</string>
     <string name="ACTION_MODE_DONE_BUTTON">完成</string>
     <string name="PORTAL_MOD_MODE_INSTALL_BUTTON">安裝</string>
     <string name="PORTAL_MOD_MODE_DISABLE_REASON_INSTALLING">安裝中…</string>
@@ -435,27 +435,27 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="PORTAL_STATS_ENERGY">能量</string>
     <string name="PORTAL_STATS_ENEMY_PORTAL">敵方 PORTAL</string>
     <string name="ENUM_MAP_STATS_MODIFIER_ABSORPTION">吸收</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_MITIGATION">防禦</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_REFLECTION">反擊</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_LINK_RANGE_MULTIPLIER">連結範圍倍增器</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_REMOVAL_STICKINESS">移除黏性</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_MITIGATION">減輕</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_REFLECTION">反射</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_LINK_RANGE_MULTIPLIER">連結範圍乘數</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_REMOVAL_STICKINESS">抗移除的黏著性</string>
     <string name="ENUM_MAP_STATS_MODIFIER_UNKNOWN">不明</string>
     <string name="ENUM_MAP_STATS_MODIFIER_HACK_SPEED">入侵速度</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_BURNOUT_INSULATION">燒毀點</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_BURNOUT_INSULATION">阻絕過熱情況</string>
     <string name="ENUM_MAP_STATS_MODIFIER_FORCE_AMPLIFIER">攻擊力強化</string>
     <string name="ENUM_MAP_STATS_MODIFIER_HIT_BONUS">打擊紅利</string>
     <string name="ENUM_MAP_STATS_MODIFIER_ATTACK_FREQUENCY">攻擊頻率</string>
     <string name="STATS_MODIFIER_MITIGATION_DISPLAY_NAME">防護</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_CAPSULE">Capsule</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMITTER_A">Resonator</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">Xmp 炸彈</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">Xmp Burster</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EXTRA_SHIELD">AXA Shield</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_FLIP_CARD">轉換陣營病毒</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_FORCE_AMP">Force Amp</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_HEATSINK">Heat Sink</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_LINK_AMPLIFIER">Link Amp</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_MEDIA">媒體</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_MULTIHACK">Multi-hack</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_MULTIHACK">多重入侵</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_PORTAL_LINK_KEY">Portal Key</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_POWER_CUBE">Power Cube</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_RES_SHIELD">Portal Shield</string>
@@ -478,17 +478,17 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="PORTAL_LINK_MODE_STATUS_FIELD">已建立一個領域：獲得 %s MU</string>
     <string name="PORTAL_LINK_MODE_STATUS_SELECT">選擇 Portal Key</string>
     <string name="PORTAL_LINK_MODE_STATUS_CREATE">建立連結</string>
-    <string name="PORTAL_LINK_MODE_STATUS_PORTAL_LOADING">正在獲取 Portal 資訊…</string>
-    <string name="PORTAL_LINK_MODE_STATUS_PORTAL_NO_KEY">沒有 Portal Key</string>
+    <string name="PORTAL_LINK_MODE_STATUS_PORTAL_LOADING">取得 Portal 修復…</string>
+    <string name="PORTAL_LINK_MODE_STATUS_PORTAL_NO_KEY">沒有 Portal 專用的 Key</string>
     <string name="PORTAL_LINK_MODE_STATUS_NO_KEYS">物品欄中沒有 Key</string>
     <string name="PORTAL_LINK_MODE_STATUS_NO_USABLE_KEYS">物品欄中沒有可用的 Key</string>
     <string name="PORTAL_LINK_MODE_STATUS_NO_LINKABLE">沒有可連結的 Portal</string>
     <string name="PORTAL_LINK_MODE_STATUS_ORIGIN_OUT_OF_RANGE">起點 Portal 已移出範圍</string>
     <string name="PORTAL_LINK_MODE_STATUS_LINKABILITY_UNKNOWN">Portal 距離太遠，無法確認能否建立連結。</string>
     <string name="PORTAL_LINK_MODE_LOCAL_OUT_OF_RANGE">本地 Portal 已超出範圍。</string>
-    <string name="INTRO_HEADPHONES_RECOMMENDED">[ 建議使用耳機 ]</string>
-    <string name="INTRO_ACQUIRING_LOCATION">正在掃描獲取使用者位置…</string>
-    <string name="INTRO_LOCATION_ACQUIRED">已取得位置信息。</string>
+    <string name="INTRO_HEADPHONES_RECOMMENDED">[ 建議使用的耳機 ]</string>
+    <string name="INTRO_ACQUIRING_LOCATION">正在掃描找出使用者位置…</string>
+    <string name="INTRO_LOCATION_ACQUIRED">已取得位置。</string>
     <string name="AVATAR_SELECTION_TITLE">選擇探員顯示圖片</string>
     <string name="AVATAR_SELECTION_DONE_BUTTON">完成</string>
     <string name="AVATAR_LAYER_IDENTIFIER_FOREGROUND">前景：</string>
@@ -497,21 +497,21 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="AVATAR_SELECTION_ERROR_LOADING_AVATAR_OPTIONS">無法載入顯示圖片選項。</string>
     <string name="AVATAR_SELECTION_ERROR_SELECTING_AVATAR">無法設定顯示圖片。</string>
     <string name="SCANNER_OPS_BUTTON">總覽</string>
-    <string name="SCANNER_DISABLED_XM">侦测器已停用：收集更多 XM。</string>
-    <string name="SCANNER_DISABLED_LOCATION">侦测器已停用：地點不準確。</string>
-    <string name="GLYPH_MODE_INCOMING_GLYPH_SEQUENCE">正在接收 GLYPH 序列…</string>
-    <string name="GLYPH_MODE_PREPARE_TO_REPEAT">準備重複 GLYPH 序列…</string>
+    <string name="SCANNER_DISABLED_XM">掃描器已停用：收集更多 XM。</string>
+    <string name="SCANNER_DISABLED_LOCATION">偵測器已停用：地點不準確。</string>
+    <string name="GLYPH_MODE_INCOMING_GLYPH_SEQUENCE">正在傳入 GLYPH 序列…</string>
+    <string name="GLYPH_MODE_PREPARE_TO_REPEAT">準備重畫 GLYPH 序列…</string>
     <string name="GLYPH_MODE_COMMENCE_GLYPH_HACK">開始 GLYPH 入侵…</string>
-    <string name="GLYPH_MODE_HACK_COMPLETE">入侵完成。正在總結獲取物品…</string>
+    <string name="GLYPH_MODE_HACK_COMPLETE">入侵完成。正在計算紅利…</string>
     <string name="GLYPH_MODE_BYPASS_TEXT">略過</string>
     <string name="GLYPH_MODE_ABORT_TEXT">中止</string>
     <string name="GLYPH_MODE_DONE_TEXT">完成</string>
-    <string name="GLYPH_MODE_POPUP_INCOMING_GLYPH">正在接收 GLYPH…</string>
+    <string name="GLYPH_MODE_POPUP_INCOMING_GLYPH">正在傳入 GLYPH…</string>
     <string name="GLYPH_MODE_POPUP_GET_READY">做好準備…</string>
-    <string name="GLYPH_MODE_HACKING_BONUS">入侵獎勵：</string>
-    <string name="GLYPH_MODE_SPEED_BONUS">速度獎勵：</string>
-    <string name="GLYPH_MODE_AGENT_DETECTED">必須輸入探員資料。</string>
-    <string name="GLYPH_MODE_HIGH_BONUS">高獎勵模式已啟用。</string>
+    <string name="GLYPH_MODE_HACKING_BONUS">入侵紅利：</string>
+    <string name="GLYPH_MODE_SPEED_BONUS">速度紅利：</string>
+    <string name="GLYPH_MODE_AGENT_DETECTED">必須輸入探員名稱。</string>
+    <string name="GLYPH_MODE_HIGH_BONUS">高紅利已啟用。</string>
     <string name="INVENTORY_UI_FILTER_ALL">全部</string>
     <string name="INVENTORY_UI_FILTER_CAPSULES">Capsule</string>
     <string name="INVENTORY_UI_FILTER_MEDIA">媒體</string>
@@ -541,7 +541,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="RECYCLE_EXCEEDS_TANK">超出 XM 槽容量。</string>
     <string name="RECYCLE_CONFIRM">確認</string>
     <string name="RECYCLE_CANCEL">取消</string>
-    <string name="CAPSULE_RECYCLE_DIALOG_TITLE">回收：CAPSULE</string>
+    <string name="CAPSULE_RECYCLE_DIALOG_TITLE">回收：膠囊</string>
     <string name="CAPSULE_RECYCLE_DIALOG_TEXT">這個 Capsule 和其中的內容將會遭到銷毀。</string>
     <string name="CAPSULE_RECYCLE_CONFIRM_BTN_TEXT">確認</string>
     <string name="CAPSULE_RECYCLE_CANCEL_BTN_TEXT">取消</string>
@@ -549,20 +549,20 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="CAPSULE_TRANSFER_BUTTON_TEXT">輸送</string>
     <string name="CAPSULE_TRANSFER_BUTTON_DISABLED_NEED_ITEMS">指定數量。</string>
     <string name="CAPSULE_TRANSFERRING_BUTTON_TEXT">輸送中…</string>
-    <string name="CAPSULE_FULL">Capsule已滿。</string>
+    <string name="CAPSULE_FULL">膠囊已滿。</string>
     <string name="CAPSULE_INVENTORY_FULL">物品欄已滿。</string>
-    <string name="CAPSULE_EMPTY">Capsule是空的</string>
+    <string name="CAPSULE_EMPTY">膠囊是空的</string>
     <string name="CAPSULE_DESTINATION_INVENTORY">物品欄</string>
     <string name="POWER_CUBE_XM_AMOUNT_FORMAT">%s XM</string>
-    <string name="FLIP_CARD_INSTRUCTIONS_TEXT_DEFAULT">選擇目標 Portal</string>
+    <string name="FLIP_CARD_INSTRUCTIONS_TEXT_DEFAULT">選擇目標點</string>
     <string name="FLIP_CARD_INSTRUCTIONS_TEXT_ENLIGHTENED">選擇啟蒙軍 Portal</string>
-    <string name="FLIP_CARD_INSTRUCTIONS_TEXT_RESISTANCE">選擇反抗軍 Portal</string>
+    <string name="FLIP_CARD_INSTRUCTIONS_TEXT_RESISTANCE">選擇 Resistance Portal</string>
     <string name="FLIP_CARD_INSTRUCTIONS_OUT_OF_RANGE">超出範圍</string>
     <string name="FLIP_CARD_CONFIRM_DEPLOYMENT">確認部署</string>
     <string name="FLIP_CARD_USE_CONFIRM">確認</string>
     <string name="FLIP_CARD_USE_BACK">返回</string>
     <string name="FLIP_CARD_USE_CANCEL">取消</string>
-    <string name="SETTINGS_TITLE_DIALOG_CONFIRM_SIGN_OUT">正在登出…</string>
+    <string name="SETTINGS_TITLE_DIALOG_CONFIRM_SIGN_OUT">登出…</string>
     <string name="SETTINGS_MESSAGE_DIALOG_CONFIRM_SIGN_OUT">您確定嗎？</string>
     <string name="SETTINGS_ACTION_YES">是</string>
     <string name="SETTINGS_ACTION_NO">否</string>
@@ -570,38 +570,38 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="SETTINGS_MESSAGE_DIALOG_RESTART_REQUIRED">下次啟動 Ingress 時，這項設定才會生效。</string>
     <string name="SETTINGS_ACTION_RESTART">重新啟動</string>
     <string name="SETTINGS_ACTION_LATER">暫時不要</string>
-    <string name="SETTINGS_MESSAGE_PORTAL_PENDING_WARNING">"您正在提交 Portal 以供審核。
-如果登出的話，這些 Portal 會全部丟失。"</string>
+    <string name="SETTINGS_MESSAGE_PORTAL_PENDING_WARNING">"您有待提交的 Portal。
+如果登出的話，這些 Portal 會全部遺失。"</string>
     <string name="SETTINGS_PORTAL_PENDING_SIGN_OUT">登出</string>
     <string name="SETTINGS_PORTAL_PENDING_CANCEL">取消</string>
-    <string name="SETTINGS_TITLE_USER">用戶</string>
+    <string name="SETTINGS_TITLE_USER">使用者</string>
     <string name="SETTINGS_USER_SIGN_OUT">登出</string>
-    <string name="SETTINGS_TITLE_LINK">連結 Google+ 帳戶</string>
-    <string name="SETTINGS_LINK_LOADING">連結中…</string>
-    <string name="SETTINGS_LINK_LINKED">已連結 Google+ 帳戶</string>
+    <string name="SETTINGS_TITLE_LINK">連結 Google+ 個人資料</string>
+    <string name="SETTINGS_LINK_LOADING">載入中…</string>
+    <string name="SETTINGS_LINK_LINKED">已連結 Google+ 個人資料</string>
     <string name="SETTINGS_LINK_UNLINK">取消連結</string>
     <string name="SETTINGS_LINK_MESSAGE">這項操作會將您的 Google+ 個人資料與 Ingress 建立連結，並且讓其他玩家看到</string>
     <string name="SETTINGS_LINK_DO_LINK">連結</string>
-    <string name="SETTINGS_LINK_ERROR">連結失敗</string>
+    <string name="SETTINGS_LINK_ERROR">載入失敗</string>
     <string name="SETTINGS_LINK_RETRY">再試一次</string>
     <string name="SETTINGS_LINK_WARNING_VIEW_MESSAGE">這項操作會將您的 Google+ 個人資料與 Ingress 建立連結，並且讓其他玩家看到。</string>
-    <string name="SETTINGS_LINK_WARNING_VIEW_CAUTION">使用這項功能時請務必小心，其他玩家會看到您在遊戲中的位置動態。您隨時可以在裝置設定中解除連結 Google+ 帳戶。</string>
+    <string name="SETTINGS_LINK_WARNING_VIEW_CAUTION">使用這項功能時請務必小心，其他玩家會看到您在遊戲中的位置動態。您隨時可以在裝置設定中解除連結 Google+ 個人資料。</string>
     <string name="SETTINGS_LINK_OK">確定</string>
     <string name="SETTINGS_LINK_WARNING_VIEW_NO_THANKS">不用了，謝謝</string>
     <string name="SETTINGS_LINK_ERROR_TRY_AGAIN">再試一次</string>
-    <string name="SETTINGS_LINK_PROFILE_LINK_PROMPT">連結我的 Google+ 帳戶？</string>
+    <string name="SETTINGS_LINK_PROFILE_LINK_PROMPT">連結我的 Google+ 個人資料？</string>
     <string name="SETTINGS_LINK_PROFILE_LINK_YES">是</string>
     <string name="SETTINGS_LINK_PROFILE_LINK_NO">否</string>
-    <string name="SETTINGS_LINK_PROGRESS_LINKING">正在連結…</string>
-    <string name="SETTINGS_LINK_PROGRESS_UNLINKING">正在取消連結…</string>
+    <string name="SETTINGS_LINK_PROGRESS_LINKING">正在連結帳戶…</string>
+    <string name="SETTINGS_LINK_PROGRESS_UNLINKING">正在取消連結帳戶…</string>
     <string name="SETTINGS_LINK_UNKNOWN_ERROR">不明錯誤。</string>
     <string name="SETTINGS_TITLE_VERIFY">驗證</string>
     <string name="SETTINGS_VERIFY_MESSAGE">立即驗證</string>
-    <string name="SETTINGS_TITLE_HELP">幫助</string>
-    <string name="SETTINGS_HELP_MESSAGE">前往幫助中心</string>
+    <string name="SETTINGS_TITLE_HELP">説明</string>
+    <string name="SETTINGS_HELP_MESSAGE">前往說明中心</string>
     <string name="SETTINGS_HELP_GO">前往</string>
-    <string name="SETTINGS_TITLE_DATA">數據</string>
-    <string name="SETTINGS_SYNC_MESSAGE">強制清除數據並重新同步處理</string>
+    <string name="SETTINGS_TITLE_DATA">資料</string>
+    <string name="SETTINGS_SYNC_MESSAGE">強制清除資料並重新同步處理</string>
     <string name="SETTINGS_FORCE_SYNC">強制同步處理</string>
     <string name="SETTINGS_TITLE_SOURCES">來源</string>
     <string name="SETTINGS_SOURCES_SHOW">顯示</string>
@@ -627,8 +627,8 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="SETTINGS_TITLE_SOUNDS">通知音效</string>
     <string name="SETTINGS_SOUNDS_CHOOSE">選擇</string>
     <string name="SETTINGS_TITLE_PROFILE">探員個人資料</string>
-    <string name="SETTINGS_PROFILE_PRIVATE">將探員數據設為保密。</string>
-    <string name="SETTINGS_TITLE_BLOCKED">已屏蔽探員</string>
+    <string name="SETTINGS_PROFILE_PRIVATE">不公開探員統計資料。</string>
+    <string name="SETTINGS_TITLE_BLOCKED">封鎖的探員</string>
     <string name="SETTINGS_BLOCKED_MANAGE">管理</string>
     <string name="SETTINGS_TITLE_TUTORIALS">教學課程</string>
     <string name="SETTINGS_TUTORIALS_MESSAGE">重設所有教學課程</string>
@@ -665,28 +665,28 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="INTEL_CANCEL_BUTTON">取消</string>
     <string name="INTEL_PREVIOUS_CYCLE">上一個 Cycle</string>
     <string name="INTEL_SCORE_LABEL_TEMPLATE_ENL">啟蒙軍：%s</string>
-    <string name="INTEL_SCORE_LABEL_TEMPLATE_RES">反抗軍 %s</string>
-    <string name="INTEL_HISTORY_BUTTON">歷史紀錄</string>
+    <string name="INTEL_SCORE_LABEL_TEMPLATE_RES">反抗軍：%s</string>
+    <string name="INTEL_HISTORY_BUTTON">紀錄</string>
     <string name="INTEL_LINE_GRAPH_CYCLE_COUNTDOWN_TITLE">Cycle</string>
     <string name="INTEL_LINE_GRAPH_CHECKPOINT_COUNTDOWN_TITLE">Checkpoint</string>
     <string name="INTEL_TOP_AGENTS_PLURAL_TEMPLATE">前 %s 名探員</string>
     <string name="INTEL_TOP_AGENTS_SINGULAR">頭號探員</string>
     <string name="INTEL_OTHER_AGENTS_BUTTON">查看其他探員</string>
-    <string name="INTEL_SUBSECTION_BUTTON_IN_REGION_SCORE_SCREEN">Cell 排行榜</string>
+    <string name="INTEL_SUBSECTION_BUTTON_IN_REGION_SCORE_SCREEN">Cell 活動</string>
     <string name="INTEL_TITLE_REGION_SCORE_ACTIVITY">Cell 活動</string>
     <string name="INTEL_TITLE_GLOBAL_SCORE_SCREEN">全域檢視</string>
     <string name="INTEL_SUBSECTION_BUTTON_IN_GLOBAL_SCORE_SCREEN">區域分數</string>
-    <string name="INTEL_TITLE_REGION_SCORE_HISTORY_TEMPLATE">歷史紀錄：%s</string>
+    <string name="INTEL_TITLE_REGION_SCORE_HISTORY_TEMPLATE">紀錄：%s</string>
     <string name="INTEL_GLOBAL_STATS_LABEL">全域統計資料</string>
     <string name="INTEL_TITLE_LEADERBOARD_TEMPLATE">頭號探員：%s</string>
     <string name="INTEL_LEADER_BOARD_PERSONAL_RANKING_LEVEL_TEMPLATE">第 %s 級</string>
     <string name="INTEL_LEADER_BOARD_RANKING_TEMPLATE">排名：%s</string>
     <string name="INTEL_LEADER_BOARD_HEADING_ENL">啟蒙軍</string>
     <string name="INTEL_LEADER_BOARD_HEADING_RES">反抗軍</string>
-    <string name="INTEL_REQUERY_INDICATOR_CHECKPOINT_DONE">"CHECKPOINT 完成
-正在計算結果…"</string>
-    <string name="INTEL_REQUERY_INDICATOR_CYCLE_DONE">"CYCLE 完成
-正在計算最終結果…"</string>
+    <string name="INTEL_REQUERY_INDICATOR_CHECKPOINT_DONE">"Checkpoint 已結束
+正在計算結果..."</string>
+    <string name="INTEL_REQUERY_INDICATOR_CYCLE_DONE">"Cycle 已結束
+正在計算最終結果..."</string>
     <string name="WEBVIEW_RETRY">重試</string>
     <string name="RECRUIT_DESCRIPTION">邀請其他人加入！</string>
     <string name="RECRUIT_BUTTON">招募探員</string>
@@ -695,7 +695,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="RECRUIT_INVITE_BUTTON">邀請</string>
     <string name="RECRUIT_INVITE_BUTTON_DISABLED">已送出邀請</string>
     <string name="RECRUIT_INVITE_TEXT_FIELD_PROMPT">輸入電子郵件地址</string>
-    <string name="PASSCODE_REDEEM">兌換密碼</string>
+    <string name="PASSCODE_REDEEM">重新兌換密碼</string>
     <string name="PASSCODE_TEXT_FIELD_PROMPT">輸入密碼</string>
     <string name="PASSCODE_SUBMIT">提交</string>
     <string name="PASSCODE_RETRY">重試</string>
@@ -704,41 +704,41 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="PASSCODE_DONE">完成</string>
     <string name="PASSCODE_VALIDATING">正在驗證密碼…</string>
     <string name="SPACE2FACE_SKIP">略過</string>
-    <string name="MISSION_SHARE_MESSAGE">"查看這項任務。
-%s"</string>
+    <string name="MISSION_SHARE_MESSAGE">請看這項 Ingress 任務！電腦版連結：%s</string>
     <string name="MISSIONS_TOUCH_TO_LOAD_MORE">輕觸即可載入其他任務。</string>
     <string name="MISSIONS_LOADING">載入中…</string>
     <string name="MISSIONS_RETRY">重試</string>
     <string name="MISSIONS_MISSION_DETAILS_BACK_NAVIGATION_TITLE">任務清單</string>
     <string name="MISSIONS_MISSION_COMPLETION_TIME">通常需時 %s</string>
-    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">正在獲取 waypoint 資訊…</string>
+    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">正在取得 Waypoint 修復…</string>
     <string name="MISSIONS_MISSION_BUTTON_REPLAY">再玩一次</string>
     <string name="MISSIONS_MISSION_BUTTON_START">開始</string>
     <string name="MISSIONS_MISSION_BUTTON_ABORT">中止</string>
     <string name="MISSIONS_MISSION_BUTTON_RATE">評價</string>
+    <string name="MISSIONS_MISSION_BUTTON_MAP">地圖</string>
     <string name="MISSIONS_MISSION_CHECKBOX_HIDE_UI">隱藏任務提示</string>
     <string name="MISSIONS_AGENTS_PLAYED">%s 名探員已完成</string>
-    <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">無法取得 Waypoint 修復。</string>
+    <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">無法取得路線點修復。</string>
     <string name="MISSIONS_CANCEL">取消</string>
     <string name="MISSIONS_CONFIRM">確認</string>
-    <string name="MISSIONS_WAYPOINTS_MARKER">Waypoint</string>
-    <string name="MISSIONS_PROGRESS_STARTING_MISSION">正在開始任務…</string>
-    <string name="MISSIONS_PROGRESS_ABORTING_MISSION">正在終止任務…</string>
-    <string name="MISSIONS_PROGRESS_RATING_MISSION">正在評價任務…</string>
+    <string name="MISSIONS_WAYPOINTS_MARKER">路線點</string>
+    <string name="MISSIONS_PROGRESS_STARTING_MISSION">準備開始執行任務…</string>
+    <string name="MISSIONS_PROGRESS_ABORTING_MISSION">正在中止任務…</string>
+    <string name="MISSIONS_PROGRESS_RATING_MISSION">正在對任務給予評價…</string>
     <string name="MISSIONS_MISSION_COMPLETE">任務完成</string>
     <string name="MISSIONS_MISSION_ABORTED">任務中止</string>
     <string name="MISSIONS_RATE_MISSION_PROMPT">您喜歡這項任務嗎？</string>
     <string name="MISSIONS_RATE_MISSION_LIKED">喜歡！</string>
-    <string name="MISSIONS_RATE_MISSION_DID_NOT_LIKE">不喜歡。</string>
-    <string name="MISSIONS_PROMPT_ABORT_MISSION_FOR_TRAINING">要中止執行中的任務，開始進行訓練？</string>
+    <string name="MISSIONS_RATE_MISSION_DID_NOT_LIKE">普通。</string>
+    <string name="MISSIONS_PROMPT_ABORT_MISSION_FOR_TRAINING">中止執行中的任務，開始進行訓練？</string>
     <string name="MISSIONS_ABORT_MISSION_FOR_TRAINING">中止</string>
     <string name="MISSIONS_OK">確定</string>
     <string name="MISSIONS_PASSPHRASE_ENTER">輸入</string>
     <string name="MISSIONS_ABORT_FAILED">無法中止任務。</string>
-    <string name="MISSIONS_MISSION_ABORT_MESSAGE">中止目前的任務嗎？所有進度都會遺失。</string>
-    <string name="MISSIONS_ONLY_ONE_MISSION_IN_PROGRESS">正在執行任務</string>
+    <string name="MISSIONS_MISSION_ABORT_MESSAGE">中止目前的任務？所有進度都會遺失。</string>
+    <string name="MISSIONS_ONLY_ONE_MISSION_IN_PROGRESS">目前已經在執行任務了</string>
     <string name="MISSIONS_MISSION_COMPLETE_MEDAL_EARNED">您贏得了任務勳章。</string>
-    <string name="MISSIONS_MISSION_REMOTE_VIEW_TITLE">任務 Waypoint 檢視</string>
+    <string name="MISSIONS_MISSION_REMOTE_VIEW_TITLE">任務路線點檢視</string>
     <string name="MISSIONS_PASSPHRASE_DEFAULT_QUESTION">通關密語：</string>
     <string name="MISSIONS_PASSPHRASE_CORRECT">正確！</string>
     <string name="MISSIONS_PASSPHRASE_INCORRECT">不正確</string>
@@ -747,19 +747,19 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="MISSIONS_REMOTE_VIEW_NAVIGATE">導航</string>
     <string name="MISSIONS_HIDDEN_WAYPOINT_TITLE">\???</string>
     <string name="MISSIONS_PASSPHRASE_EMPTY">輸入通關密語</string>
-    <string name="MISSIONS_WAYPOINTS_SECTION_SEQUENTIAL">依序造訪各個 Waypoint</string>
-    <string name="MISSIONS_WAYPOINTS_SECTION_NON_SEQUENTIAL">造訪各個 Waypoint (順序不限)</string>
+    <string name="MISSIONS_WAYPOINTS_SECTION_SEQUENTIAL">依序造訪各個路線點</string>
+    <string name="MISSIONS_WAYPOINTS_SECTION_NON_SEQUENTIAL">造訪各個路線點 (順序不限)</string>
     <string name="MISSIONS_WAYPOINTS_SECTION_HIDDEN_SEQUENTIAL">依序造訪各個路線點</string>
-    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">未能完成 Field Trip 卡目標: %s</string>
+    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">無法完成 Field Trip 卡目標：%s</string>
     <string name="MISSIONS_EXPAND_FOR_MORE">更多</string>
     <string name="MISSIONS_WAYPOINT_NAME">" 任務 
- Waypoint "</string>
+ 路線點 "</string>
     <string name="STARTUP_OK">確定</string>
     <string name="STARTUP_NEXT">繼續</string>
     <string name="TRAINING_ADA">ADA</string>
-    <string name="TRAINING_ADA_LOCATION">未知</string>
+    <string name="TRAINING_ADA_LOCATION">不明</string>
     <string name="TRAINING_VIEW">查看簡報</string>
-    <string name="TRAINING_TITLE_FORMAT">訓練- %s</string>
+    <string name="TRAINING_TITLE_FORMAT">訓練 - %s</string>
     <string name="TRAINING_MISSION_TYPE_COMM">訓練任務</string>
     <string name="TRAINING_ABORT">中止</string>
     <string name="TRAINING_MISSION_POPOVER_TITLE">訓練任務</string>
@@ -768,8 +768,8 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="TRAINING_START">開始</string>
     <string name="TRAINING_START_FIRST">開始訓練</string>
     <string name="TRAINING_SKIP">略過</string>
-    <string name="TRAINING_END">訓練完成</string>
-    <string name="TRAINING_NEXT">下一個訓練任務</string>
+    <string name="TRAINING_END">訓練結束</string>
+    <string name="TRAINING_NEXT">下一項訓練</string>
     <string name="TRAINING_OBJECTIVES">目標</string>
     <string name="TRAINING_OBJECTIVES_COMPLETE">目標完成</string>
     <string name="TRAINING_0_NAME">第一次接觸</string>
@@ -782,7 +782,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
 
 你必須選擇要加入的陣營，為捍衛我們的星球而戰。"</string>
     <string name="TRAINING_1_NAME">收集 XM</string>
-    <string name="TRAINING_1_DESCRIPTION">收集周遭的 XM，為偵測器補充能量</string>
+    <string name="TRAINING_1_DESCRIPTION">收集周遭的 XM，為掃描器補充能量</string>
     <string name="TRAINING_1_MESSAGE">"Exotic Matter 又稱為 XM，同時是能量也是物質，像水一樣三態共存。XM 透過 Portal 滲入我們的空間，就在周遭四處叢聚。只要找出並靠近 XM，它就會被掃描器吸入。
 
 "</string>
@@ -794,7 +794,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
 "</string>
     <string name="TRAINING_2_NAME">入侵 Portal</string>
     <string name="TRAINING_2_DESCRIPTION">走向 Portal 並開始入侵，以獲得補給</string>
-    <string name="TRAINING_2_MESSAGE">"附近有 Portal。請逐漸接近 Portal，直到進入其範圍內，然後輕按偵測器地圖上的 Portal 並選取 [入侵]。請注意，這是敵方 Portal，入侵後請移動至範圍外。
+    <string name="TRAINING_2_MESSAGE">"附近有 Portal。請逐漸接近 Portal，直到進入其範圍內，然後輕按掃描器地圖上的 Portal 並選取 [入侵]。請注意，這是敵方 Portal，入侵後請移動至範圍外。
 
 "</string>
     <string name="TRAINING_2_OUTRO">太棒了！入侵 Portal 通常會製造資源，可填充物品欄。Portal 經過冷卻後，可以再次入侵。請注意，接近 Portal 可能會讓你產生不尋常的想法或情緒。</string>
@@ -803,7 +803,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="TRAINING_2_STATUS">訓練任務 2 (Portal 入侵) - 入侵 Portal。</string>
     <string name="TRAINING_3_NAME">發射 XMP</string>
     <string name="TRAINING_3_DESCRIPTION">使用 XMP 攻擊敵方 Portal</string>
-    <string name="TRAINING_3_MESSAGE">"這個 Portal 已經發出共振。在此模擬情境下，這是受到敵方控制的 Portal。如要進行攻擊，請移動至 Portal 範圍內，然後按住侦测器地圖並選取 [發射 XMP]。
+    <string name="TRAINING_3_MESSAGE">"這個 Portal 已經發出共振。在此模擬情境下，這是受到敵方控制的 Portal。如要進行攻擊，請移動至 Portal 範圍內，然後按住掃描器地圖並選取 [發射 XMP]。
 
 "</string>
     <string name="TRAINING_3_OUTRO">Portal 已恢復中立狀態，現在可以攻佔了。</string>
@@ -821,7 +821,7 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="TRAINING_4_OBJECTIVE_1">輕按 Portal</string>
     <string name="TRAINING_4_OBJECTIVE_2">部署 Resonator</string>
     <string name="TRAINING_4_STATUS">訓練任務 4 (攻佔並強化 Portal) - 部署 Resonator 以攻佔 Portal。</string>
-    <string name="TRAINING_5_NAME">添加 Resonator</string>
+    <string name="TRAINING_5_NAME">讓 Portal 發出共振</string>
     <string name="TRAINING_5_DESCRIPTION">準備為 Portal 建立連結</string>
     <string name="TRAINING_5_MESSAGE">"Exotic Matter 的強力能量波段可連結多個 Portal，而 Portal 必須有八個充滿能量的 Resonator 才能進行連結。請在附近 Portal 的範圍內移動並進行入侵，以取得 Resonator。然後部署 Resonator，並且將所有 Resonator 的能量補充至所需等級以上。
 
@@ -830,16 +830,16 @@ Exotic Matter 正在滲入世界各地，我們對它的來源卻一無所知。
     <string name="TRAINING_5_OBJECTIVE_1">入侵附近的 Portal</string>
     <string name="TRAINING_5_OBJECTIVE_2">部署剩餘的 Resonator</string>
     <string name="TRAINING_5_OBJECTIVE_3">為 Resonator 補充能量</string>
-    <string name="TRAINING_5_STATUS">訓練任務 5 (添加 Resonator) - 準備為 Portal 建立連結。</string>
-    <string name="TRAINING_6_NAME">建立連結</string>
+    <string name="TRAINING_5_STATUS">訓練任務 5 (讓 Portal 發出共振) - 準備為 Portal 建立連結。</string>
+    <string name="TRAINING_6_NAME">連結</string>
     <string name="TRAINING_6_DESCRIPTION">連結兩個 Portal</string>
     <string name="TRAINING_6_MESSAGE">"您現在可以連結兩個 Portal。
 
 入侵 Portal 即可取得 Portal Key。有了 Portal Key 即可從遠端連結至 Portal。
 
-選取 [連結] 即可開始進行連結程序。侦测器會以紅色醒目顯示可連結的目標 Portal。
+選取 [連結] 即可開始進行連結程序。掃描器會以紅色醒目顯示可連結的目標 Portal。
 
-如果 Portal 未顯示在侦测器上，則可選取 Portal Key 進行連結。
+如果 Portal 未顯示在掃描器上，則可選取 Portal Key 進行連結。
 
 入侵附近的 Portal 即可取得 Portal Key。然後移動到另一個 Portal 的範圍內即可開始進行連結。"</string>
     <string name="TRAINING_6_OUTRO">"連結成功，太棒了！Resonator 能量越高，Portal 能量越強大。能量強大的 Portal 可建立長達數百公里的遠距連結。
@@ -1119,7 +1119,7 @@ Shaper 同樣會試圖建立領域，進而感染並影響人類思想。如果�
     <string name="appwidget_regionscore_label">Ingress 區域分數</string>
     <string name="status_loading_score">正在載入分數…</string>
     <string name="resistance_short">反抗軍</string>
-    <string name="aliens_short">天啟者</string>
+    <string name="aliens_short">啟蒙軍</string>
     <string name="score_placeholder">…</string>
     <string name="next_checkpoint">下一個 Checkpoint</string>
     <string name="time_to_next_cycle">%1$d 小時的 Cycle 將於 %2$s %3$s 結束</string>
@@ -1137,9 +1137,9 @@ Shaper 同樣會試圖建立領域，進而感染並影響人類思想。如果�
     <string name="COMMUNITY_TAB_EVENTS_DESCRIPTION">Ingress 社群每天都處於動員狀態。歡迎查看您身邊發生的 Ingress 活動。</string>
     <string name="COMMUNITY_TAB_EVENTS_BUTTON">Ingress 現場活動</string>
     <string name="COMMUNITY_TAB_FACTION_TITLE">認識同陣營成員</string>
-    <string name="COMMUNITY_TAB_FACTION_ALIENS_DESCRIPTION">歡迎加入天啟者 Google+ 社群，與夥伴探員們攜手讓人類進化。</string>
+    <string name="COMMUNITY_TAB_FACTION_ALIENS_DESCRIPTION">歡迎加入啟蒙軍 Google+ 社群，與夥伴探員們攜手讓人類進化。</string>
     <string name="COMMUNITY_TAB_FACTION_RESISTANCE_DESCRIPTION">歡迎加入反抗軍 Google+ 社群，與反抗軍探員夥伴們共同抵禦 Shaper Ingression。</string>
-    <string name="COMMUNITY_TAB_FACTION_ALIENS_BUTTON">天啟者 Google+</string>
+    <string name="COMMUNITY_TAB_FACTION_ALIENS_BUTTON">啟蒙軍 Google+</string>
     <string name="COMMUNITY_TAB_FACTION_RESISTANCE_BUTTON">反抗軍 Google+</string>
     <string name="RECRUIT_EMAIL_PLACEHOLDER_IOS">輸入電子郵件地址</string>
     <string name="RECRUIT_INVITE_IOS">邀請</string>

@@ -900,6 +900,7 @@ Shaper 達もフィールドを作って人類の思想に影響を与えよう�
     <string name="PICK_UP_RESOURCE_DISABLE_BUSY">取得中…</string>
     <string name="PICK_UP_RESOURCE_DISABLE_LOCATION">位置が不正確です</string>
     <string name="ITEM_DESCRIPTION_CAPSULE">カプセル。カプセルは他のアイテムを保管するための XM アイテム。</string>
+    <string name="ITEM_DESCRIPTION_INTEREST_CAPSULE">XMオブジェクトを収容可能なコンテナで、収容されたオブジェクトは時間と共にコンテナの中で増殖する。</string>
     <string name="ITEM_DESCRIPTION_EMITTER_A">レゾネーター。ポータルを強化し、自分の陣営のものにするための XM オブジェクト。</string>
     <string name="ITEM_DESCRIPTION_EMP_BURSTER">XMP（エキゾチック・マター・パルス）兵器。敵のレゾネーターや MOD を破壊し、ポータルを中立化できる。</string>
     <string name="ITEM_DESCRIPTION_EXTRA_SHIELD">AXA シールド。超ハイパワーのポータルシールド。</string>

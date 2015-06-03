@@ -28,83 +28,83 @@
     <string name="common_signin_button_text">登录</string>
     <string name="common_signin_button_text_long">使用Google帐户登录</string>
     <string name="common_open_on_phone">在手机上打开</string>
-    <string name="SMS_WELL_DONE">%s，干得好！现在是时候成为正式的特工啦！</string>
-    <string name="SMS_ACTION_FAIL">成为正式的特工后，就可以解锁%s。</string>
+    <string name="SMS_WELL_DONE">%s，干得好！现在你已成为值得信赖的特工啦！</string>
+    <string name="SMS_ACTION_FAIL">成为值得信赖的特工后，就可以%s。</string>
     <string name="SMS_VERIFY_NOW_LEVEL_UP">你必须先向%s进行验证才能升级。</string>
-    <string name="SMS_VERIFY_NOW">立即向%s进行验证。</string>
+    <string name="SMS_VERIFY_NOW">立即向%s验证。</string>
     <string name="VERIFY">验证</string>
     <string name="LATER">以后再说</string>
-    <string name="SMS_PHONE_NUMBER_USE">此电话号码只用于身份验证。</string>
+    <string name="SMS_PHONE_NUMBER_USE">此电话号码只用于验证身份。</string>
     <string name="SMS_DISCLAIMER">*须支付移动运营商规定的标准费用。</string>
     <string name="SMS_ENTER_NUMBER">请输入你的电话号码：</string>
-    <string name="SMS_REQUEST_VIA">请选择通过以下方式获取验证码：</string>
+    <string name="SMS_REQUEST_VIA">请通过以下方式申请验证码：</string>
     <string name="SMS">短信</string>
     <string name="VOICE">语音</string>
-    <string name="SMS_ERROR_NUMBER_FORMAT">电话号码格式错误。</string>
+    <string name="SMS_ERROR_NUMBER_FORMAT">电话号码格式不正确。</string>
     <string name="SMS_ERROR_VERIFIED_ALREADY">你已通过验证。</string>
     <string name="SMS_ERROR_BAD_PHONE_NUMBER">电话号码有误，无法申请验证码。</string>
     <string name="SMS_ERROR_INVALID_PHONE_NUMBER">此电话号码无法用于申请验证码。</string>
-    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">无法获取验证码，请尝试改用短信。</string>
-    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">无法获取验证码，请尝试改用语音。</string>
+    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">无法申请验证码，请尝试改用短信。</string>
+    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">无法申请验证码，请尝试改用语音。</string>
     <string name="SMS_ERROR_INVALID_VERIFICATION">出现内部错误，验证失败。</string>
     <string name="SMS_ERROR_VERIFICATION_BUSY">正在验证。</string>
     <string name="SMS_ERROR_REQUEST_BUSY">正在处理验证申请。</string>
     <string name="SMS_ERROR_SERVICE_ERROR">运营商无法发送验证码。</string>
     <string name="SMS_ERROR_PIN_MISMATCH">验证码无效，请输入有效的验证码。</string>
-    <string name="SMS_ERROR_PIN_EXPIRED">验证码已过期，请重新申请验证码。</string>
+    <string name="SMS_ERROR_PIN_EXPIRED">验证码已过期，请申请新的验证码。</string>
     <string name="SMS_ERROR_QUOTA_REACHED">此电话号码已达到验证次数上限，无法申请验证码。</string>
     <string name="SMS_ERROR_RETRY_IN_1_MINUTE">验证申请太多，请 1 分钟后重试。</string>
     <string name="SMS_ERROR_RETRY_IN_5_MINUTES">验证申请太多，请 5 分钟后重试。</string>
     <string name="SMS_ERROR_RETRY_IN_15_MINUTES">验证申请太多，请 15 分钟后重试。</string>
     <string name="SMS_ERROR_RETRY_LATER">验证申请太多，请稍后重试。</string>
-    <string name="SMS_ERROR_SERVER_ERROR">偵測系统出现通信错误。</string>
-    <string name="SMS_REQUESTING">申请中…</string>
-    <string name="SMS_VERIFYING">验证中…</string>
+    <string name="SMS_ERROR_SERVER_ERROR">出现 Scanner 通信错误。</string>
+    <string name="SMS_REQUESTING">正在申请…</string>
+    <string name="SMS_VERIFYING">正在验证…</string>
     <string name="SMS_CODE_SENT">验证码已发送。</string>
-    <string name="SMS_TAP_INSTRUCTION">收到验证码后，请点击验证图标。</string>
+    <string name="SMS_TAP_INSTRUCTION">收到验证码后，请点按验证图标。</string>
     <string name="SMS_ENTER_CODE">请输入验证码</string>
     <string name="SMS_ENTER_YOUR_N_DIGIT">请输入 %d 位数的验证码：</string>
-    <string name="SMS_NEED_A_NEW">需要新的验证码？</string>
+    <string name="SMS_NEED_A_NEW">需要新验证码？</string>
     <string name="REQUEST">申请</string>
-    <string name="again">再次申请</string>
+    <string name="again">重新申请</string>
     <string name="SMS_CODE_VALID">"验证码有效。
-恭喜你成为正式的特工了。"</string>
+你现在已经成为值得信赖的特工了。"</string>
     <string name="DONE">完成</string>
     <string name="DROP">丢弃</string>
     <string name="JARVIS">JARVIS</string>
     <string name="ADA">ADA</string>
-    <string name="TUTORIALS_AGENT_HACKING_PORTALS">作为特工，你必须入侵 Portal 来获取物品。</string>
+    <string name="TUTORIALS_AGENT_HACKING_PORTALS">作为特工，你必须入侵 Portal 来获取 Item。</string>
     <string name="TUTORIALS_ATTACK_THE_ENEMY">攻击敌方 Portal。</string>
     <string name="TUTORIALS_DEPLOY_RESONATORS">放置 Resonator，以便为友方 Portal 注入能量。</string>
-    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">检测到可用的 Resonator 槽位，请移到有效范围内了解部署方式。</string>
-    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">检测到敌方的 Portal，请移到行动范围内了解如何“发射”。</string>
-    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">Exotic Matter (XM) 可为侦测系统补给能量。</string>
+    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">检测到空的 Resonator 槽位，请移到有效范围内了解“放置”行动。</string>
+    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">检测到空的 Portal，请移到行动范围内了解“发射”行动。</string>
+    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">Exotic Matter (XM) 可为 Scanner 提供能量。</string>
     <string name="TUTORIALS_EXPLORE_THE_WORLD">探索你周围的世界，找出更多的 Portal，展开入侵，积累资源，并将这些 Portal 收为你方阵营的地盘。</string>
     <string name="TUTORIALS_FIRE_XMPS">发射 XMP 来摧毁敌方 Portal。</string>
-    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">入侵 Portal 以获取物品</string>
-    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">要想使用侦测器，你需要四处走走。</string>
-    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">Portal 就是世界各处溢出 XM 的地方。</string>
+    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">入侵 Portal 以获取 Item</string>
+    <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">要想使用 Scanner，你需要四处走走。</string>
+    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">Portal 是 XM 借以渗入我们世界的位置。</string>
     <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">Portal 通常会出现在雕像和历史遗址附近。</string>
     <string name="TUTORIALS_PORTAL_DETECTED">检测到 Portal，请移到相应的行动范围内。</string>
     <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">已获取 Resonator 和 XMP。</string>
-    <string name="TUTORIALS_TAP_PORTAL">点按 Portal 来采取行动。</string>
-    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">点按即可自定义你的角色。</string>
+    <string name="TUTORIALS_TAP_PORTAL">点按 Portal 即可互动</string>
+    <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">点按即可自定义头像。</string>
     <string name="TUTORIALS_THE_TRIANGLE_REPRESENTS_YOUR_LOCATION">三角形代表你在现实世界中所在的位置。</string>
-    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">这是侦测器的地图检视模式。</string>
-    <string name="TUTORIALS_TO_AUTO_DEPLOY">要自动放置，请点按“%s”。你还可以先选择一个可用位置。</string>
-    <string name="TUTORIALS_TO_FIRE_XMP">要发射，请按住地图以打开菜单，然后滑动菜单并选择“%s”。</string>
-    <string name="TUTORIALS_TRAINING_COMPLETE">训练完成！</string>
-    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">四处走走并收集 XM。</string>
-    <string name="TUTORIALS_WELCOME_TO_INGRESS">欢迎加入 Ingress…</string>
-    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">你可以与活动范围内的物品进行互动。</string>
-    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">你可以占领 Portal 并纳入友方阵营，而 Portal 的颜色则代表其所属的阵营。</string>
+    <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">这是 Scanner 的地图视图。</string>
+    <string name="TUTORIALS_TO_AUTO_DEPLOY">要自动放置，请点按“%s”。你还可以先选择一个空槽位。</string>
+    <string name="TUTORIALS_TO_FIRE_XMP">要发射，请按住地图以打开菜单，然后滑动菜单选择“%s”。</string>
+    <string name="TUTORIALS_TRAINING_COMPLETE">培训完成！</string>
+    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">四处走走，收集 XM。</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">欢迎来到 Ingress 世界…</string>
+    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">你可以与行动圈内的对象互动。</string>
+    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">你将为友方阵营占领 Portal，而 Portal 的颜色则代表其所属的阵营。</string>
     <string name="TUTORIAL_GO_HACK">移动到 Portal 的范围内，然后入侵。</string>
-    <string name="SIGNIN_TITLE">请登录 Ingress 进行游戏。</string>
-    <string name="GAME_INTRO_TEXT">"不久前，CERN 研究所在研究希格斯玻色子时发现了一种新的物质，并称为 Exotic Matter， 简称 XM。
+    <string name="SIGNIN_TITLE">请先登录，然后才能玩 Ingress。</string>
+    <string name="GAME_INTRO_TEXT">"不久前，CERN 研究所在研究希格斯玻色子时发现了一种新的物质，并称为 Exotic Matter。
 
 让人坐立不安的是，CERN 研究所认为 XM 是一种有序的智能数据。
 
-而且，只要达到足够的数量，它能影响， 甚至控制人类的思想。
+而且，只要达到足够的数量，它能影响甚至左右人类的思想。
 
 确定的一点是，谁能掌控 XM，谁就能掌控人类的命运。"</string>
     <string name="SIGNIN_MESSAGE">"世界正岌岌可危。
@@ -115,24 +115,24 @@
     <string name="SIGNIN_BUTTON">使用 Google 帐户登录</string>
     <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">出现错误。请重试：</string>
     <string name="MESSAGE_CHOOSE_FACTION">请选择阵营：</string>
-    <string name="MESSAGE_CHOOSE_CAREFULLY">请慎重选择。选择后不可更改。</string>
+    <string name="MESSAGE_CHOOSE_CAREFULLY">请慎重。选择后不可更改。</string>
     <string name="MESSAGE_CONFIRM_CHOICE">你选择的是%s。</string>
     <string name="THE_RESISTANCE">反抗军</string>
     <string name="THE_ENLIGHTENED">启蒙军</string>
     <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s是此阵营的成员]</string>
-    <string name="HUMANIST_DESCRIPTION">反抗军致力于与企图利用 Exotic Matter 奴役人类的势力。</string>
+    <string name="HUMANIST_DESCRIPTION">反抗军致力于与企图利用 Exotic Matter 奴役人类的势力斗争到底。</string>
     <string name="ENLIGHTENED_DESCRIPTION">启蒙军致力于发挥 Exotic Matter 的能量使人类进化到更高阶段。</string>
     <string name="CANCEL">取消</string>
     <string name="CONFIRM">确认</string>
-    <string name="NICKNAME_PROMPT_RETRY">请尝试使用其他代号。</string>
-    <string name="NICKNAME_PROMPT_TOP">"Niantic 线上软件.
+    <string name="NICKNAME_PROMPT_RETRY">试试其他代号。</string>
+    <string name="NICKNAME_PROMPT_TOP">"Niantic 软件在线。
 
-收到新消息.
-正在打开安全连接…"</string>
-    <string name="NICKNAME_PROMPT_BOTTOM">"创建一个特工名称，系统将会向其他特工显示你创建的名称。
+检测到新消息。
+正在打开安全通道…"</string>
+    <string name="NICKNAME_PROMPT_BOTTOM">"指定一个特工名称，方便其他特工知道是你。
 
 输入新的特工名称。"</string>
-    <string name="BUTTON_TRANSMIT">传送</string>
+    <string name="BUTTON_TRANSMIT">传输</string>
     <string name="TITLE_NICKNAME_PROMPT_DIALOG">输入代号：</string>
     <string name="NICKNAME_ERROR_WHILE_CREATING">创建代号时出现错误。</string>
     <string name="NICKNAME_ERROR_WHILE_VALIDATING">验证代号时出现错误。</string>
@@ -147,18 +147,18 @@
     <string name="PROGRESS_VALIDATING_CODENAME">正在验证代号</string>
     <string name="PROGRESS_CREATING_CODENAME">正在创建代号</string>
     <string name="NICKNAME_VALIDATE_MESSAGE">有效的代号。请确认。</string>
-    <string name="NICKNAME_ID_CONFIRMED">"正在创建密码…
+    <string name="NICKNAME_ID_CONFIRMED">"正在创建加密密钥…
 
-身份已确认."</string>
-    <string name="NICKNAME_ACCESS_GRANTED">"获得许可.
-系统加载中…"</string>
+已确认 ID。"</string>
+    <string name="NICKNAME_ACCESS_GRANTED">"已授予权限。
+程序已启动…"</string>
     <string name="BUTTON_QUIT">退出</string>
-    <string name="RECOMMENDED_SCANNER_UPDATE">你的 Ingress 侦测器已过期，请及时更新。</string>
+    <string name="RECOMMENDED_SCANNER_UPDATE">Ingress Scanner 已过期，请及时更新。</string>
     <string name="BUTTON_PLAY">开始游戏</string>
     <string name="BUTTON_UPGRADE">升级</string>
-    <string name="TOS_LOCATION">"Ingress 是一款根据地理位置来进行的游戏。
+    <string name="TOS_LOCATION">"Ingress 是根据地理位置来玩的游戏。
 
-在你玩这款游戏时，它会收集你的位置信息，其他用户也会在你执行特定操作时看到你所在的位置。
+在你玩这款游戏时，它会收集你的位置信息，其他用户也会在你执行特定行动时看到你所在的位置。
 "</string>
     <string name="READ_THE_FULL_TOS">请先通读《服务条款》，然后再接受这些条款及条件。</string>
     <string name="TOS_ACCEPT">我接受此应用的《服务条款》。</string>
@@ -181,26 +181,26 @@
     <string name="JAILBROKEN_RESULT">Ingress 将无法正常运行。</string>
     <string name="MISSIONS_FIELD_TRIP_READ_MORE">了解详情</string>
     <string name="MISSIONS_NEARBY_LIST">查看附近的任务</string>
-    <string name="MISSION_STARTED_COMM">已开始 %1$s: %2$s</string>
+    <string name="MISSION_STARTED_COMM">已开始执行%1$s：%2$s</string>
     <string name="MISSION_TYPE_COMM">任务</string>
     <string name="ACHIEVEMENT_CONGRATULATIONS">恭喜，你已赢得如下成就：%s。</string>
     <string name="APNS_L">你的 Portal“%1$s”正在遭受%2$s的攻击。</string>
     <string name="APNS_P">你的 Portal“%s”正在遭受攻击。</string>
     <string name="APNS_A">你的其中一个 Portal 正在遭受%s的攻击。</string>
     <string name="APNS_NONE">你的其中一个 Portal 正在遭受攻击。</string>
-    <string name="APNS_N_L">%2$s将你的 Portal“%1$s”转为中立状态。</string>
-    <string name="APNS_N_P">你的 Portal“%s” 已恢复为中立状态。</string>
-    <string name="APNS_N_A">%s将你的其中一个 Portal 转为中立状态。</string>
-    <string name="APNS_N_NONE">你的其中一个 Portal 转为中立状态。</string>
+    <string name="APNS_N_L">%2$s将你的 Portal“%1$s”转为中立。</string>
+    <string name="APNS_N_P">你的 Portal“%s”转为中立。</string>
+    <string name="APNS_N_A">%s将你的其中一个 Portal 转为中立。</string>
+    <string name="APNS_N_NONE">你的其中一个 Portal 转为中立。</string>
     <string name="APNS_M">%1$s正在攻击你的 Portal“%2$s”。</string>
-    <string name="APNS_N_M">%1$s 将你的 Portal“%2$s”转为中立状态。</string>
+    <string name="APNS_N_M">%1$s 将你的 Portal“%2$s”转为中立。</string>
     <string name="ENTER">输入</string>
-    <string name="PROGRESS_CHECKING">检测中…</string>
+    <string name="PROGRESS_CHECKING">正在检查…</string>
     <string name="HINT_ENTER_PASSPHRASE">输入通关密码</string>
     <string name="OK_TITLE">确定</string>
     <string name="SETTINGS_TITLE">设置</string>
     <string name="LOCATION_ALERT_TITLE">警告</string>
-    <string name="LOCATION_SERVICES_DISABLED">定位服务已关闭。</string>
+    <string name="LOCATION_SERVICES_DISABLED">“定位服务”已关闭。</string>
     <string name="LOCATION_SERVICES_SETTINGS_IOS7">请在“设置”>“隐私”>“定位服务”下更新 Ingress 的“定位服务”设置。</string>
     <string name="LOCATION_SERVICES_SETTINGS_IOS8">请将 Ingress 的“定位服务”设置更新为“始终”。</string>
     <string name="LOCATION_SERVICES_SETTINGS">请务必打开 Ingress 的“定位服务”。</string>
@@ -231,28 +231,28 @@
     <string name="PORTAL_ACTIONS_DEPLOY_SUB_LABEL">Resonator</string>
     <string name="PORTAL_ACTIONS_DEPLOY_SUB_LABEL_OFF">状态</string>
     <string name="PORTAL_ACTIONS_DEPLOY_ONE_LINE">RES 状态</string>
-    <string name="PORTAL_ACTIONS_RECHARGE_TOP_LABEL">补充能量</string>
+    <string name="PORTAL_ACTIONS_RECHARGE_TOP_LABEL">充能</string>
     <string name="PORTAL_ACTIONS_RECHARGE_SUB_LABEL">Resonator</string>
-    <string name="PORTAL_ACTIONS_MOD_TOP_LABEL">加强包</string>
+    <string name="PORTAL_ACTIONS_MOD_TOP_LABEL">强化包</string>
     <string name="PORTAL_ACTIONS_MOD_SUB_LABEL">状态</string>
     <string name="PORTAL_ACTIONS_MOD_ONE_LINE_LABEL">加强包状态</string>
     <string name="PORTAL_ACTIONS_MISSION_TOP_LABEL">任务</string>
     <string name="PORTAL_ACTIONS_MISSION_DISABLED_NO_MISSIONS">没有任务</string>
     <string name="PORTAL_ACTIONS_NAVIGATE_TOP_LABEL">导航</string>
-    <string name="PORTAL_ACTIONS_NAVIGATE_SUB_LABEL">前往 Portal</string>
+    <string name="PORTAL_ACTIONS_NAVIGATE_SUB_LABEL">到 Portal</string>
     <string name="PORTAL_ACTIONS_NAVIGATE_SUB_LABEL_OFF">关闭</string>
-    <string name="PORTAL_ACTIONS_LINK">连接</string>
+    <string name="PORTAL_ACTIONS_LINK">LINK</string>
     <string name="PORTAL_ACTIONS_DISABLED_NOT_AVAILABLE">无法使用</string>
     <string name="PORTAL_ACTIONS_DISABLED_HACKING">正在入侵…</string>
     <string name="PORTAL_ACTIONS_DISABLED_WRONG_FACTION">阵营错误</string>
     <string name="PORTAL_ACTIONS_DISABLED_DEPLOYING">正在放置…</string>
-    <string name="PORTAL_ACTIONS_DISABLED_NO_MOD">没有加强包</string>
-    <string name="PORTAL_ACTIONS_DISABLED_NO_USABLE_MOD">没有可用的加强包</string>
+    <string name="PORTAL_ACTIONS_DISABLED_NO_MOD">没有强化包</string>
+    <string name="PORTAL_ACTIONS_DISABLED_NO_USABLE_MOD">没有可用的强化包</string>
     <string name="PORTAL_ACTIONS_DISABLED_NO_LOCATION">没有位置信息</string>
     <string name="PORTAL_ACTIONS_DISABLED_NEED_XM">需要更多 XM</string>
-    <string name="PORTAL_ACTIONS_DISABLED_LEVEL_DENIED">等级遭拒</string>
-    <string name="FIRE_WEAPON_DISABLED_WEAPON_NOT_AVAILABLE">无法使用武器</string>
-    <string name="FIRE_WEAPON_DISABLED_ACCESS_INSUFFICIENT">行动等级不足</string>
+    <string name="PORTAL_ACTIONS_DISABLED_LEVEL_DENIED">等级不足，被拒</string>
+    <string name="FIRE_WEAPON_DISABLED_WEAPON_NOT_AVAILABLE">武器不可用</string>
+    <string name="FIRE_WEAPON_DISABLED_ACCESS_INSUFFICIENT">行动等级不够</string>
     <string name="FIRE_WEAPON_DISABLED_UNKNOWN_REASON">宇宙射线</string>
     <string name="PORTAL_INFO_DIALOG_OWNER">"所有者： "</string>
     <string name="PORTAL_INFO_DIALOG_ENERGY">"能量： "</string>
@@ -264,29 +264,29 @@
     <string name="RADIAL_MENU_FIRE_XMP">发射 XMP</string>
     <string name="RADIAL_MENU_HACK">入侵</string>
     <string name="RADIAL_MENU_NAVIGATE">导航</string>
-    <string name="RADIAL_MENU_SUBMIT_NEW_PORTAL">新增 Portal</string>
+    <string name="RADIAL_MENU_SUBMIT_NEW_PORTAL">新 Portal</string>
     <string name="RADIAL_MENU_SHARE">分享</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_5_SECS">Portal 过热！获取物品有危险。预计冷却时间：5 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_10_SECS">Portal 过热！获取物品有危险。预计冷却时间：10 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_20_SECS">Portal 过热！获取物品有危险。预计冷却时间：20 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_30_SECS">Portal 过热！获取物品有危险。预计冷却时间：30 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_60_SECS">Portal 过热！获取物品有危险。预计冷却时间：60 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_120_SECS">Portal 过热！获取物品有危险。预计冷却时间：120 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_240_SECS">Portal 过热！获取物品有危险。预计冷却时间：240 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_BIG">Portal 过热！获取物品有危险。预计冷却时间：300 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_5_SECS">Portal 变热！获取 Item 有危险。预计冷却时间：5 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_10_SECS">Portal 变热！获取 Item 有危险。预计冷却时间：10 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_20_SECS">Portal 变热！获取 Item 有危险。预计冷却时间：20 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_30_SECS">Portal 变热！获取 Item 有危险。预计冷却时间：30 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_60_SECS">Portal 变热！获取 Item 有危险。预计冷却时间：60 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_120_SECS">Portal 变热！获取 Item 有危险。预计冷却时间：120 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_240_SECS">Portal 变热！获取 Item 有危险。预计冷却时间：240 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_BIG">Portal 变热！获取 Item 有危险。预计冷却时间：300 秒。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_TOO_OFTEN">Portal 被烧毁！重建 Portal 可能需要大量时间。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_ENEMY_PORTAL">入侵敌方 Portal 失败。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_ENERGY_FULL">XM 容量已满。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_NO_PLAYER_SPECIFIED">未指定特工。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_MUST_PLAY_GAME">Portal 已锁定，必须采取 Glyph 入侵。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_CONTAINER_INVENTORY_FULL_GENERIC">物品过多。</string>
-    <string name="ENUM_MAP_FAIL_SERVER_ERROR">出现侦测器通信错误。</string>
-    <string name="ENUM_MAP_FAIL_NOT_AVAILABLE">XM 物体不可用。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_CONTAINER_INVENTORY_FULL_GENERIC">Item 过多。</string>
+    <string name="ENUM_MAP_FAIL_SERVER_ERROR">出现 Scanner 通信错误。</string>
+    <string name="ENUM_MAP_FAIL_NOT_AVAILABLE">XM 物质不可用。</string>
     <string name="ENUM_MAP_FAIL_UNABLE_TO_USE">无法使用。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_NOT_AT_MAX_RESONATORS">升级之前，请先填充 Resonator 槽位。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_SERVER_ERROR">行动失败。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_MISSING_LOCATION">Portal 无效。</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_CAN_ONLY_UPGRADE_TO_HIGHER_LEVEL">升级无效。</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_CAN_ONLY_UPGRADE_TO_HIGHER_LEVEL">这不是升级。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_RESONATOR_LINKED_TO_DIFFERENT_PORTAL">Resonator 位于错误的 Portal 上。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_NOT_PORTAL_OWNER">并非 Portal 所有者。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_NOT_ON_SAME_PORTAL">Resonator 位于不同的 Portal 上。</string>
@@ -298,68 +298,68 @@
     <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_BELONGS_TO_ENEMY">敌方 Portal。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_FULLY_CHARGED">能量已充满。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_NO_RESONATORS_TO_RECHARGE">无法充能。</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_DELETE">系统繁忙，无法删除 Resonator。</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_DELETE">没有时间删除 Resonator。</string>
     <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL">无法放置。</string>
     <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL_INVALID_RESONATOR">Resonator 无效。</string>
     <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL_NO_PORTAL">Portal 不存在。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_DOES_NOT_EXIST">出现错误，无法使用 Capsule。</string>
-    <string name="ENUM_MAP_CONTAINER_FAIL_INVALID_LOAD">将物品装入 Capsule 时出现错误。</string>
-    <string name="ENUM_MAP_CONTAINER_FAIL_INVALID_UNLOAD">从 Capsule 取出物品时出现错误。</string>
-    <string name="ENUM_MAP_CONTAINER_FAIL_NOT_A_CONTAINER">出现错误。该物品不是 Capsule。</string>
+    <string name="ENUM_MAP_CONTAINER_FAIL_INVALID_LOAD">将 Item 装入 Capsule 时出现错误。</string>
+    <string name="ENUM_MAP_CONTAINER_FAIL_INVALID_UNLOAD">从 Capsule 取出 Item 时出现错误。</string>
+    <string name="ENUM_MAP_CONTAINER_FAIL_NOT_A_CONTAINER">出现错误。Item 不是 Capsule。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_SERVER_ERROR">出现错误。Capsule 操作失败。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_ITEM_NO_LONGER_EXISTS">出现错误。Capsule 操作失败。</string>
-    <string name="ENUM_MAP_LINK_FAIL_CROSSES_EXISTING_LINK">连接和现有连接相交。</string>
-    <string name="ENUM_MAP_LINK_FAIL_EDGE_ALREADY_EXISTS">连接已存在。</string>
+    <string name="ENUM_MAP_LINK_FAIL_CROSSES_EXISTING_LINK">Link 与现有的某个 Link 交叉。</string>
+    <string name="ENUM_MAP_LINK_FAIL_EDGE_ALREADY_EXISTS">Link 已存在。</string>
     <string name="ENUM_MAP_LINK_FAIL_DESTINATION_WRONG_TEAM">敌方 Portal。</string>
-    <string name="ENUM_MAP_LINK_FAIL_CONTAINED_WITHIN_CAPTURED_REGION">Portal 处于现有领域中。</string>
-    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_UNOWNED">起点 Portal 是中立的。</string>
-    <string name="ENUM_MAP_LINK_FAIL_DESTINATION_UNOWNED">终点 Portal 是中立的。</string>
+    <string name="ENUM_MAP_LINK_FAIL_CONTAINED_WITHIN_CAPTURED_REGION">Portal 处于现有 Field 中。</string>
+    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_UNOWNED">中立的起点 Portal。</string>
+    <string name="ENUM_MAP_LINK_FAIL_DESTINATION_UNOWNED">中立的终点 Portal。</string>
     <string name="ENUM_MAP_LINK_FAIL_ORIGIN_IS_DESTINATION">必须连接到其他 Portal。</string>
     <string name="ENUM_MAP_LINK_FAIL_ORIGIN_WRONG_TEAM">Portal 由敌方阵营控制。</string>
     <string name="ENUM_MAP_LINK_FAIL_REQUIRES_LINK_KEY">缺少 Portal Key。</string>
-    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_LINK_CAPACITY_REACHED">Portal 无法支持更多连接。</string>
-    <string name="ENUM_MAP_LINK_FAIL_BEYOND_ORIGIN_RANGE">连接距离太远。</string>
+    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_LINK_CAPACITY_REACHED">Portal 无法支持多个 Link。</string>
+    <string name="ENUM_MAP_LINK_FAIL_BEYOND_ORIGIN_RANGE">Link 距离太远。</string>
     <string name="ENUM_MAP_LINK_FAIL_TOO_BUSY">出现阵营错误，连接失败。</string>
     <string name="ENUM_MAP_FAIL_PORTAL_MISSING">缺少 Portal。</string>
     <string name="ENUM_MAP_FAIL_RESONATORS_MISSING">Portal 缺少 Resonator。</string>
-    <string name="ENUM_MAP_LINK_FAIL">建立连接失败。</string>
+    <string name="ENUM_MAP_LINK_FAIL">Link 建立失败。</string>
     <string name="ENUM_MAP_LINK_FAIL_PORTAL_NOT_STABLE">Portal 不稳定。</string>
     <string name="ENUM_MAP_LINK_FAIL_NO_KEY">缺少 Portal Key。</string>
-    <string name="ENUM_MAP_REDEEM_FAIL_INVALID_PASSCODE">密码无效。</string>
-    <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED_BY_PLAYER">密码已兑换。</string>
-    <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED">密码已完全兑换。</string>
-    <string name="ENUM_MAP_FAIL_INVENTORY_FULL">已达到 XM 物质容量上限。</string>
-    <string name="ENUM_MAP_REDEEM_FAIL">密码无法兑换。</string>
+    <string name="ENUM_MAP_REDEEM_FAIL_INVALID_PASSCODE">暗号无效。</string>
+    <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED_BY_PLAYER">暗号已兑换。</string>
+    <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED">暗号已完全兑换。</string>
+    <string name="ENUM_MAP_FAIL_INVENTORY_FULL">XM 超负荷，物品过多。</string>
+    <string name="ENUM_MAP_REDEEM_FAIL">暗号无法兑换。</string>
     <string name="ENUM_MAP_COMBAT_FAIL_WEAPON_NOT_AVAILABLE">武器不可用。</string>
     <string name="ENUM_MAP_COMBAT_FAIL_NO_WEAPON">武器不存在。</string>
     <string name="ENUM_MAP_COMBAT_FAIL_UNABLE_TO_FIRE">无法发射。</string>
     <string name="ENUM_MAP_COMBAT_FAIL_TOO_BUSY">XM 相位有误差。XMP 射偏。</string>
     <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_NOT_POWER_CUBE">Power Cube 无效。</string>
-    <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_NOT_IN_PLAYER_INVENTORY">不在物品栏中。</string>
+    <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_NOT_IN_PLAYER_INVENTORY">不在库存中。</string>
     <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_UNABLE_TO_DISCHARGE">Power Cube 无法减能。</string>
     <string name="ENUM_MAP_FLIP_FAIL_NOT_VALID">XM 物质无效。</string>
     <string name="ENUM_MAP_FLIP_FAIL_NO_PLAYER_SPECIFIED">未指定特工。</string>
     <string name="ENUM_MAP_FLIP_FAIL_PLAYER_DOES_NOT_EXIST">识别特工时出错。</string>
-    <string name="ENUM_MAP_FLIP_FAIL_CANNOT_FLIP">目标 Portal 无法转换阵营。</string>
+    <string name="ENUM_MAP_FLIP_FAIL_CANNOT_FLIP">目标 Portal 已加入目标阵营。</string>
     <string name="ENUM_MAP_FLIP_FAIL_INVALID_TARGET">目标 Portal 无效。</string>
     <string name="ENUM_MAP_FLIP_FAIL_SERVER_ERROR">Portal 阵营转换失败。</string>
     <string name="ENUM_MAP_FLIP_FAIL_TOO_BUSY_ADA">出现编译错误。ADA Refactor 故障。</string>
-    <string name="ENUM_MAP_FLIP_FAIL_TOO_BUSY_JAR">抗体入侵。病毒发生错误。</string>
+    <string name="ENUM_MAP_FLIP_FAIL_TOO_BUSY_JAR">抗体入侵。出现病毒错误。</string>
     <string name="ENUM_MAP_FLIP_FAIL_TOO_SOON">失败。Portal 暂时具有免疫力。</string>
-    <string name="ENUM_MAP_MOD_FAIL_MOD_DOES_NOT_EXIST">加强包不存在。</string>
+    <string name="ENUM_MAP_MOD_FAIL_MOD_DOES_NOT_EXIST">强化包不存在。</string>
     <string name="ENUM_MAP_MOD_FAIL_NOT_A_TEAMMATE">阵营错误。</string>
-    <string name="ENUM_MAP_MOD_FAIL_MOD_SLOT_EMPTY">没有加强包可移除。</string>
-    <string name="ENUM_MAP_MOD_FAIL_SERVER_ERROR">无法对加强包执行操作。</string>
-    <string name="ENUM_MAP_MOD_FAIL_NO_EMPTY_SLOTS">没有加强包的任何空槽位。</string>
-    <string name="ENUM_MAP_MOD_FAIL_MOD_SLOT_NOT_EMPTY">加强包槽位正在使用中。</string>
-    <string name="ENUM_MAP_MOD_FAIL_INDEX_OUT_OF_BOUNDS">加强包槽位无效。</string>
+    <string name="ENUM_MAP_MOD_FAIL_MOD_SLOT_EMPTY">没有强化包可移除。</string>
+    <string name="ENUM_MAP_MOD_FAIL_SERVER_ERROR">无法对强化包执行操作。</string>
+    <string name="ENUM_MAP_MOD_FAIL_NO_EMPTY_SLOTS">没有空的强化包槽位。</string>
+    <string name="ENUM_MAP_MOD_FAIL_MOD_SLOT_NOT_EMPTY">强化包槽位正在使用中。</string>
+    <string name="ENUM_MAP_MOD_FAIL_INDEX_OUT_OF_BOUNDS">强化包槽位无效。</string>
     <string name="ENUM_MAP_MOD_FAIL_INVALID_PLAYER">识别特工时出错。</string>
-    <string name="ENUM_MAP_MOD_FAIL_PLAYER_LIMIT_REACHED">已达到加强包数量上限。</string>
-    <string name="ENUM_MAP_MOD_FAIL_TOO_BUSY_ADD">阵营转换错误。加强包出现故障。</string>
+    <string name="ENUM_MAP_MOD_FAIL_PLAYER_LIMIT_REACHED">已达到强化包数量上限。</string>
+    <string name="ENUM_MAP_MOD_FAIL_TOO_BUSY_ADD">阵营转换错误。强化包出现故障。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_TOO_MANY">无法再屏蔽特工。你的特工屏蔽列表满了。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_TOO_BUSY">出现服务错误，无法管理已屏蔽的特工。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_INVALID_PLAYER">无法管理特工屏蔽。此特工已不存在。</string>
-    <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_BAD_REQUEST_TIMESTAMP">出现侦测器通信错误。</string>
+    <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_BAD_REQUEST_TIMESTAMP">出现 Scanner 通信错误。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_PROFILE_SERVER_ERROR">无法关联此个人资料。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_CLIENT_ONLY_GENERIC_FAILED_TO_LINK">无法关联此个人资料。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_CLIENT_ONLY_GENERIC_FAILED_TO_UNLINK">无法取消关联此个人资料。</string>
@@ -370,7 +370,7 @@
     <string name="ENUM_MAP_FAIL_NEED_MORE_XM">需要更多 XM。</string>
     <string name="ENUM_MAP_FAIL_GLYPH_NOT_EXISTING">Glyph 入侵转为中立。</string>
     <string name="ENUM_MAP_FAIL_GLYPH_HACK_REQUIRED">Portal 已锁定，必须采取 Glyph 入侵。</string>
-    <string name="ENUM_MAP_FAIL_GLYPH_ALREADY_REDEEMED">Glyph 入侵偏离。</string>
+    <string name="ENUM_MAP_FAIL_GLYPH_ALREADY_REDEEMED">Glyph 入侵击偏。</string>
     <string name="ENUM_MAP_FAIL_USER_ABORTED_GAME">Glyph 游戏已中止。</string>
     <string name="ENUM_MAP_MISSION_FAIL_UNKNOWN">出现错误，传输中断。</string>
     <string name="ENUM_MAP_MISSION_FAIL_SERVER_ERROR">出现错误，传输中断。</string>
@@ -383,10 +383,10 @@
     <string name="ENUM_MAP_MISSION_FAIL_NOT_IN_RANGE">Waypoint 太远。</string>
     <string name="ENUM_MAP_MISSION_FAIL_MISSION_TOO_MANY_INVALID_WAYPOINTS">此任务的无效 Waypoint 太多。</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_CAPTURE_PORTAL">占领或升级 Portal</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_FIELD">利用 Portal 建立领域</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_LINK">利用 Portal 建立连接</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_FIELD">利用 Portal 建立 Field</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_LINK">利用 Portal 建立 Link</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_HACK_PORTAL">入侵 Portal</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_INSTALL_MOD">在 Portal 上安装加强包</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_INSTALL_MOD">在 Portal 上安装强化包</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_PASSPHRASE">输入正确的通关密码</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_TAKE_PHOTO">为 Portal 拍照</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_UNKNOWN">未知目标</string>
@@ -396,9 +396,9 @@
     <string name="ENUM_MAP_NEMESIS_TABS_INTEL">局势</string>
     <string name="ENUM_MAP_NEMESIS_TABS_MISSIONS">任务</string>
     <string name="ENUM_MAP_NEMESIS_TABS_TRAINING">训练</string>
-    <string name="ENUM_MAP_NEMESIS_TABS_RECRUIT">呼朋唤友</string>
+    <string name="ENUM_MAP_NEMESIS_TABS_RECRUIT">招募</string>
     <string name="ENUM_MAP_NEMESIS_TABS_COMMUNITY">社区</string>
-    <string name="ENUM_MAP_NEMESIS_TABS_PASSCODE">密码</string>
+    <string name="ENUM_MAP_NEMESIS_TABS_PASSCODE">暗号</string>
     <string name="ENUM_MAP_NEMESIS_TABS_DEVICE">设备</string>
     <string name="FIRE_MODE_FIRE_BUTTON">发射</string>
     <string name="FIRE_MODE_DISABLE_REASON_FIRING">正在发射…</string>
@@ -434,10 +434,10 @@
     <string name="PORTAL_STATS_RANGE">范围</string>
     <string name="PORTAL_STATS_ENERGY">能量</string>
     <string name="PORTAL_STATS_ENEMY_PORTAL">敌方 Portal</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_ABSORPTION">吸收</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_MITIGATION">防御</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_REFLECTION">反击</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_LINK_RANGE_MULTIPLIER">连接范围倍增器</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_ABSORPTION">吸收力</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_MITIGATION">防御力</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_REFLECTION">反击力</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_LINK_RANGE_MULTIPLIER">Link 范围倍增器</string>
     <string name="ENUM_MAP_STATS_MODIFIER_REMOVAL_STICKINESS">移除粘性</string>
     <string name="ENUM_MAP_STATS_MODIFIER_UNKNOWN">未知</string>
     <string name="ENUM_MAP_STATS_MODIFIER_HACK_SPEED">入侵速度</string>
@@ -445,7 +445,7 @@
     <string name="ENUM_MAP_STATS_MODIFIER_FORCE_AMPLIFIER">力量倍增器</string>
     <string name="ENUM_MAP_STATS_MODIFIER_HIT_BONUS">命中加值</string>
     <string name="ENUM_MAP_STATS_MODIFIER_ATTACK_FREQUENCY">攻击频率</string>
-    <string name="STATS_MODIFIER_MITIGATION_DISPLAY_NAME">防御</string>
+    <string name="STATS_MODIFIER_MITIGATION_DISPLAY_NAME">防御力</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_CAPSULE">Capsule</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMITTER_A">Resonator</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">Xmp 炸弹</string>
@@ -454,7 +454,7 @@
     <string name="ENUM_MAP_RESOURCE_TYPE_FORCE_AMP">Force Amp</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_HEATSINK">Heat Sink</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_LINK_AMPLIFIER">Link Amp</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_MEDIA">媒体</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_MEDIA">媒质</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_MULTIHACK">Multi-hack</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_PORTAL_LINK_KEY">Portal Key</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_POWER_CUBE">Power Cube</string>
@@ -463,12 +463,12 @@
     <string name="ENUM_MAP_RESOURCE_TYPE_ULTRA_STRIKE">Ultra Strike</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_UNKNOWN">未知</string>
     <string name="MOD_CHOOSER_DEPLOY_TEMPLATE">放置：%s</string>
-    <string name="RARITY_VERY_COMMON">非常普通</string>
-    <string name="RARITY_COMMON">普通</string>
-    <string name="RARITY_LESS_COMMON">不太普通</string>
+    <string name="RARITY_VERY_COMMON">很普遍</string>
+    <string name="RARITY_COMMON">普遍</string>
+    <string name="RARITY_LESS_COMMON">不太普遍</string>
     <string name="RARITY_RARE">稀有</string>
-    <string name="RARITY_VERY_RARE">非常稀有</string>
-    <string name="RARITY_EXTREMELY_RARE">极为稀有</string>
+    <string name="RARITY_VERY_RARE">很稀有</string>
+    <string name="RARITY_EXTREMELY_RARE">非常稀有</string>
     <string name="PORTAL_LINK_MODE_CONFIRM">确认</string>
     <string name="PORTAL_LINK_MODE_CANCEL">取消</string>
     <string name="PORTAL_LINK_MODE_STATUS_LOADING">查看可连接性…</string>
@@ -477,8 +477,8 @@
     <string name="PORTAL_LINK_MODE_STATUS_FIELD_PLURAL">战场建成：+%s MU</string>
     <string name="PORTAL_LINK_MODE_STATUS_FIELD">战场建成：+%s MU</string>
     <string name="PORTAL_LINK_MODE_STATUS_SELECT">选择一个 Portal Key</string>
-    <string name="PORTAL_LINK_MODE_STATUS_CREATE">建立连接</string>
-    <string name="PORTAL_LINK_MODE_STATUS_PORTAL_LOADING">正在获取 Portal 信息…</string>
+    <string name="PORTAL_LINK_MODE_STATUS_CREATE">建立 Link</string>
+    <string name="PORTAL_LINK_MODE_STATUS_PORTAL_LOADING">正在获取 Portal 方位…</string>
     <string name="PORTAL_LINK_MODE_STATUS_PORTAL_NO_KEY">没有 Portal Key</string>
     <string name="PORTAL_LINK_MODE_STATUS_NO_KEYS">库存中没有 Key</string>
     <string name="PORTAL_LINK_MODE_STATUS_NO_USABLE_KEYS">库存中没有可用的 Key</string>
@@ -486,7 +486,7 @@
     <string name="PORTAL_LINK_MODE_STATUS_ORIGIN_OUT_OF_RANGE">起点 Portal 已不在范围内</string>
     <string name="PORTAL_LINK_MODE_STATUS_LINKABILITY_UNKNOWN">Portal 距离太远。可连接性未知。</string>
     <string name="PORTAL_LINK_MODE_LOCAL_OUT_OF_RANGE">本地 Portal 不在范围内。</string>
-    <string name="INTRO_HEADPHONES_RECOMMENDED">[建议使用耳机]</string>
+    <string name="INTRO_HEADPHONES_RECOMMENDED">[推荐使用耳机]</string>
     <string name="INTRO_ACQUIRING_LOCATION">正在扫描以获取用户位置信息…</string>
     <string name="INTRO_LOCATION_ACQUIRED">已获取位置信息。</string>
     <string name="AVATAR_SELECTION_TITLE">选择特工头像</string>
@@ -496,13 +496,13 @@
     <string name="AVATAR_SELECTION_ERROR_BUTTON">重试</string>
     <string name="AVATAR_SELECTION_ERROR_LOADING_AVATAR_OPTIONS">无法加载头像选项。</string>
     <string name="AVATAR_SELECTION_ERROR_SELECTING_AVATAR">无法设置头像。</string>
-    <string name="SCANNER_OPS_BUTTON">目录</string>
-    <string name="SCANNER_DISABLED_XM">侦测器已停用；收集更多 XM。</string>
-    <string name="SCANNER_DISABLED_LOCATION">侦测器已停用；位置信息不准确。</string>
+    <string name="SCANNER_OPS_BUTTON">行动</string>
+    <string name="SCANNER_DISABLED_XM">Scanner 已停用；收集更多 XM。</string>
+    <string name="SCANNER_DISABLED_LOCATION">Scanner 已停用；位置信息不准确。</string>
     <string name="GLYPH_MODE_INCOMING_GLYPH_SEQUENCE">正在接收 GLYPH 序列…</string>
-    <string name="GLYPH_MODE_PREPARE_TO_REPEAT">准备重复 GLYPH 序列…</string>
+    <string name="GLYPH_MODE_PREPARE_TO_REPEAT">准备重现 GLYPH 序列…</string>
     <string name="GLYPH_MODE_COMMENCE_GLYPH_HACK">开始 GLYPH 入侵…</string>
-    <string name="GLYPH_MODE_HACK_COMPLETE">入侵完成。正在总结获取物品…</string>
+    <string name="GLYPH_MODE_HACK_COMPLETE">入侵完成。正在计算奖励…</string>
     <string name="GLYPH_MODE_BYPASS_TEXT">忽略</string>
     <string name="GLYPH_MODE_ABORT_TEXT">中止</string>
     <string name="GLYPH_MODE_DONE_TEXT">完成</string>
@@ -510,18 +510,18 @@
     <string name="GLYPH_MODE_POPUP_GET_READY">准备就绪…</string>
     <string name="GLYPH_MODE_HACKING_BONUS">入侵奖励：</string>
     <string name="GLYPH_MODE_SPEED_BONUS">速度奖励：</string>
-    <string name="GLYPH_MODE_AGENT_DETECTED">必须输入特工资料。</string>
+    <string name="GLYPH_MODE_AGENT_DETECTED">特工必须绘制。</string>
     <string name="GLYPH_MODE_HIGH_BONUS">高奖励模式已启用。</string>
     <string name="INVENTORY_UI_FILTER_ALL">全部</string>
     <string name="INVENTORY_UI_FILTER_CAPSULES">Capsule</string>
-    <string name="INVENTORY_UI_FILTER_MEDIA">媒体</string>
+    <string name="INVENTORY_UI_FILTER_MEDIA">媒质</string>
     <string name="INVENTORY_UI_FILTER_MODS">加强包</string>
     <string name="INVENTORY_UI_FILTER_PORTAL_KEYS">Portal Key</string>
     <string name="INVENTORY_UI_FILTER_POWER_CUBE">Power Cube</string>
     <string name="INVENTORY_UI_FILTER_RESONATORS">Resonator</string>
     <string name="INVENTORY_UI_FILTER_WEAPONS">武器</string>
     <string name="INVENTORY_UI_LOADING">正在加载…</string>
-    <string name="INVENTORY_UI_NO_ITEMS">没有任何物品</string>
+    <string name="INVENTORY_UI_NO_ITEMS">没有 Item</string>
     <string name="INVENTORY_UI_ORDERBY_DISTANCE">按距离</string>
     <string name="INVENTORY_UI_ORDERBY_ALPHABETICAL">按名称</string>
     <string name="INVENTORY_UI_ORDERBY_RECENCY">按日期</string>
@@ -548,7 +548,7 @@
     <string name="CAPSULE_RESET_BUTTON_TEXT">重置</string>
     <string name="CAPSULE_TRANSFER_BUTTON_TEXT">转移</string>
     <string name="CAPSULE_TRANSFER_BUTTON_DISABLED_NEED_ITEMS">指定数量。</string>
-    <string name="CAPSULE_TRANSFERRING_BUTTON_TEXT">转移中…</string>
+    <string name="CAPSULE_TRANSFERRING_BUTTON_TEXT">正在转让…</string>
     <string name="CAPSULE_FULL">Capsule 已满。</string>
     <string name="CAPSULE_INVENTORY_FULL">库存已满。</string>
     <string name="CAPSULE_EMPTY">Capsule 为空</string>
@@ -562,7 +562,7 @@
     <string name="FLIP_CARD_USE_CONFIRM">确认</string>
     <string name="FLIP_CARD_USE_BACK">返回</string>
     <string name="FLIP_CARD_USE_CANCEL">取消</string>
-    <string name="SETTINGS_TITLE_DIALOG_CONFIRM_SIGN_OUT">退出中…</string>
+    <string name="SETTINGS_TITLE_DIALOG_CONFIRM_SIGN_OUT">退出…</string>
     <string name="SETTINGS_MESSAGE_DIALOG_CONFIRM_SIGN_OUT">确定要退出吗？</string>
     <string name="SETTINGS_ACTION_YES">是</string>
     <string name="SETTINGS_ACTION_NO">否</string>
@@ -576,24 +576,24 @@
     <string name="SETTINGS_PORTAL_PENDING_CANCEL">取消</string>
     <string name="SETTINGS_TITLE_USER">用户</string>
     <string name="SETTINGS_USER_SIGN_OUT">退出</string>
-    <string name="SETTINGS_TITLE_LINK">绑定 Google+ 账户</string>
-    <string name="SETTINGS_LINK_LOADING">绑定中…</string>
-    <string name="SETTINGS_LINK_LINKED">已绑定 Google+ 账户</string>
-    <string name="SETTINGS_LINK_UNLINK">取消绑定</string>
-    <string name="SETTINGS_LINK_MESSAGE">这会将你 Google+ 的个人资料与 Ingress 相关联，并显示给其他玩家</string>
-    <string name="SETTINGS_LINK_DO_LINK">绑定</string>
-    <string name="SETTINGS_LINK_ERROR">绑定失败</string>
+    <string name="SETTINGS_TITLE_LINK">关联 Google+ 个人资料</string>
+    <string name="SETTINGS_LINK_LOADING">正在加载…</string>
+    <string name="SETTINGS_LINK_LINKED">已关联 Google+ 个人资料</string>
+    <string name="SETTINGS_LINK_UNLINK">取消关联</string>
+    <string name="SETTINGS_LINK_MESSAGE">这会将你的 Google+ 个人资料与 Ingress 相关联，并显示给其他玩家</string>
+    <string name="SETTINGS_LINK_DO_LINK">关联</string>
+    <string name="SETTINGS_LINK_ERROR">加载失败</string>
     <string name="SETTINGS_LINK_RETRY">重试</string>
-    <string name="SETTINGS_LINK_WARNING_VIEW_MESSAGE">这会将你 Google+ 的个人资料与 Ingress 相关联，并显示给其他玩家。</string>
-    <string name="SETTINGS_LINK_WARNING_VIEW_CAUTION">请谨慎使用此功能，因为其他玩家可以看到您玩游戏时的所在位置。你随时都可以在设备设置中取消绑定自己的 Google+ 账户。</string>
+    <string name="SETTINGS_LINK_WARNING_VIEW_MESSAGE">这会将你的 Google+ 个人资料与 Ingress 相关联，并显示给其他玩家。</string>
+    <string name="SETTINGS_LINK_WARNING_VIEW_CAUTION">请谨慎使用此功能，因为其他玩家可以看到您玩游戏时的所在位置。你随时都可以在设备设置中取消关联自己的 Google+ 个人资料。</string>
     <string name="SETTINGS_LINK_OK">确定</string>
     <string name="SETTINGS_LINK_WARNING_VIEW_NO_THANKS">不用了</string>
     <string name="SETTINGS_LINK_ERROR_TRY_AGAIN">重试</string>
-    <string name="SETTINGS_LINK_PROFILE_LINK_PROMPT">要绑定我的 Google+ 账户吗？</string>
+    <string name="SETTINGS_LINK_PROFILE_LINK_PROMPT">要关联我的 Google+ 个人资料吗？</string>
     <string name="SETTINGS_LINK_PROFILE_LINK_YES">是</string>
     <string name="SETTINGS_LINK_PROFILE_LINK_NO">否</string>
-    <string name="SETTINGS_LINK_PROGRESS_LINKING">正在绑定…</string>
-    <string name="SETTINGS_LINK_PROGRESS_UNLINKING">正在取消绑定…</string>
+    <string name="SETTINGS_LINK_PROGRESS_LINKING">正在关联帐户…</string>
+    <string name="SETTINGS_LINK_PROGRESS_UNLINKING">正在取消关联帐户…</string>
     <string name="SETTINGS_LINK_UNKNOWN_ERROR">未知错误。</string>
     <string name="SETTINGS_TITLE_VERIFY">验证</string>
     <string name="SETTINGS_VERIFY_MESSAGE">立即验证</string>
@@ -606,7 +606,7 @@
     <string name="SETTINGS_TITLE_SOURCES">来源</string>
     <string name="SETTINGS_SOURCES_SHOW">显示</string>
     <string name="SETTINGS_TITLE_BUILD">版本号</string>
-    <string name="SETTINGS_TITLE_COMPASS">指南针</string>
+    <string name="SETTINGS_TITLE_COMPASS">罗盘</string>
     <string name="SETTINGS_COMPASS_TOGGLE">切换</string>
     <string name="SETTINGS_COMPASS_DYNAMIC">动态</string>
     <string name="SETTINGS_COMPASS_STATIC">静态</string>
@@ -627,22 +627,22 @@
     <string name="SETTINGS_TITLE_SOUNDS">通知提示音</string>
     <string name="SETTINGS_SOUNDS_CHOOSE">选择</string>
     <string name="SETTINGS_TITLE_PROFILE">特工个人资料</string>
-    <string name="SETTINGS_PROFILE_PRIVATE">将特工数据设为保密。</string>
-    <string name="SETTINGS_TITLE_BLOCKED">已屏蔽特工</string>
+    <string name="SETTINGS_PROFILE_PRIVATE">不公开特工统计信息。</string>
+    <string name="SETTINGS_TITLE_BLOCKED">屏蔽的特工</string>
     <string name="SETTINGS_BLOCKED_MANAGE">管理</string>
     <string name="SETTINGS_TITLE_TUTORIALS">教程</string>
     <string name="SETTINGS_TUTORIALS_MESSAGE">重置所有教程</string>
     <string name="SETTINGS_TUTORIALS_RESET">重置</string>
     <string name="SETTINGS_TITLE_WAKEUP">快速唤醒</string>
     <string name="SETTINGS_WAKEUP_TOGGLE">切换</string>
-    <string name="SETTINGS_WAKEUP_ENABLED">启用</string>
-    <string name="SETTINGS_WAKEUP_DISABLED">停用</string>
+    <string name="SETTINGS_WAKEUP_ENABLED">已启用</string>
+    <string name="SETTINGS_WAKEUP_DISABLED">已停用</string>
     <string name="SETTINGS_TITLE_IMMERSIVE">沉浸模式</string>
     <string name="SETTINGS_IMMERSIVE_TOGGLE">切换</string>
-    <string name="SETTINGS_IMMERSIVE_ENABLED">启用</string>
-    <string name="SETTINGS_IMMERSIVE_DISABLED">停用</string>
-    <string name="SETTINGS_TITLE_GOOGLE_APPS">Google 应用程序</string>
-    <string name="SETTINGS_GOOGLE_APPS_MESSAGE">使用所选应用，而不是预设浏览器。</string>
+    <string name="SETTINGS_IMMERSIVE_ENABLED">已启用</string>
+    <string name="SETTINGS_IMMERSIVE_DISABLED">已停用</string>
+    <string name="SETTINGS_TITLE_GOOGLE_APPS">Google Apps</string>
+    <string name="SETTINGS_GOOGLE_APPS_MESSAGE">使用所选应用，而不是浏览器。</string>
     <string name="SETTINGS_GOOGLE_APPS_PLUS">Google+</string>
     <string name="SETTINGS_TITLE_SOUND">声音</string>
     <string name="SETTINGS_SOUND_BACKGROUND">背景</string>
@@ -672,10 +672,10 @@
     <string name="INTEL_TOP_AGENTS_PLURAL_TEMPLATE">前 %s 名特工</string>
     <string name="INTEL_TOP_AGENTS_SINGULAR">头号特工</string>
     <string name="INTEL_OTHER_AGENTS_BUTTON">查看其他特工</string>
-    <string name="INTEL_SUBSECTION_BUTTON_IN_REGION_SCORE_SCREEN">CELL 排行榜</string>
-    <string name="INTEL_TITLE_REGION_SCORE_ACTIVITY">CELL 活动</string>
+    <string name="INTEL_SUBSECTION_BUTTON_IN_REGION_SCORE_SCREEN">CELL 活跃度</string>
+    <string name="INTEL_TITLE_REGION_SCORE_ACTIVITY">CELL 活跃度</string>
     <string name="INTEL_TITLE_GLOBAL_SCORE_SCREEN">全球视图</string>
-    <string name="INTEL_SUBSECTION_BUTTON_IN_GLOBAL_SCORE_SCREEN">地区积分排行</string>
+    <string name="INTEL_SUBSECTION_BUTTON_IN_GLOBAL_SCORE_SCREEN">地区记分</string>
     <string name="INTEL_TITLE_REGION_SCORE_HISTORY_TEMPLATE">历史记录：%s</string>
     <string name="INTEL_GLOBAL_STATS_LABEL">全球统计信息</string>
     <string name="INTEL_TITLE_LEADERBOARD_TEMPLATE">头号特工：%s</string>
@@ -683,9 +683,9 @@
     <string name="INTEL_LEADER_BOARD_RANKING_TEMPLATE">排名第 %s</string>
     <string name="INTEL_LEADER_BOARD_HEADING_ENL">启蒙军</string>
     <string name="INTEL_LEADER_BOARD_HEADING_RES">反抗军</string>
-    <string name="INTEL_REQUERY_INDICATOR_CHECKPOINT_DONE">"CHECKPOINT 完成
+    <string name="INTEL_REQUERY_INDICATOR_CHECKPOINT_DONE">"Checkpoint 已结束
 正在计算结果…"</string>
-    <string name="INTEL_REQUERY_INDICATOR_CYCLE_DONE">"CYCLE 完成
+    <string name="INTEL_REQUERY_INDICATOR_CYCLE_DONE">"Cycle 已结束
 正在计算最终结果…"</string>
     <string name="WEBVIEW_RETRY">重试</string>
     <string name="RECRUIT_DESCRIPTION">邀请其他人加入！</string>
@@ -700,31 +700,31 @@
     <string name="PASSCODE_SUBMIT">提交</string>
     <string name="PASSCODE_RETRY">重试</string>
     <string name="PASSCODE_CONFIRMED">通关密码已确认。</string>
-    <string name="PASSCODE_GAINED">获得物品：</string>
+    <string name="PASSCODE_GAINED">成果：</string>
     <string name="PASSCODE_DONE">完成</string>
     <string name="PASSCODE_VALIDATING">正在验证通关密码…</string>
     <string name="SPACE2FACE_SKIP">跳过</string>
-    <string name="MISSION_SHARE_MESSAGE">"查看此任务。
-%s"</string>
-    <string name="MISSIONS_TOUCH_TO_LOAD_MORE">轻触即可加载更多任务。</string>
-    <string name="MISSIONS_LOADING">加载中…</string>
+    <string name="MISSION_SHARE_MESSAGE">Ingress 任务来袭！详情请见链接：%s</string>
+    <string name="MISSIONS_TOUCH_TO_LOAD_MORE">触摸即可加载更多任务。</string>
+    <string name="MISSIONS_LOADING">正在加载…</string>
     <string name="MISSIONS_RETRY">重试</string>
     <string name="MISSIONS_MISSION_DETAILS_BACK_NAVIGATION_TITLE">任务列表</string>
     <string name="MISSIONS_MISSION_COMPLETION_TIME">通常需时 %s</string>
-    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">正在获取 waypoint 信息…</string>
+    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">正在获取 Waypoint 方位…</string>
     <string name="MISSIONS_MISSION_BUTTON_REPLAY">重玩</string>
     <string name="MISSIONS_MISSION_BUTTON_START">开始</string>
     <string name="MISSIONS_MISSION_BUTTON_ABORT">中止</string>
     <string name="MISSIONS_MISSION_BUTTON_RATE">评分</string>
+    <string name="MISSIONS_MISSION_BUTTON_MAP">局势</string>
     <string name="MISSIONS_MISSION_CHECKBOX_HIDE_UI">隐藏任务提示</string>
-    <string name="MISSIONS_AGENTS_PLAYED">%s 名特工已完成</string>
+    <string name="MISSIONS_AGENTS_PLAYED">%s 名玩家已完成</string>
     <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">无法获取 Waypoint 方位。</string>
     <string name="MISSIONS_CANCEL">取消</string>
     <string name="MISSIONS_CONFIRM">确认</string>
     <string name="MISSIONS_WAYPOINTS_MARKER">WAYPOINT</string>
-    <string name="MISSIONS_PROGRESS_STARTING_MISSION">正在开始任务…</string>
+    <string name="MISSIONS_PROGRESS_STARTING_MISSION">正在开始执行任务…</string>
     <string name="MISSIONS_PROGRESS_ABORTING_MISSION">正在中止任务…</string>
-    <string name="MISSIONS_PROGRESS_RATING_MISSION">正在评价任务…</string>
+    <string name="MISSIONS_PROGRESS_RATING_MISSION">正在对任务进行评价…</string>
     <string name="MISSIONS_MISSION_COMPLETE">任务完成</string>
     <string name="MISSIONS_MISSION_ABORTED">任务已中止</string>
     <string name="MISSIONS_RATE_MISSION_PROMPT">你喜欢这项任务吗？</string>
@@ -736,7 +736,7 @@
     <string name="MISSIONS_PASSPHRASE_ENTER">输入</string>
     <string name="MISSIONS_ABORT_FAILED">无法中止任务。</string>
     <string name="MISSIONS_MISSION_ABORT_MESSAGE">要中止当前任务吗？所有进度都将丢失。</string>
-    <string name="MISSIONS_ONLY_ONE_MISSION_IN_PROGRESS">任务正在执行</string>
+    <string name="MISSIONS_ONLY_ONE_MISSION_IN_PROGRESS">任务已在执行</string>
     <string name="MISSIONS_MISSION_COMPLETE_MEDAL_EARNED">你赢得了一枚任务徽章。</string>
     <string name="MISSIONS_MISSION_REMOTE_VIEW_TITLE">任务 WAYPOINT 视图</string>
     <string name="MISSIONS_PASSPHRASE_DEFAULT_QUESTION">通关暗号：</string>
@@ -750,7 +750,7 @@
     <string name="MISSIONS_WAYPOINTS_SECTION_SEQUENTIAL">按顺序完成 WAYPOINT</string>
     <string name="MISSIONS_WAYPOINTS_SECTION_NON_SEQUENTIAL">按任意顺序完成 WAYPOINT</string>
     <string name="MISSIONS_WAYPOINTS_SECTION_HIDDEN_SEQUENTIAL">按顺序完成 WAYPOINT</string>
-    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">未能完成 Field Trip 卡目标： %s</string>
+    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">无法完成 Field Trip 卡目标：%s</string>
     <string name="MISSIONS_EXPAND_FOR_MORE">更多</string>
     <string name="MISSIONS_WAYPOINT_NAME">" 任务
 WAYPOINT "</string>
@@ -768,8 +768,8 @@ WAYPOINT "</string>
     <string name="TRAINING_START">开始</string>
     <string name="TRAINING_START_FIRST">开始训练</string>
     <string name="TRAINING_SKIP">跳过</string>
-    <string name="TRAINING_END">训练完成</string>
-    <string name="TRAINING_NEXT">下一个训练任务</string>
+    <string name="TRAINING_END">结束训练</string>
+    <string name="TRAINING_NEXT">下一项训练</string>
     <string name="TRAINING_OBJECTIVES">目标</string>
     <string name="TRAINING_OBJECTIVES_COMPLETE">目标全部完成</string>
     <string name="TRAINING_0_NAME">第一次接触</string>
@@ -782,7 +782,7 @@ WAYPOINT "</string>
 
 你必须选择一方阵营，为保护我们的星球而战。"</string>
     <string name="TRAINING_1_NAME">收集 XM</string>
-    <string name="TRAINING_1_DESCRIPTION">四处走走，收集 XM 为侦测器充能</string>
+    <string name="TRAINING_1_DESCRIPTION">四处走走，收集 XM 为扫描器充能</string>
     <string name="TRAINING_1_MESSAGE">"Exotic Matter 又称为 XM，既是能量也是物质，和水一样存在液态、固态和气态。它们通过 Portal 渗入我们的世界，在我们的附近聚集。只要找到并靠近 XM，它们就会吸入你的扫描器中。
 
 "</string>
@@ -794,16 +794,16 @@ WAYPOINT "</string>
 "</string>
     <string name="TRAINING_2_NAME">入侵 Portal</string>
     <string name="TRAINING_2_DESCRIPTION">走向 Portal，展开入侵，收取战果</string>
-    <string name="TRAINING_2_MESSAGE">"附近有一个 Portal。向它靠近，直到它进入你的攻击范围。在偵測器地圖上点击该 Portal，选择“入侵”。警告：这是敌方 Portal，入侵后赶快撤离。
+    <string name="TRAINING_2_MESSAGE">"附近有一个 Portal。向它靠近，直到它进入你的攻击范围。在扫描器 Map 上点击该 Portal，选择“入侵”。警告：这是敌方 Portal，入侵后赶快撤离。
 
 "</string>
-    <string name="TRAINING_2_OUTRO">太棒了！入侵 Portal 时会产生资源。Portal 可以反复入侵，但相邻两次入侵之间需要隔一段时间，让 Portal 冷却。经常入侵 Portal 来补充库存吧。请注意，当你接近 Portal 时， 可能会让你产生不寻常的想法或情绪。</string>
+    <string name="TRAINING_2_OUTRO">太棒了！入侵 Portal 时常会遇到各种资源。Portal 可以反复入侵，但相邻两次入侵之间需要隔一段时间，让 Portal 冷却。入侵期间一般都可以补充库存。请注意，在遇到某个 Portal 时，你可能会冒出不同寻常的想法或情感。</string>
     <string name="TRAINING_2_OBJECTIVE_1">走向 Portal</string>
     <string name="TRAINING_2_OBJECTIVE_2">点按 Portal 并发动入侵</string>
     <string name="TRAINING_2_STATUS">第 2 项训练任务（入侵 Portal）- 入侵 Portal。</string>
     <string name="TRAINING_3_NAME">发射 XMP</string>
     <string name="TRAINING_3_DESCRIPTION">向敌方 Portal 发射 XMP</string>
-    <string name="TRAINING_3_MESSAGE">"这个 Portal 配备了 Resonator，在这个模拟场景中受敌方控制。要发动攻击，请进入 Portal 的范围内，按住侦测器地图，然后选择“发射 XMP”。
+    <string name="TRAINING_3_MESSAGE">"这个 Portal 配备了 Resonator，在这个模拟场景中受敌方控制。要发动攻击，请进入 Portal 的地盘，按住扫描器 Map，然后选择“发射 XMP”。
 
 "</string>
     <string name="TRAINING_3_OUTRO">Portal 已转为中立，可以占领了。</string>
@@ -831,22 +831,22 @@ WAYPOINT "</string>
     <string name="TRAINING_5_OBJECTIVE_2">放置剩余的 Resonator</string>
     <string name="TRAINING_5_OBJECTIVE_3">为 Resonator 充能</string>
     <string name="TRAINING_5_STATUS">第 5 项训练任务（添加 Resonator）- 准备为 Portal 建立连结。</string>
-    <string name="TRAINING_6_NAME">建立连接</string>
+    <string name="TRAINING_6_NAME">建立 Link</string>
     <string name="TRAINING_6_DESCRIPTION">将两个 Portal 连结起来</string>
     <string name="TRAINING_6_MESSAGE">"现在，你可以将两个 Portal 连结在一起了。
 
 入侵 Portal 即可取得其 Portal Key。有了 Portal Key，你就可以远程连结至 Portal。
 
-选择“连接”即可启动连结。符合条件的目标 Portal 在侦测器上将突出显示为红色。
+选择“LINK”即可启动连结。符合条件的目标 Portal 在扫描器上将突出显示为红色。
 
-如果侦测器上没有显示 Portal，则可选择相应的 Portal Key 进行连结。
+如果扫描器上没有显示 Portal，则可选择相应的 Portal Key 进行连结。
 
 入侵附近的 Portal，取得其 Portal Key，然后进入另一个 Portal 的地盘即可启动连结。"</string>
     <string name="TRAINING_6_OUTRO">"连结成功，干得好！Resonator 的等级越高，Portal 的威力就越大。高等级的 Portal 可建立长达数百公里的连结。
 
-连接是由强大的 XM 构成的能量带。
-连接不能交叉。
-如果 Resonator 因能量衰减或敌方攻击而耗尽能量，连接就会瓦解。
+Link 是强大的 XM 能量带。
+Link 不能交叉。
+如果 Resonator 因能量衰减或敌方攻击而耗尽能量，Link 就会瓦解。
 
 "</string>
     <string name="TRAINING_6_OBJECTIVE_1">入侵 Portal，获取 Portal Key</string>
@@ -855,36 +855,36 @@ WAYPOINT "</string>
     <string name="TRAINING_6_OBJECTIVE_4">放置所有 Resonator</string>
     <string name="TRAINING_6_OBJECTIVE_5">点击 Portal，并建立 LINK</string>
     <string name="TRAINING_6_STATUS">第 6 项训练任务（建立 Link）- 将两个 Portal 连结起来。</string>
-    <string name="TRAINING_7_NAME">领域</string>
-    <string name="TRAINING_7_DESCRIPTION">建立领域</string>
+    <string name="TRAINING_7_NAME">战场</string>
+    <string name="TRAINING_7_DESCRIPTION">建立战场</string>
     <string name="TRAINING_7_MESSAGE">"我们最重要的使命是保护人类不受敌方控制。
 
-为此，我们需要将各个 Portal 连接起来，圈成保护区领域。战场由三个互相连接的 Portal 构成。
+为此，我们需要将各个 Portal 连接起来，圈成保护区战场。战场由三个互相连接的 Portal 构成。
 
-请设法取得 Portal Key，用它们建立另外两个 Link，打造一个三角地带。移到第三个 Portal 并发动入侵，取得 Portal Key。
+请设法取得 Portal Key，用它们建立另外两个 Link，打造一个三角地带。移到第三个 Portal 并发动入侵，入手 Portal Key。
 
 "</string>
     <string name="TRAINING_7_OUTRO">"太棒了！
-你已建立 XM 领域，保护这片区域中的人们免受 Shaper 入侵。
+你已建立 XM 战场，保护这片区域中的人们免受 Shaper 入侵。
 
 保护人民是你的主要目标，我们的使命则是保护所有人类。
 
-我会不断计算最近有多少人得到保护。每建立一个领域，受保护的总人数就会增加。
+我会不断计算最近有多少人得到保护。每建立一个战场，受保护的总人数就会增加。
 
-Shaper 同样也会图谋建立领域，进而感染并影响人类思想。如果你遇到 Shaper，一定要毫不留情地予以摧毁。
+Shaper 同样也会图谋建立战场，进而感染并影响人类思想。如果你遇到 Shaper，一定要毫不留情地予以摧毁。
 
 "</string>
     <string name="TRAINING_7_OBJECTIVE_01">入侵 Portal，获取 Portal Key</string>
     <string name="TRAINING_7_OBJECTIVE_02">点按另一个 Portal</string>
     <string name="TRAINING_7_OBJECTIVE_03">入侵第二个 Portal</string>
     <string name="TRAINING_7_OBJECTIVE_04">放置所有 Resonator</string>
-    <string name="TRAINING_7_OBJECTIVE_05">点击 Portal，并建立连接</string>
+    <string name="TRAINING_7_OBJECTIVE_05">点击 Portal，并建立 LINK</string>
     <string name="TRAINING_7_OBJECTIVE_06">点按第三个 Portal</string>
     <string name="TRAINING_7_OBJECTIVE_07">入侵第三个 Portal</string>
-    <string name="TRAINING_7_OBJECTIVE_08">准备为 Portal 建立连接</string>
-    <string name="TRAINING_7_OBJECTIVE_09">建立第二个连接</string>
-    <string name="TRAINING_7_OBJECTIVE_10">建立第三个连接</string>
-    <string name="TRAINING_7_STATUS">第 7 项训练任务（领域）- 建立领域。</string>
+    <string name="TRAINING_7_OBJECTIVE_08">准备为 Portal 建立连结</string>
+    <string name="TRAINING_7_OBJECTIVE_09">建立第二个 Link</string>
+    <string name="TRAINING_7_OBJECTIVE_10">建立第三个 Link</string>
+    <string name="TRAINING_7_STATUS">第 7 项训练任务（战场）- 建立战场。</string>
     <string name="MUTE_UI_TITLE">屏蔽的特工</string>
     <string name="MUTE_UI_NONE">没有任何屏蔽的特工</string>
     <string name="MUTE_UI_LOADING">正在加载…</string>
@@ -961,7 +961,7 @@ Shaper 同样也会图谋建立领域，进而感染并影响人类思想。如�
     <string name="COMM_AP_MESSAGE_DESTROYED_A_RESONATOR">Resonator 摧毁成功，获得 %s AP</string>
     <string name="COMM_AP_MESSAGE_DESTROYED_A_PORTAL_LINK">Link 摧毁成功，获得 %s AP</string>
     <string name="COMM_AP_MESSAGE_DESTROYED_PORTAL_REGION">Control Field 摧毁成功，获得 %s AP</string>
-    <string name="COMM_AP_MESSAGE_DEPLOYED_RESONATOR_MOD">Resonator 加强包创建成功，获得 %s AP</string>
+    <string name="COMM_AP_MESSAGE_DEPLOYED_RESONATOR_MOD">Resonator 强化包创建成功，获得 %s AP</string>
     <string name="COMM_AP_MESSAGE_GLYPH_HACK">Glyph 入侵成功，获得 %s AP</string>
     <string name="COMM_AP_MESSAGE_PORTAL_FULLY_POPULATED_WITH_RESONATORS">Portal 已注满能量，获得 %s AP</string>
     <string name="COMM_AP_MESSAGE_HACKING_ENEMY_PORTAL">入侵敌方 Portal，获得 %s AP</string>
