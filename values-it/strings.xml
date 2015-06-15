@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="common_google_play_services_notification_ticker">Errore Google Play Services</string>
-    <string name="common_google_play_services_notification_needs_installation_title">"Un'applicazione richiede l'installazione di Google Play Services."</string>
     <string name="common_google_play_services_notification_needs_update_title">"Un'applicazione richiede un aggiornamento di Google Play Services."</string>
-    <string name="common_android_wear_notification_needs_update_text">"Un'applicazione richiede l'aggiornamento dell'app Android Wear."</string>
+    <string name="common_android_wear_notification_needs_update_text">"%1$s richiede l'aggiornamento dell'app Android Wear."</string>
     <string name="common_google_play_services_needs_enabling_title">"Un'applicazione richiede l'attivazione di Google Play Services."</string>
     <string name="common_google_play_services_error_notification_requested_by_msg">Richiesta da %1$s</string>
     <string name="common_google_play_services_install_title">Installa Google Play Services</string>
-    <string name="common_google_play_services_install_text_phone">"L'app non funzionerà senza Google Play Services, non presente sul tuo telefono."</string>
-    <string name="common_google_play_services_install_text_tablet">"L'app non funzionerà senza Google Play Services, non presente sul tuo tablet."</string>
+    <string name="common_google_play_services_install_text_phone">%1$s non funzionerà senza Google Play Services, non presente sul tuo telefono.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s non funzionerà senza Google Play Services, non presente sul tuo tablet.</string>
     <string name="common_google_play_services_install_button">Installa Google Play Services</string>
     <string name="common_google_play_services_enable_title">Attiva Google Play Services</string>
-    <string name="common_google_play_services_enable_text">"L'app non funzionerà se non attivi Google Play Services."</string>
+    <string name="common_google_play_services_enable_text">%1$s non funzionerà se non attivi Google Play Services.</string>
     <string name="common_google_play_services_enable_button">Attiva Google Play Services</string>
     <string name="common_google_play_services_update_title">Aggiorna Google Play Services</string>
     <string name="common_android_wear_update_title">Aggiorna Android Wear</string>
-    <string name="common_google_play_services_update_text">"L'app non funzionerà se non aggiorni Google Play Services."</string>
-    <string name="common_android_wear_update_text">Questa app funzionerà solo dopo avere aggiornato Android Wear.</string>
+    <string name="common_google_play_services_update_text">%1$s non funzionerà se non aggiorni Google Play Services.</string>
+    <string name="common_android_wear_update_text">%1$s funzionerà solo dopo avere aggiornato Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Aggiornamento di Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s non funzionerà senza Google Play Services, attualmente in fase di aggiornamento.</string>
     <string name="common_google_play_services_network_error_title">Errore di rete</string>
     <string name="common_google_play_services_network_error_text">È necessaria una connessione dati per connettersi a Google Play Services.</string>
     <string name="common_google_play_services_invalid_account_title">Account non valido</string>
     <string name="common_google_play_services_invalid_account_text">"L'account specificato non esiste su questo dispositivo. Scegli un altro account."</string>
     <string name="common_google_play_services_unknown_issue">Problema sconosciuto con Google Play Services.</string>
     <string name="common_google_play_services_unsupported_title">Google Play Services</string>
-    <string name="common_google_play_services_unsupported_text">La piattaforma Google Play Services, su cui sono basate alcune delle tue applicazioni, non è supportata dal dispositivo in uso. Per assistenza, contatta il produttore.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s si basa su Google Play Services, che non è supportato sul tuo dispositivo. Contatta il produttore per ricevere assistenza.</string>
     <string name="common_google_play_services_update_button">Aggiorna</string>
     <string name="common_signin_button_text">Accedi</string>
     <string name="common_signin_button_text_long">Accedi con Google</string>
     <string name="common_open_on_phone">Apri sul telefono</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s richiede uno o più servizi di Google Play che non sono attualmente disponibili. Contatta lo sviluppatore per ricevere assistenza.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Accesso non riuscito</string>
+    <string name="common_google_play_services_sign_in_failed_text">"Errore durante l'accesso all'account specificato. Scegli un altro account."</string>
     <string name="SMS_WELL_DONE">Bel lavoro %s. È ora di diventare un agente fidato.</string>
     <string name="SMS_ACTION_FAIL">"L'azione %s può essere sbloccata se diventi un agente fidato."</string>
     <string name="SMS_VERIFY_NOW_LEVEL_UP">Devi verificare con %s per passare al livello successivo.</string>
@@ -428,10 +432,10 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="RESONATOR_MODE_DEPLOY_DISABLED_NO_SLOT">Seleziona uno slot</string>
     <string name="RESONATOR_MODE_DEPLOY_DISABLED_DEPLOY_LIMIT">Non consentito</string>
     <string name="PORTAL_STATS_ABREVIATED_LEVEL">LVL</string>
-    <string name="PORTAL_STATS_ABREVIATED_RANGE">MSR</string>
+    <string name="PORTAL_STATS_ABREVIATED_RANGE">PRT</string>
     <string name="PORTAL_STATS_ABREVIATED_ENERGY">ENR</string>
     <string name="PORTAL_STATS_LEVEL">Livello</string>
-    <string name="PORTAL_STATS_RANGE">Misura</string>
+    <string name="PORTAL_STATS_RANGE">Portata</string>
     <string name="PORTAL_STATS_ENERGY">Energia</string>
     <string name="PORTAL_STATS_ENEMY_PORTAL">PORTAL NEMICO</string>
     <string name="ENUM_MAP_STATS_MODIFIER_ABSORPTION">Assorbimento</string>
@@ -447,6 +451,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="ENUM_MAP_STATS_MODIFIER_ATTACK_FREQUENCY">Frequenza attacchi</string>
     <string name="STATS_MODIFIER_MITIGATION_DISPLAY_NAME">Protezione</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_CAPSULE">Capsule</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_INTEREST_CAPSULE">Capsule MUFG</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMITTER_A">Resonator</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">Xmp Burster</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EXTRA_SHIELD">AXA Shield</string>
@@ -758,7 +763,7 @@ CALCOLO RISULTATI FINALI..."</string>
     <string name="STARTUP_NEXT">AVANTI</string>
     <string name="TRAINING_ADA">ADA</string>
     <string name="TRAINING_ADA_LOCATION">sconosciuto</string>
-    <string name="TRAINING_VIEW">Visualizza briefing</string>
+    <string name="TRAINING_VIEW">Vedi briefing</string>
     <string name="TRAINING_TITLE_FORMAT">Training - %s</string>
     <string name="TRAINING_MISSION_TYPE_COMM">missione di training</string>
     <string name="TRAINING_ABORT">Interrompi</string>
@@ -794,7 +799,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
 "</string>
     <string name="TRAINING_2_NAME">Hacka un Portal</string>
     <string name="TRAINING_2_DESCRIPTION">Cammina fino a un Portal e hackalo per fare rifornimento</string>
-    <string name="TRAINING_2_MESSAGE">"C'è un Portal nelle vicinanze. Avvicinati al Portal fino ad averlo nel tuo cerchio d'azione. Tocca il Portal sulla mappa dello Scanner. Seleziona Hack. Attenzione: si tratta di un Portal ostile. Spostati fuori dall'area di azione dopo averlo hackato.
+    <string name="TRAINING_2_MESSAGE">"C'è un Portal nelle vicinanze. Avvicinati al Portal fino ad averlo nel tuo cerchio d'azione. Tocca il Portal sulla mappa dello Scanner. Seleziona Hack. Attenzione: si tratta di un Portal avversario. Spostati fuori dall'area di azione dopo averlo hackato.
 
 "</string>
     <string name="TRAINING_2_OUTRO">"Eccellente. Spesso l’hack dei Portal dà risorse. I Portal possono essere hackati di nuovo dopo un periodo di raffreddamento. Hacka spesso per arricchire l'inventario. Stai attento: quando ti imbatti in un Portal potresti avere idee e provare emozioni insolite."</string>
@@ -811,7 +816,7 @@ Devi decidere da che parte stare nella battaglia per il nostro pianeta."</string
     <string name="TRAINING_3_OBJECTIVE_2">Seleziona ESPLODI XMP</string>
     <string name="TRAINING_3_STATUS">Training: missione 3 (Neutralizzazione di Portal ostili) - Neutralizza il Portal ostile distruggendone i Resonator.</string>
     <string name="TRAINING_4_NAME">Posiziona Resonator</string>
-    <string name="TRAINING_4_DESCRIPTION">Assicurati il Portal posizionando Resonator</string>
+    <string name="TRAINING_4_DESCRIPTION">Conquista il Portal posizionando Resonator</string>
     <string name="TRAINING_4_MESSAGE">"I resonator consentono di controllare i portal. Per posizionare un resonator, avvicinati all'area di azione, tocca il portal e seleziona POSIZIONA RESONATOR.
 
 "</string>
@@ -902,7 +907,8 @@ Anche gli Shaper stanno cercando di stabilire Control Field tramite i quali inte
     <string name="PICK_UP_RESOURCE_ACQUIRE">ACQUISISCI</string>
     <string name="PICK_UP_RESOURCE_DISABLE_BUSY">Acquisizione…</string>
     <string name="PICK_UP_RESOURCE_DISABLE_LOCATION">Posizione imprecisa</string>
-    <string name="ITEM_DESCRIPTION_CAPSULE">Una Capsule è un contenitore di immagazzinaggio che può contenere altri oggetti.</string>
+    <string name="ITEM_DESCRIPTION_CAPSULE">Contenitore di immagazzinaggio che può contenere altri oggetti.</string>
+    <string name="ITEM_DESCRIPTION_INTEREST_CAPSULE">Contenitore di immagazzinaggio che può contenere altri oggetti che si moltiplicano con il passare del tempo.</string>
     <string name="ITEM_DESCRIPTION_EMITTER_A">Oggetto XM utilizzato per alimentare un Portal e allinearlo a una fazione.</string>
     <string name="ITEM_DESCRIPTION_EMP_BURSTER">Armi XMP (eXotic Matter Pulse) che consentono di distruggere Resonator e modificatori nemici, nonché di neutralizzare Portal nemici.</string>
     <string name="ITEM_DESCRIPTION_EXTRA_SHIELD">Scudo protettivo potentissimo per i Portal.</string>

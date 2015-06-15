@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
-    <string name="common_google_play_services_notification_needs_installation_title">アプリではGoogle Play開発者サービスをインストールする必要があります</string>
     <string name="common_google_play_services_notification_needs_update_title">アプリではGoogle Play開発者サービスを更新する必要があります</string>
-    <string name="common_android_wear_notification_needs_update_text">Android Wearアプリの更新が必要です。</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$sにはAndroid Wearアプリの更新が必要です。</string>
     <string name="common_google_play_services_needs_enabling_title">アプリではGoogle Play開発者サービスを有効にする必要があります</string>
     <string name="common_google_play_services_error_notification_requested_by_msg">%1$sによるリクエスト</string>
     <string name="common_google_play_services_install_title">Play開発者サービスの入手</string>
-    <string name="common_google_play_services_install_text_phone">このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いの携帯端末にはインストールされていません。</string>
-    <string name="common_google_play_services_install_text_tablet">このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。</string>
+    <string name="common_google_play_services_install_text_phone">%1$sの実行にはGoogle Play開発者サービスが必要ですが、お使いのスマートフォンにはインストールされていません。</string>
+    <string name="common_google_play_services_install_text_tablet">%1$sの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。</string>
     <string name="common_google_play_services_install_button">Play開発者サービスの入手</string>
     <string name="common_google_play_services_enable_title">Play開発者サービスの有効化</string>
-    <string name="common_google_play_services_enable_text">このアプリの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
     <string name="common_google_play_services_enable_button">Play開発者サービスの有効化</string>
     <string name="common_google_play_services_update_title">Play開発者サービスの更新</string>
     <string name="common_android_wear_update_title">Android Wearの更新</string>
-    <string name="common_google_play_services_update_text">このアプリの実行には、Google Play開発者サービスの更新が必要です。</string>
-    <string name="common_android_wear_update_text">Android Wearアプリを使用するにはアプリの更新が必要です。</string>
+    <string name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
+    <string name="common_android_wear_update_text">%1$sの実行にはAndroid Wearアプリの更新が必要です。</string>
+    <string name="common_google_play_services_updating_title">Google Play開発者サービスの更新中</string>
+    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
     <string name="common_google_play_services_network_error_title">ネットワークエラー</string>
     <string name="common_google_play_services_network_error_text">Google Play開発者サービスに接続するには、データ接続が必要です。</string>
     <string name="common_google_play_services_invalid_account_title">無効なアカウント</string>
     <string name="common_google_play_services_invalid_account_text">指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。</string>
     <string name="common_google_play_services_unknown_issue">Google Play開発者サービスで原因不明の問題が発生しました。</string>
     <string name="common_google_play_services_unsupported_title">Google Play開発者サービス</string>
-    <string name="common_google_play_services_unsupported_text">一部のアプリが使用しているGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは、端末メーカーまでお問い合わせください。</string>
+    <string name="common_google_play_services_unsupported_text">%1$sに必要なGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは端末メーカーにお問い合わせください。</string>
     <string name="common_google_play_services_update_button">更新</string>
     <string name="common_signin_button_text">ログイン</string>
     <string name="common_signin_button_text_long">Googleでログイン</string>
     <string name="common_open_on_phone">端末で開く</string>
-    <string name="SMS_WELL_DONE">見事です %s。 今こそ認証済みエージェントになる時です。</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$sには現在利用されていないGoogle Play開発者サービスが必要です。詳しくはデベロッパーにお問い合わせください。</string>
+    <string name="common_google_play_services_sign_in_failed_title">ログインできませんでした</string>
+    <string name="common_google_play_services_sign_in_failed_text">指定されたアカウントへのログイン中にエラーが発生しました。別のアカウントを選択してください。</string>
+    <string name="SMS_WELL_DONE">見事です %s。今こそ認証済みエージェントになる時です。</string>
     <string name="SMS_ACTION_FAIL">「%s」は認証済みエージェントにだけ許可されています。</string>
     <string name="SMS_VERIFY_NOW_LEVEL_UP">レベルアップするには %s にあなたを認証してもらう必要があります。</string>
     <string name="SMS_VERIFY_NOW">%s が認証中</string>
@@ -43,9 +47,9 @@
     <string name="SMS_ERROR_NUMBER_FORMAT">電話番号が正しくないようです</string>
     <string name="SMS_ERROR_VERIFIED_ALREADY">あなたはすでに認証済みです。</string>
     <string name="SMS_ERROR_BAD_PHONE_NUMBER">認証コードの申請に失敗しました。無効な電話番号です。</string>
-    <string name="SMS_ERROR_INVALID_PHONE_NUMBER">この電話番号は確認コードの申請には使えません</string>
-    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">認証コードの申請に失敗しました。代わりにSMSを使ってください</string>
-    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">認証コードの申請に失敗しました。代わりに音声を使ってください</string>
+    <string name="SMS_ERROR_INVALID_PHONE_NUMBER">この電話番号は確認コードの申請には使えません。</string>
+    <string name="SMS_ERROR_SMS_BETTER_THAN_VOICE">認証コードの申請に失敗しました。代わりに SMS を使ってください。</string>
+    <string name="SMS_ERROR_VOICE_BETTER_THAN_SMS">認証コードの申請に失敗しました。代わりに音声を使ってください。</string>
     <string name="SMS_ERROR_INVALID_VERIFICATION">認証に失敗しました。エラーです。</string>
     <string name="SMS_ERROR_VERIFICATION_BUSY">認証中です。</string>
     <string name="SMS_ERROR_REQUEST_BUSY">認証コードの申請中です。</string>
@@ -54,53 +58,53 @@
     <string name="SMS_ERROR_PIN_EXPIRED">期限の切れたコードです。正しいコードを再申請してください。</string>
     <string name="SMS_ERROR_QUOTA_REACHED">認証コードの申請に失敗しました。この電話番号での申請数の限界に達しています。</string>
     <string name="SMS_ERROR_RETRY_IN_1_MINUTE">認証作業が混雑中です。1 分後にもう一度おこなってください。</string>
-    <string name="SMS_ERROR_RETRY_IN_5_MINUTES">認証作業が混雑中です。5 分後にもう一度おこなってください。</string>
-    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">認証作業が混雑中です。15 分後にもう一度おこなってください。</string>
-    <string name="SMS_ERROR_RETRY_LATER">認証作業が混雑中です。しばらく後でもう一度おこなってください。</string>
+    <string name="SMS_ERROR_RETRY_IN_5_MINUTES">認証作業が混雑中です。5 分後にもう一度行ってください。</string>
+    <string name="SMS_ERROR_RETRY_IN_15_MINUTES">認証作業が混雑中です。15 分後にもう一度行ってください。</string>
+    <string name="SMS_ERROR_RETRY_LATER">認証作業が混雑中です。しばらくしてからもう一度行ってください。</string>
     <string name="SMS_ERROR_SERVER_ERROR">サーバーエラーです。</string>
     <string name="SMS_REQUESTING">申請中…</string>
     <string name="SMS_VERIFYING">認証中…</string>
     <string name="SMS_CODE_SENT">コードを送信しました。</string>
     <string name="SMS_TAP_INSTRUCTION">コードを受け取ったら「認証」アイコンをタップしてください。</string>
     <string name="SMS_ENTER_CODE">コードを入力</string>
-    <string name="SMS_ENTER_YOUR_N_DIGIT">" %d 桁の認証コードを入力してください。:"</string>
+    <string name="SMS_ENTER_YOUR_N_DIGIT">%d 桁の認証コードを入力してください:</string>
     <string name="SMS_NEED_A_NEW">新しいコードが必要ですか？</string>
     <string name="REQUEST">申請</string>
     <string name="again">をもう一度</string>
     <string name="SMS_CODE_VALID">"有効なコードです。
 あなたはエージェントとして認証されました。"</string>
     <string name="DONE">完了</string>
-    <string name="DROP">DROP</string>
-    <string name="JARVIS">JARVIS</string>
+    <string name="DROP">ドロップ</string>
+    <string name="JARVIS">ジャービス</string>
     <string name="ADA">ADA</string>
-    <string name="TUTORIALS_AGENT_HACKING_PORTALS">エージェントは、Portal（ポータル）を Hack (ハック) することでアイテムを取得します。</string>
-    <string name="TUTORIALS_ATTACK_THE_ENEMY">敵のPortal（ポータル）をAttack（攻撃）してください。</string>
-    <string name="TUTORIALS_DEPLOY_RESONATORS">Resonator（レゾネーター）をPortal（ポータル）にDeploy（配備）して、自分の陣営の Portal を強化できます。</string>
-    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">空のResonator（レゾネーター）スロットが検知されました。Deploy（配備）を学ぶために、有効範囲に移動してください。</string>
-    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">敵のPortal（ポータル）を検知しました。攻撃方法を学ぶために、有効範囲に移動してください。</string>
-    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">スキャナーはXM (エキゾチックマター) によって稼働します。</string>
-    <string name="TUTORIALS_EXPLORE_THE_WORLD">もっとPortal（ポータル）を見つけるために、周囲の世界を探索してください。Hack（ハック）してアイテムを蓄え、あなたの陣営のためにPortal を奪取してください。</string>
-    <string name="TUTORIALS_FIRE_XMPS">敵のPortal（ポータル）を破壊するために、XMPを発射してください。</string>
-    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">Portal（ポータル）をHack（ハック）してアイテムを取得してください。</string>
+    <string name="TUTORIALS_AGENT_HACKING_PORTALS">エージェントは、Portal（ポータル）を Hack（ハック）することでアイテムを取得します。</string>
+    <string name="TUTORIALS_ATTACK_THE_ENEMY">敵の Portal（ポータル）を Attack（攻撃）してください。</string>
+    <string name="TUTORIALS_DEPLOY_RESONATORS">Resonator（レゾネーター）を Portal（ポータル）に Deploy（配備）して、自分の陣営の Portal を強化できます。</string>
+    <string name="TUTORIALS_EMPTY_RESONATOR_DETECTED">空の Resonator（レゾネーター）スロットが検知されました。Deploy（配備）を学ぶために、有効範囲に移動してください。</string>
+    <string name="TUTORIALS_ENEMY_PORTAL_DETECTED">敵の Portal（ポータル）を検知しました。攻撃方法を学ぶために、有効範囲に移動してください。</string>
+    <string name="TUTORIALS_EXOTIC_MATTER_POWERS_YOUR_SCANNER">スキャナーは XM（エキゾチック マター）によって稼動します。</string>
+    <string name="TUTORIALS_EXPLORE_THE_WORLD">もっと Portal（ポータル）を見つけるために、周囲の世界を探索してください。Hack（ハック）してアイテムを蓄え、あなたの陣営のために Portal を奪取してください。</string>
+    <string name="TUTORIALS_FIRE_XMPS">敵の Portal（ポータル）を破壊するために、XMP を発射してください。</string>
+    <string name="TUTORIALS_GAIN_ITEMS_BY_HACKING">Portal（ポータル）を Hack（ハック）してアイテムを取得してください。</string>
     <string name="TUTORIALS_IN_ORDER_TO_USE_SCANNER">スキャナーを使うためには、歩く必要があります。</string>
-    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">Portal（ポータル）から XM（エキゾチックマター）が世界に漏れ出ています。</string>
+    <string name="TUTORIALS_PORTALS_ARE_LOCATIONS">Portal（ポータル）から XM（エキゾチック マター）が世界に漏れ出ています。</string>
     <string name="TUTORIALS_PORTALS_ARE_OFTEN_FOUND">Portal（ポータル）は、石像や歴史的な名所の近くでよく発見されます。</string>
     <string name="TUTORIALS_PORTAL_DETECTED">Portal（ポータル）を検知しました。有効範囲に移動してください。</string>
-    <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">Resonator（レゾネーター）とXMP を取得しました。</string>
+    <string name="TUTORIALS_RESONATOR_AND_XMP_ACQUIRED">Resonator（レゾネーター）と XMP を取得しました。</string>
     <string name="TUTORIALS_TAP_PORTAL">Portal（ポータル）をタップしてください。</string>
     <string name="TUTORIALS_TAP_TO_CUSTOMIZE_AVATAR">タップしてアバターをカスタマイズしてください。</string>
     <string name="TUTORIALS_THE_TRIANGLE_REPRESENTS_YOUR_LOCATION">この三角形はあなたの位置を示しています。</string>
     <string name="TUTORIALS_THIS_IS_THE_SCANNER_MAP_VIEW">これはスキャナーです。</string>
-    <string name="TUTORIALS_TO_AUTO_DEPLOY">Auto Deploy（自動配備）をするには %s をタップしてください。空のスロットを最初に選ぶこともできます。</string>
-    <string name="TUTORIALS_TO_FIRE_XMP">攻撃するためには、地図を長押してメニューを出し、スライドさせて %s を選んでください。</string>
+    <string name="TUTORIALS_TO_AUTO_DEPLOY">自動でデプロイするには %s をタップしてください。空のスロットを最初に選ぶこともできます。</string>
+    <string name="TUTORIALS_TO_FIRE_XMP">攻撃するためには、地図を長押してメニューを表示し、スライドさせて %s を選んでください。</string>
     <string name="TUTORIALS_TRAINING_COMPLETE">トレーニング完了！</string>
-    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">XM を集めるために歩き回ってください。</string>
-    <string name="TUTORIALS_WELCOME_TO_INGRESS">" Ingress へようこそ..."</string>
-    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">この円の内側の物体に対してアクションを取ることができます。。</string>
-    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">あなたの陣営のためにPortal（ポータル）を奪いましょう。色はコントロールしている陣営を表しています。</string>
-    <string name="TUTORIAL_GO_HACK">Portal（ポータル）の射程範囲に移動してHack（ハック）してください。</string>
-    <string name="SIGNIN_TITLE">" Ingress をプレイするためにはログインしてください。"</string>
-    <string name="GAME_INTRO_TEXT">"つい先ごろ、CERN（欧州原子核研究機構）におけるHiggs Boson（ヒッグス粒子）研究の副産物として、XM（エキゾチックマター）と呼ばれる新しい物質が発見された。
+    <string name="TUTORIALS_WALK_AROUND_TO_COLLECT">XM（エキゾチック マター）を集めるために歩き回ってください。</string>
+    <string name="TUTORIALS_WELCOME_TO_INGRESS">Ingress へようこそ…</string>
+    <string name="TUTORIALS_YOU_CAN_INTERACT_WITHIN_ACTION_CIRCLE">この円の内側の物体に対してアクションを取ることができます。</string>
+    <string name="TUTORIALS_YOU_WILL_CAPTURE_PORTALS">あなたの陣営のために Portal（ポータル）を奪いましょう。色はコントロールしている陣営を表しています。</string>
+    <string name="TUTORIAL_GO_HACK">Portal（ポータル）の射程範囲に移動して Hack（ハック）してください。</string>
+    <string name="SIGNIN_TITLE">Ingress をプレイするためにはログインしてください。</string>
+    <string name="GAME_INTRO_TEXT">"つい先頃、CERN（欧州原子核研究機構）における Higgs Boson（ヒッグス粒子）研究の副産物として、XM（エキゾチック マター）と呼ばれる新しい物質が発見された。
 
 この発見の特に危惧すべきところは、XM が秩序と知性を持ったデータらしいことであった。
 
@@ -109,26 +113,27 @@
 もはや XM を制する者が人類の運命をも制すことは明らかである。"</string>
     <string name="SIGNIN_MESSAGE">"世界が危機にさらされています。
 
-安全なGoogleアカウントを使ってログインし、戦いに参加してください。
+安全な Google アカウントを使ってログインし、戦いに参加してください。
 
-いまこそ行動の時です。"</string>
-    <string name="SIGNIN_BUTTON">" Google アカウントでログイン"</string>
-    <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">エラーです。もう一度入力してください：</string>
-    <string name="MESSAGE_CHOOSE_FACTION">Faction（陣営）を選択してください。:</string>
+今こそ行動の時です。"</string>
+    <string name="SIGNIN_BUTTON">Google アカウントでログイン</string>
+    <string name="MESSAGE_INPUT_DIRECTIVE_AFTER_ERROR">エラーです。もう一度入力してください:</string>
+    <string name="MESSAGE_CHOOSE_FACTION">Faction（陣営）を選択してください:</string>
     <string name="MESSAGE_CHOOSE_CAREFULLY">慎重に選択してください、これは最終選択です。</string>
     <string name="MESSAGE_CONFIRM_CHOICE">あなたが選択したのは %s です。</string>
     <string name="THE_RESISTANCE">Resistance（レジスタンス）</string>
     <string name="THE_ENLIGHTENED">Enlightened（エンライテンド）</string>
-    <string name="FACTION_CHOICE_HINT_TEMPLATE">［%s はこの Faction のエージェントです］</string>
-    <string name="HUMANIST_DESCRIPTION">XM（エキゾチックマター）のもたらす未知の影響から人類を守るために戦っているのが Resistance（レジスタンス）です。</string>
-    <string name="ENLIGHTENED_DESCRIPTION">XM（エキゾチックマター）を活用し、人類をより高みへと進化させようとしているのが Enlightened（エンライテンド）です。</string>
+    <string name="FACTION_CHOICE_HINT_TEMPLATE">[%s はこの陣営のメンバーです]</string>
+    <string name="HUMANIST_DESCRIPTION">XM（エキゾチック マター）のもたらす未知の影響から人類を守るために戦っているのが Resistance（レジスタンス）です。</string>
+    <string name="ENLIGHTENED_DESCRIPTION">XM（エキゾチック マター）を活用し、人類をより高みへと進化させようとしているのが Enlightened（エンライテンド）です。</string>
     <string name="CANCEL">キャンセル</string>
     <string name="CONFIRM">確定</string>
     <string name="NICKNAME_PROMPT_RETRY">違うコードネームを試してください。</string>
     <string name="NICKNAME_PROMPT_TOP">"Niantic software online.
 
-メッセージ受信中..."</string>
-    <string name="NICKNAME_PROMPT_BOTTOM">"コードネームを作成してください。 他のエージェントはこの名前であなたを認識します。
+メッセージ受信中…
+"</string>
+    <string name="NICKNAME_PROMPT_BOTTOM">"コードネームを作成してください。他のエージェントはこの名前であなたを認識します。
 
 コードネームを入力"</string>
     <string name="BUTTON_TRANSMIT">送信</string>
@@ -139,39 +144,36 @@
     <string name="NICKNAME_ERROR_BAD_WORDS">このコードネームは使えません。</string>
     <string name="NICKNAME_ERROR_INVALID_CHARS">無効な文字が含まれています。</string>
     <string name="NICKNAME_ERROR_TOO_SHORT">コードネームが短すぎます。</string>
-    <string name="NICKNAME_ERROR_TOO_LONG">コードネームが長過ぎます。</string>
+    <string name="NICKNAME_ERROR_TOO_LONG">コードネームが長すぎます。</string>
     <string name="NICKNAME_ERROR_NOT_UNIQUE">コードネームはすでに使われています。</string>
     <string name="ACTION_SKIP">キャンセル</string>
     <string name="ACTION_RETRY">やりなおす</string>
     <string name="PROGRESS_VALIDATING_CODENAME">コードネームを確認中…</string>
-    <string name="PROGRESS_CREATING_CODENAME">コードネームを作成中...</string>
-    <string name="NICKNAME_VALIDATE_MESSAGE">"有効なコードネームです。
-確定してください。"</string>
-    <string name="NICKNAME_ID_CONFIRMED">"暗号化キーを作成しています...
+    <string name="PROGRESS_CREATING_CODENAME">コードネームを作成中…</string>
+    <string name="NICKNAME_VALIDATE_MESSAGE">有効なコードネームです。確定してください。</string>
+    <string name="NICKNAME_ID_CONFIRMED">"暗号キーを作成しています…
 
 ID を確認しました。"</string>
     <string name="NICKNAME_ACCESS_GRANTED">"アクセスが許可されました。
-プログラムを開始します..."</string>
+プログラム起動…"</string>
     <string name="BUTTON_QUIT">中止</string>
-    <string name="RECOMMENDED_SCANNER_UPDATE">" Ingress スキャナーが最新のものではありません。更新を推奨します。"</string>
+    <string name="RECOMMENDED_SCANNER_UPDATE">Ingress スキャナーが最新のものではありません。更新を推奨します。</string>
     <string name="BUTTON_PLAY">Play</string>
-    <string name="BUTTON_UPGRADE">更新</string>
-    <string name="TOS_LOCATION">" Ingress は位置情報を利用したゲームです。
+    <string name="BUTTON_UPGRADE">アップグレード</string>
+    <string name="TOS_LOCATION">"Ingress は位置情報を利用したゲームです。
 
-このアプリケーションは位置情報を収集します。ゲーム上で特定のアクションを取ることで他のユーザにあなたの位置情報を知られることがあります。
+このアプリケーションは位置情報を収集します。ゲーム上で特定のアクションを取ることで他のユーザーにあなたの位置情報を知られることがあります。
 "</string>
     <string name="READ_THE_FULL_TOS">同意される前に、利用規約をよくお読みください。</string>
     <string name="TOS_ACCEPT">利用規約に同意します。</string>
-    <string name="TOS_PROMOTION">" Ingress に関連するニュースやキャンペーン、イベントなどの最新情報をメールで受け取る。"</string>
-    <string name="ADA_CALL">"ADA:
-
-恐れることはありません。
+    <string name="TOS_PROMOTION">Ingress に関連するニュースやキャンペーン、イベントなどの最新情報をメールで受け取る。</string>
+    <string name="ADA_CALL">"ADA: 恐れることはありません。
 
 あなたはゲームをダウンロードしたと思っているでしょう、でもそれは違います。
 
-正体不明の XM（エキゾチックマター）が我々の世界に侵入しようとしています。
+正体不明の XM（エキゾチック マター）が我々の世界に侵入しようとしています。
 
-どちらの Faction（陣営）につくか選択しなければなければなりません。いまこそ地球のための戦いに参加する時です。"</string>
+どちらの陣営につくか選択しなければなければなりません。今こそ地球のための戦いに参加する時です。"</string>
     <string name="INCOMING_MESSAGE">受信メッセージ</string>
     <string name="ADA_CALL_ACCEPT">応答</string>
     <string name="ADA_CALL_NEXT">次へ</string>
@@ -179,53 +181,54 @@ ID を確認しました。"</string>
     <string name="ERROR_UNAUTHENTICATED_USER">アカウント %s は利用できません。違うものを選んでください。</string>
     <string name="NEWS_OF_THE_DAY_TITLE">Ingress News</string>
     <string name="NEWS_OF_THE_DAY_VIEW_POST">投稿を見る</string>
-    <string name="JAILBROKEN_ERROR">OSの整合性チェックに失敗しました。</string>
+    <string name="JAILBROKEN_ERROR">OS の整合性チェックに失敗しました。</string>
     <string name="JAILBROKEN_RESULT">Ingress は正常に動作できません。</string>
     <string name="MISSIONS_FIELD_TRIP_READ_MORE">もっと見る</string>
+    <string name="MISSIONS_NEARBY_LIST">近くのミッションを見る</string>
     <string name="MISSION_STARTED_COMM">%1$s: %2$s 開始</string>
     <string name="MISSION_TYPE_COMM">ミッション</string>
     <string name="ACHIEVEMENT_CONGRATULATIONS">おめでとうございます。%s の実績を獲得しました。</string>
-    <string name="APNS_L">あなたの Portal「 %1$s 」が %2$s からの攻撃を受けています。</string>
-    <string name="APNS_P">あなたの Portal「 %s 」が攻撃を受けています。</string>
-    <string name="APNS_A">あなたの Portal が %s からの攻撃を受けています。</string>
-    <string name="APNS_NONE">あなたの Portal が攻撃を受けています。</string>
-    <string name="APNS_N_L">あなたの Portal「 %1$s 」が %2$s によって中立化されました。</string>
-    <string name="APNS_N_P">あなたの Portal「%s 」が中立化されました。</string>
-    <string name="APNS_N_A">あなたの Portal が %s によって中立化されました。</string>
-    <string name="APNS_N_NONE">あなたの Portal が中立化されました。</string>
-    <string name="APNS_M">%1$s があなたの Portal「 %2$s」を攻撃しています。</string>
-    <string name="APNS_N_M">%1$s があなたの Portal「 %2$s」を中立化しました。</string>
+    <string name="APNS_L">あなたのポータル「%1$s」が %2$s からの攻撃を受けています。</string>
+    <string name="APNS_P">あなたのポータル「%s」が攻撃を受けています。</string>
+    <string name="APNS_A">あなたのポータルが %s からの攻撃を受けています。</string>
+    <string name="APNS_NONE">あなたのポータルが攻撃を受けています。</string>
+    <string name="APNS_N_L">あなたのポータル「%1$s」が %2$s によって中立化されました。</string>
+    <string name="APNS_N_P">あなたのポータル「%s」が中立化されました。</string>
+    <string name="APNS_N_A">あなたのポータルが %s によって中立化されました。</string>
+    <string name="APNS_N_NONE">あなたのポータルが中立化されました。</string>
+    <string name="APNS_M">%1$s があなたのポータル「%2$s」を攻撃しています。</string>
+    <string name="APNS_N_M">%1$s があなたのポータル「%2$s」を中立化しました。</string>
     <string name="ENTER">確定</string>
-    <string name="PROGRESS_CHECKING">チェックしています...</string>
-    <string name="HINT_ENTER_PASSPHRASE">パスコードを入力してください</string>
+    <string name="PROGRESS_CHECKING">チェックしています…</string>
+    <string name="HINT_ENTER_PASSPHRASE">パスフレーズを入力してください</string>
     <string name="OK_TITLE">OK</string>
     <string name="SETTINGS_TITLE">設定</string>
     <string name="LOCATION_ALERT_TITLE">警告</string>
     <string name="LOCATION_SERVICES_DISABLED">位置情報サービスが無効です。</string>
-    <string name="LOCATION_SERVICES_SETTINGS_IOS7">" Ingress のための位置情報サービスの設定を以下から更新してください。 '設定 > プライバシー > 位置情報サービス'."</string>
-    <string name="LOCATION_SERVICES_SETTINGS_IOS8">" Ingress のための位置情報サービスの設定を「常に許可」に更新してください。"</string>
-    <string name="LOCATION_SERVICES_SETTINGS">" Ingress のための位置情報サービスが有効になっていることを確認してください。"</string>
-    <string name="LOCATION_SERVICES_ALWAYS_REQUEST">Ingress がバックグラウンド動作中も位置情報を利用するのを許可しますか?</string>
-    <string name="LOCATION_SERVICES_ALWAYS_REASON">位置情報は、あなたが特別な Ingress Portal に接近した時の通知に使用します。</string>
+    <string name="LOCATION_SERVICES_SETTINGS_IOS7">Ingress のための位置情報サービスの設定を以下から更新してください。設定 > プライバシー > 位置情報サービス</string>
+    <string name="LOCATION_SERVICES_SETTINGS_IOS8">Ingress のための位置情報サービスの設定を「常に許可」に更新してください。</string>
+    <string name="LOCATION_SERVICES_SETTINGS">Ingress のための位置情報サービスが有効になっていることを確認してください。</string>
+    <string name="LOCATION_SERVICES_ALWAYS_REQUEST">Ingress がバックグラウンド動作中も位置情報を利用するのを許可しますか？</string>
+    <string name="LOCATION_SERVICES_ALWAYS_REASON">位置情報は、あなたが特別な Ingress ポータルに接近したときの通知に使用します。</string>
     <string name="LOCATION_SERVICES_DISABLED_DEVICE">位置情報サービスが有効になっていることを確認してください。</string>
-    <string name="LOCATION_SERVICES_RESTRICTED">" Ingress はあなたの位置情報にアクセスできません。"</string>
-    <string name="LOCATION_SERVICES_UPGRADE_PERMISSIONS">Portal に接近したときに通知ができるよう Ingress がバックグラウンドで動作中も位置情報にアクセスできるようにしますか。</string>
-    <string name="REENGAGEMENT_PORTAL_NEARBY">Ingress のPortal を発見。Hackしてください。</string>
-    <string name="IOS_NOTIFICATION_UNLOCK_MESSAGE">" Ingress を起動"</string>
-    <string name="ACTIVE_MODE_RUNNING">アクティブモードが有効です。</string>
+    <string name="LOCATION_SERVICES_RESTRICTED">Ingress はあなたの位置情報にアクセスできません。</string>
+    <string name="LOCATION_SERVICES_UPGRADE_PERMISSIONS">ポータルに接近したときに通知ができるよう Ingress がバックグラウンドで動作中も位置情報にアクセスできるようにしますか。</string>
+    <string name="REENGAGEMENT_PORTAL_NEARBY">Ingress のポータルを発見。ハックしてください。</string>
+    <string name="IOS_NOTIFICATION_UNLOCK_MESSAGE">Ingress を起動</string>
+    <string name="ACTIVE_MODE_RUNNING">Active Mode が有効です。</string>
     <string name="ACTIVE_MODE_TITLE">Active Mode</string>
     <string name="START_ACTIVE_MODE">Start</string>
     <string name="STOP_ACTIVE_MODE">Stop</string>
     <string name="ACTIVE_MODE_PLAYER_RECOVERABLE_ISSUE">問題が発生しました。タップして解決してください。</string>
-    <string name="ACTIVE_MODE_SESSION_EXPIRED">アクティブモードを終了しました。</string>
-    <string name="ACTIVE_MODE_PORTAL_NEARBY">Portal %s に接近</string>
-    <string name="ACTIVE_MODE_PORTALS_NEARBY">Portal %s に接近</string>
+    <string name="ACTIVE_MODE_SESSION_EXPIRED">Active Mode を終了しました。</string>
+    <string name="ACTIVE_MODE_PORTAL_NEARBY">ポータル %s 件に接近</string>
+    <string name="ACTIVE_MODE_PORTALS_NEARBY">ポータル %s 件に接近</string>
     <string name="ACTIVE_MODE_PORTAL_FACTION_FRIENDLY">自陣営</string>
     <string name="ACTIVE_MODE_PORTAL_FACTION_ENEMY">敵陣営</string>
     <string name="ACTIVE_MODE_PORTAL_FACTION_NEUTRAL">中立</string>
     <string name="RADIAL_MENU_START_ACTIVE_MODE">Active Mode</string>
     <string name="RADIAL_MENU_STOP_ACTIVE_MODE">Active Mode 停止</string>
-    <string name="ACTIVE_MODE_SETTING_DESCRIPTION">Portal 接近情報などの Ingress のアップデートを通知する</string>
+    <string name="ACTIVE_MODE_SETTING_DESCRIPTION">ポータル接近情報などの Ingress のアップデートを通知する</string>
     <string name="PORTAL_ACTIONS_HACK_TOP_LABEL">Hack</string>
     <string name="PORTAL_ACTIONS_HACK_SUB_LABEL">ハック</string>
     <string name="PORTAL_ACTIONS_DEPLOY_TOP_LABEL">Deploy</string>
@@ -244,9 +247,9 @@ ID を確認しました。"</string>
     <string name="PORTAL_ACTIONS_NAVIGATE_SUB_LABEL_OFF">停止</string>
     <string name="PORTAL_ACTIONS_LINK">Link</string>
     <string name="PORTAL_ACTIONS_DISABLED_NOT_AVAILABLE">利用不可</string>
-    <string name="PORTAL_ACTIONS_DISABLED_HACKING">Hacking…</string>
-    <string name="PORTAL_ACTIONS_DISABLED_WRONG_FACTION">Faction が違います</string>
-    <string name="PORTAL_ACTIONS_DISABLED_DEPLOYING">Deploying…</string>
+    <string name="PORTAL_ACTIONS_DISABLED_HACKING">ハックしています…</string>
+    <string name="PORTAL_ACTIONS_DISABLED_WRONG_FACTION">陣営が違います</string>
+    <string name="PORTAL_ACTIONS_DISABLED_DEPLOYING">デプロイしています…</string>
     <string name="PORTAL_ACTIONS_DISABLED_NO_MOD">MOD なし</string>
     <string name="PORTAL_ACTIONS_DISABLED_NO_USABLE_MOD">使用可能 MOD なし</string>
     <string name="PORTAL_ACTIONS_DISABLED_NO_LOCATION">位置情報なし</string>
@@ -255,7 +258,7 @@ ID を確認しました。"</string>
     <string name="FIRE_WEAPON_DISABLED_WEAPON_NOT_AVAILABLE">武器使用不可</string>
     <string name="FIRE_WEAPON_DISABLED_ACCESS_INSUFFICIENT">武器未解除</string>
     <string name="FIRE_WEAPON_DISABLED_UNKNOWN_REASON">Cosmic Rays</string>
-    <string name="PORTAL_INFO_DIALOG_OWNER">"オーナー: "</string>
+    <string name="PORTAL_INFO_DIALOG_OWNER">オーナー:</string>
     <string name="PORTAL_INFO_DIALOG_ENERGY">"エネルギー: "</string>
     <string name="PORTAL_INFO_DIALOG_UNKNOWN_PORTAL">未知のポータル</string>
     <string name="PORTAL_INFO_DIALOG_UNCAPTURED">未キャプチャー</string>
@@ -265,22 +268,22 @@ ID を確認しました。"</string>
     <string name="RADIAL_MENU_FIRE_XMP">Fire XMP</string>
     <string name="RADIAL_MENU_HACK">Hack</string>
     <string name="RADIAL_MENU_NAVIGATE">NAVIGATE</string>
-    <string name="RADIAL_MENU_SUBMIT_NEW_PORTAL">Portal 申請</string>
+    <string name="RADIAL_MENU_SUBMIT_NEW_PORTAL">ポータル申請</string>
     <string name="RADIAL_MENU_SHARE">シェア</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_5_SECS">Portal オーバーヒート。アイテム取得不可。冷却推定時間まで: 5 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_10_SECS">Portal オーバーヒート。アイテム取得不可。冷却推定時間まで: 10 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_20_SECS">Portal オーバーヒート。アイテム取得不可。冷却推定時間まで: 20秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_30_SECS">Portal オーバーヒート。アイテム取得不可。冷却推定時間まで: 30 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_60_SECS">Portal オーバーヒート。アイテム取得不可。冷却推定時間まで: 60 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_120_SECS">Portal オーバーヒート。アイテム取得不可。冷却推定時間まで: 120 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_240_SECS">Portal オーバーヒート。アイテム取得不可。冷却推定時間まで: 240 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_BIG">Portal オーバーヒート。アイテム取得不可。冷却推定時間まで: 300 秒。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_OFTEN">Portal がオーバーヒートしました。復旧まで相当な時間がかかります。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_ENEMY_PORTAL">Hack 失敗</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_ENERGY_FULL">XM は最大です</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_5_SECS">ポータル オーバーヒート。アイテム取得不可。冷却推定時間まで: 5 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_10_SECS">ポータル オーバーヒート。アイテム取得不可。冷却推定時間まで: 10 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_20_SECS">ポータル オーバーヒート。アイテム取得不可。冷却推定時間まで: 20 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_30_SECS">ポータル オーバーヒート。アイテム取得不可。冷却推定時間まで: 30 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_60_SECS">ポータル オーバーヒート。アイテム取得不可。冷却推定時間まで: 60 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_120_SECS">ポータル オーバーヒート。アイテム取得不可。冷却推定時間まで: 120 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_240_SECS">ポータル オーバーヒート。アイテム取得不可。冷却推定時間まで: 240 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_SOON_BIG">ポータル オーバーヒート。アイテム取得不可。冷却推定時間まで: 300 秒。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_TOO_OFTEN">ポータルがオーバーヒートしました。復旧まで相当な時間がかかります。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_ENEMY_PORTAL">ハック失敗</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_ENERGY_FULL">XM は最大です。</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_NO_PLAYER_SPECIFIED">エージェント未特定</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_MUST_PLAY_GAME">Portal がロックされています。グリフハックが必要です。</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_CONTAINER_INVENTORY_FULL_GENERIC">アイテムが多すぎます。.</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_MUST_PLAY_GAME">ポータルがロックされています。グリフハックが必要です。</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_CONTAINER_INVENTORY_FULL_GENERIC">アイテムが多すぎます。</string>
     <string name="ENUM_MAP_FAIL_SERVER_ERROR">スキャナー接続エラー</string>
     <string name="ENUM_MAP_FAIL_NOT_AVAILABLE">XM オブジェクトが無効です。</string>
     <string name="ENUM_MAP_FAIL_UNABLE_TO_USE">使用できません。</string>
@@ -292,17 +295,17 @@ ID を確認しました。"</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_NOT_PORTAL_OWNER">ポータルのオーナーではありません。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_NOT_ON_SAME_PORTAL">レゾネーターが違うポータルにあります。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_MISSING_PORTAL_KEY">ポータルキーがありません。</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_AT_MAX_RESONATORS">レゾネータースロットがありません。</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_AT_MAX_RESONATORS">レゾネーター スロットがありません。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_RECHARGE">回路負荷上昇。リチャージ失敗。</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_DEPLOY">XM 制御不能. レゾネーター失敗。</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_DEPLOY">XM制御不能。レゾネーター失敗。</string>
     <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_UPGRADE">負荷超過。アップグレード失敗。</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_BELONGS_TO_ENEMY">敵陣営 Portal</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_FULLY_CHARGED">Recharge 完了</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_NO_RESONATORS_TO_RECHARGE">Recharge 不可</string>
-    <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_DELETE">Too busy to delete a resonator.</string>
-    <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL">Deploy 不可</string>
-    <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL_INVALID_RESONATOR">無効な Resonator です。</string>
-    <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL_NO_PORTAL">Portal が存在しません。</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_PORTAL_BELONGS_TO_ENEMY">敵のポータルです。</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_RESONATORS_FULLY_CHARGED">リチャージ完了</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_NO_RESONATORS_TO_RECHARGE">リチャージ不可</string>
+    <string name="ENUM_MAP_RESONATOR_FAIL_TOO_BUSY_DELETE">取り込み中のためレゾネーターを削除できません。</string>
+    <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL">デプロイ不可</string>
+    <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL_INVALID_RESONATOR">無効なレゾネーターです。</string>
+    <string name="ENUM_MAP_UNABLE_TO_DEPLOY_FAIL_NO_PORTAL">ポータルが存在しません。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_DOES_NOT_EXIST">エラー。カプセルが使えません。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_INVALID_LOAD">エラー。カプセルに入れられません。</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_INVALID_UNLOAD">エラー。カプセルから出せません。</string>
@@ -311,21 +314,21 @@ ID を確認しました。"</string>
     <string name="ENUM_MAP_CONTAINER_FAIL_ITEM_NO_LONGER_EXISTS">エラー。カプセル操作失敗。</string>
     <string name="ENUM_MAP_LINK_FAIL_CROSSES_EXISTING_LINK">既存のリンクと交差しています。</string>
     <string name="ENUM_MAP_LINK_FAIL_EDGE_ALREADY_EXISTS">リンクが存在します。</string>
-    <string name="ENUM_MAP_LINK_FAIL_DESTINATION_WRONG_TEAM">敵 Portal</string>
-    <string name="ENUM_MAP_LINK_FAIL_CONTAINED_WITHIN_CAPTURED_REGION">Portal がフィールド下にあります。</string>
-    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_UNOWNED">起点 Portal が中立です。</string>
-    <string name="ENUM_MAP_LINK_FAIL_DESTINATION_UNOWNED">目標 Portal が中立です。</string>
-    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_IS_DESTINATION">他の Portal にリンクしてください。</string>
-    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_WRONG_TEAM">Portal は敵の制御下です。</string>
-    <string name="ENUM_MAP_LINK_FAIL_REQUIRES_LINK_KEY">Portal Key がありません。</string>
-    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_LINK_CAPACITY_REACHED">Portal Link 数の限界です。</string>
+    <string name="ENUM_MAP_LINK_FAIL_DESTINATION_WRONG_TEAM">敵ポータル</string>
+    <string name="ENUM_MAP_LINK_FAIL_CONTAINED_WITHIN_CAPTURED_REGION">ポータルがフィールド下にあります。</string>
+    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_UNOWNED">起点ポータルが中立です。</string>
+    <string name="ENUM_MAP_LINK_FAIL_DESTINATION_UNOWNED">目標ポータルが中立です。</string>
+    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_IS_DESTINATION">別のポータルにリンクしてください。</string>
+    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_WRONG_TEAM">ポータルは敵の制御下です。</string>
+    <string name="ENUM_MAP_LINK_FAIL_REQUIRES_LINK_KEY">ポータルキーがありません。</string>
+    <string name="ENUM_MAP_LINK_FAIL_ORIGIN_LINK_CAPACITY_REACHED">ポータルリンク数の限界です。</string>
     <string name="ENUM_MAP_LINK_FAIL_BEYOND_ORIGIN_RANGE">リンク可能距離を超えています。</string>
-    <string name="ENUM_MAP_LINK_FAIL_TOO_BUSY">エラー。Link 失敗。</string>
-    <string name="ENUM_MAP_FAIL_PORTAL_MISSING">Portal がありません。</string>
-    <string name="ENUM_MAP_FAIL_RESONATORS_MISSING">Resonator が足りません。</string>
-    <string name="ENUM_MAP_LINK_FAIL">Link 失敗</string>
-    <string name="ENUM_MAP_LINK_FAIL_PORTAL_NOT_STABLE">Portal が不安定です。</string>
-    <string name="ENUM_MAP_LINK_FAIL_NO_KEY">Portal Key がありません。</string>
+    <string name="ENUM_MAP_LINK_FAIL_TOO_BUSY">エラー。リンク失敗。</string>
+    <string name="ENUM_MAP_FAIL_PORTAL_MISSING">ポータルがありません。</string>
+    <string name="ENUM_MAP_FAIL_RESONATORS_MISSING">レゾネーターが足りません。</string>
+    <string name="ENUM_MAP_LINK_FAIL">リンク失敗</string>
+    <string name="ENUM_MAP_LINK_FAIL_PORTAL_NOT_STABLE">ポータルが不安定です。</string>
+    <string name="ENUM_MAP_LINK_FAIL_NO_KEY">ポータルキーがありません。</string>
     <string name="ENUM_MAP_REDEEM_FAIL_INVALID_PASSCODE">無効なパスコードです。</string>
     <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED_BY_PLAYER">パスコードはすでに使用済みです。</string>
     <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED">パスコードは完全に使用されました。</string>
@@ -334,29 +337,29 @@ ID を確認しました。"</string>
     <string name="ENUM_MAP_COMBAT_FAIL_WEAPON_NOT_AVAILABLE">武器が使用できません。</string>
     <string name="ENUM_MAP_COMBAT_FAIL_NO_WEAPON">武器がありません。</string>
     <string name="ENUM_MAP_COMBAT_FAIL_UNABLE_TO_FIRE">発射できません。</string>
-    <string name="ENUM_MAP_COMBAT_FAIL_TOO_BUSY">XMP 発射失敗。XM 濃度異常 。</string>
+    <string name="ENUM_MAP_COMBAT_FAIL_TOO_BUSY">XMP 発射失敗。XM 濃度異常。</string>
     <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_NOT_POWER_CUBE">無効なパワーキューブ</string>
     <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_NOT_IN_PLAYER_INVENTORY">インベントリにありません。</string>
-    <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_UNABLE_TO_DISCHARGE">Power Cube が利用できません。</string>
+    <string name="ENUM_MAP_DISCHARGE_POWER_CUBE_FAIL_UNABLE_TO_DISCHARGE">パワーキューブが利用できません。</string>
     <string name="ENUM_MAP_FLIP_FAIL_NOT_VALID">XM オブジェクトが無効です。</string>
     <string name="ENUM_MAP_FLIP_FAIL_NO_PLAYER_SPECIFIED">エージェントが特定できません。</string>
-    <string name="ENUM_MAP_FLIP_FAIL_PLAYER_DOES_NOT_EXIST">エラー。エージェントが特定出来ません。</string>
-    <string name="ENUM_MAP_FLIP_FAIL_CANNOT_FLIP">目標 Portal は反転済みです。</string>
-    <string name="ENUM_MAP_FLIP_FAIL_INVALID_TARGET">無効な目標 Portal です。</string>
-    <string name="ENUM_MAP_FLIP_FAIL_SERVER_ERROR">Portal 反転失敗。</string>
-    <string name="ENUM_MAP_FLIP_FAIL_TOO_BUSY_ADA">コンパイルエラー。ADA Refactor 機能せず。</string>
+    <string name="ENUM_MAP_FLIP_FAIL_PLAYER_DOES_NOT_EXIST">エラー。エージェントが特定できません。</string>
+    <string name="ENUM_MAP_FLIP_FAIL_CANNOT_FLIP">目標ポータルは反転済みです。</string>
+    <string name="ENUM_MAP_FLIP_FAIL_INVALID_TARGET">無効な目標ポータルです。</string>
+    <string name="ENUM_MAP_FLIP_FAIL_SERVER_ERROR">ポータル反転失敗。</string>
+    <string name="ENUM_MAP_FLIP_FAIL_TOO_BUSY_ADA">コンパイル エラー。ADA リファクター機能せず。</string>
     <string name="ENUM_MAP_FLIP_FAIL_TOO_BUSY_JAR">抗体侵入。ウイルスエラー。</string>
-    <string name="ENUM_MAP_FLIP_FAIL_TOO_SOON">失敗。Portal は一時的に免疫を獲得しました。</string>
+    <string name="ENUM_MAP_FLIP_FAIL_TOO_SOON">失敗。ポータルは一時的に免疫を獲得しました。</string>
     <string name="ENUM_MAP_MOD_FAIL_MOD_DOES_NOT_EXIST">MOD が存在しません。</string>
     <string name="ENUM_MAP_MOD_FAIL_NOT_A_TEAMMATE">陣営が違います。</string>
     <string name="ENUM_MAP_MOD_FAIL_MOD_SLOT_EMPTY">MOD がありません。</string>
     <string name="ENUM_MAP_MOD_FAIL_SERVER_ERROR">MOD 操作できません。</string>
     <string name="ENUM_MAP_MOD_FAIL_NO_EMPTY_SLOTS">空のスロットがありません。</string>
-    <string name="ENUM_MAP_MOD_FAIL_MOD_SLOT_NOT_EMPTY">スロットは既に使われています。</string>
+    <string name="ENUM_MAP_MOD_FAIL_MOD_SLOT_NOT_EMPTY">スロットはすでに使われています。</string>
     <string name="ENUM_MAP_MOD_FAIL_INDEX_OUT_OF_BOUNDS">MOD スロットが無効です。</string>
     <string name="ENUM_MAP_MOD_FAIL_INVALID_PLAYER">エラー。</string>
     <string name="ENUM_MAP_MOD_FAIL_PLAYER_LIMIT_REACHED">MOD 数の限界です。</string>
-    <string name="ENUM_MAP_MOD_FAIL_TOO_BUSY_ADD">エラー、MOD 吸着失敗</string>
+    <string name="ENUM_MAP_MOD_FAIL_TOO_BUSY_ADD">エラー。MOD 吸着失敗。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_TOO_MANY">これ以上のエージェントをブロックできません。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_TOO_BUSY">サーバーエラー。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_INVALID_PLAYER">そのエージェントは存在しません。</string>
@@ -365,12 +368,12 @@ ID を確認しました。"</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_CLIENT_ONLY_GENERIC_FAILED_TO_LINK">プロフィールとリンクできません。</string>
     <string name="ENUM_MAP_PLAYER_PREFERENCES_FAIL_CLIENT_ONLY_GENERIC_FAILED_TO_UNLINK">プロフィールとのリンクを解除できません。</string>
     <string name="ENUM_MAP_GET_MODIFIED_GUIDS_FAIL_TOO_MANY">インベントリがいっぱいです。</string>
-    <string name="ENUM_MAP_FAIL_NO_PORTAL">Portal が存在しません。</string>
+    <string name="ENUM_MAP_FAIL_NO_PORTAL">ポータルが存在しません。</string>
     <string name="ENUM_MAP_FAIL_OUT_OF_RANGE">有効範囲外</string>
     <string name="ENUM_MAP_FAIL_WRONG_LEVEL">アクセスレベルが足りません。</string>
     <string name="ENUM_MAP_FAIL_NEED_MORE_XM">XM が不足しています。</string>
     <string name="ENUM_MAP_FAIL_GLYPH_NOT_EXISTING">グリフハックが中止されました。</string>
-    <string name="ENUM_MAP_FAIL_GLYPH_HACK_REQUIRED">Portal がロックされています。グリフハックが必要です。</string>
+    <string name="ENUM_MAP_FAIL_GLYPH_HACK_REQUIRED">ポータルがロックされています。グリフハックが必要です。</string>
     <string name="ENUM_MAP_FAIL_GLYPH_ALREADY_REDEEMED">グリフハックが無効です。</string>
     <string name="ENUM_MAP_FAIL_USER_ABORTED_GAME">グリフハックが中止されました。</string>
     <string name="ENUM_MAP_MISSION_FAIL_UNKNOWN">エラー。通信が中断されました。</string>
@@ -378,51 +381,51 @@ ID を確認しました。"</string>
     <string name="ENUM_MAP_MISSION_FAIL_NO_MISSIONS_AVAILABLE">ミッションがありません。</string>
     <string name="ENUM_MAP_MISSION_FAIL_MISSION_ALREADY_ACTIVE">ミッションがすでに進行中です。</string>
     <string name="ENUM_MAP_MISSION_FAIL_NO_MISSION_ACTIVE">進行中のミッションはありません。</string>
-    <string name="ENUM_MAP_MISSION_FAIL_MISSION_ALREADY_RATED">ミッションは評価済です。</string>
+    <string name="ENUM_MAP_MISSION_FAIL_MISSION_ALREADY_RATED">ミッションは評価済みです。</string>
     <string name="ENUM_MAP_MISSION_FAIL_MISSION_DOES_NOT_EXIST">ミッションがありません。</string>
     <string name="ENUM_MAP_MISSION_FAIL_FIELD_TRIP_CARD_NOT_EXIST">Field Trip カードがありません。</string>
-    <string name="ENUM_MAP_MISSION_FAIL_NOT_IN_RANGE">ポイントが遠すぎます。</string>
-    <string name="ENUM_MAP_MISSION_FAIL_MISSION_TOO_MANY_INVALID_WAYPOINTS">このミッションは無効なポイントが多すぎます。</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_CAPTURE_PORTAL">Portal をキャプチャ、又はアップグレード</string>
+    <string name="ENUM_MAP_MISSION_FAIL_NOT_IN_RANGE">通過ポイントが遠すぎます。</string>
+    <string name="ENUM_MAP_MISSION_FAIL_MISSION_TOO_MANY_INVALID_WAYPOINTS">このミッションは無効な通過ポイントが多すぎます。</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_CAPTURE_PORTAL">ポータルをキャプチャー、またはアップグレード</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_FIELD">フィールドを作成</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_CREATE_LINK">リンクを作成</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_HACK_PORTAL">Portal をハック</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_HACK_PORTAL">ポータルをハック</string>
     <string name="ENUM_MAP_OBJECTIVE_TYPE_INSTALL_MOD">MOD をインストール</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_PASSPHRASE">正しいパスワードを入力</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_TAKE_PHOTO">Portal の写真を撮影</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_UNKNOWN">未知の物体</string>
-    <string name="ENUM_MAP_OBJECTIVE_TYPE_VIEW_FIELD_TRIP_CARD">ポイントに行く</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_PASSPHRASE">正しいパスフレーズを入力</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_TAKE_PHOTO">ポータルの写真を撮影</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_UNKNOWN">不明</string>
+    <string name="ENUM_MAP_OBJECTIVE_TYPE_VIEW_FIELD_TRIP_CARD">通過ポイントに行く</string>
     <string name="ENUM_MAP_NEMESIS_TABS_INVENTORY">インベントリ</string>
     <string name="ENUM_MAP_NEMESIS_TABS_AGENT">エージェント</string>
     <string name="ENUM_MAP_NEMESIS_TABS_INTEL">インテル</string>
     <string name="ENUM_MAP_NEMESIS_TABS_MISSIONS">ミッション</string>
     <string name="ENUM_MAP_NEMESIS_TABS_TRAINING">トレーニング</string>
     <string name="ENUM_MAP_NEMESIS_TABS_RECRUIT">リクルート</string>
-    <string name="ENUM_MAP_NEMESIS_TABS_COMMUNITY">コミュニティー</string>
+    <string name="ENUM_MAP_NEMESIS_TABS_COMMUNITY">コミュニティ</string>
     <string name="ENUM_MAP_NEMESIS_TABS_PASSCODE">パスコード</string>
     <string name="ENUM_MAP_NEMESIS_TABS_DEVICE">設定</string>
     <string name="FIRE_MODE_FIRE_BUTTON">FIRE</string>
     <string name="FIRE_MODE_DISABLE_REASON_FIRING">FIRING…</string>
-    <string name="FIRE_MODE_DISABLE_REASON_NO_XMP">XMP切れ</string>
-    <string name="FIRE_MODE_ATTACK_BOOST_FORMAT">"Attack  + %s"</string>
+    <string name="FIRE_MODE_DISABLE_REASON_NO_XMP">XMP 切れ</string>
+    <string name="FIRE_MODE_ATTACK_BOOST_FORMAT">Attack + %s</string>
     <string name="FIRE_MODE_GENERIC_FAILURE">反応しません！</string>
     <string name="ACTION_MODE_DONE_BUTTON">完了</string>
     <string name="PORTAL_MOD_MODE_INSTALL_BUTTON">インストール</string>
     <string name="PORTAL_MOD_MODE_DISABLE_REASON_INSTALLING">インストール中…</string>
-    <string name="RESONATOR_MODE_DEPLOY_BUTTON">Deploy</string>
-    <string name="RESONATOR_MODE_DEPLOY_LIMIT_ERROR">%1$s は %2$s 本までしか1つのポータルには配置できません。</string>
+    <string name="RESONATOR_MODE_DEPLOY_BUTTON">DEPLOY</string>
+    <string name="RESONATOR_MODE_DEPLOY_LIMIT_ERROR">%1$s は %2$s 本までしか 1 つのポータルには配置できません。</string>
     <string name="RESONATOR_LEVEL_LABEL">L</string>
     <string name="RESONATOR_LEVEL_LABEL_FORMAT">%1$s%2$s</string>
     <string name="RESONATOR_MODE_RECHARGE_SINGLE_SUCCESS">レゾネーターはリチャージされました。</string>
-    <string name="RESONATOR_MODE_RECHARGE_PLURAL_SUCCESS">%d Recharge！</string>
+    <string name="RESONATOR_MODE_RECHARGE_PLURAL_SUCCESS">%d Recharge!</string>
     <string name="RESONATOR_MODE_RECHARGE_FAILURE">リチャージ失敗！</string>
-    <string name="RESONATOR_MODE_RECHARGE_BUTTON">Recharge</string>
-    <string name="RESONATOR_MODE_RECHARGE_ALL_BUTTON">全て Recharge</string>
-    <string name="RESONATOR_MODE_RECHARGE_DISABLE_REASON_RECHARGING">Recharge しています…</string>
+    <string name="RESONATOR_MODE_RECHARGE_BUTTON">RECHARGE</string>
+    <string name="RESONATOR_MODE_RECHARGE_ALL_BUTTON">すべて RECHARGE</string>
+    <string name="RESONATOR_MODE_RECHARGE_DISABLE_REASON_RECHARGING">リチャージしています…</string>
     <string name="RESONATOR_MODE_RECHARGE_DISTANCE_LABEL">距離</string>
     <string name="RESONATOR_MODE_RECHARGE_EFFICIENCY_LABEL">範囲効率</string>
     <string name="RESONATOR_MODE_DEPLOY_BUTTON_CONFIRM">確定</string>
-    <string name="RESONATOR_MODE_DEPLOY_BUTTON_UPGRADE">アップグレード</string>
+    <string name="RESONATOR_MODE_DEPLOY_BUTTON_UPGRADE">更新</string>
     <string name="RESONATOR_MODE_DEPLOY_DISABLE_REASON_NO_RESOS">レゾネーターがありません。</string>
     <string name="RESONATOR_MODE_DEPLOY_READY">レゾネーター準備完了</string>
     <string name="RESONATOR_MODE_DEPLOY_SELECT_SLOT">アップグレードするスロットを選んでください。</string>
@@ -434,36 +437,37 @@ ID を確認しました。"</string>
     <string name="PORTAL_STATS_LEVEL">レベル</string>
     <string name="PORTAL_STATS_RANGE">範囲</string>
     <string name="PORTAL_STATS_ENERGY">エネルギー</string>
-    <string name="PORTAL_STATS_ENEMY_PORTAL">敵陣営 Portal</string>
+    <string name="PORTAL_STATS_ENEMY_PORTAL">敵陣営ポータル</string>
     <string name="ENUM_MAP_STATS_MODIFIER_ABSORPTION">吸収</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_MITIGATION">防御力</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_MITIGATION">緩和度</string>
     <string name="ENUM_MAP_STATS_MODIFIER_REFLECTION">反射</string>
     <string name="ENUM_MAP_STATS_MODIFIER_LINK_RANGE_MULTIPLIER">リンク距離増幅力</string>
     <string name="ENUM_MAP_STATS_MODIFIER_REMOVAL_STICKINESS">MOD 吸着力</string>
     <string name="ENUM_MAP_STATS_MODIFIER_UNKNOWN">不明</string>
-    <string name="ENUM_MAP_STATS_MODIFIER_HACK_SPEED">Hack スピード</string>
+    <string name="ENUM_MAP_STATS_MODIFIER_HACK_SPEED">ハックスピード</string>
     <string name="ENUM_MAP_STATS_MODIFIER_BURNOUT_INSULATION">オーバーヒート防止力</string>
     <string name="ENUM_MAP_STATS_MODIFIER_FORCE_AMPLIFIER">攻撃力増幅率</string>
     <string name="ENUM_MAP_STATS_MODIFIER_HIT_BONUS">攻撃ボーナス</string>
     <string name="ENUM_MAP_STATS_MODIFIER_ATTACK_FREQUENCY">攻撃頻度</string>
     <string name="STATS_MODIFIER_MITIGATION_DISPLAY_NAME">防御力</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_CAPSULE">Capsule</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_EMITTER_A">Resonator</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">Xmp Burster</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_EXTRA_SHIELD">AXA Shield</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_FLIP_CARD">Alignment Virus</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_FORCE_AMP">Force Amp</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_HEATSINK">Heat Sink</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_LINK_AMPLIFIER">Link Amp</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_MEDIA">Media</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_MULTIHACK">Multi-hack</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_PORTAL_LINK_KEY">Portal Key</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_POWER_CUBE">Power Cube</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_RES_SHIELD">Portal Shield</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_TURRET">Turret</string>
-    <string name="ENUM_MAP_RESOURCE_TYPE_ULTRA_STRIKE">Ultra Strike</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_CAPSULE">カプセル</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_INTEREST_CAPSULE">MUFG カプセル</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_EMITTER_A">レゾネーター</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">XMP バースター</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_EXTRA_SHIELD">AXA シールド</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_FLIP_CARD">反転ウイルス</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_FORCE_AMP">フォースアンプ</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_HEATSINK">ヒートシンク</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_LINK_AMPLIFIER">リンクアンプ</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_MEDIA">メディア</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_MULTIHACK">マルチハック</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_PORTAL_LINK_KEY">ポータルキー</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_POWER_CUBE">パワーキューブ</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_RES_SHIELD">ポータル シールド</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_TURRET">ターレット</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_ULTRA_STRIKE">ウルトラ ストライク</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_UNKNOWN">不明</string>
-    <string name="MOD_CHOOSER_DEPLOY_TEMPLATE">Deploy: %s</string>
+    <string name="MOD_CHOOSER_DEPLOY_TEMPLATE">デプロイ: %s</string>
     <string name="RARITY_VERY_COMMON">Very Common</string>
     <string name="RARITY_COMMON">Common</string>
     <string name="RARITY_LESS_COMMON">Less Common</string>
@@ -472,18 +476,22 @@ ID を確認しました。"</string>
     <string name="RARITY_EXTREMELY_RARE">Extremely Rare</string>
     <string name="PORTAL_LINK_MODE_CONFIRM">確定</string>
     <string name="PORTAL_LINK_MODE_CANCEL">キャンセル</string>
-    <string name="PORTAL_LINK_MODE_STATUS_LOADING">・リンク可能か解析中…</string>
+    <string name="PORTAL_LINK_MODE_STATUS_LOADING">リンク可能か解析中…</string>
+    <string name="PORTAL_LINK_MODE_STATUS_LINKING">…リンクを確立中…</string>
+    <string name="PORTAL_LINK_MODE_STATUS_LINKED">リンク確立完了</string>
+    <string name="PORTAL_LINK_MODE_STATUS_FIELD_PLURAL">フィールド作成完了: %s MU を獲得</string>
+    <string name="PORTAL_LINK_MODE_STATUS_FIELD">フィールド作成完了: %s MU を獲得</string>
     <string name="PORTAL_LINK_MODE_STATUS_SELECT">ポータルキーを選択</string>
-    <string name="PORTAL_LINK_MODE_STATUS_CREATE">リンクを作る</string>
-    <string name="PORTAL_LINK_MODE_STATUS_PORTAL_LOADING">Portal 情報の取得中…</string>
+    <string name="PORTAL_LINK_MODE_STATUS_CREATE">リンクを作成</string>
+    <string name="PORTAL_LINK_MODE_STATUS_PORTAL_LOADING">ポータル情報の取得中…</string>
     <string name="PORTAL_LINK_MODE_STATUS_PORTAL_NO_KEY">キーがありません。</string>
     <string name="PORTAL_LINK_MODE_STATUS_NO_KEYS">キーがありません。</string>
     <string name="PORTAL_LINK_MODE_STATUS_NO_USABLE_KEYS">利用可能なキーがありません。</string>
-    <string name="PORTAL_LINK_MODE_STATUS_NO_LINKABLE">Link できるポータルがありません。</string>
-    <string name="PORTAL_LINK_MODE_STATUS_ORIGIN_OUT_OF_RANGE">起点 Portal が有効範囲外になりました。</string>
-    <string name="PORTAL_LINK_MODE_STATUS_LINKABILITY_UNKNOWN">長距離 Portal。 リンク可能性は不明。</string>
-    <string name="PORTAL_LINK_MODE_LOCAL_OUT_OF_RANGE">Portal が有効範囲外です。</string>
-    <string name="INTRO_HEADPHONES_RECOMMENDED">[ ヘッドホンの利用を推奨します ]</string>
+    <string name="PORTAL_LINK_MODE_STATUS_NO_LINKABLE">リンクできるポータルがありません。</string>
+    <string name="PORTAL_LINK_MODE_STATUS_ORIGIN_OUT_OF_RANGE">起点ポータルが有効範囲外になりました。</string>
+    <string name="PORTAL_LINK_MODE_STATUS_LINKABILITY_UNKNOWN">長距離ポータル。リンク可能性は不明。</string>
+    <string name="PORTAL_LINK_MODE_LOCAL_OUT_OF_RANGE">ポータルが有効範囲外です。</string>
+    <string name="INTRO_HEADPHONES_RECOMMENDED">[ ヘッドフォンの利用を推奨します ]</string>
     <string name="INTRO_ACQUIRING_LOCATION">現在地をスキャン中…</string>
     <string name="INTRO_LOCATION_ACQUIRED">現在地を取得しました。</string>
     <string name="AVATAR_SELECTION_TITLE">アバターを選んでください。</string>
@@ -494,24 +502,22 @@ ID を確認しました。"</string>
     <string name="AVATAR_SELECTION_ERROR_LOADING_AVATAR_OPTIONS">アバター設定を読み込めません。</string>
     <string name="AVATAR_SELECTION_ERROR_SELECTING_AVATAR">アバターを設定できませんでした。</string>
     <string name="SCANNER_OPS_BUTTON">OPS</string>
-    <string name="SCANNER_DISABLED_XM">"スキャナー動作不能
-XM を補給してください。"</string>
-    <string name="SCANNER_DISABLED_LOCATION">"スキャナー動作不良
-現在地が不正確です。"</string>
+    <string name="SCANNER_DISABLED_XM">スキャナー動作不能。XM を補給してください。</string>
+    <string name="SCANNER_DISABLED_LOCATION">スキャナー動作不良。現在地が不正確です。</string>
     <string name="GLYPH_MODE_INCOMING_GLYPH_SEQUENCE">グリフを受信中…</string>
     <string name="GLYPH_MODE_PREPARE_TO_REPEAT">グリフを記憶してください…</string>
     <string name="GLYPH_MODE_COMMENCE_GLYPH_HACK">グリフハックを開始します…</string>
-    <string name="GLYPH_MODE_HACK_COMPLETE">Hack 完了。ボーナスを計算中…</string>
+    <string name="GLYPH_MODE_HACK_COMPLETE">ハック完了。ボーナスを計算中…</string>
     <string name="GLYPH_MODE_BYPASS_TEXT">スキップ</string>
     <string name="GLYPH_MODE_ABORT_TEXT">中止</string>
     <string name="GLYPH_MODE_DONE_TEXT">完了</string>
     <string name="GLYPH_MODE_POPUP_INCOMING_GLYPH">グリフを受信中…</string>
     <string name="GLYPH_MODE_POPUP_GET_READY">入力準備…</string>
-    <string name="GLYPH_MODE_HACKING_BONUS">Hack Bonus:</string>
-    <string name="GLYPH_MODE_SPEED_BONUS">Speed Bonus:</string>
+    <string name="GLYPH_MODE_HACKING_BONUS">HACK BONUS:</string>
+    <string name="GLYPH_MODE_SPEED_BONUS">SPEED BONUS:</string>
     <string name="GLYPH_MODE_AGENT_DETECTED">入力が必須です。</string>
     <string name="GLYPH_MODE_HIGH_BONUS">高ボーナスを取得</string>
-    <string name="INVENTORY_UI_FILTER_ALL">全て</string>
+    <string name="INVENTORY_UI_FILTER_ALL">すべて</string>
     <string name="INVENTORY_UI_FILTER_CAPSULES">カプセル</string>
     <string name="INVENTORY_UI_FILTER_MEDIA">メディア</string>
     <string name="INVENTORY_UI_FILTER_MODS">MOD</string>
@@ -533,7 +539,7 @@ XM を補給してください。"</string>
     <string name="ITEM_DETAILS_CAPSULE_LOAD">収納する</string>
     <string name="ITEM_DETAILS_CAPSULE_UNLOAD">展開する</string>
     <string name="ITEM_DETAILS_RECHARGE">リチャージ</string>
-    <string name="ITEM_DETAILS_RANGE_FORMAT">[射程距離] %s</string>
+    <string name="ITEM_DETAILS_RANGE_FORMAT">[射程距離]: %s</string>
     <string name="KEY_VIEW_OK">OK</string>
     <string name="KEY_VIEW_LOADING">Now Loading…</string>
     <string name="RECYCLE_XM_AMOUNT">XM</string>
@@ -541,13 +547,13 @@ XM を補給してください。"</string>
     <string name="RECYCLE_CONFIRM">確定</string>
     <string name="RECYCLE_CANCEL">キャンセル</string>
     <string name="CAPSULE_RECYCLE_DIALOG_TITLE">リサイクル: カプセル</string>
-    <string name="CAPSULE_RECYCLE_DIALOG_TEXT">"[ このカプセルと収容物は破壊されます  ]"</string>
-    <string name="CAPSULE_RECYCLE_CONFIRM_BTN_TEXT">" 確定 "</string>
-    <string name="CAPSULE_RECYCLE_CANCEL_BTN_TEXT">" キャンセル"</string>
+    <string name="CAPSULE_RECYCLE_DIALOG_TEXT">このカプセルと収容物は破壊されます</string>
+    <string name="CAPSULE_RECYCLE_CONFIRM_BTN_TEXT">確定</string>
+    <string name="CAPSULE_RECYCLE_CANCEL_BTN_TEXT">キャンセル</string>
     <string name="CAPSULE_RESET_BUTTON_TEXT">リセット</string>
     <string name="CAPSULE_TRANSFER_BUTTON_TEXT">転送</string>
     <string name="CAPSULE_TRANSFER_BUTTON_DISABLED_NEED_ITEMS">数量を入力</string>
-    <string name="CAPSULE_TRANSFERRING_BUTTON_TEXT">転送中...</string>
+    <string name="CAPSULE_TRANSFERRING_BUTTON_TEXT">転送中…</string>
     <string name="CAPSULE_FULL">容量到達</string>
     <string name="CAPSULE_INVENTORY_FULL">インベントリがいっぱいです。</string>
     <string name="CAPSULE_EMPTY">カプセルは空です。</string>
@@ -561,38 +567,38 @@ XM を補給してください。"</string>
     <string name="FLIP_CARD_USE_CONFIRM">確定</string>
     <string name="FLIP_CARD_USE_BACK">戻る</string>
     <string name="FLIP_CARD_USE_CANCEL">キャンセル</string>
-    <string name="SETTINGS_TITLE_DIALOG_CONFIRM_SIGN_OUT">ログアウト...</string>
-    <string name="SETTINGS_MESSAGE_DIALOG_CONFIRM_SIGN_OUT">本当にログアウトしますか?</string>
+    <string name="SETTINGS_TITLE_DIALOG_CONFIRM_SIGN_OUT">ログアウト…</string>
+    <string name="SETTINGS_MESSAGE_DIALOG_CONFIRM_SIGN_OUT">本当にログアウトしますか？</string>
     <string name="SETTINGS_ACTION_YES">はい</string>
     <string name="SETTINGS_ACTION_NO">いいえ</string>
     <string name="SETTINGS_TITLE_DIALOG_RESTART_REQUIRED">再起動が必要です</string>
     <string name="SETTINGS_MESSAGE_DIALOG_RESTART_REQUIRED">この変更は Ingress を再起動するまで適用されません</string>
     <string name="SETTINGS_ACTION_RESTART">再起動</string>
-    <string name="SETTINGS_ACTION_LATER">後で</string>
-    <string name="SETTINGS_MESSAGE_PORTAL_PENDING_WARNING">"申請途中の Portal があります。
+    <string name="SETTINGS_ACTION_LATER">あとで</string>
+    <string name="SETTINGS_MESSAGE_PORTAL_PENDING_WARNING">"申請途中のポータルがあります。
 ログアウトすると申請情報が失われますので注意してください。"</string>
     <string name="SETTINGS_PORTAL_PENDING_SIGN_OUT">ログアウト</string>
     <string name="SETTINGS_PORTAL_PENDING_CANCEL">キャンセル</string>
     <string name="SETTINGS_TITLE_USER">ユーザー</string>
     <string name="SETTINGS_USER_SIGN_OUT">ログアウト</string>
     <string name="SETTINGS_TITLE_LINK">G+ とリンクする</string>
-    <string name="SETTINGS_LINK_LOADING">Loading...</string>
+    <string name="SETTINGS_LINK_LOADING">Loading…</string>
     <string name="SETTINGS_LINK_LINKED">G+ プロフィールがリンクされました</string>
-    <string name="SETTINGS_LINK_UNLINK">リンクを外す</string>
-    <string name="SETTINGS_LINK_MESSAGE">Ingress と G+のプロフィールをリンクすることで、他のエージェントもあなたのプロフィールを見ることができるようになります。</string>
+    <string name="SETTINGS_LINK_UNLINK">リンク解除</string>
+    <string name="SETTINGS_LINK_MESSAGE">Ingress と G+ のプロフィールをリンクすることで、他のエージェントはあなたのプロフィールを見ることができるようになります。</string>
     <string name="SETTINGS_LINK_DO_LINK">リンクする</string>
     <string name="SETTINGS_LINK_ERROR">リンク失敗</string>
     <string name="SETTINGS_LINK_RETRY">再試行</string>
     <string name="SETTINGS_LINK_WARNING_VIEW_MESSAGE">Ingress と G+ のプロフィールをリンクすることで、他のエージェントはあなたのプロフィールを見ることができるようになります。</string>
-    <string name="SETTINGS_LINK_WARNING_VIEW_CAUTION">この機能は注意して使ってください。あなたが特定のアクションを取った位置は他のプレイヤーに見えています。いつでも G+ のリンクは削除できます。</string>
+    <string name="SETTINGS_LINK_WARNING_VIEW_CAUTION">この機能は注意して使ってください。あなたが特定のアクションを取った位置は他のプレイヤーに見えています。いつでも G+ のリンクは解除できます。</string>
     <string name="SETTINGS_LINK_OK">リンクする</string>
     <string name="SETTINGS_LINK_WARNING_VIEW_NO_THANKS">やめる</string>
     <string name="SETTINGS_LINK_ERROR_TRY_AGAIN">再試行</string>
-    <string name="SETTINGS_LINK_PROFILE_LINK_PROMPT">G+ のプロフィールをリンクしますか?</string>
+    <string name="SETTINGS_LINK_PROFILE_LINK_PROMPT">G+ のプロフィールをリンクしますか？</string>
     <string name="SETTINGS_LINK_PROFILE_LINK_YES">はい</string>
     <string name="SETTINGS_LINK_PROFILE_LINK_NO">いいえ</string>
-    <string name="SETTINGS_LINK_PROGRESS_LINKING">リンク中...</string>
-    <string name="SETTINGS_LINK_PROGRESS_UNLINKING">リンクを削除中...</string>
+    <string name="SETTINGS_LINK_PROGRESS_LINKING">リンク中…</string>
+    <string name="SETTINGS_LINK_PROGRESS_UNLINKING">リンク解除中…</string>
     <string name="SETTINGS_LINK_UNKNOWN_ERROR">原因不明のエラー</string>
     <string name="SETTINGS_TITLE_VERIFY">認証</string>
     <string name="SETTINGS_VERIFY_MESSAGE">今すぐ認証する</string>
@@ -614,18 +620,18 @@ XM を補給してください。"</string>
     <string name="SETTINGS_SMOOTHING_ENABLED">有効</string>
     <string name="SETTINGS_SMOOTHING_DISABLED">無効</string>
     <string name="SETTINGS_TITLE_EMAIL">メール</string>
-    <string name="SETTINGS_EMAIL_NOTIFICATIONS">メール通知（Portal への攻撃など）</string>
+    <string name="SETTINGS_EMAIL_NOTIFICATIONS">メール通知（ポータルへの攻撃など）</string>
     <string name="SETTINGS_EMAIL_UPDATES">Ingress の関連イベント、キャンペーン、ニュースなどをこのメールアドレスに送信する。</string>
     <string name="SETTINGS_NOTIFICATIONS_TITLE">通知</string>
-    <string name="SETTINGS_NOTIFICATIONS_MENTION">COMM で話しかけられた時</string>
-    <string name="SETTINGS_NOTIFICATIONS_ATTACK">Portal が攻撃された時</string>
+    <string name="SETTINGS_NOTIFICATIONS_MENTION">COMM で話しかけられたとき</string>
+    <string name="SETTINGS_NOTIFICATIONS_ATTACK">ポータルが攻撃されたとき</string>
     <string name="SETTINGS_NOTIFICATIONS_RECRUITING">リクルートや陣営の情報、活動</string>
     <string name="SETTINGS_NOTIFICATIONS_NEWS">新しいストーリー</string>
-    <string name="SETTINGS_NOTIFICATIONS_PORTAL_NEARBY">近くの Portal 範囲に入った時</string>
+    <string name="SETTINGS_NOTIFICATIONS_PORTAL_NEARBY">近くのポータル範囲に入ったとき</string>
     <string name="SETTINGS_NOTIFICATIONS_VIBRATE">振動</string>
     <string name="SETTINGS_TITLE_SOUNDS">通知音</string>
     <string name="SETTINGS_SOUNDS_CHOOSE">選択</string>
-    <string name="SETTINGS_TITLE_PROFILE">エージェントプロフィール</string>
+    <string name="SETTINGS_TITLE_PROFILE">エージェント プロフィール</string>
     <string name="SETTINGS_PROFILE_PRIVATE">エージェント情報を非公開にする</string>
     <string name="SETTINGS_TITLE_BLOCKED">ブロックしたエージェント</string>
     <string name="SETTINGS_BLOCKED_MANAGE">確認する</string>
@@ -641,7 +647,7 @@ XM を補給してください。"</string>
     <string name="SETTINGS_IMMERSIVE_ENABLED">有効</string>
     <string name="SETTINGS_IMMERSIVE_DISABLED">無効</string>
     <string name="SETTINGS_TITLE_GOOGLE_APPS">Google アプリ</string>
-    <string name="SETTINGS_GOOGLE_APPS_MESSAGE">選択したアプリをブラウザのかわりに使う</string>
+    <string name="SETTINGS_GOOGLE_APPS_MESSAGE">選択したアプリをブラウザの代わりに使う</string>
     <string name="SETTINGS_GOOGLE_APPS_PLUS">Google+</string>
     <string name="SETTINGS_TITLE_SOUND">サウンド</string>
     <string name="SETTINGS_SOUND_BACKGROUND">BGM</string>
@@ -669,20 +675,20 @@ XM を補給してください。"</string>
     <string name="INTEL_LINE_GRAPH_CYCLE_COUNTDOWN_TITLE">サイクル</string>
     <string name="INTEL_LINE_GRAPH_CHECKPOINT_COUNTDOWN_TITLE">チェックポイント</string>
     <string name="INTEL_TOP_AGENTS_PLURAL_TEMPLATE">トップ %s エージェント</string>
-    <string name="INTEL_TOP_AGENTS_SINGULAR">エージェントランキング</string>
+    <string name="INTEL_TOP_AGENTS_SINGULAR">エージェント ランキング</string>
     <string name="INTEL_OTHER_AGENTS_BUTTON">他のエージェント</string>
     <string name="INTEL_SUBSECTION_BUTTON_IN_REGION_SCORE_SCREEN">セルの動向</string>
     <string name="INTEL_TITLE_REGION_SCORE_ACTIVITY">ローカルスコア</string>
-    <string name="INTEL_TITLE_GLOBAL_SCORE_SCREEN">グローバルビュー</string>
+    <string name="INTEL_TITLE_GLOBAL_SCORE_SCREEN">グローバル ビュー</string>
     <string name="INTEL_SUBSECTION_BUTTON_IN_GLOBAL_SCORE_SCREEN">ローカルスコア</string>
     <string name="INTEL_TITLE_REGION_SCORE_HISTORY_TEMPLATE">HISTORY: %s</string>
-    <string name="INTEL_GLOBAL_STATS_LABEL">グローバルスコア</string>
-    <string name="INTEL_TITLE_LEADERBOARD_TEMPLATE">エージェントランキング: %s</string>
+    <string name="INTEL_GLOBAL_STATS_LABEL">グローバル スコア</string>
+    <string name="INTEL_TITLE_LEADERBOARD_TEMPLATE">エージェント ランキング: %s</string>
     <string name="INTEL_LEADER_BOARD_PERSONAL_RANKING_LEVEL_TEMPLATE">Level %s</string>
     <string name="INTEL_LEADER_BOARD_RANKING_TEMPLATE">\# %s</string>
-    <string name="INTEL_LEADER_BOARD_HEADING_ENL">ENLIGHTENED</string>
-    <string name="INTEL_LEADER_BOARD_HEADING_RES">RESISTANCE</string>
-    <string name="INTEL_REQUERY_INDICATOR_CHECKPOINT_DONE">"チェックポイント終了。
+    <string name="INTEL_LEADER_BOARD_HEADING_ENL">エンライテンド</string>
+    <string name="INTEL_LEADER_BOARD_HEADING_RES">レジスタンス</string>
+    <string name="INTEL_REQUERY_INDICATOR_CHECKPOINT_DONE">"チェックポイント終了
 結果を計測中…"</string>
     <string name="INTEL_REQUERY_INDICATOR_CYCLE_DONE">"サイクル終了
 結果を計測中…"</string>
@@ -703,30 +709,30 @@ XM を補給してください。"</string>
     <string name="PASSCODE_DONE">完了</string>
     <string name="PASSCODE_VALIDATING">パスコードを認証中…</string>
     <string name="SPACE2FACE_SKIP">スキップ</string>
-    <string name="MISSION_SHARE_MESSAGE">"このミッションをチェック 
-%s"</string>
-    <string name="MISSIONS_TOUCH_TO_LOAD_MORE">更に読み込み</string>
+    <string name="MISSION_SHARE_MESSAGE">このミッションをチェック: %s</string>
+    <string name="MISSIONS_TOUCH_TO_LOAD_MORE">さらに読み込み</string>
     <string name="MISSIONS_LOADING">Loading…</string>
     <string name="MISSIONS_RETRY">リトライ</string>
-    <string name="MISSIONS_MISSION_DETAILS_BACK_NAVIGATION_TITLE">ミッションリスト</string>
+    <string name="MISSIONS_MISSION_DETAILS_BACK_NAVIGATION_TITLE">ミッション リスト</string>
     <string name="MISSIONS_MISSION_COMPLETION_TIME">%s 所要時間（分）</string>
-    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">ポイントの修正を取得中…</string>
+    <string name="MISSIONS_GET_WAYPOINT_ENTITIES_PROGRESS">通過ポイントの修正を取得中…</string>
     <string name="MISSIONS_MISSION_BUTTON_REPLAY">リプレイ</string>
     <string name="MISSIONS_MISSION_BUTTON_START">スタート</string>
     <string name="MISSIONS_MISSION_BUTTON_ABORT">中止</string>
     <string name="MISSIONS_MISSION_BUTTON_RATE">評価</string>
+    <string name="MISSIONS_MISSION_BUTTON_MAP">MAP</string>
     <string name="MISSIONS_MISSION_CHECKBOX_HIDE_UI">ポップアップを非表示</string>
     <string name="MISSIONS_AGENTS_PLAYED">%s 人が達成</string>
-    <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">ポイントの修正を取得できませんでした。</string>
+    <string name="MISSIONS_WAYPOINT_LOAD_ERROR_DEFAULT_MESSAGE">通過ポイントの修正を取得できませんでした。</string>
     <string name="MISSIONS_CANCEL">キャンセル</string>
     <string name="MISSIONS_CONFIRM">確定</string>
-    <string name="MISSIONS_WAYPOINTS_MARKER">ポイント</string>
+    <string name="MISSIONS_WAYPOINTS_MARKER">通過ポイント</string>
     <string name="MISSIONS_PROGRESS_STARTING_MISSION">ミッション開始…</string>
     <string name="MISSIONS_PROGRESS_ABORTING_MISSION">ミッション中止…</string>
     <string name="MISSIONS_PROGRESS_RATING_MISSION">ミッションを評価…</string>
     <string name="MISSIONS_MISSION_COMPLETE">ミッション完了</string>
     <string name="MISSIONS_MISSION_ABORTED">ミッション中止</string>
-    <string name="MISSIONS_RATE_MISSION_PROMPT">このミッションは好きですか?</string>
+    <string name="MISSIONS_RATE_MISSION_PROMPT">このミッションは好きですか？</string>
     <string name="MISSIONS_RATE_MISSION_LIKED">はい</string>
     <string name="MISSIONS_RATE_MISSION_DID_NOT_LIKE">いいえ</string>
     <string name="MISSIONS_PROMPT_ABORT_MISSION_FOR_TRAINING">トレーニングを開始するためにミッションを中止しますか？</string>
@@ -736,23 +742,23 @@ XM を補給してください。"</string>
     <string name="MISSIONS_ABORT_FAILED">ミッションの中止に失敗</string>
     <string name="MISSIONS_MISSION_ABORT_MESSAGE">現在のミッションを中止しますか？進行状態は失われます。</string>
     <string name="MISSIONS_ONLY_ONE_MISSION_IN_PROGRESS">ミッションが進行中です。</string>
-    <string name="MISSIONS_MISSION_COMPLETE_MEDAL_EARNED">ミッションメダルを獲得しました。</string>
-    <string name="MISSIONS_MISSION_REMOTE_VIEW_TITLE">ミッション・ポイントビュー</string>
-    <string name="MISSIONS_PASSPHRASE_DEFAULT_QUESTION">パスワード:</string>
+    <string name="MISSIONS_MISSION_COMPLETE_MEDAL_EARNED">ミッション メダルを獲得しました。</string>
+    <string name="MISSIONS_MISSION_REMOTE_VIEW_TITLE">ミッション通過ポイントビュー</string>
+    <string name="MISSIONS_PASSPHRASE_DEFAULT_QUESTION">パスフレーズ:</string>
     <string name="MISSIONS_PASSPHRASE_CORRECT">正解！</string>
     <string name="MISSIONS_PASSPHRASE_INCORRECT">不正解</string>
     <string name="MISSIONS_PASSPHRASE_WAYPOINT_NULL">使用不能です</string>
     <string name="MISSIONS_PASSPHRASE_INACCURATE_LOCATION">位置が不正確です。</string>
     <string name="MISSIONS_REMOTE_VIEW_NAVIGATE">ナビ</string>
     <string name="MISSIONS_HIDDEN_WAYPOINT_TITLE">\???</string>
-    <string name="MISSIONS_PASSPHRASE_EMPTY">パスワードを入力。</string>
-    <string name="MISSIONS_WAYPOINTS_SECTION_SEQUENTIAL">ポイントを指定の順番で達成してください。</string>
-    <string name="MISSIONS_WAYPOINTS_SECTION_NON_SEQUENTIAL">ポイントを自由な順番で達成してください。</string>
-    <string name="MISSIONS_WAYPOINTS_SECTION_HIDDEN_SEQUENTIAL">ポイントを指定の順番で達成してください。</string>
-    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">Field Tripカード: %s の達成に失敗しました。</string>
-    <string name="MISSIONS_EXPAND_FOR_MORE">更に読み込み</string>
-    <string name="MISSIONS_WAYPOINT_NAME">" ミッション 
- ポイント "</string>
+    <string name="MISSIONS_PASSPHRASE_EMPTY">パスフレーズを入力。</string>
+    <string name="MISSIONS_WAYPOINTS_SECTION_SEQUENTIAL">通過ポイントを指定の順番で達成してください。</string>
+    <string name="MISSIONS_WAYPOINTS_SECTION_NON_SEQUENTIAL">通過ポイントを自由な順番で達成してください。</string>
+    <string name="MISSIONS_WAYPOINTS_SECTION_HIDDEN_SEQUENTIAL">通過ポイントを指定の順番で達成してください。</string>
+    <string name="MISSIONS_ERROR_WHILE_VIEWING_FIELD_TRIP_CARD">Field Trip カード: %s の達成に失敗しました。</string>
+    <string name="MISSIONS_EXPAND_FOR_MORE">さらに読み込み</string>
+    <string name="MISSIONS_WAYPOINT_NAME">"ミッション 
+ 通過ポイント"</string>
     <string name="STARTUP_OK">OK</string>
     <string name="STARTUP_NEXT">次へ</string>
     <string name="TRAINING_ADA">ADA</string>
@@ -770,28 +776,28 @@ XM を補給してください。"</string>
     <string name="TRAINING_END">トレーニング終了</string>
     <string name="TRAINING_NEXT">次のトレーニング</string>
     <string name="TRAINING_OBJECTIVES">目標</string>
-    <string name="TRAINING_OBJECTIVES_COMPLETE">ミッション・コンプリート</string>
-    <string name="TRAINING_0_NAME">ファースト・コンタクト</string>
+    <string name="TRAINING_OBJECTIVES_COMPLETE">ミッション コンプリート</string>
+    <string name="TRAINING_0_NAME">ファースト コンタクト</string>
     <string name="TRAINING_0_DESCRIPTION">ADA との接触。</string>
     <string name="TRAINING_0_MESSAGE">"恐れることはありません。
 
 あなたはゲームをダウンロードしたと思っているでしょう、でもそれは違います。
 
-正体不明の XM（エキゾチックマター）が我々の世界に侵入しようとしています。
+正体不明の XM（エキゾチック マター）が我々の世界に侵入しようとしています。
 
-どちらの Faction（陣営）につくか選択しなければなければなりません。いまこそ地球のための戦いに参加する時です。"</string>
+どちらの陣営につくか選択しなければなければなりません。今こそ地球のための戦いに参加する時です。"</string>
     <string name="TRAINING_1_NAME">XM を集める</string>
     <string name="TRAINING_1_DESCRIPTION">周囲の XM を集めて、スキャナーをチャージしてください。</string>
-    <string name="TRAINING_1_MESSAGE">"XM（エキゾチックマター）は、エネルギーでもあり同時に物質でもあります。水が固体や液体や気体となるのと似ています。それは Portal から我々の次元に漏れていて、集まっています。それを特定し、それに向かって移動してください。XMはスキャナーに引き寄せられるでしょう。
+    <string name="TRAINING_1_MESSAGE">"XM（エキゾチック マター）は、エネルギーでもあり同時に物質でもあります。水が固体や液体や気体となるのと似ています。それはポータルから我々の次元に漏れていて、集まっています。それを特定し、それに向かって移動してください。XM はスキャナーに引き寄せられるでしょう。
 
 "</string>
     <string name="TRAINING_1_OBJECTIVE_1">XM に向かって歩く</string>
-    <string name="TRAINING_1_OBJECTIVE_2">1000 XM 集める</string>
-    <string name="TRAINING_1_STATUS">トレーニング 1（エキゾチックマター）- 1000 XM 集める</string>
-    <string name="TRAINING_1_OUTRO">"XM はあなたの周囲にあります。 XM を常に高い状態を保ってください。
+    <string name="TRAINING_1_OBJECTIVE_2">1,000 XM 集める</string>
+    <string name="TRAINING_1_STATUS">トレーニング 1（エキゾチック マター）- 1000 XM 集める</string>
+    <string name="TRAINING_1_OUTRO">"XM はあなたの周囲にあります。XM を常に高い状態に保ってください。
 
 "</string>
-    <string name="TRAINING_2_NAME">ポータルハック</string>
+    <string name="TRAINING_2_NAME">ポータル ハック</string>
     <string name="TRAINING_2_DESCRIPTION">アイテムを補給するために、ポータルへ歩いてハックする。</string>
     <string name="TRAINING_2_MESSAGE">"ポータルが近くにあります。ポータルが有効範囲の円の中に入るまで近づいてください。スキャナー上でポータルをタップし、[Hack] を選択してください。警告しておきますが、これは敵陣営のポータルです。ハックした後は、すぐに有効範囲から脱出してください。
 
@@ -799,19 +805,19 @@ XM を補給してください。"</string>
     <string name="TRAINING_2_OUTRO">見事です。ポータルへのハッキングにより、アイテムが生み出されることがあります。クールダウンの後で、再びハックすることができます。ハックを頻繁にしてインベントリを充実させてください。ただし、ポータルと遭遇することで、あなたは普段と違う感情や考えを経験するかもしれません。注意してください。</string>
     <string name="TRAINING_2_OBJECTIVE_1">ポータルに向かって歩く</string>
     <string name="TRAINING_2_OBJECTIVE_2">ポータルをタップし、ハックする</string>
-    <string name="TRAINING_2_STATUS">トレーニング 2 (ポータルハック) - ポータルをハックする</string>
+    <string name="TRAINING_2_STATUS">トレーニング 2（ポータル ハック）- ポータルをハックする</string>
     <string name="TRAINING_3_NAME">XMP の発射</string>
     <string name="TRAINING_3_DESCRIPTION">XMP を使って敵のポータルを攻撃する</string>
-    <string name="TRAINING_3_MESSAGE">"この Portal は敵の配下にあります。攻撃するには、ポータルの有効範囲内に入り、スキャナーの画面を長押しして、[FIRE XMP] を選択してください。
+    <string name="TRAINING_3_MESSAGE">"このポータルは敵の配下にあります。攻撃するには、ポータルの有効範囲内に入り、スキャナーの画面を長押しして、[FIRE XMP] を選択してください。
 
 "</string>
     <string name="TRAINING_3_OUTRO">ポータルが中立化されました。今ならキャプチャーできます。</string>
     <string name="TRAINING_3_OBJECTIVE_1">スキャナーの画面を長押ししてください。</string>
     <string name="TRAINING_3_OBJECTIVE_2">[FIRE XMP] を選択してください。</string>
-    <string name="TRAINING_3_STATUS">トレーニング 3 (敵のポータルを中立化する) - レゾネーターを破壊して敵のポータルを中立化する。</string>
+    <string name="TRAINING_3_STATUS">トレーニング 3（敵のポータルを中立化する）- レゾネーターを破壊して敵のポータルを中立化する</string>
     <string name="TRAINING_4_NAME">レゾネーターのデプロイ</string>
     <string name="TRAINING_4_DESCRIPTION">レゾネーターをデプロイし、ポータルをコントロールする</string>
-    <string name="TRAINING_4_MESSAGE">"レゾネーターはポータルをコントロールするために使われます。レゾネーターをデプロイするにはポータルの有効範囲に入り、ポータルをタップして [DEPLOY RESONATOR] を選択してください。
+    <string name="TRAINING_4_MESSAGE">"レゾネーターはポータルをコントロールするために使われます。レゾネーターをデプロイするにはポータルの有効範囲に入り、ポータルをタップして [デプロイ] を選択してください。
 
 "</string>
     <string name="TRAINING_4_OUTRO">"追加でレゾネーターをデプロイすることでポータルのエネルギーと防御力を強化することができます。
@@ -819,69 +825,70 @@ XM を補給してください。"</string>
 "</string>
     <string name="TRAINING_4_OBJECTIVE_1">ポータルをタップする</string>
     <string name="TRAINING_4_OBJECTIVE_2">レゾネーターをデプロイする</string>
-    <string name="TRAINING_4_STATUS">トレーニング 4 (ポータルをキャプチャーし、コントロールする) - ポータルにレゾネーターをデプロイしてキャプチャーする</string>
+    <string name="TRAINING_4_STATUS">トレーニング 4（ポータルをキャプチャーし、コントロールする）- ポータルにレゾネーターをデプロイしてキャプチャーする</string>
     <string name="TRAINING_5_NAME">レゾネーター</string>
     <string name="TRAINING_5_DESCRIPTION">ポータルをリンクする</string>
-    <string name="TRAINING_5_MESSAGE">"ポータルはエキゾチックマターの強い力によってリンクすることができます。リンクするにはポータルに8つのレゾネーターが配置されていることが条件です。必要なレゾネーターを獲得するために、ポータルをハックしてレゾネーターを手にれて、8つすべてのスロットにデプロイして、リチャージします。
+    <string name="TRAINING_5_MESSAGE">"ポータルはエキゾチックマターの強い力によってリンクすることができます。リンクするにはポータルに 8 つのレゾネーターが配置されていることが条件です。必要なレゾネーターを獲得するために、ポータルをハックしてレゾネーターを手に入れ、8 つすべてのスロットにデプロイして、リチャージします。
 
 "</string>
     <string name="TRAINING_5_OUTRO">素晴らしい。ポータルをリンクする準備が整いました。</string>
     <string name="TRAINING_5_OBJECTIVE_1">ポータルをハックする</string>
-    <string name="TRAINING_5_OBJECTIVE_2">レゾネーターを8つデプロイする</string>
+    <string name="TRAINING_5_OBJECTIVE_2">レゾネーターを 8 つデプロイする</string>
     <string name="TRAINING_5_OBJECTIVE_3">レゾネーターをリチャージする</string>
-    <string name="TRAINING_5_STATUS">トレーニング 5 (レゾネーター) - ポータルをリンクする準備をする.</string>
+    <string name="TRAINING_5_STATUS">トレーニング 5（レゾネーター）- ポータルをリンクする準備をする</string>
     <string name="TRAINING_6_NAME">リンク</string>
-    <string name="TRAINING_6_DESCRIPTION">2つのポータルをリンクする</string>
-    <string name="TRAINING_6_MESSAGE">"2つのポータルをリンクする準備が出来ました。
+    <string name="TRAINING_6_DESCRIPTION">2 つのポータルをリンクする</string>
+    <string name="TRAINING_6_MESSAGE">"2 つのポータルをリンクする準備ができました。
 
- Portal Key（ポータルキー）を入手するためにはポータルをハックする必要があります。ポータルキーを入手すれば、遠隔地からポータルに向かってリンクを作ることができます。
+ポータルキーを入手するためにはポータルをハックする必要があります。ポータルキーを入手すれば、遠隔地からポータルに向かってリンクを作ることができます。
 
-[LINK]を選択して、手順を開始してください。  リンクできるポータルはスキャナーに赤く表示されます。
+[LINK] を選択して、手順を開始してください。リンクできるポータルはスキャナーに赤く表示されます。
 
-スキャナーに表示されない遠方のポータルには直接ポータルキーを選択することでリンクできます。
-
-ポータルキーを入手するために近くのポータルをハックしてください。そしてLinkを作るために、他のポータルの有効範囲まで移動してください。"</string>
+スキャナーに表示されない遠方のポータルには直接ポータルキーを選択することでリンクできます。\\n
+ポータルキーを入手するために近くのポータルをハックしてください。そしてリンクを作るために、他のポータルの有効範囲まで移動してください。"</string>
     <string name="TRAINING_6_OUTRO">"リンクが完成しました。おめでとうございます。よりレベルの高いレゾネーターを配置することでポータルを強化し、より遠い、何千キロと離れたポータルをリンクできるようにしましょう。
 
 リンクは XM の強いつながりです。
-リンクを交差することは出来ません。
-敵の攻撃によってレゾネーターが破壊されるとリンクは消失します。"</string>
-    <string name="TRAINING_6_OBJECTIVE_1">ハックでポータルキー手に入れる</string>
+リンクを交差させることはできません。
+敵の攻撃によってレゾネーターが破壊されるとリンクは消失します。
+
+"</string>
+    <string name="TRAINING_6_OBJECTIVE_1">ハックでポータルキーを手に入れる</string>
     <string name="TRAINING_6_OBJECTIVE_2">他のポータルをタップする</string>
-    <string name="TRAINING_6_OBJECTIVE_3">2つのポータルをハックする</string>
+    <string name="TRAINING_6_OBJECTIVE_3">2 つのポータルをハックする</string>
     <string name="TRAINING_6_OBJECTIVE_4">レゾネーターをすべてデプロイする</string>
     <string name="TRAINING_6_OBJECTIVE_5">ポータルをタップしてリンクする</string>
-    <string name="TRAINING_6_STATUS">トレーニング 6 (リンク) - ポータルを2つリンクする.</string>
+    <string name="TRAINING_6_STATUS">トレーニング 6（リンク）- ポータルを 2 つリンクする</string>
     <string name="TRAINING_7_NAME">フィールド</string>
     <string name="TRAINING_7_DESCRIPTION">フィールドを作る</string>
     <string name="TRAINING_7_MESSAGE">"我々の一番重要な目的は敵の侵略から人類を守ることです。
 
-そのためには、ポータルをリンクして我々を守るField（フィールド）を作成する必要があります。フィールドは3つのリンクされたポータルによって形成されます。
+そのためには、ポータルをリンクして我々を守るフィールドを作成する必要があります。フィールドは 3 つのリンクされたポータルによって形成されます。
 
-ポータルキーを手に入れ、三角の形状にポータルを3つリンクしてください。次のポータルに移動して、ポータルキーを手に入れてください。
+ポータルキーを手に入れ、三角の形状にポータルを 3 つリンクしてください。次のポータルに移動して、ポータルキーを手に入れてください。
 
 "</string>
-    <string name="TRAINING_7_OUTRO">"素晴らしい!
-あなたは Shaper （シェイパー）の侵食から人類を守るXM フィールドを作成しました。
+    <string name="TRAINING_7_OUTRO">"素晴らしい！
+あなたはシェーパーの侵食から人類を守るXM フィールドを作成しました。
 
-人類を守ることが、あなた、そして我々の最大の目的です。 
+人類を守ることが、あなた、そして我々の最大の目的です。
 
 私は常にフィールドで守られている人の数を把握しています。それぞれの作られたフィールドは合算されカウントされます。
 
-Shaper 達もフィールドを作って人類の思想に影響を与えようとしています。彼らのフィールドを発見したときは、破壊するのです。
+シェーパーたちもフィールドを作って人類の思想に影響を与えようとしています。彼らのフィールドを発見したときは、破壊するのです。
 
 "</string>
     <string name="TRAINING_7_OBJECTIVE_01">ポータルをハックしてポータルキーを手に入れる</string>
     <string name="TRAINING_7_OBJECTIVE_02">次のポータルをタップする</string>
-    <string name="TRAINING_7_OBJECTIVE_03">2つめのポータルをハックする</string>
-    <string name="TRAINING_7_OBJECTIVE_04">レゾネータをすべてデプロイする</string>
+    <string name="TRAINING_7_OBJECTIVE_03">2 つめのポータルをハックする</string>
+    <string name="TRAINING_7_OBJECTIVE_04">レゾネーターをすべてデプロイする</string>
     <string name="TRAINING_7_OBJECTIVE_05">ポータルをタップしてリンクする</string>
-    <string name="TRAINING_7_OBJECTIVE_06">3つめのポータルをタップする</string>
-    <string name="TRAINING_7_OBJECTIVE_07">3つめのポータルをハックする</string>
+    <string name="TRAINING_7_OBJECTIVE_06">3 つめのポータルをタップする</string>
+    <string name="TRAINING_7_OBJECTIVE_07">3 つめのポータルをハックする</string>
     <string name="TRAINING_7_OBJECTIVE_08">ポータルをリンクする準備をする</string>
-    <string name="TRAINING_7_OBJECTIVE_09">2つめのリンクをつくる</string>
-    <string name="TRAINING_7_OBJECTIVE_10">3つめのリンクをつくる</string>
-    <string name="TRAINING_7_STATUS">トレーニング 7 (フィールド) フィールド</string>
+    <string name="TRAINING_7_OBJECTIVE_09">2 つめのリンクを作る</string>
+    <string name="TRAINING_7_OBJECTIVE_10">3 つめのリンクを作る</string>
+    <string name="TRAINING_7_STATUS">トレーニング 7（フィールド）- フィールドを作る</string>
     <string name="MUTE_UI_TITLE">ブロックされたエージェント</string>
     <string name="MUTE_UI_NONE">ブロックされたエージェントはいません</string>
     <string name="MUTE_UI_LOADING">Loading…</string>
@@ -889,63 +896,305 @@ Shaper 達もフィールドを作って人類の思想に影響を与えよう�
     <string name="REMOTE_VIEW_DEFAULT_TITLE">REMOTE PORTAL VIEW</string>
     <string name="REMOTE_VIEW_LOADING">ポータルの修正を取得中…</string>
     <string name="REMOTE_VIEW_OK">OK</string>
-    <string name="REMOTE_VIEW_NAVIGATION_OFF">ナビ OFF</string>
+    <string name="REMOTE_VIEW_NAVIGATION_OFF">ナビOFF</string>
     <string name="REMOTE_VIEW_PORTAL">PORTAL</string>
     <string name="REMOTE_VIEW_WAYPOINT">WAYPOINT</string>
     <string name="HACK_RESULTS_NO_ITEMS">アイテムを取得できませんでした。</string>
-    <string name="HACK_RESULTS_BONUS_ITEMS">ボーナスアイテム:</string>
+    <string name="HACK_RESULTS_BONUS_ITEMS">ボーナス アイテム:</string>
     <string name="HACK_RESULTS_NORMAL_ITEMS">取得したアイテム:</string>
-    <string name="HACK_RESULTS_INVENTORY_FULL">" %s 以上のアイテムをインベントリに入れることはできません。"</string>
+    <string name="HACK_RESULTS_INVENTORY_FULL">%s 以上のアイテムをインベントリに入れることはできません。</string>
     <string name="PICK_UP_RESOURCE_ACQUIRE">取得</string>
     <string name="PICK_UP_RESOURCE_DISABLE_BUSY">取得中…</string>
     <string name="PICK_UP_RESOURCE_DISABLE_LOCATION">位置が不正確です</string>
     <string name="ITEM_DESCRIPTION_CAPSULE">カプセル。カプセルは他のアイテムを保管するための XM アイテム。</string>
-    <string name="ITEM_DESCRIPTION_INTEREST_CAPSULE">XMオブジェクトを収容可能なコンテナで、収容されたオブジェクトは時間と共にコンテナの中で増殖する。</string>
-    <string name="ITEM_DESCRIPTION_EMITTER_A">レゾネーター。ポータルを強化し、自分の陣営のものにするための XM オブジェクト。</string>
-    <string name="ITEM_DESCRIPTION_EMP_BURSTER">XMP（エキゾチック・マター・パルス）兵器。敵のレゾネーターや MOD を破壊し、ポータルを中立化できる。</string>
-    <string name="ITEM_DESCRIPTION_EXTRA_SHIELD">AXA シールド。超ハイパワーのポータルシールド。</string>
-    <string name="ITEM_DESCRIPTION_FORCE_AMP">フォースアンプ。ポータルが敵エージェントを攻撃する際の攻撃力を増やす MOD。</string>
+    <string name="ITEM_DESCRIPTION_INTEREST_CAPSULE">カプセル。カプセルは他のアイテムを保管し、パワーを増幅させるための XM アイテム。</string>
+    <string name="ITEM_DESCRIPTION_EMITTER_A">レゾネーター。ポータルを強化し、自分の陣営のものにするためのXMオブジェクト。</string>
+    <string name="ITEM_DESCRIPTION_EMP_BURSTER">XMP（エキゾチック マター パルス）兵器。敵のレゾネーターや MOD を破壊し、ポータルを中立化できる。</string>
+    <string name="ITEM_DESCRIPTION_EXTRA_SHIELD">AXA シールド。超ハイパワーのポータル シールド。</string>
+    <string name="ITEM_DESCRIPTION_FORCE_AMP">フォースアンプ。敵エージェントに対するポータルの攻撃力を高める MOD。</string>
     <string name="ITEM_DESCRIPTION_HEATSINK">ヒートシンク。ポータルの冷却時間を減らす MOD。</string>
     <string name="ITEM_DESCRIPTION_LINK_AMPLIFIER">リンクアンプ。ポータルのリンク距離を延長する MOD。</string>
     <string name="ITEM_DESCRIPTION_MULTIHACK">マルチハック。ポータルのハック可能回数を増やす MOD。</string>
     <string name="ITEM_DESCRIPTION_PORTAL_LINK_KEY">ポータルキー。ポータルをリンクするため、また遠隔でリチャージに使われる。</string>
     <string name="ITEM_DESCRIPTION_POWER_CUBE">パワーキューブ。XM を保持、スキャナーやレゾネーターのエネルギーに使われる。</string>
-    <string name="ITEM_DESCRIPTION_RES_SHIELD">ポータルシールド。ポータルを攻撃から守るためのシールド。</string>
-    <string name="ITEM_DESCRIPTION_TURRET">タレット。ポータルが敵エージェントを攻撃する頻度を増やす MOD。</string>
-    <string name="ITEM_DESCRIPTION_ULTRA_STRIKE">ウルトラストライク。XMP（エキゾチック・マター・パルス）兵器の一種で、近距離に強い衝撃波を発生させる。</string>
+    <string name="ITEM_DESCRIPTION_RES_SHIELD">ポータル シールド。ポータルを攻撃から守るためのシールド。</string>
+    <string name="ITEM_DESCRIPTION_TURRET">ターレット。敵エージェントに対するポータルの攻撃頻度を増やす MOD。</string>
+    <string name="ITEM_DESCRIPTION_ULTRA_STRIKE">ウルトラ ストライク。XMP（エキゾチック マター パルス）兵器の一種で、近距離に強い衝撃波を発生させる。</string>
     <string name="ITEM_DESCRIPTION_ADA">ADA リファクター。エンライテンドのポータルを反転させる。</string>
-    <string name="ITEM_DESCRIPTION_JARVIS">JARVIS ウイルス。レジスタンスのポータルを反転させる。</string>
-    <string name="FLIP_CARD_TITLE_ADA">ADA Refactor</string>
-    <string name="FLIP_CARD_TITLE_JARVIS">JARVIS Virus</string>
+    <string name="ITEM_DESCRIPTION_JARVIS">ジャービス ウイルス。レジスタンスのポータルを反転させる。</string>
+    <string name="FLIP_CARD_TITLE_ADA">ADA リファクター</string>
+    <string name="FLIP_CARD_TITLE_JARVIS">ジャービス ウイルス</string>
     <string name="TRAINING_REMINDER_MESSAGE">トレーニングは完了していません。エージェントの力を最大限に発揮するために、トレーニングを完了させてください。</string>
     <string name="TRAINING_REMINDER_RESUME">トレーニングを再開</string>
     <string name="TRAINING_REMINDER_ASK_LATER">あとで</string>
     <string name="TRAINING_REMINDER_ASK_NEVER">トレーニングをスキップ</string>
     <string name="RECRUIT_INVITES_REMAINING_DIALOG">%s 通の招待状が残っています。</string>
-    <string name="RECRUIT_INVITES_ACTION">招待する</string>
+    <string name="RECRUIT_INVITES_ACTION">招待</string>
     <string name="SHARE_FAILURE_TITLE">エラー</string>
     <string name="SHARE_FAILURE_MESSAGE">シェアに失敗しました</string>
     <string name="SHARE_FAILURE_OK">OK</string>
     <string name="ACQUIRE_ITEMS_TITLE">取得したアイテム:</string>
+    <string name="FORMAT_DISTANCE_CM">%s cm</string>
+    <string name="FORMAT_DISTANCE_M">%s m</string>
+    <string name="FORMAT_DISTANCE_KM">%s km</string>
+    <string name="SHARING_ACTION_TEXT_PROGRESS_SAVING">スクリーンショット撮影中…</string>
+    <string name="COMM_MESSAGE_LINK_ESTABLISHED">リンク確立完了</string>
+    <string name="COMM_MESSAGE_DROP_SUCCESS">ドロップ成功</string>
+    <string name="COMM_MESSAGE_DROP_FAILED">ドロップ失敗: %s</string>
+    <string name="COMM_MESSAGE_FIELD_ESTABLISHED">フィールド確立完了、%s MU を獲得</string>
+    <string name="COMM_MESSAGE_PICKUP_FAILED">%1$s のピックアップ失敗: %2$s</string>
+    <string name="COMM_MESSAGE_RECHARGE_SUCCESS">レゾネーター x %s のリチャージ完了</string>
+    <string name="COMM_MESSAGE_RECHARGE_FAILED">リチャージ失敗: %s</string>
+    <string name="COMM_MESSAGE_RECYCLE_SUCCESS">リサイクル成功</string>
+    <string name="COMM_MESSAGE_RECYCLE_FAILED">リサイクル失敗: %s</string>
+    <string name="COMM_MESSAGE_XM_AWARD">%s XM</string>
+    <string name="COMM_MESSAGE_AP_AWARD">%s AP</string>
+    <string name="COMM_MESSAGE_REWARD_HEADER">取得:</string>
+    <string name="COMM_MESSAGE_LINK_FAILED">リンク失敗: %s</string>
+    <string name="COMM_MESSAGE_POWER_CUBE_FAILED">パワーキューブ使用不能: %s</string>
+    <string name="COMM_MESSAGE_DESTROY_RESO">レゾネーター x 1 を破壊</string>
+    <string name="COMM_MESSAGE_DESTROY_RESO_PLURAL">レゾネーター x %s を破壊</string>
+    <string name="COMM_MESSAGE_MISSED_RESO">レゾネーターの破壊失敗</string>
+    <string name="COMM_MESSAGE_XMP_FAILED">XMP 失敗: %s</string>
+    <string name="COMM_MESSAGE_WELCOME_MSG">エージェント ID を確認しました。ようこそ %s</string>
+    <string name="COMM_MESSAGE_LEVEL_UP_MSG">レベル %s にレベルアップしました。</string>
+    <string name="COMM_MESSAGE_DAMAGE_MSG">攻撃を受けて %s XM 喪失</string>
+    <string name="COMM_AP_MESSAGE_DEPLOYED_RESONATOR">レゾネーターをデプロイして %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_CAPTURED_PORTAL">ポータルをキャプチャーして %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_CREATED_PORTAL_LINK">リンクを作成して %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_CREATED_A_PORTAL_REGION">コントロール フィールドを作成して %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_DESTROYED_A_RESONATOR">レゾネーターを破壊して %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_DESTROYED_A_PORTAL_LINK">リンクを破壊して %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_DESTROYED_PORTAL_REGION">コントロール フィールドを破壊して %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_DEPLOYED_RESONATOR_MOD">レゾネーター MOD を作成して %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_GLYPH_HACK">グリフをハックして %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_PORTAL_FULLY_POPULATED_WITH_RESONATORS">ポータルを最大限に強化して %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_HACKING_ENEMY_PORTAL">敵のポータルをハックして %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_REDEEMED_AP">パスコードを利用して %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_RECHARGE_RESONATOR">レゾネーターをリチャージして%sAPを獲得しました</string>
+    <string name="COMM_AP_MESSAGE_REMOTE_RECHARGE_RESONATOR">レゾネーターをリモート チャージして %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_UPGRADE_SOMEONE_ELSES_RESONATOR">レゾネーターをアップグレードして %s AP を獲得しました</string>
+    <string name="COMM_AP_MESSAGE_DEFAULT">素晴らしい働きにより %s AP を獲得しました</string>
     <string name="TUTORIAL_PORTAL_PICKER_TRAINING_TITLE">ポータルを配置する</string>
     <string name="TUTORIAL_SIMULATION_PORTAL_TITLE">模擬ポータル</string>
-    <string name="TUTORIAL_BASE_TRAINING_MESSAGE">近くにポータルがないようです。トレーニングのために模擬的なポータルを設置しましょう。適した何かがあなたから50メートル以内にあるとします。その場所をスキャナーで長押したあと左上から”CHOOSE”を選択してください。</string>
+    <string name="TUTORIAL_BASE_TRAINING_MESSAGE">近くにポータルがないようです。トレーニングのために模擬的なポータルを設置しましょう。目標があなたから 50 メートル以内にあるとします。その場所をスキャナーで長押したあと左上から [選択] をタップしてください。</string>
     <string name="TUTORIAL_BASE_TRAINING_OBJECTIVE_1">ポータルを見つける</string>
     <string name="TUTORIAL_BASE_TRAINING_OBJECTIVE_2">ポータルを設置する</string>
+    <string name="PORTAL_CHOOSER_TITLE">ポータルの設置</string>
+    <string name="PORTAL_CHOOSER_CHOOSE_BUTTON">選択</string>
+    <string name="PORTAL_CHOOSER_DISABLED">"ポータルの場所を
+タグ付けしてください"</string>
+    <string name="PORTAL_CHOOSER_TAP_SCANNER">スキャナーをタップしてください</string>
+    <string name="PORTAL_CHOOSER_TOUCH_CHOOSE">[選択] をタップ</string>
+    <string name="COMM_STATUS_CLEARING_DB">DB クリア中…</string>
+    <string name="COMM_STATUS_SCAN_LOCAL">付近をスキャン中…</string>
+    <string name="COMM_STATUS_COMPLETING_SCAN">スキャンを完了中…</string>
+    <string name="COMM_STATUS_REFRESH_INVENTORY">インベントリを更新中…</string>
+    <string name="COMM_STATUS_SCAN_COMPLETE">スキャン完了</string>
+    <string name="COMM_STATUS_SCAN_FAILED">スキャン失敗</string>
+    <string name="COMM_STATUS_MOD_DEPLOYED">%s のデプロイに成功</string>
+    <string name="COMM_STATUS_RESO_DEPLOYED">デプロイ成功</string>
+    <string name="COMM_STATUS_RESO_DEPLOY_FAILED">デプロイ失敗: %s</string>
+    <string name="COMM_STATUS_DEPLOYING">デプロイ中…</string>
+    <string name="portal_form_title">ポータル申請</string>
+    <string name="portal_form_edit_location">場所を確定:</string>
+    <string name="portal_form_name">名前:</string>
+    <string name="portal_form_name_hint">ポータルの名前を入力してください</string>
+    <string name="portal_form_description">説明:</string>
+    <string name="portal_form_description_hint">ポータルの説明を入力してください。</string>
+    <string name="portal_form_attribution">申請者: %1$s 申請日時: %2$s</string>
+    <string name="submit">送信</string>
+    <string name="cancel">キャンセル</string>
+    <string name="location_picker_title">新しいポータルの発見</string>
+    <string name="location_picker_subtitle">ポータルの場所の設定:</string>
+    <string name="location_picker_title_correct">問題を報告</string>
+    <string name="location_picker_subtitle_correct">場所を修正:</string>
+    <string name="location_required">位置情報が必要です。</string>
+    <string name="problem_type_bad_title">名前を編集</string>
+    <string name="problem_type_bad_location">場所を編集</string>
+    <string name="problem_type_bad_description">説明の追加と編集</string>
+    <string name="problem_type_invalid">無効なポータルを報告</string>
+    <string name="portal_info_no_description">ポータルに関する情報はありません。</string>
+    <string name="new_photo">新しい写真</string>
+    <string name="existing">既存の写真</string>
+    <string name="message_enter_correct_title">正しい名前を入力してください:</string>
+    <string name="message_enter_correct_description">正しい説明を入力してください:</string>
+    <string name="invites_remaining">%d 通の招待状が残っています。</string>
+    <string name="invites_invite">招待</string>
+    <string name="invites_invited">招待状が送られました</string>
+    <string name="invites_joined">参加しています</string>
+    <string name="invites_enter_email">メールアドレスを入力してください</string>
+    <string name="invites_error_retry">エラー。タップしてもう一度試してください。</string>
+    <string name="invites_error_generic">%s を招待できませんでした</string>
+    <string name="invites_error_already_activated">%s の招待失敗: すでに参加しています</string>
+    <string name="invites_error_out_of_invites">%s の招待失敗: 招待状がありません</string>
+    <string name="invites_success">%s を招待しました</string>
+    <string name="title_recruit">リクルート</string>
+    <string name="message_no_connectivity">データ接続されていません</string>
+    <string name="enter_passcode_hint">パスコードを入力</string>
+    <string name="submit_passcode">送信</string>
+    <string name="passcode_validating">パスコードを確認しています…</string>
+    <string name="passcode_done">完了</string>
+    <string name="passcode_retry">再試行</string>
+    <string name="action_view_profile">プレイヤーのプロフィールを見る</string>
+    <string name="action_send_message">メッセージを送信</string>
+    <string name="action_mute">COMM でエージェントをブロック</string>
+    <string name="mute_confirm_message">%s からのメッセージをブロックしますか？</string>
+    <string name="mute_progress_message">エージェントをブロック中…</string>
+    <string name="mute_success_message">%s からの COMM メッセージは届かなくなります。</string>
+    <string name="mute_confirm">確定</string>
+    <string name="mute_cancel">キャンセル</string>
+    <string name="toast_long_press_to_show_profile">ヒント: エージェントのプロフィールを表示するにはコードネームを長押しします。</string>
+    <string name="button_label_comm_panel">COMM</string>
+    <string name="comms_filter_all">すべて</string>
+    <string name="comms_filter_alerts">通知</string>
+    <string name="comms_filter_faction">陣営</string>
+    <string name="comms_send_hint">ここから通信を開始</string>
+    <string name="progress_loading">Loading…</string>
+    <string name="subtitle_attribution_page">ソース情報</string>
+    <string name="startup_boot_top">Niantic ソフトウェア v%s を起動中…</string>
+    <string name="message_comm_error_send_message">Cosmic Rays の影響で最新のメッセージがブロックされました。</string>
+    <string name="comm_empty_message_stream">有効範囲内にメッセージはありません。</string>
+    <string name="range_filter_range_text_template">%s km</string>
+    <string name="range_filter_range_label">範囲</string>
+    <string name="range_filter_local">近距離</string>
+    <string name="range_filter_region">地域</string>
+    <string name="range_filter_global">全世界</string>
+    <string name="range_filter_infinity">∞</string>
+    <string name="title_error">エラー</string>
+    <string name="message_share_to_super_ops_enter_portal_title">ポータルの名前を入力してください</string>
+    <string name="hint_portal_title">ポータルの名前を入力</string>
+    <string name="message_must_provide_portal_title">ポータルの名前を入力する必要があります</string>
+    <string name="portal_form_no_attribution">%sを申請しました</string>
+    <string name="portal_form_attribution_default_nickname">不明</string>
+    <string name="ok">OK</string>
+    <string name="title_dialog_confirm_sync">自動同期が無効</string>
+    <string name="message_dialog_confirm_sync">ポータルに関するデータをアップロードするには自動同期が必要です。同期の設定を開きますか？</string>
+    <string name="action_yes">はい</string>
+    <string name="action_no">いいえ</string>
+    <string name="message_confirm_dialog_portal_discovery">%sを審査のために申請しました。</string>
+    <string name="message_dialog_portal_discovery_fail_too_big">エラー: ポータルの画像は%dMB未満である必要があります。</string>
+    <string name="title_confirm_submit_photo">申請するポータルの画像</string>
+    <string name="confirm_submit_photo_date">申請日: %s</string>
+    <string name="confirm_submit_photo_attribution">申請者: %s</string>
+    <string name="report_a_problem">問題を報告</string>
+    <string name="title_previous_location">以前の場所</string>
+    <string name="portal_discovery_submission_message_portal">ポータル</string>
+    <string name="portal_discovery_submission_message_title">ポータルのタイトル</string>
+    <string name="portal_discovery_submission_message_description">ポータルの説明</string>
+    <string name="portal_discovery_submission_message_photo">ポータルの写真</string>
+    <string name="portal_discovery_submission_message_location">ポータルの場所</string>
+    <string name="portal_discovery_submission_title_portal">ポータルの申請</string>
+    <string name="portal_discovery_submission_title_title">ポータルの名前の申請</string>
+    <string name="portal_discovery_submission_title_description">ポータルの説明の申請</string>
+    <string name="portal_discovery_submission_title_photo">ポータルの写真の申請</string>
+    <string name="portal_discovery_submission_title_location">ポータルの場所の申請</string>
+    <string name="report_invalid_portal_does_not_exist">存在しない</string>
+    <string name="report_invalid_portal_location_not_safe">危険な場所にある</string>
+    <string name="report_invalid_portal_location_not_accessible">一般に公開されていない</string>
+    <string name="report_invalid_portal_duplicate">他のポータルと重複している</string>
+    <string name="report_invalid_portal_other">その他:</string>
+    <string name="edit">編集</string>
+    <string name="add_description">説明を追加</string>
+    <string name="title_mock_location_enabled">警告</string>
+    <string name="message_mock_location_enabled">仮の現在地情報は許可されません。必ず無効にしてください。</string>
+    <string name="message_mock_location_enabled_fallthrough">"仮の現在地情報は許可されません。以下の設定を確認してください。
+設定 > デベロッパー向けオプション > 仮の現在地情報を許可する > 無効"</string>
+    <string name="label_mock_locations_positive_button">無効にする…</string>
+    <string name="label_mock_locations_negative_button">あとで</string>
+    <string name="startup_force_update">スキャナーが最新ではありません。続行するには更新してください。</string>
+    <string name="message_share_to_super_ops_no_location">この写真には位置情報がありません。位置情報が取得されるようにカメラを設定してください。</string>
+    <string name="no_location_enabled_title">警告</string>
+    <string name="no_location_enabled_message">位置情報サービスが有効になっていません。続行するには有効にしてください。</string>
+    <string name="no_location_enabled_fallthrough_ics_message">"位置情報サービスが有効になっていません。設定を以下から更新してください。
+設定 > 位置情報サービス"</string>
+    <string name="no_location_enabled_fallthrough_gb_message">"位置情報サービスが有効になっていません。下記の設定を確認してください。
+設定 > 現在地情報とセキュリティ > 現在地送信機能 > 有効"</string>
+    <string name="no_location_enabled_positive_button">有効にする…</string>
+    <string name="no_location_enabled_negative_button">あとで</string>
+    <string name="action_add_account">アカウントを追加</string>
+    <string name="message_no_accounts">この端末にはアカウントがありません。</string>
+    <string name="message_select_identity">IDを選択してください</string>
+    <string name="credentials_problem_must_quit">このアプリには認証許可が必要ですが、拒否されました。終了します。</string>
+    <string name="message_unrecoverable_youtube_error">この動画は Ingress で再生できません。</string>
+    <string name="action_open_in_browser">ブラウザで開く</string>
+    <string name="portal_no_longer_exists">ポータルが存在しません。</string>
+    <string name="multi_photo_error_retry">エラー。タップしてもう一度試してください。</string>
+    <string name="action_done">完了</string>
+    <string name="appwidget_regionscore_label">Ingress のローカルスコア</string>
+    <string name="status_loading_score">Loading Score…</string>
+    <string name="resistance_short">RES</string>
+    <string name="aliens_short">ENL</string>
+    <string name="score_placeholder">…</string>
+    <string name="next_checkpoint">次のチェックポイント</string>
+    <string name="time_to_next_cycle">サイクル（%1$d 時間）の完了日時: %2$s（%3$s）</string>
+    <string name="title_share_image">シェア</string>
+    <string name="NO_DATA_CONNECTION_IOS">データ接続されていません</string>
     <string name="COMMUNITY_TAB_FOLLOW_TITLE">Ingress をフォロー</string>
-    <string name="COMMUNITY_TAB_FOLLOW_DESCRIPTION">世界は目に見えたままとは限りません。詳しくは Ingress 公式ページをフォローしてください。</string>
-    <string name="COMMUNITY_TAB_FOLLOW_ON_GOOGLE_PLUS">Ingress G+</string>
+    <string name="COMMUNITY_TAB_FOLLOW_DESCRIPTION">あなたの知らない、もうひとつの世界がある。Ingress 公式ページをフォローしよう。</string>
+    <string name="COMMUNITY_TAB_FOLLOW_ON_GOOGLE_PLUS">Ingress の G+ ページ</string>
     <string name="COMMUNITY_TAB_FOLLOW_ON_FACEBOOK">Facebook</string>
     <string name="COMMUNITY_TAB_FOLLOW_ON_TWITTER">Twitter</string>
-    <string name="COMMUNITY_TAB_INGRESS_REPORT_TITLE">Ingress レポートを見る</string>
-    <string name="COMMUNITY_TAB_INGRESS_REPORT_DESCRIPTION">Ingress の最新レポートを見ることができます。</string>
-    <string name="COMMUNITY_TAB_INGRESS_REPORT_BUTTON">Ingress YouTube チャンネル</string>
-    <string name="COMMUNITY_TAB_EVENTS_TITLE">イベントを見つける</string>
-    <string name="COMMUNITY_TAB_EVENTS_DESCRIPTION">Ingress イベントに毎日多くのエージェントが参加しています。付近のイベントをチェックできます。</string>
-    <string name="COMMUNITY_TAB_EVENTS_BUTTON">Ingress イベント</string>
-    <string name="COMMUNITY_TAB_FACTION_TITLE">陣営との交流</string>
-    <string name="COMMUNITY_TAB_FACTION_ALIENS_DESCRIPTION">仲間のエージェントと協力して人類を進化させよう。エンライテンドの Google+ コミュニティに参加してください。</string>
-    <string name="COMMUNITY_TAB_FACTION_RESISTANCE_DESCRIPTION">仲間のエージェントと協力して Shaper の侵略を防ごう。レジスタンスの Google+ コミュニティに参加してください。</string>
-    <string name="COMMUNITY_TAB_FACTION_ALIENS_BUTTON">エンライテンドの Google+ ページ</string>
-    <string name="COMMUNITY_TAB_FACTION_RESISTANCE_BUTTON">レジスタンスの Google+ ページ</string>
+    <string name="COMMUNITY_TAB_INGRESS_REPORT_TITLE">Ingress レポートの視聴</string>
+    <string name="COMMUNITY_TAB_INGRESS_REPORT_DESCRIPTION">チャンネル登録したり Ingress レポートの最新エピソードを視聴したりできます。</string>
+    <string name="COMMUNITY_TAB_INGRESS_REPORT_BUTTON">Ingress の YouTube チャンネル</string>
+    <string name="COMMUNITY_TAB_EVENTS_TITLE">イベントを探す</string>
+    <string name="COMMUNITY_TAB_EVENTS_DESCRIPTION">連日 Ingress イベントに多くのユーザーが参加しています。近くで開催されるイベントをチェックしましょう。</string>
+    <string name="COMMUNITY_TAB_EVENTS_BUTTON">Ingress ライブ イベント</string>
+    <string name="COMMUNITY_TAB_FACTION_TITLE">陣営の情報</string>
+    <string name="COMMUNITY_TAB_FACTION_ALIENS_DESCRIPTION">仲間のエージェントと協力して人類を進化させよう。エンライテンドの Google+ コミュニティにぜひご登録ください。</string>
+    <string name="COMMUNITY_TAB_FACTION_RESISTANCE_DESCRIPTION">仲間のエージェントと協力してシェーパーによる支配を防ごう。レジスタンスの Google+ コミュニティにぜひご登録ください。</string>
+    <string name="COMMUNITY_TAB_FACTION_ALIENS_BUTTON">エンライテンドの G+ ページ</string>
+    <string name="COMMUNITY_TAB_FACTION_RESISTANCE_BUTTON">レジスタンスの G+ ページ</string>
+    <string name="RECRUIT_EMAIL_PLACEHOLDER_IOS">メールアドレスを入力してください</string>
+    <string name="RECRUIT_INVITE_IOS">招待</string>
+    <string name="RECRUIT_INVITE_SENT_IOS">招待状が送られました</string>
+    <string name="RECRUIT_INVITE_JOINED_IOS">参加しています</string>
+    <string name="RECRUIT_INVITES_REMAINING_IOS">%s 通の招待状が残っています。</string>
+    <string name="RECRUIT_INVITES_REMAINING_PLURAL_IOS">%s 通の招待状が残っています。</string>
+    <string name="RECRUIT_INVITES_GRANT_ACCESS">この機能を有効にするには [設定] で連絡先へのアクセス権を付与してください。</string>
+    <string name="NICKNAME_ACTION_VIEW_PROFILE_IOS">プレイヤーのプロフィールを見る</string>
+    <string name="NICKNAME_ACTION_SEND_MESSAGE_IOS">メッセージを送信</string>
+    <string name="NICKNAME_ACTION_MUTE_IOS">COMM でエージェントをブロック</string>
+    <string name="GPLUS_ACTION_LINKING_IOS">リンクしています…</string>
+    <string name="GPLUS_ACTION_CANCEL_LINKING_IOS">キャンセル</string>
+    <string name="COMM_LABEL_IOS">COMM</string>
+    <string name="COMM_SEND_MESSAGE_BUTTON_IOS">送信</string>
+    <string name="COMM_SEND_MESSAGE_PLACEHOLDER_IOS">ここから通信を開始</string>
+    <string name="COMM_STREAM_SELECT_ALL_IOS">すべて</string>
+    <string name="COMM_STREAM_SELECT_FACTION_IOS">陣営</string>
+    <string name="COMM_STREAM_SELECT_ALERTS_IOS">通知</string>
+    <string name="LOCAL_RANGE_PRESET_LABEL_IOS">近距離</string>
+    <string name="REGION_RANGE_PRESET_LABEL_IOS">近距離</string>
+    <string name="GLOBAL_RANGE_PRESET_LABEL_IOS">全世界</string>
+    <string name="RANGE_LABEL_IOS">範囲</string>
+    <string name="INVALID_PORTAL_DOES_NOT_EXIST">存在しない</string>
+    <string name="INVALID_PORTAL_LOCATION_NOT_SAFE">危険な場所にある</string>
+    <string name="INVALID_PORTAL_LOCATION_NOT_ACCESSIBLE">一般に公開されていない</string>
+    <string name="INVALID_PORTAL_DUPLICATE">他のポータルと重複している</string>
+    <string name="INVALID_PORTAL_OTHER">その他:</string>
+    <string name="SHARING_ERROR_TITLE">エラー</string>
+    <string name="SHARING_ERROR_MESSAGE">シェア失敗</string>
+    <string name="SHARING_MY_PROFILE_SHARING_MESSAGE">\#Ingress の私のエージェント プロフィールです。</string>
+    <string name="SHARING_PROFILE_SHARING_MESSAGE">\#Ingress のエージェント プロフィールです。</string>
+    <string name="SHARING_LEVEL_UP_SHARING_MESSAGE">レベル %s の #Ingress エージェントになりました。</string>
+    <string name="SHARING_PORTAL_SHARING_MESSAGE">\#Ingress のポータル「%s」に関するインテル レポートです。</string>
+    <string name="SHARING_MEDAL_EARNED_SHARING_MESSAGE">\#Ingress で「%s」メダルを獲得しました。</string>
+    <string name="SHARING_SCANNER_SHARING_MESSAGE">\#Ingress からの現在地周辺のスキャナー データです。</string>
+    <string name="SHARING_GLOBAL_SCORE_SHARING_MESSAGE">\#Ingress のグローバル インテル レポートです。</string>
+    <string name="SHARING_REGION_SCORE_SHARING_MESSAGE">\#Ingress のローカルセル「%s」に関するインテル レポートです。</string>
+    <string name="SHARING_LEADERBOARD_SHARING_MESSAGE">\#Ingress のローカルセル「%s」のエージェントに関するインテル レポートです。</string>
+    <string name="FORCE_UPDATE_GENERIC">スキャナーが最新ではありません。続行するには更新してください。</string>
+    <string name="PROFILE_TITLE_MEDAL_EARNED_DIALOG">メダルを獲得:</string>
+    <string name="PROFILE_LOADING_ERROR_RECOVERABLE">エラー。もう一度試してください。</string>
+    <string name="PROFILE_COOLDOWN_NEEDED">スキャナーへのアクセスが集中しています。他のエージェントのプロフィールを見るにはしばらく時間をおいてください。</string>
+    <string name="PROFILE_LOADING_ERROR_RETRY_BUTTON_RECOVERABLE">再試行</string>
+    <string name="PROFILE_LOADING_ERROR_RETRY_BUTTON_UNRECOVERABLE">閉じる</string>
+    <string name="PROFILE_STAT_TAB_ALL_TIME">全期間</string>
+    <string name="PROFILE_STAT_TAB_MONTH">月</string>
+    <string name="PROFILE_STAT_TAB_WEEK">週</string>
+    <string name="PROFILE_STAT_TAB_NOW">現在</string>
+    <string name="PROFILE_LEVEL_TEMPLATE">LV %s</string>
+    <string name="PROFILE_NEXT_LEVEL_REQUIREMENT">LV %s の条件:</string>
+    <string name="MOREINFO_FRAGMENTS_DETECTED">シャードを検出</string>
 </resources>

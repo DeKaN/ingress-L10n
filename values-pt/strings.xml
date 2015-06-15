@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="common_google_play_services_notification_ticker">Erro do Google Play Services</string>
-    <string name="common_google_play_services_notification_needs_installation_title">Um aplicativo requer a instalação do Google Play Services.</string>
-    <string name="common_google_play_services_notification_needs_update_title">Um aplicativo requer a atualização do Google Play Services.</string>
-    <string name="common_android_wear_notification_needs_update_text">Um aplicativo exige uma atualização do app Android Wear.</string>
-    <string name="common_google_play_services_needs_enabling_title">Um aplicativo requer a ativação do Google Play Services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">Um app requer a atualização do Google Play Services.</string>
+    <string name="common_android_wear_notification_needs_update_text">%1$s exige uma atualização para o app Android Wear.</string>
+    <string name="common_google_play_services_needs_enabling_title">Um app requer a ativação do Google Play Services.</string>
     <string name="common_google_play_services_error_notification_requested_by_msg">Solicitado por %1$s</string>
     <string name="common_google_play_services_install_title">Instale o Google Play Services</string>
-    <string name="common_google_play_services_install_text_phone">Este aplicativo não funciona sem o Google Play Services, que não está instalado em seu telefone.</string>
-    <string name="common_google_play_services_install_text_tablet">Este aplicativo não funciona sem o Google Play Services, que não está instalado em seu tablet.</string>
+    <string name="common_google_play_services_install_text_phone">%1$s não funciona sem o Google Play Services, o qual não está instalado no seu smartphone.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s não funciona sem o Google Play Services, o qual não está instalado no seu tablet.</string>
     <string name="common_google_play_services_install_button">Instalar o Google Play Services</string>
     <string name="common_google_play_services_enable_title">Ative o Google Play Services</string>
-    <string name="common_google_play_services_enable_text">Este aplicativo só funciona com o Google Play Services ativado.</string>
+    <string name="common_google_play_services_enable_text">%1$s só funciona com o Google Play Services ativado.</string>
     <string name="common_google_play_services_enable_button">Ativar o Google Play Services</string>
     <string name="common_google_play_services_update_title">Atualize o Google Play Services</string>
     <string name="common_android_wear_update_title">Atualizar o Android Wear</string>
-    <string name="common_google_play_services_update_text">Este aplicativo só funciona com uma versão atualizada do Google Play Services.</string>
-    <string name="common_android_wear_update_text">Este app só funciona com uma versão atualizada do app Android Wear.</string>
+    <string name="common_google_play_services_update_text">%1$s só funciona com uma versão atualizada do Google Play Services.</string>
+    <string name="common_android_wear_update_text">%1$s só funciona com uma atualização para o app Android Wear.</string>
+    <string name="common_google_play_services_updating_title">Google Play Services em atualização</string>
+    <string name="common_google_play_services_updating_text">%1$s não funciona sem o Google Play Services, o qual está sendo atualizado no momento.</string>
     <string name="common_google_play_services_network_error_title">Erro na rede</string>
     <string name="common_google_play_services_network_error_text">É necessária uma conexão de dados para conectar ao Google Play Services.</string>
     <string name="common_google_play_services_invalid_account_title">Conta inválida</string>
     <string name="common_google_play_services_invalid_account_text">A conta especificada não existe no dispositivo. Escolha outra conta.</string>
     <string name="common_google_play_services_unknown_issue">Problema desconhecido com o Google Play Services.</string>
     <string name="common_google_play_services_unsupported_title">Play Services</string>
-    <string name="common_google_play_services_unsupported_text">O Google Play Services, necessário para alguns dos aplicativos, não é compatível com seu dispositivo. Entre em contato com o fabricante para obter assistência.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s depende do Google Play Services, o qual não é compatível com seu dispositivo. Entre em contato com o fabricante para receber assistência.</string>
     <string name="common_google_play_services_update_button">Atualizar</string>
     <string name="common_signin_button_text">Login</string>
     <string name="common_signin_button_text_long">Fazer login com o Google</string>
     <string name="common_open_on_phone">Abrir no smartphone</string>
+    <string name="common_google_play_services_api_unavailable_text">%1$s exige um ou mais Google Play Services que não estão disponíveis no momento. Entre em contato com o desenvolvedor para receber assistência.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Falha de login</string>
+    <string name="common_google_play_services_sign_in_failed_text">Erro ao fazer login na conta especificada. Escolha outra conta.</string>
     <string name="SMS_WELL_DONE">Muito bem, %s. Hora de se tornar um agente verificado.</string>
     <string name="SMS_ACTION_FAIL">A ação %s poderá ser desbloqueada quando você se tornar um agente.</string>
     <string name="SMS_VERIFY_NOW_LEVEL_UP">É necessário verificar com %s para subir de nível.</string>
@@ -196,7 +200,7 @@ Uma matéria exótica de origem desconhecida está se infiltrando em nosso mundo
     <string name="APNS_N_M">%1$s neutralizou seus Portals %2$s.</string>
     <string name="ENTER">ENTRAR</string>
     <string name="PROGRESS_CHECKING">Verificando…</string>
-    <string name="HINT_ENTER_PASSPHRASE">Digite senha</string>
+    <string name="HINT_ENTER_PASSPHRASE">Digite a senha</string>
     <string name="OK_TITLE">Ok</string>
     <string name="SETTINGS_TITLE">Configurações</string>
     <string name="LOCATION_ALERT_TITLE">Aviso</string>
@@ -278,7 +282,7 @@ Uma matéria exótica de origem desconhecida está se infiltrando em nosso mundo
     <string name="ENUM_MAP_RESOURCE_FAIL_ENEMY_PORTAL">Falha ao hackear o Portal do inimigo.</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_ENERGY_FULL">Capacidade máxima de XM.</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_NO_PLAYER_SPECIFIED">Agente não especificado.</string>
-    <string name="ENUM_MAP_RESOURCE_FAIL_MUST_PLAY_GAME">Portal bloqueado. Hack de Glyph necessário.</string>
+    <string name="ENUM_MAP_RESOURCE_FAIL_MUST_PLAY_GAME">Portal bloqueado. Hack de Glyph necessária.</string>
     <string name="ENUM_MAP_RESOURCE_FAIL_CONTAINER_INVENTORY_FULL_GENERIC">Itens em excesso.</string>
     <string name="ENUM_MAP_FAIL_SERVER_ERROR">Erro de comunicação do Scanner.</string>
     <string name="ENUM_MAP_FAIL_NOT_AVAILABLE">Objeto XM não disponível.</string>
@@ -326,10 +330,10 @@ Uma matéria exótica de origem desconhecida está se infiltrando em nosso mundo
     <string name="ENUM_MAP_LINK_FAIL_PORTAL_NOT_STABLE">Portal instável.</string>
     <string name="ENUM_MAP_LINK_FAIL_NO_KEY">Portal Key ausente.</string>
     <string name="ENUM_MAP_REDEEM_FAIL_INVALID_PASSCODE">Código inválido.</string>
-    <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED_BY_PLAYER">O código de acesso já foi utilizado.</string>
-    <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED">O código de acesso já foi esgotado.</string>
+    <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED_BY_PLAYER">O código já foi utilizado.</string>
+    <string name="ENUM_MAP_REDEEM_FAIL_ALREADY_REDEEMED">O código já foi esgotado.</string>
     <string name="ENUM_MAP_FAIL_INVENTORY_FULL">Sobrecarga de XM. Itens em excesso.</string>
-    <string name="ENUM_MAP_REDEEM_FAIL">O código de acesso não pode ser utilizado.</string>
+    <string name="ENUM_MAP_REDEEM_FAIL">O código não pode ser utilizado.</string>
     <string name="ENUM_MAP_COMBAT_FAIL_WEAPON_NOT_AVAILABLE">A arma não está disponível.</string>
     <string name="ENUM_MAP_COMBAT_FAIL_NO_WEAPON">A arma não existe.</string>
     <string name="ENUM_MAP_COMBAT_FAIL_UNABLE_TO_FIRE">Não é possível disparar.</string>
@@ -368,9 +372,9 @@ Uma matéria exótica de origem desconhecida está se infiltrando em nosso mundo
     <string name="ENUM_MAP_FAIL_OUT_OF_RANGE">Fora do raio</string>
     <string name="ENUM_MAP_FAIL_WRONG_LEVEL">Nível de acesso insuficiente.</string>
     <string name="ENUM_MAP_FAIL_NEED_MORE_XM">Precisa + XM</string>
-    <string name="ENUM_MAP_FAIL_GLYPH_NOT_EXISTING">Hack de Glyph neutralizado.</string>
-    <string name="ENUM_MAP_FAIL_GLYPH_HACK_REQUIRED">Portal bloqueado. Hack de Glyph necessário.</string>
-    <string name="ENUM_MAP_FAIL_GLYPH_ALREADY_REDEEMED">Hack de Glyph desviado.</string>
+    <string name="ENUM_MAP_FAIL_GLYPH_NOT_EXISTING">Hack de Glyph neutralizada.</string>
+    <string name="ENUM_MAP_FAIL_GLYPH_HACK_REQUIRED">Portal bloqueado. Hack de Glyph necessária.</string>
+    <string name="ENUM_MAP_FAIL_GLYPH_ALREADY_REDEEMED">Hack de Glyph desviada.</string>
     <string name="ENUM_MAP_FAIL_USER_ABORTED_GAME">Jogo de Glyph cancelado.</string>
     <string name="ENUM_MAP_MISSION_FAIL_UNKNOWN">Erro. Transmissão interrompida.</string>
     <string name="ENUM_MAP_MISSION_FAIL_SERVER_ERROR">Erro. Transmissão interrompida.</string>
@@ -447,6 +451,7 @@ Uma matéria exótica de origem desconhecida está se infiltrando em nosso mundo
     <string name="ENUM_MAP_STATS_MODIFIER_ATTACK_FREQUENCY">Frequência de ataque</string>
     <string name="STATS_MODIFIER_MITIGATION_DISPLAY_NAME">Diminuição de dano</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_CAPSULE">Cápsula</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_INTEREST_CAPSULE">Capsule do MUFG</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMITTER_A">Resonator</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">Explosivo de XMP</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EXTRA_SHIELD">Escudo AXA</string>
@@ -797,7 +802,7 @@ Uma matéria exótica de origem desconhecida está se infiltrando em nosso mundo
     <string name="TRAINING_2_MESSAGE">"Há um Portal nas proximidades. Aproxime-se do Portal até que ele esteja no alcance do seu círculo. Toque no Portal no Mapa do Scanner. Selecione \"Hackear\". Aviso: este é um Portal hostil. Afaste-se após fazer o hack.
 
 "</string>
-    <string name="TRAINING_2_OUTRO">Excelente. O hack de Portals geralmente produzirá itens. Os Portals podem ser hackeados novamente depois de um período de resfriamento. Faça um hack frequentemente para formar um inventário. É possível que você tenha ideias ou sinta emoções incomuns ao encontrar um Portal.</string>
+    <string name="TRAINING_2_OUTRO">Excelente. A invasão de Portals geralmente produzirá itens. Os Portals podem ser hackeados de novo depois de um período de resfriamento. Faça um hack frequentemente para formar um inventário. É possível que você experiencie ideias ou emoções incomuns ao encontrar um Portal.</string>
     <string name="TRAINING_2_OBJECTIVE_1">Caminhe até o Portal</string>
     <string name="TRAINING_2_OBJECTIVE_2">Toque no Portal e em HACKEAR</string>
     <string name="TRAINING_2_STATUS">Missão de treinamento 2 (Hackear um Portal): hackear um Portal.</string>
@@ -902,7 +907,8 @@ Os Shapers também estão tentando estabelecer campos com os quais pretendem inf
     <string name="PICK_UP_RESOURCE_ACQUIRE">COLETAR</string>
     <string name="PICK_UP_RESOURCE_DISABLE_BUSY">Coletando…</string>
     <string name="PICK_UP_RESOURCE_DISABLE_LOCATION">Localiz. imprecisa</string>
-    <string name="ITEM_DESCRIPTION_CAPSULE">Uma Capsule é um recipiente de armazenamento que pode conter outros objetos.</string>
+    <string name="ITEM_DESCRIPTION_CAPSULE">Um recipiente de armazenamento que pode conter outros objetos.</string>
+    <string name="ITEM_DESCRIPTION_INTEREST_CAPSULE">Um recipiente de armazenamento que pode conter outros objetos e fazer com que eles se multipliquem ao longo do tempo.</string>
     <string name="ITEM_DESCRIPTION_EMITTER_A">Objeto de XM usado para energizar um Portal e alinhá-lo a uma facção.</string>
     <string name="ITEM_DESCRIPTION_EMP_BURSTER">Armas de XMP que podem destruir Resonators e MODs inimigos e neutralizar Portals inimigos.</string>
     <string name="ITEM_DESCRIPTION_EXTRA_SHIELD">Shield de proteção de energia ultra-alta para Portals.</string>
@@ -1122,7 +1128,7 @@ Ative a opção \"Relatório de Localização\" em \"Configurações\" > \"Local
     <string name="aliens_short">ILU</string>
     <string name="score_placeholder">…</string>
     <string name="next_checkpoint">próximo checkpoint</string>
-    <string name="time_to_next_cycle">Um cycle de %1$dh será encerrado em %2$s às %3$s</string>
+    <string name="time_to_next_cycle">Um cycle de %1$dh terminará em %2$s às %3$s</string>
     <string name="title_share_image">Compartilhar</string>
     <string name="NO_DATA_CONNECTION_IOS">Sem conexão de dados</string>
     <string name="COMMUNITY_TAB_FOLLOW_TITLE">Siga o Ingress</string>

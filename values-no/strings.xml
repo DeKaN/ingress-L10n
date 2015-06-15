@@ -419,6 +419,7 @@ Du må velge side i kampen om planeten vår."</string>
     <string name="ENUM_MAP_STATS_MODIFIER_ATTACK_FREQUENCY">Angrepsfrekvens</string>
     <string name="STATS_MODIFIER_MITIGATION_DISPLAY_NAME">Shield-styrke</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_CAPSULE">Capsule</string>
+    <string name="ENUM_MAP_RESOURCE_TYPE_INTEREST_CAPSULE">MUFG Capsule</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMITTER_A">Resonator</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EMP_BURSTER">XMP-sprengladning</string>
     <string name="ENUM_MAP_RESOURCE_TYPE_EXTRA_SHIELD">AXA shield</string>
@@ -874,7 +875,8 @@ Shaper-vesenene forsøker også å etablere felt som de tenker å bruke til å i
     <string name="PICK_UP_RESOURCE_ACQUIRE">HENT</string>
     <string name="PICK_UP_RESOURCE_DISABLE_BUSY">Henter …</string>
     <string name="PICK_UP_RESOURCE_DISABLE_LOCATION">Unøyaktig posisjon</string>
-    <string name="ITEM_DESCRIPTION_CAPSULE">En capsule er en lagringskapsel som kan lagre andre objekter.</string>
+    <string name="ITEM_DESCRIPTION_CAPSULE">En beholder som kan inneholde andre ting.</string>
+    <string name="ITEM_DESCRIPTION_INTEREST_CAPSULE">En beholder som kan inneholde andre ting og få dem til å formere seg over tid.</string>
     <string name="ITEM_DESCRIPTION_EMITTER_A">XM-objekt som brukes til å lade opp portaler og overføre styringen til en fraksjon.</string>
     <string name="ITEM_DESCRIPTION_EMP_BURSTER">XM-pulsvåpen som kan ødelegge resonatorer og MOD-er samt nøytralisere fiendtlige portaler.</string>
     <string name="ITEM_DESCRIPTION_EXTRA_SHIELD">Ultrahøyt ladet, beskyttende skjold for portaler.</string>
